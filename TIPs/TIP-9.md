@@ -65,11 +65,8 @@ Active Thales Core Contributors found it very intriguing that Farmwell’s messa
 * Keep the largest possible CC token allocation to such an address  
     Farmwell (or whoever controls his address) is no longer a signer in Thales Treasury, as decided by the active members of Treasury DAO.
 
-No existing Core Contributor or community member has shown nothing but remorse that it has come to this. The circumstances have given the Core Contributors no choice. It is a priority to keep what’s best for Thales in mind.
+No existing Core Contributor or community member has shown nothing but remorse that it has come to this. The circumstances have given the Core Contributors no choice. It is a priority to keep what’s best for Thales in mind.  
 
-However, it is acknowledged that Thales would not have started had Farmwell not pitched the original idea to Danijel to take on the module formerly known as Binary Options from synthetix. Hence, a 1% settlement buffer is kept in the treasury if Farmwell chooses to communicate and try to achieve a closure. A certain amount in stable coins to show gratitude can also be discussed.
-
-The fact that this TIP is representing an effort to communicate these points to him, shows the extent of the situation Thales Core Contributors are put in. Thales is owned by the community and governed by the council voted in by the said community. Farmwell nominated himself and got voted in the first Thales Council. Simply looking up past votes proves his inactivity, however the remaining council members can reach a consensus and decide if this TIP should pass.
 
 Test Cases[#](#test-cases "Direct link to heading")
 ---------------------------------------------------
