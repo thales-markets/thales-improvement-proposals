@@ -63,12 +63,11 @@ Active Thales Core Contributors found it very intriguing that Farmwell’s messa
 * Keep paying stipends to an individual that does not communicate to other Thales CCs but actively uses his wallets for various on-chain activities.
 * Keep previously mentioned address as a treasury signer
 * Keep the largest possible CC token allocation to such an address  
-    Farmwell (or whoever controls his address) is no longer a signer in Thales Treasury, as decided by the active members of Treasury DAO.
+    Farmwell (or whoever controls his address) is no longer a signer in Thales Treasury, as decided by the active members of Treasury DAO.  
 
-First draft of TIP-9 presented the initial idea to leave 1-1.5% allocation of THALES tokens on the table and a certain amount in stable coins to show gratitude should Farmwell come back and discuss his abscence. However, one day after the TIP-9 draft was released publicly on Saturday 6th of November, Farmwell maliciously and suddenly decommissioned "thales.market" domain he had credentials over and deleted the official Thales Discord he was the owner off. This malicious acts against the protocol removed any possibility of engaging in formal renegotiations and a potential renewal of trust with the Thales Core Contributors.
+First draft of TIP-9 presented the initial idea to leave 1-1.5% allocation of THALES tokens on the table and a certain amount in stable coins to show gratitude should Farmwell come back and discuss his abscence. However, one day after the TIP-9 draft was released publicly on Saturday 6th of November, Farmwell maliciously and suddenly decommissioned "thales.market" domain he had credentials over and deleted the official Thales Discord. These malicious acts against the protocol removed any possibility of engaging in formal renegotiations and a potential renewal of trust with the Thales Core Contributors.  
 
-
-No existing Core Contributor or community member has shown nothing but remorse that it has come to this. The circumstances have given the Core Contributors no choice. It is a priority to keep what’s best for Thales in mind.
+No existing Core Contributor or community member has shown nothing but remorse that it has come to this. The circumstances have given the Core Contributors no choice. It is a priority to keep what’s best for Thales in mind.  
 
 Test Cases[#](#test-cases "Direct link to heading")
 ---------------------------------------------------
