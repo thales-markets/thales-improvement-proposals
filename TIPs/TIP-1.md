@@ -122,8 +122,6 @@ TIPs may include auxiliary files such as diagrams. Such files must be named TIP-
 ## TIP Editors
 
 The current TIP editors are
-
-` * Farmwell (@farmwell)`
   
 ` * Danijel (@dgornjakovic)`
 
