@@ -2,7 +2,7 @@
 
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-8 | Replacement of Synthetix ExchangeRates data feed with custom PriceFeed contract; Removal of minting fees; Adding implicit allowance to 0x exchanger contract | Vote Pending | padzank (@padzank) | Replacement of Synthetix ExchangeRates data feed with custom PriceFeed contract; Removal of minting fees; Adding implicit allowance to 0x exchanger contract | https://research.thales.io | 2021-11-04
+| TIP-8 | Replacement of Synthetix ExchangeRates data feed with custom PriceFeed contract; Removal of minting fees; Adding implicit allowance to 0x exchanger contract | Approved | padzank (@padzank) | Replacement of Synthetix ExchangeRates data feed with custom PriceFeed contract; Removal of minting fees; Adding implicit allowance to 0x exchanger contract | https://research.thales.io | 2021-11-04
 
 ## Simple Summary
 
