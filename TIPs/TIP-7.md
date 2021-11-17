@@ -1,6 +1,6 @@
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-7 | Title | Draft | padzank (@padzank) | Deployment and inflation lowering of THALES single side staking | https://research.thales.io | 2021-10-07
+| TIP-7 | Title | Approved | padzank (@padzank) | Deployment and inflation lowering of THALES single side staking | https://research.thales.io | 2021-10-07
 
 ## Simple Summary
 
