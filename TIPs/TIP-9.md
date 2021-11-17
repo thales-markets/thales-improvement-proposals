@@ -26,7 +26,7 @@ The initial plan of having the tokens allocated for a given CC never accounted f
 
 This TIP proposes that Thales ProtocolDAO maintains control over the vesting contract and can stop the vesting of a CC that is no longer contributing to the protocol. The said CC would keep the allocation vested to date, but the remaining allocation is sent back to the treasury and available for reallocation to others/new CCs.
 
-As we have previously announced a large portion of CC tokens were locked by mistake in a contract:  
+As we have previously announced a large portion of CC tokens were unintentionally locked in a contract:  
 [https://thalesmarket.medium.com/a-part-of-thales-core-contributors-tokens-are-locked-and-its-implications-241fcec37888](https://thalesmarket.medium.com/a-part-of-thales-core-contributors-tokens-are-locked-and-its-implications-241fcec37888).
 
 This ended up being a blessing in disguise as it allowed the Thales CCs to come up with a better mechanism of vesting that rewards ongoing loyalty. As Co-Founders carry the largest risk and responsibility to lift the brand new protocol off the grounds, a large percentage of the CCs allocated tokens was to be split by Thales co-founders, as the norm has it in DeFi. As of the time of writing this TIP, one of the co-founders Farmwell has not been contributing to the protocol to any extent and has been unresponsive to any form of communication for more than 2 months. There have been no responses to a single DM from any other CC or Strategic Partner. There is absolutely no certainty on whether the individual at question will come back and in which capacity. As such, the allocation that was planned to go to him, should be reallocated to other CCs that carry the burden of his absence.
@@ -39,7 +39,7 @@ This TIP proposes the following points to be formalized:
 * Reduce total allocation of THALES token supply towards Thales Core Contributors from 20% to **18%**.
 * Co-founder allocation to be set at 5% (reduced from 6%) of total supply and to subsequently start unlocking in April 2022, linearly over 3 years.
 * Early core contributor allocation (referred to as Senior Core Contributors in the rest of the TIP) who started contributing in April 2021 and worked hard to deliver the MVP, Token and deployment on L2, to get 1-2% of total supply each, and their unlocking to start in April 2022 linearly over 3 years
-* Formation of Thales Senior Core Contributor Committee, with member being Senior Core Contributors that decides CC engagement, disengagement and allocation. As of time of writing this TIP, individual members of the SCCC are to be: **Danijel**, **Gorstak**, **Vladan** and **dmonkey** with **padzank** at an advisory role.
+* Formation of Thales Senior Core Contributor Committee, with member being Senior Core Contributors that decides CC engagement, disengagement and allocation. As of time of writing this TIP, individual members of the SCCC are to be the most senior Core Contributors with one advisory role for a Core Contributor next in line by seniority and expertise.
 * Other existing Core contributors that started contributing later than April 2021 and any future new Core Contributor will get in a range of 100k-500k token allocation based on their performance and responsibility, as evaluated by Senior Core Contributors. Their unlock will begin after at least 6 months has passed since they joined the project and unlock linearly over 3 years
 * Core contributors are eligible to have more allocation added to their vesting contracts based on merit as evaluated by Senior Core Contributors
 * If a Core Contributor is no longer contributing, either by his own choosing or because Senior Core Contributors find in the the protocols best interest to stop paying a monthly stipend to a Core Contributor effectively terminating his Core Contributor status, the amount of tokens that were supposed to be vesting in the future are to be returned to the treasury and available for reallocation.
@@ -63,9 +63,10 @@ Active Thales Core Contributors found it very intriguing that Farmwell’s messa
 * Keep paying stipends to an individual that does not communicate to other Thales CCs but actively uses his wallets for various on-chain activities.
 * Keep previously mentioned address as a treasury signer
 * Keep the largest possible CC token allocation to such an address  
-    Farmwell (or whoever controls his address) is no longer a signer in Thales Treasury, as decided by the active members of Treasury DAO.  
 
 First draft of TIP-9 presented the initial idea to leave 1-1.5% allocation of THALES tokens on the table and a certain amount in stable coins to show gratitude should Farmwell come back and discuss his abscence. However, one day after the TIP-9 draft was released publicly on Saturday 6th of November, Farmwell maliciously and suddenly decommissioned the "thales.market" domain he had credentials over and deleted the official Thales Discord. These malicious acts against the protocol removed any possibility of engaging in formal renegotiations and a potential renewal of trust with the Thales Core Contributors.  
+
+Farmwell (or whoever controls his address) is no longer a signer in Thales Treasury, as decided by the active members of Treasury DAO.  
 
 No existing Core Contributor or community member has shown anything but remorse that it has come to this. The circumstances have given the Core Contributors no choice. It is a priority to keep what’s best for Thales in mind.  
 
