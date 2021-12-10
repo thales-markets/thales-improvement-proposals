@@ -22,9 +22,14 @@ MVP version of Thales was deployed on mainnet to showcase to the community at la
     * BinaryOptionMarketdata.sol
     * BinaryOptionMarketMastercopy.sol
     * BinaryOptionMarketcopy.sol
+      
+These contracts are also deployed on L1, but now include changes introduced with TIP-8 as well as a `burn` function introduced with the ThalesAMM (TIP-11).
+    
 
 * Deploy the Thales PriceFeed proxy that will serve asset prices from Chainlink for resolving markets:
-    * PriceFeed.sol
+    * PriceFeed.sol  
+    
+Thales was using Synthetix ExchangeRates contract for the MVP, but as Thales can expand its offering beyong assets that are synths, it will now has its own contract to serve as a wrapper over Chainlink Price aggegator feeds. PriceFeed.sol can also be expanded to support a TWAP feed from UniV3 on Optimism.
 
 * Deploy Thales AMM contract to support out of the box liquidity on Thales markets:
     * ThalesAMM.sol
@@ -35,11 +40,11 @@ MVP version of Thales was deployed on mainnet to showcase to the community at la
 
 * Add support in the thalesmarket.io dapp for Optimism L2 with limit orders backed by 1inch protocol.
     * Include 1inch integration to buy sUSD directly from the dapp
-  
+
+Thales integrated 0x protocol into L1 MVP. However, post whitelisting on Optimism Thales could not get enough certainty around Ox API being made available on Optimism, so this TIP proposes to rollout with 1inch limit orders API, and keep the option to revert back to 0x or even support both protocols once 0x API is ready.  
 
 ## Rationale
- 
-
+TBD
  
 ## Test Cases
 N/A
