@@ -18,26 +18,26 @@ MVP version of Thales was deployed on mainnet to showcase to the community at la
  
 * Deploy the following contracts from the BinaryOptions suite to the Optimism Mainnet:  
 
-    * (BinaryOptionMarketFactory.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketFactory.sol]
-    * (BinaryOptionMarketManager.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketManager.sol]
-    * (BinaryOptionMarketData.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketData.sol]
-    * (BinaryOptionMarketMastercopy.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketMastercopy.sol]
-    * (BinaryOptionMastercopy.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMastercopy.sol]
+    * [BinaryOptionMarketFactory.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketFactory.sol)
+    * [BinaryOptionMarketManager.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketManager.sol)
+    * [BinaryOptionMarketData.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketData.sol)
+    * [BinaryOptionMarketMastercopy.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketMastercopy.sol)
+    * [BinaryOptionMastercopy.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMastercopy.sol)
       
 These contracts are also deployed on L1, but now include changes introduced with TIP-8 as well as a `burn` function introduced with the ThalesAMM (TIP-11).
     
 * Deploy the Thales PriceFeed proxy that will serve asset prices from Chainlink for resolving markets:
-    * (PriceFeed.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol]  
+    * [PriceFeed.sol](https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol)  
     
 Thales was using Synthetix ExchangeRates contract for the MVP, but as Thales can expand its offering beyong assets that are synths, it will now has its own contract to serve as a wrapper over Chainlink Price aggegator feeds. PriceFeed.sol can also be expanded to support a TWAP feed from UniV3 on Optimism.
 
 * Deploy Thales AMM contract to support out of the box liquidity on Thales markets:
 
-    * (ThalesAMM.sol)[https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol]
-    * (DeciMath.sol)[https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/DeciMath.sol] (helper contract for Math operations)
+    * [ThalesAMM.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol)
+    * [DeciMath.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/DeciMath.sol) (helper contract for Math operations]
 
 * Deploy Thales Royale contract with seasons and buyins (more details in a dedicated TIP):
-    * (ThalesRoyale.sol)[https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/ThalesRoyale/ThalesRoyale.sol] 
+    * [ThalesRoyale.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/ThalesRoyale/ThalesRoyale.sol) 
 
 * Add support in the thalesmarket.io dapp for Optimism L2 with limit orders backed by 1inch protocol.
     * Include 1inch integration to buy sUSD directly from the dapp

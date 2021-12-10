@@ -26,9 +26,9 @@ Due to the volatile nature of binary options a traditional DEX AMM solution is n
  
 ## Specification
 
-This TIP entails the Protocol DAO to deploy a `burn` functionality into the (BinaryOptionMarket.sol)[https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarket.sol] contract so to allow market participants to burn sLONG and sSHORT options tokens in 1:1 ratio and subsequently withdraw sUSD from the respective market equal to number of sLONG+sSHORT pairs burned for said market.
+This TIP entails the Protocol DAO to deploy a `burn` functionality into the [BinaryOptionMarket.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarket.sol) contract so to allow market participants to burn sLONG and sSHORT options tokens in 1:1 ratio and subsequently withdraw sUSD from the respective market equal to number of sLONG+sSHORT pairs burned for said market.
  
-This TIP also entails the Protocol DAO to implement and deploy a (ThalesAMM.sol)[https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol] contract with the following methods:  
+This TIP also entails the Protocol DAO to implement and deploy a [ThalesAMM.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol) contract with the following methods:  
 
 ####VARIABLES:  
 
