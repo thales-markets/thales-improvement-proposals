@@ -16,6 +16,8 @@ As a young protocol in DeFi Thales MVP served to showcase the vision of the prot
 In parimutuel markets users place their buy-ins in a pot which winners get to split.
 Thales Royale was motivated by Battle Royale games and Squid game show so it consist of several rounds of speculating on a movement of a certain asset. Players who guess the movement correctly make it to the next round. 
 Players that make it past the last round get to split the pot.  
+
+Thales Royale format can be used also to speculate on Sport events or other outcomes per round once sport feeds become available on Optimism Mainnet from Chainlink.
  
 ## Specification
  
