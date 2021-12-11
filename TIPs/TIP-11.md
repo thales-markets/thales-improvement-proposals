@@ -1,33 +1,35 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-10 | Deploy an AMM implementation to ensure initial liquidity for Thales Markets | Draft | Danijel (@dgornjakovic) | Describe the AMM contract that Thales would use to provide some out of the box liquidity to Thales Markets | https://discord.gg/8bzFdpGTrp | 2021-12-10
+| TIP-11 | Deploy an AMM implementation to ensure initial liquidity for Thales Markets on Optimism layer 2 | Draft | Danijel (@dgornjakovic) | Describe the AMM contract that Thales would use to provide some out of the box liquidity to Thales Markets | https://discord.gg/8bzFdpGTrp | 2021-12-10
  
 ## Simple Summary
  
-This TIP proposes to implement and release a Thales AMM contract funded from treasury with sUSD on OP mainnet, and be used to provide liquidity in Thales Markets.
+This TIP proposes to implement and release a Thales AMM contract with funded liquidity from treasury with sUSD on OP mainnet, and for it to be used to provide liquidity for Thales Markets.
  
 ## Abstract
  
-MVP implementation of Thales involved just peer to peer trading based on limit orders. While L1 gas costs were definitely a reason for lack of trading volume, we do acknowledge most DeFi users are more accustomed to an AMM approach and UX and we feel Thales protocol needs to work iteratively to deliver an AMM that can meet the demand for Thales Binary Options.
+MVP implementation of Thales involved just peer to peer trading based on limit orders. While L1 gas costs were definitely a reason for lack of trading volume, we do acknowledge most DeFi users are more accustomed to an AMM approach and UX. We feel Thales protocol needs to work iteratively to deliver an AMM feature that can meet the demand for Thales Binary Options.  
+
+This TIP proposes to deploy a Version 1, or Minimal Viable Product version of the AMM that will be based on Black-Scholes pricing algorithm and will use a spread and price impact logic with an addition of cap per market to minimize its exposure. The said AMM is to be monitored and iteratively improved so that eventually the cap is increased if not removed and users can deposit into the AMM as liquidity providers and earn fees+THALES rewards.
+
+This TIP also proposes to deploy a `burn` functionality to BinaryOptionMarket.sol contract that allows for burning of sLONG and sSHORT options tokens to withdraw sUSD from a respective Thales market of said options tokens.
  
 ## Motivation
  
 A number of protocols have enquired about integrating with Thales to hedge using binary options. However, all those protocols require guaranteed liquidity.  
 
-DeFi users are not as accustomed to using limit orders as CEX users. Limit orders in case of binary options also require some overhead as the price of binary options can be very volatile and ultimately the said limit orders have to be frequently monitored and managed.
-  
-While L2 is definitely going to make trading with limit orders a lot cheaper, we want to ensure there is at least some liquidity in each market as soon as the market is created. On L1 we had order making bots do this job, however those required a lot of overhead. An AMM contract is much more convenient to do this job, while requiring no overhead per market.
+DeFi users are not as accustomed to using limit orders as CEX users. Limit orders in case of binary options also require some overhead as the price of binary options can be very volatile and ultimately the said limit orders have to be frequently monitored and managed.  
+
+While L2 is definitely going to make trading with limit orders a lot cheaper, we want to ensure there is liquidity present in each market as soon as the market is created. Order making bots were deployed on L1 mainnet, however those required a lot of overhead. An AMM contract is much more convenient to do this job, while requiring no overhead per market.
   
 Due to the volatile nature of binary options a traditional DEX AMM solution is not well suited due to potential impermanent loss. Instead, a custom-built AMM can leverage the specifics that binary options carry and use existing Thales Contracts to dynamically price, mint, burn, buy or sell sLONG or sSHORT options.
-   
-Version 1, or MVP version of the AMM will be based on Black-Scholes pricing algorithm and will use a spread and price impact logic with an addition of cap per market to minimize its exposure. The said AMM will need to be monitored and iteratively improved so that eventually the cap is increased if not removed and users can deposit into the AMM as liquidity providers and earn fees+THALES rewards.
- 
  
 ## Specification
+
+This TIP entails the Protocol DAO to deploy a `burn` functionality into the [BinaryOptionMarket.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarket.sol) contract so to allow market participants to burn sLONG and sSHORT options tokens in 1:1 ratio and subsequently withdraw sUSD from the respective market equal to number of sLONG+sSHORT pairs burned for said market.
  
- 
-Implement and deploy a ThalesAMM contract with the following methods:  
-  
+This TIP also entails the Protocol DAO to implement and deploy a [ThalesAMM.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol) contract with the following methods:  
+
 ####VARIABLES:  
 
 `capPerMarket` // maximum that can be risked on a certain market    
@@ -78,9 +80,11 @@ AMM required a burn method to be added to the contract BinaryOptionMarket so tha
         AMM can sell 1428.4 LONG options because:
         1428.4*0.3=428.4 sUSD
         AMM has to mint an equal amount of LONG and SHORT options to have liquidity to sell, so the AMM puts 1428.4 sUSD into minting but gets 428.4 sUSD from the sell transaction, so its exposure is 1000 sUSD.
+
 2. New market, LONG price is 30c per market, capPerMarket is 1000sUSD, assume no slippage, user wants to sell maximum LONG options
   
         AMM can risk up to 1000sUSD, so the amount of options it can buy is 1000/0.3=3333
+
 3. Existing market, LONG price is 30c per market, capPerMarket is 1000sUSD, but 500sUSD already spent, so 500sUSD left, AMM has a skew of 100 SHORT options, assume no slippage, user wants to sell maximum LONG options  
 
         Things get more complex when the AMM already has some options. Since the user wants to sell LONG options and the AMM has some SHORT options, AMM can burn the bought LONG options to get sUSD back, so for 100 options:
