@@ -80,11 +80,12 @@ AMM required a burn method to be added to the contract BinaryOptionMarket so tha
         AMM can sell 1428.4 LONG options because:
         1428.4*0.3=428.4 sUSD
         AMM has to mint an equal amount of LONG and SHORT options to have liquidity to sell, so the AMM puts 1428.4 sUSD into minting but gets 428.4 sUSD from the sell transaction, so its exposure is 1000 sUSD.
-[case 1](https://raw.githubusercontent.com/MamercusOfMiletus/shemeTIP/main/Desktop%20-%201.png)
+[case 1 schematic](https://raw.githubusercontent.com/MamercusOfMiletus/shemeTIP/main/Desktop%20-%201.png)
 
 2. New market, LONG price is 30c per market, capPerMarket is 1000sUSD, assume no slippage, user wants to sell maximum LONG options
   
         AMM can risk up to 1000sUSD, so the amount of options it can buy is 1000/0.3=3333
+![case 2 schematic](https://raw.githubusercontent.com/MamercusOfMiletus/shemeTIP/main/case%202.png)
 
 3. Existing market, LONG price is 30c per market, capPerMarket is 1000sUSD, but 500sUSD already spent, so 500sUSD left, AMM has a skew of 100 SHORT options, assume no slippage, user wants to sell maximum LONG options  
 
