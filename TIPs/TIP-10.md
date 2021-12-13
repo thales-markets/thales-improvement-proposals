@@ -10,12 +10,14 @@ This TIP proposes to formalize usage of THALES token as a unit of voting power f
  
 First epoch (July 2021 - December 2021) of Thales Council was formalized with 4 elected members which needed a quorum of 3 votes for passing a future TIP. During this period the THALES token was not yet launched and the SNX token was used as a main unit of voting power for Thales Council elections. This TIP proposes to formalize staked THALES token as base unit of voting power for subsequent Thales Council elections and to hold the elections for Thales Council second epoch in the month of December 2021. This TIP also proposes to allow individual THALES stakers to spread their voting power as they see fit over several nominees in a weighted voting fashion.  
 This TIP additionally proposes to expand the seats of the second Thales Council to seven council members (Seven Sages of Ancient Greece) with an effective quorum of 5 votes for passing a TIP. The second Thales Council of Seven Sages is to serve a term from December 2021 to June 2022 with the same monthly stipend of 1000 THALES tokens.
+This TIP also proposes to introduce an additional guidelines and mechanism that allows the council to remove an inactive council member by unanimous vote. To be labeled inactive, a council member has to miss at least 2 TIP votes in succession.
  
 ## Motivation
  
 When Thales protocol MVP launched, the goal was to create as less friction as possible for the rapid iteration process of the protocol while maintaining a sufficient level of community ownership. At that phase, it was decided by Synthetix Council that a slim and streamlined Thales Council was the most optimal solution. This rationale led to a formation of four seated Thales Council that was able to quickly vote for any TIPs required for early stage development of Thales.  
 As the protocol matures and expands over time, community engagement in governance and more thorough veto process of Thales Improvement Proposals is becoming more and more of a priority. To follow this direction, the next iteration of Thales Council should expand its number of seats to accommodate for more thorough discussion of upcoming TIPs and to significantly increase the community engagement into Thales governance structure.  
-As Synthetix Council formalized the creation of Thales Council with SIP-149, it also entailed that the first Council members were to be chosen by SNX holders until Thales governance token was launched. As the THALES token was subsequently launched after the first Council was formed, this upcoming second iteration of Thales Council is to be voted in by stakers of the THALES governance token. Because we are still in an early stage of the THALES token distribution schedule and the number of individual wallets staking is low, it makes sense to allow individual stakers to distribute their voting power among several nominees as they see fit.
+As Synthetix Council formalized the creation of Thales Council with SIP-149, it also entailed that the first Council members were to be chosen by SNX holders until Thales governance token was launched. As the THALES token was subsequently launched after the first Council was formed, this upcoming second iteration of Thales Council is to be voted in by stakers of the THALES governance token. Because we are still in an early stage of the THALES token distribution schedule and the number of individual wallets staking is low, it makes sense to allow individual stakers to distribute their voting power among several nominees as they see fit.  
+Duration of 6 months is a a relatively long epoch and it is not impossible that, for whatever reason, a council member is not able to tend to his duties. To ensure that the governance is fully operational without a single weak link, the active council members can make a decision that requires an unanimous vote (6 of 6) to replace the inactive member as they see fit. To be labeled inactive, a council member has to miss at least 2 votes in a row
  
  
  
@@ -27,6 +29,8 @@ This proposal entails the Thales Core Contributors to facilitate the following e
  - Thales Council Nominee admissions via Thales official Discord server
  - Elections for submitted nominees using the Snapshot decentralized voting infrastructure, THALES token as base unit of voting power and Weighted voting system
  - Mint three additional Thales Council NFTs that represent voting power for individual Council members and distribute a total of seven Council NFTs to top seven Thales Council election winners
+
+ In case of an unanimous vote by the Thales Council to remove an inactive Council Member, this proposal also entails Thales Protocol DAO to remove the Thales Council NFT from the said inactive Council Member and send it to an address of the new Council Member that is chosen as a replacement by the council.
  
 ## Rationale
  
