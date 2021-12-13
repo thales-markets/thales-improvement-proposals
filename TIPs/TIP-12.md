@@ -9,7 +9,7 @@ This TIP proposes to deploy and support Thales protocol on Optimism Mainnet L2 c
 ## Abstract
  
 This TIP proposes to deploy and support Thales protocol contracts to Optimism mainnet. With the rollout of OVM 2.0, Thales has been whitelist to deploy on Optimism Mainnet. Contracts have been tested and working on OVM and Thales project is now ready, from a technical standpoint, to support this L2 chain.  
-This TIP also proposes to only whitelist Thales Protocol DAO for functionality of creating a market. The goal behind this decision is to support AMM contract deployment and to focus liquidity to a small number of markets deployed by the Protocol DAO.
+This TIP also proposes to only whitelist Thales Protocol DAO for functionality of creating a market and to reduce minimal requirement for minting options tokens to 1 sUSD. The goal behind this decision is to support AMM contract deployment and to focus liquidity to a small number of markets deployed by the Protocol DAO.
  
 ## Motivation
  
@@ -29,6 +29,7 @@ These contracts are also deployed on L1, but now also include the following chan
  - Changes introduced with TIP-8
  - `burn` function introduced with the ThalesAMM (TIP-11)
  - Whitelist market creation exclusively to the Thales Protocol DAO
+ - Reduce minimal required amount of sUSD for minting options tokens to be `1`
     
 * Deploy the Thales PriceFeed proxy that will serve asset prices from Chainlink for resolving markets:
     * [PriceFeed.sol](https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol)  
