@@ -8,11 +8,12 @@ This TIP proposes to deploy and support Thales protocol on Optimism Mainnet L2 c
  
 ## Abstract
  
-With the rollout of OVM 2.0, Thales has been whitelist to deploy on Optimism Mainnet. Contracts have been tested and working on OVM and Thales project is now ready, from a technical standpoint, to support this L2 chain.
+This TIP proposes to deploy and support Thales protocol contracts to Optimism mainnet. With the rollout of OVM 2.0, Thales has been whitelist to deploy on Optimism Mainnet. Contracts have been tested and working on OVM and Thales project is now ready, from a technical standpoint, to support this L2 chain.  
+This TIP also proposes to remove the functionality to create a market, except for the Protocol DAO. The goal behind this decision is to support AMM contract deployment and to focus liquidity to a small number of markets deployed by the Protocol DAO.
  
 ## Motivation
  
-MVP version of Thales was deployed on mainnet to showcase to the community at large what Thales is about. Gas prices on L1 have held Thales back to an extent, but we grew together as a protocol and community, learned some lessons which we have incorporated into the L2 rollout and we are now proposing to the council to formally deploy and enable Thales on Optimism Mainnet. 
+MVP version of Thales was deployed on mainnet to showcase to the community at large what Thales is about. Gas prices on L1 have held Thales back to an extent, but we grew together as a protocol and community, learned some lessons which we have incorporated into the L2 rollout and we are now proposing to the council to formally deploy and enable Thales on Optimism Mainnet.
  
 ## Specification
  
@@ -24,7 +25,10 @@ MVP version of Thales was deployed on mainnet to showcase to the community at la
     * [BinaryOptionMarketMastercopy.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketMastercopy.sol)
     * [BinaryOptionMastercopy.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMastercopy.sol)
       
-These contracts are also deployed on L1, but now include changes introduced with TIP-8 as well as a `burn` function introduced with the ThalesAMM (TIP-11).
+These contracts are also deployed on L1, but now also include the following changes: 
+ - Changes introduced with TIP-8
+ - `burn` function introduced with the ThalesAMM (TIP-11)
+ - Whitelist market creation exclusively to the Thales Protocol DAO
     
 * Deploy the Thales PriceFeed proxy that will serve asset prices from Chainlink for resolving markets:
     * [PriceFeed.sol](https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol)  
