@@ -93,6 +93,7 @@ AMM required a burn method to be added to the contract BinaryOptionMarket so tha
         AMM buys 100 options for $30, burns them and gets $70 back to spend
         AMM now has 570sUSD to spend so it can buy 1900 more options cause 570/0.3=1900
         In total the AMM can buy 100 (that it will burn) + 1900= 2000 LONG options
+![case 3 schematic](https://raw.githubusercontent.com/MamercusOfMiletus/shemeTIP/main/case%203.jpg)        
  
 4. Existing market, LONG price is 30c per market, capPerMarket is 1000sUSD, but 500sUSD already spent, so 500sUSD left, AMM has a skew of 100 LONG options, assume no slippage, user wants to buy maximum LONG options  
 
@@ -100,7 +101,7 @@ AMM required a burn method to be added to the contract BinaryOptionMarket so tha
         AMM can risk up to 530sUSD now
         AMM can sell 757 LONG options cause 757*0.3=227=>757-227=530
         With the 100 it already sold, the AMM can sell a total of 857
-
+![case 4 schematic](https://raw.githubusercontent.com/MamercusOfMiletus/shemeTIP/main/case%204.png)
  
 ## Implementation
  
