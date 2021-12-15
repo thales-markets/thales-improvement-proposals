@@ -27,7 +27,7 @@ Proposed format:
 
 * The first 6 Thales Royale Events will be boosted with 1000 sUSD from the Thales Treasury.
 * Each Thales Royale will be played by speculating the price of ETH.
-* Each Royale starts on a Monday, 16:00 UTC time on a biweekly basis.
+* Each Royale starts on a Monday, 16:00 UTC time on a biweekly basis (clarification: the next Thales Royale Event starts two weeks after the previous one).
 * Sign-up phase of each Royale to last for 3 days.
 * After Sign-up phase is over, each Thales Royale starts with total of 6 rounds with each round lasting 24h.
 * Each round has a 8h position phase and a 16h resolution phase.
