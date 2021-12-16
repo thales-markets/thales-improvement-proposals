@@ -34,20 +34,20 @@ These contracts are also deployed on L1, but now also include the following chan
 * Deploy the Thales PriceFeed proxy that will serve asset prices from Chainlink for resolving markets:
     * [PriceFeed.sol](https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol)  
     
-Thales was using Synthetix ExchangeRates contract for the MVP, but as Thales can expand its offering beyong assets that are synths, it will now has its own contract to serve as a wrapper over Chainlink Price aggegator feeds. PriceFeed.sol can also be expanded to support a TWAP feed from UniV3 on Optimism.
+Thales was using Synthetix ExchangeRates contract for the MVP, but as Thales can expand its offering beyond assets that are synths, it will now has its own contract to serve as a wrapper over Chainlink Price aggegator feeds. PriceFeed.sol can also be expanded to support a TWAP feed from UniV3 on Optimism.
 
 * Deploy Thales AMM contract to support out of the box liquidity on Thales markets:
 
     * [ThalesAMM.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol)
     * [DeciMath.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/DeciMath.sol) (helper contract for Math operations]
 
-* Deploy Thales Royale contract with seasons and buyins (more details in a dedicated TIP):
+* Deploy Thales Royale contract with seasons and buy-ins (more details in a dedicated TIP):
     * [ThalesRoyale.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/ThalesRoyale/ThalesRoyale.sol) 
 
 * Add support in the thalesmarket.io dapp for Optimism L2 with limit orders backed by 1inch protocol.
     * Include 1inch integration to buy sUSD directly from the dapp
 
-Thales integrated 0x protocol into L1 MVP. However, post whitelisting on Optimism Thales could not get enough certainty around Ox API being made available on Optimism, so this TIP proposes to rollout with 1inch limit orders API, and keep the option to revert back to 0x or even support both protocols once 0x API is ready.  
+Thales integrated 0x protocol into L1 MVP. However, post whitelisting on Optimism Thales could not get enough certainty around 0x API being made available on Optimism, so this TIP proposes to rollout with 1inch limit orders API, and keep the option to revert back to 0x or even support both protocols once 0x API is ready.  
 
 ## Rationale
 TBD
