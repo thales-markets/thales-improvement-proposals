@@ -10,7 +10,7 @@ This TIP proposes to implement and release a Thales AMM contract with funded liq
  
 MVP implementation of Thales involved just peer to peer trading based on limit orders. While L1 gas costs were definitely a reason for lack of trading volume, we do acknowledge most DeFi users are more accustomed to an AMM approach and UX. We feel Thales protocol needs to work iteratively to deliver an AMM feature that can meet the demand for Thales Binary Options.  
 
-This TIP proposes to deploy a Version 1, or Minimal Viable Product version of the AMM that will be based on Black-Scholes pricing algorithm and will use a spread and price impact logic with an addition of cap per market to minimize its exposure. The said AMM is to be monitored and iteratively improved so that eventually the cap is increased if not removed and users can deposit into the AMM as liquidity providers and earn fees+THALES rewards.
+This TIP proposes to deploy a Version 1, or Minimal Viable Product version of the AMM that will be based on Black-Scholes pricing algorithm and will use a spread and price impact logic with an addition of cap per market to minimize its exposure. This AMM is to be monitored and iteratively improved so that eventually the cap is increased if not removed and users can deposit into the AMM as liquidity providers and earn fees+THALES rewards.
 
 This TIP also proposes to deploy a `burn` functionality to BinaryOptionMarket.sol contract that allows for burning of sLONG and sSHORT options tokens to withdraw sUSD from a respective Thales market of said options tokens.
  
