@@ -18,11 +18,13 @@ Thales Royale Private Rooms is a child from the parent - Thales Royale ([TIP-13]
 
 As Thales CC's are avid competitors themselves, we loved this idea and came to this proposal.
 
+
 ## Specification
  
 This TIP entails Thales Protocol DAO to support [Thales Royale Private Rooms contract](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyalePrivateRoom.sol) deployment on Optimism Mainnet. 
 
 Thales Royale Private Rooms will be rolled out on L2 mainnet, with the specification explained below.
+
 
 Proposed specification:  
 
@@ -46,6 +48,7 @@ Proposed specification:
 
 Proposed specification for room management:
     To be elaborated. For example increase buy-in amount, increase round length when this is possible, etc. section below this [ROOM MANAGEMENT](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyalePrivateRoom.sol#L390)
+
 
 ## Test Cases
 
