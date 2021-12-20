@@ -32,7 +32,7 @@ Proposed specification:
 2. The Creator is also the first participant and he will be included into the buy-in (which he sets) immediately after creating a room
 3. As said above the Creator will set the buy-in for him and other players (an equal amount) and each player will pay that amount in sUSD on sign-in,  the minimum buy-in being 1 sUSD
 4. The Creator will choose how many rounds will there be in his Thales Royale (minimum number of rounds is 2)
-5. The Creator will select the choosing period length, round length, sign-in period and the claim time:
+5. The Creator will select the choosing period length, round length, sign-in period, and the claim time:
    - Minimum sign-in period is 15 min.
    - Minimum round time is 30 min.
    - Minimum choosing time is 15 min.
@@ -48,7 +48,7 @@ Proposed specification:
 
 Proposed specification for room management:
 
-NOTE: All below specification points are valid only if Royale is not started yet.
+**NOTE: All below specification points are valid and enabled only until the first user is signed in, which means he accepted the condition.**
 
 1. Increasing/decreasing buy-in amount - Creator will be able to increase buy-in amount or decrease it (decrease not less than minimum buy-in) until the first person is sign-up for his room.
    - in a case of decreasing - the difference will be returned to Creator and a new amount is set
@@ -60,15 +60,18 @@ NOTE: All below specification points are valid only if Royale is not started yet
 6. Setting new round choosing period - Creator will be able to set new round choosing length, the round choosing length must be greater than minimal round choosing length, and also offset time between round length and choosing period is also checked
 7. Setting a new asset - Creator will be able to update on which asset royale is playing and that asset must be in allowed assets ["BTC", "ETH", "LINK", "SNX"]
 8. Setting new players that are allowed to play - Creator can change allowed players if room type is CLOSED and players did not start sign-up
-9. Adding new players in allowed players list - Creator can add players in a list only if the type of room is CLOSED
-10. Setting amount of players - Creator can set a new amount of players to participate in a room only if the room type is OPEN and that amount is less or equal to the maximum amount of players per room.
-11. There will be no way that creator can change room type or game type.
+9. Adding new player in allowed players list - Creator can add player/players in a list only if the type of room is CLOSED
+10. Setting amount of players - Creator can set a new amount of players to participate in a room only if the room type is OPEN and that amount is less or equal to the maximum amount of players per room
+11. Delete a room - Creator can "delete a room", room go into state `published = false` and funds which creator is payed go back to his wallet, and users **can not** sign up for that room
+12. There will be **no way** that creator can change room type or game type
 
 ## Test Cases
 
 ## Implementation
- 
-https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyalePrivateRoom.sol
+
+[Thales Royale Private Rooms Implementation](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyalePrivateRoom.sol)
+
+
 
 ## Copyright
  
