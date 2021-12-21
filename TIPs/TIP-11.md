@@ -65,6 +65,14 @@ This TIP also entails the Protocol DAO to implement and deploy a [ThalesAMM.sol]
 `setCapPerMarket`   
 `setPriceFeed`  
 
+This proposal additionaly entails Thales Protocol DAO to set the following AMM parameters for the initial markets deploying on L2:
+
+- `CapPerMarket` = 5000 sUSD
+- `min_spread` = 2%
+- `max_spread` = 7%
+- `minimalTimeLeftToMaturity` = 8h
+- `impliedVolatility` = 120%
+
 ## Rationale
  
 As the AMM is taking all of the risk and is experimental in its nature the main focus is to limit the possible losses until the contract is battle tested. To ensure this, the variable capPerMarket is the focal point of how much liquidity is available on a certain side of a Market. The AMM will never expose itself to more than the cap for a given market (examples below).
