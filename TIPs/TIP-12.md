@@ -17,6 +17,8 @@ MVP version of Thales was deployed on mainnet to showcase to the community at la
  
 ## Specification
  
+This TIP entails Thales Protocol DAO to execute the following points:  
+
 * Deploy the following contracts from the BinaryOptions suite to the Optimism Mainnet:  
 
     * [BinaryOptionMarketFactory.sol](https://github.com/thales-markets/contracts/blob/main/contracts/BinaryOptions/BinaryOptionMarketFactory.sol)
@@ -28,7 +30,7 @@ MVP version of Thales was deployed on mainnet to showcase to the community at la
 These contracts are also deployed on L1, but now also include the following changes: 
  - Changes introduced with TIP-8
  - `burn` function introduced with the ThalesAMM (TIP-11)
- - Whitelist market creation exclusively to the Thales Protocol DAO
+ - Whitelist market creation exclusively to Thales Core Contributors addresses
  - Reduce minimal required amount of sUSD for minting options tokens to be `1`
     
 * Deploy the Thales PriceFeed proxy that will serve asset prices from Chainlink for resolving markets:
