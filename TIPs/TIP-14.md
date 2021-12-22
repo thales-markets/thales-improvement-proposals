@@ -66,7 +66,7 @@ Proposed specification for room management:
 12. There will be **no way** that the Creator can change the room type or game type.
 
 ## Test Cases
-
+ 
 ## Implementation
 
 [Thales Royale Private Rooms Implementation](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyalePrivateRoom.sol)
