@@ -50,20 +50,20 @@ Proposed specification for room management:
 
 **NOTE: All below specification points are valid and enabled only until the first user is signed in, which means he accepted the condition.**
 
-1. Increasing/decreasing buy-in amount - Creator will be able to increase buy-in amount or decrease it (decrease not less than minimum buy-in) until the first person is sign-up for his room.
-   - in a case of decreasing - the difference will be returned to Creator and a new amount is set
-   - in a case of increasing - the difference will need to be paid by Creator and a new amount is set
-2. Setting new round length - Creator will be able to set new round length, the round length must be greater than minimal round length, and also offset time between round length and choosing period is also checked
-3. Setting new claim time  - Creator will be able to set new claim time, claim time must be greater than minimum claim time
-4. Setting new sign up period - Creator will be able to set a new sign up period, that period must be greater than the minimum period time
-5. Setting a new number of rounds - Creator will be able to change the number of rounds which is not less than a minimal number of rounds.
-6. Setting new round choosing period - Creator will be able to set new round choosing length, the round choosing length must be greater than minimal round choosing length, and also offset time between round length and choosing period is also checked
-7. Setting a new asset - Creator will be able to update on which asset royale is playing and that asset must be in allowed assets ["BTC", "ETH", "LINK", "SNX"]
-8. Setting new players that are allowed to play - Creator can change allowed players if room type is CLOSED and players did not start sign-up
-9. Adding new player in allowed players list - Creator can add player/players in a list only if the type of room is CLOSED
-10. Setting amount of players - Creator can set a new amount of players to participate in a room only if the room type is OPEN and that amount is less or equal to the maximum amount of players per room
-11. Delete a room - Creator can "delete a room", room go into state `published = false` and funds which creator is payed go back to his wallet, and users **can not** sign up for that room
-12. There will be **no way** that creator can change room type or game type
+1. Increasing/decreasing buy-in amount - The Creator will be able to increase buy-in amount or decrease it (decrease cannot be smaller than the minimum buy-in) until the first person has signed-up for his room.
+   - in the case of decreasing - the difference will be returned to the Creator and a new amount is set
+   - in the case of increasing - the difference  needs to be paid by the Creator and a new amount is set
+2. Setting new round length - The Creator will be able to set new a round length. The round length must be greater than the minimal round length, and offset time between round length and choosing period is also checked
+3. Setting new claim time  - The Creator will be able to set new claim time,the claim time must be greater than the minimum claim time
+4. Setting new sign up period - The Creator will be able to set a new sign up period, that period must be greater than the minimum period time
+5. Setting a new number of rounds - The Creator will be able to change the number of rounds as long as it is not smaller than the minimal number of rounds.
+6. Setting new round choosing period - The Creator will be able to set new round choosing length. The round choosing length must be greater than minimal round choosing length, and also offset time between round length and choosing period is checked
+7. Setting a new asset - The Creator will be able to update the asset whose price is to be predicted in the Royale. That asset again must be one of the allowed assets ["BTC", "ETH", "LINK", "SNX"]
+8. Setting new players that are allowed to play - The Creator can change the list of allowed players if the room type is CLOSED and players did not start sign-up
+9. Adding new players to the allowed players list - The Creator can add players to the list only if the type of room is CLOSED
+10. Setting the amount of players -The Creator can set a new amount of players to participate in a room only if the room type is OPEN and that amount is less or equal to the maximum amount of players per room.
+11. Delete a room - Creator can "delete a room", room then goes into the state `published = false` and funds which the creator has paid will go back to his wallet, and users **can not** sign up for that room
+12. There will be **no way** that the Creator can change the room type or game type.
 
 ## Test Cases
 
