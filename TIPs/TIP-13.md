@@ -68,7 +68,6 @@ Edge cases
  - Try to claim rewards with no winner address
  
  
- 
 ## Implementation
  
 https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyale.sol
