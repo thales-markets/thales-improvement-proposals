@@ -7,12 +7,12 @@
 The TIP aims to formalize a plan on how rolling out THALES token on Optimism mainnet will be conducted. 
  
 ## Motivation
-THALES token is currently only available on layer 1 mainnet. As most of Thales protocol volume is happening and is planned to happen on Optimism Mainnet, Thales should also offer token bridge and staking on layer 2, as well as build liquidity for its native governance token on Optimism layer 2.  
+THALES token is currently only available on layer 1 Mainnet. As most of Thales protocol volume is happening and is planned to happen on Optimism Mainnet, Thales should also offer token bridge and staking on Optimism Mainnet, as well as build liquidity for its native governance token on that layer 2 chain.  
 Furthermore, this TIP aims to improve Thales Staking module by offering a gamified approach to staking which rewards active protocol users.  
 
-Per [link](https://thalesmarket.medium.com/a-part-of-thales-core-contributors-tokens-are-locked-and-its-implications-241fcec37888?source=user_profile---------6-------------------------------) we explained how a large chunk of Core Contributor tokens got locked mistakenly in a contract for 5 years. To offset for this, Thales will deploy an Exchanger contract that offer 1 to 1 exchange to a new token which is provisionally called OpTHALES and which will be bridged and supported on Optimism Mainnet.  
+Per [link](https://thalesmarket.medium.com/a-part-of-thales-core-contributors-tokens-are-locked-and-its-implications-241fcec37888?source=user_profile---------6-------------------------------) we explained how a large chunk of Core Contributor tokens got locked mistakenly in a contract for 5 years. To offset for this, Thales will deploy an Exchanger contract that offer 1 to 1 exchange to a new token which is provisionally called OpTHALES and which will be bridged to and supported on Optimism Mainnet.  
 
-Thales has been rewards 125k THALES rewards to SNX users pro rata based on the SNX staking debt on a weekly level. While this number is a large portion of THALES inflation, it did not make the impact to synthetix staking that it was hoped for and due to the large TVL in SNX staking, it hardly makes a difference to an average SNX staker. This TIP proposes to reduce that total number of weekly rewards for SNX stakers, while reverting the value of that inflation to THALES staking. To achieve this SNX staking will have a significant weight in the new gamified THALES staking approach that provides a bonus to stakers based on certain parameters.    
+Thales has been rewarding 125k THALES rewards to SNX users pro rata based on the SNX staking debt on a weekly level. While this number is a large portion of THALES inflation, it did not make a significant impact to Synthetix staking due to the large TVL in SNX staking and it hardly makes a difference to an average SNX staker. This TIP proposes to reduce that total number of weekly rewards for SNX stakers, while reverting the value of that inflation to THALES staking. To achieve this SNX staking will have a significant weight in the new gamified THALES staking approach that provides a bonus to stakers based on certain parameters.    
 
 ## Specification
 When all contracts are ready which is planned to be toward end of January/early February 2022. this TIP proposes the following:
@@ -44,6 +44,8 @@ Example:
 
 On Optimism Mainnet rewards will have to be claimed weekly and be subject to same escrow rules as in the staking contract on Ethereum Mainnet.
 Further improvements to staking can be formalized in additional TIPs.
+
+This TIP, if voted in, would seize ongoing inflation of 125k to SNX stakers in favor of a more effective mechanism that still maintains the ongoing aligment with SNX stakers, but reverting balue back to THALES staking.THALES that is being saved with this new approach can be used to increase THALES staking rewards or offer other incentives for the benefit of the protocol. 
 
 ## Test Cases
  
