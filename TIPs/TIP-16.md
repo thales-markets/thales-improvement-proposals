@@ -15,9 +15,9 @@ Further utility to more NFTs in that collection would be added via future TIPs.
 
 ## Specification
 AMM currently applies a `min_impact` modifier (currently at 2%) to the base price it calculates via BlackScholes algorithm. I am proposing to provide discounts on that impact as follows:  
-* 30% off to Thales Baby Traders https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31703445546616290914096692282728113635967647495258376160375559125425176182874
-* 50% off to Thales Traders https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31703445546616290914096692282728113635967647495258376160375559118828106416148
-* 50% off plus an additional 10% off the skew impact if the option in question has the skew impact applied to it to Thales Pro Traders https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31703445546616290914096692282728113635967647495258376160375559124325664555014
+* 20% off to Thales Baby Traders https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31703445546616290914096692282728113635967647495258376160375559125425176182874
+* 30% off to Thales Traders https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31703445546616290914096692282728113635967647495258376160375559118828106416148
+* 50% off to Pro Traders https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/31703445546616290914096692282728113635967647495258376160375559124325664555014
 
 
 ## Test Cases
