@@ -32,12 +32,11 @@ Proposed specification:
 2. The Creator is also the first participant and he will be included into the buy-in (which he sets) immediately after creating a room
 3. As said above the Creator will set the buy-in for him and other players (an equal amount) and each player will pay that amount in sUSD on sign-in,  the minimum buy-in being 1 sUSD
 4. The Creator will choose how many rounds will there be in his Thales Royale (minimum number of rounds is 2)
-5. The Creator will select the choosing period length, round length, sign-in period, and the claim time:
+5. The Creator will select the choosing period length, round length and sign-in period:
    - Minimum sign-in period is 15 min.
    - Minimum round time is 30 min.
    - Minimum choosing time is 15 min.
    - Minimum offset between choosing time and round end is 15 min.
-   - Minimum claim time is 1 day
 6. The Creator will choose the assets whose price is to be predicted in the Royale. For now, the available assets to choose from are ["BTC", "ETH", "LINK", "SNX"], one asset per Royale.
 7. The Creator will be choosing the game type 
    - LAST_MAN_STANDING - there is only one winner, in this case, the creator chooses the number of rounds, but if there is more than one player in the last round, the Royale is continued until there is only one winner
@@ -54,7 +53,6 @@ Proposed specification for room management:
    - in the case of decreasing - the difference will be returned to the Creator and a new amount is set
    - in the case of increasing - the difference  needs to be paid by the Creator and a new amount is set
 2. Setting new round length - The Creator will be able to set new a round length. The round length must be greater than the minimal round length, and offset time between round length and choosing period is also checked
-3. Setting new claim time  - The Creator will be able to set new claim time,the claim time must be greater than the minimum claim time
 4. Setting new sign up period - The Creator will be able to set a new sign up period, that period must be greater than the minimum period time
 5. Setting a new number of rounds - The Creator will be able to change the number of rounds as long as it is not smaller than the minimal number of rounds.
 6. Setting new round choosing period - The Creator will be able to set new round choosing length. The round choosing length must be greater than minimal round choosing length, and also offset time between round length and choosing period is checked
