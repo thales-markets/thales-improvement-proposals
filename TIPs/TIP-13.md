@@ -57,15 +57,25 @@ Edge cases
  - Sign up for Thales Royale with no allowance
  - Sign up after sign up period has expired
  - Sign up with already signed up address
+ - Try to start if no players are signed-up
  - Try to start Season before sign up period expired
  - Try to start royale before seson is started
  - Try to take a position before royale started.
  - Try to take a position after round is finished
+ - Try to take the same position twice
+ - Try to take a position that is not 1 or 2
+ - Try to take position after royale is finished
+ - Try to take a position with players who is not signed up or death in a previous round
+ - Try to take a position when choosing period ends
  - Try to start new royale, current is still ongoing
  - Try to start new season, current is still ongoing
  - Try to close the round, which is still ongoing.
+ - Try to close round before round length expired
  - Try to claim rewards second time
  - Try to claim rewards with no winner address
+ - Try to claim rewards before season is finished
+ - Try to put funds on a specific season
+ - Try to put founds to the season which passed
  
  
 ## Implementation
