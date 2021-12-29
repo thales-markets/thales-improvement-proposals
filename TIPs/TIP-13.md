@@ -43,6 +43,30 @@ Proposed format:
 
 
 ## Test Cases
+
+Happy path
+ - Sign up
+ - Start season
+ - Start royale in season
+ - Take as position
+ - Claim rewards - 1 player win
+ - Claim rewards - multiple players win
+ - Claim rewards - all players lose
+
+Edge cases
+ - Sign up for Thales Royale with no allowance
+ - Sign up after sign up period has expired
+ - Sign up with already signed up address
+ - Try to start Season before sign up period expired
+ - Try to start royale before seson is started
+ - Try to take a position before royale started.
+ - Try to take a position after round is finished
+ - Try to start new royale, current is still ongoing
+ - Try to start new season, current is still ongoing
+ - Try to close the round, which is still ongoing.
+ - Try to claim rewards second time
+ - Try to claim rewards with no winner address
+ 
  
  
 ## Implementation
