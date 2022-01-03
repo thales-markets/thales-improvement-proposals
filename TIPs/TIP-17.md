@@ -30,7 +30,7 @@ Gamified THALES staking on Optimism Mainnet:
 - Base weekly rewards of 70k THALES
 - Introduce a bonus with a maximum value of 30% on top of base rewards that is calculated based on the following:  
       - 50% based on SNX staking. If a THALES staker has at least 1 SNX staked per THALES he would receive as base reward, he gets maximum bonus, otherwise he gets proportional to the SNX he has staked   
-      - 40% weight to AMM trading volume. If a THALES staker has at least 10 sUSD average volume in last 4 epochs per 1 THALES he gets as base reward, he gets maximum bonus in this category, otherwise he gets a bonus proportional to the average volume he generated in the last 4 epochs divided by the base THALES rewards he is eligible to receive.    
+      - 40% weight to AMM trading volume. If a THALES staker has at least 10 sUSD AMM volume in last 4 epochs per 1 THALES he gets as base reward, he gets maximum bonus in this category, otherwise he gets a bonus proportional to the average volume he generated in the last 4 epochs divided by the base THALES rewards he is eligible to receive.    
       - 10% weight if the staker participated in the last Thales Royale. This value can be either 0 or max.
        
       
