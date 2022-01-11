@@ -21,7 +21,7 @@ When all contracts are ready which is planned to be toward end of January/early 
 2. Move all unclaimed airdrops to optimism mainnet, thus allowing those who still haven't claimed the airdrop to claim it on L2
 3. Shift all pending ongoing rewards and make those claimable on Optimism Mainnet
 4. Reduce the staking cooldown to 1 second (whatever is minimum) to allow a smooth migration to L2
-5. Deprecate L1 staking and rollout staking on L2 where the first week will have doubled base rewards (50k to 100k THALES) to incentivize migration.
+5. Deprecate L1 staking and rollout staking on L2 where the first two weeks will have increased base rewards (70k to 100k THALES) to incentivize migration.
 6. Deprecate ongoing rewards concept which required a centralized approach to offset for layer 1 gas costs
 7. Upgrade the staking module to Thales gamified staking approach that offers up to 2x bonus on base rewards based on the specification below.  
 
