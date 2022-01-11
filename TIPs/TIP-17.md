@@ -17,7 +17,7 @@ Thales has been rewarding 125k THALES rewards to SNX users pro rata based on the
 ## Specification
 When all contracts are ready which is planned to be toward end of January/early February 2022. this TIP proposes the following:
 
-1. Create a seamless Exchanger+Bridge on Ethereum mainnet that accepts THALES as input, exchanges it 1 to 1 to OpTHALES and migrates it to Optimism mainnet. The said contract also accept exchanging OpTHALES to THALES. OpTHALES will have 100m supply, identical to THALES, but 15.9m tokens that were mistakenly locked will be kept in treasury, while 85.1 million will be put into the exchanger contract, and only minted when THALES is offered in exchange 1 to 1.
+1. Create a seamless Exchanger+Bridge on Ethereum mainnet that accepts THALES as input, exchanges it 1 to 1 to OpTHALES and migrates it to Optimism mainnet. The said contract also accept exchanging OpTHALES to THALES. OpTHALES will have 100m supply, identical to THALES, but 15.9m tokens that were mistakenly locked will be kept in treasury, while 84.1 million will be put into the exchanger contract, and only minted when THALES is offered in exchange 1 to 1.
 2. Move all unclaimed airdrops to optimism mainnet, thus allowing those who still haven't claimed the airdrop to claim it on L2
 3. Shift all pending ongoing rewards and make those claimable on Optimism Mainnet
 4. Reduce the staking cooldown to 1 second (whatever is minimum) to allow a smooth migration to L2
