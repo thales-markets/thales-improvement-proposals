@@ -13,9 +13,9 @@ However, after more consideration, it felt fair to give the Thales council and c
 ## Specification
 Before getting into the proposal itself, lets review the previous plan: 
 * Unstaking cooldown would be reduced to a single block
-* Stakers would have to start the cooldown, unstake, migrate to L2 and finally restake on l2
-* That's total of 3 L1 transactions and 1 L2 transaction
-* At current 100+ GWEI the said 3 L1 transactions would set someone back $100 to $200 in gas
+* Stakers would have to start the cooldown, unstake, approve migration, migrate to L2 and finally restake on L2
+* That's total of 3 L4 transactions and 1 L2 transaction
+* At current 100+ GWEI the said 3 L4 transactions would set someone back $100 to $200 in gas
 * First two weeks on l2 would have extra baes rewards (100k instead of 70k) to offset the gas costs
 * L1 rewards will stop being distributed, so the only reason someone would not migrate is: a. Gas costs or b. Wasnt aware of the migration
 * This means stakers technically need to migrate in a week or mostly two to capture those early rewards
