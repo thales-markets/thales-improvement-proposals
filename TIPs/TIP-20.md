@@ -30,6 +30,7 @@ The approach above is a usual one for migrating from one chain to another where 
 * However, after the lessons learned in [link](https://thalesmarket.medium.com/a-part-of-thales-core-contributors-tokens-are-locked-and-its-implications-241fcec37888?source=user_profile---------6-------------------------------) and by following the industry standards, we realized its acceptible to have such safety measures that are entrusted to Protocol DAO and it introduces no additional risk to the protocol as Protocol and Treasury DAO are already entrusted with all value locked in the protocol and basically keeping the protocol safe.
 * Protocol DAO could pause both StakingThales and EscrowThales, take a snapshot of all balances, destroy the contracts and recreate them with the snapshot state on L2
 * To reduce some overhead, I suggest to allocate all EscrowedThales directly to the staked balance on L2. It would be locked for 7 days (unstaking cooldown by default), and considering that it will take time for liquidity to build on l2, and that rewards will be quite high for stakers in the first few weeks, there is no real concern that the EscrowedThales that is made available earlier in such a way will be used in any different way than for staking.
+* The migration will be announced with at least a week's notice
 
 The implication of the suggested approach is that technically stakers lose custody of their staked THALES for a brief amount of time and Protocol DAO seizes that custody to perform the migration and then relinquishes it.  While personally I found this controversial when first brought up, I am now under belief that its the purpose of Protocol DAO and myself to offer such potential solutions and have the governance and thus the said stakers decide how they want the migration executed.
 
@@ -40,6 +41,7 @@ PROs:
 * Ensure everyone is migrated to L2, even people that might not be actively monitoring their Thales staking
 * Save individual stakers who have THALES in Escrow at least $100 in gas costs to vest and migrate to L2.
 * Allow the already claimed and escrowed THALES to participate in early staking on L2
+* Allows everyone to stake THALES just before the migration and thus only pay the cost of 1 staking transaction instead of full migration
 
 CONs:
 * Unconvential approach where Protocol DAO takes temporary custody over staked funds
