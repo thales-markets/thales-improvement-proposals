@@ -56,7 +56,7 @@ CONs:
     * StakingThales https://contracts.thalesmarket.io/mainnet/StakingThales
     * EscrowThales https://contracts.thalesmarket.io/mainnet/EscrowThales
 * Snapshots are taken for all of the above contracts
-* Snapshot Airdrop and Ongoing Airdrop balances will be made available on L2 in a new merkle tree contract
+* Snapshot Airdrop and Ongoing Airdrop balances will be summed up per wallet and made available on L2 in a new merkle tree contract
 * Balances of Staking and Escrow are summed up per wallet and auto-staked on L2
 * Important: If an address is a contract, it will not be migrated. All contracts will be able to claim their pending balances on L1.
 * The migration might take hours to days. We'll make sure to check all the data as long as we need to until we are 100% comfortable to release the new balances on L2.
