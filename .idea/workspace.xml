@@ -81,8 +81,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-20.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="530">
-                <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <first_editor relative-caret-position="414">
+                <caret line="60" column="86" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="86" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,8 +115,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="2116" />
+    <option name="y" value="359" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -189,12 +189,12 @@
       <workItem from="1641333798904" duration="75000" />
       <workItem from="1641651088148" duration="2151000" />
       <workItem from="1641824892838" duration="598000" />
-      <workItem from="1641978795503" duration="6459000" />
+      <workItem from="1641978795503" duration="7523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26518000" />
+    <option name="totallyTimeSpent" value="27582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -327,8 +327,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-20.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="530">
-            <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <first_editor relative-caret-position="414">
+            <caret line="60" column="86" selection-start-line="60" selection-start-column="86" selection-end-line="60" selection-end-column="86" />
           </first_editor>
           <second_editor />
         </state>
