@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-20 | Staked THALES migration to L2 | Draft | Danijel (@dgornjakovic) | Automatic migration of staked THALES to L2 | https://discord.gg/8bzFdpGTrp | 2022-01-01
+| TIP-20 | Staked and Escrowed THALES migration to L2 | Draft | Danijel (@dgornjakovic) | Automatic migration of staked THALES to L2 | https://discord.gg/8bzFdpGTrp | 2022-01-01
  
 ## Simple Summary
 This TIP proposes an automatic migration of all Stakers to L2.
@@ -10,7 +10,6 @@ Initial plan laid out in TIP-17 was to reduce the staking cooldown to a minimum 
 A number of THALES stakers have enquired about the possibility to be auto-migrated to L2 once staking is available there. Initially, we found this unconventional as the usual path when moving to another chain is that everyone chooses to migrate individually.
 However, after more consideration, it felt fair to give the Thales council and community a chance to express their view and wish on how this should be handled.  
 
-## Specification
 Before getting into the proposal itself, lets review the previous plan: 
 * Unstaking cooldown would be reduced to a single block
 * Stakers would have to start the cooldown, unstake, approve migration, migrate to L2 and finally restake on L2
@@ -45,6 +44,32 @@ PROs:
 
 CONs:
 * Unconvential approach where Protocol DAO takes temporary custody over staked funds
+
+## Specification
+
+* On 26th of January set the unstaking cooldown to 1 minute thus giving everyone an option to unstake before migration
+* (To be finalized if council insists on this) Add an option to opt out of migration via message signing. If someone opts out we will send THALES to that address on L1
+* Last period of staking on L1 ends on 2nd of February
+* After the last period is closed and final rewards are calculated into ongoing airdrop contract, we pause the following contracts on L1:  
+    * Airdrop https://contracts.thalesmarket.io/mainnet/Airdrop
+    * OngoingAirdrop https://contracts.thalesmarket.io/mainnet/OngoingAirdrop
+    * StakingThales https://contracts.thalesmarket.io/mainnet/StakingThales
+    * EscrowThales https://contracts.thalesmarket.io/mainnet/EscrowThales
+* Snapshots are taken for contracts
+* Snapshot Airdrop and Ongoing Airdrop balances will be made available on L2 in a new merkle tree contract
+* Balances of Staking and Escrow are summed up per wallet and auto-staked on L2
+* Important: If an address is a contract, it will not be migrated. All contracts will be able to claim their pending balances on L1.
+* The migration might take hours to days. We'll make sure to check all the data as long as we need to until we are 100% comfortable to release the new balances on L2.
+* Once migration is done and new balances are available on L2:
+  * Destroy StakingThales contract on L1
+  * Destroy Escrow contract on L1
+  * Airdrop contract on L1 can not be destroyed before Septembar 2022. It will remain paused until it can be destroyed
+  * Ongoing contract on l1 can not be destroyed before a year passes since last merkle root update, which will be February 2023. It will remain paused until it can be destroyed
+* Each staker that doesnt have any ETH on L2 will get $10 worth of ETH during migration  
+
+  
+   
+
   
 ## Test Cases
  
