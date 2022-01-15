@@ -28,7 +28,7 @@ This novel type of Data Feeds can also provide a powerful marketing tool when do
 ## Specification
  
  - This TIP entails Thales ProtocolDAO to modify the [PriceFeed.sol](https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol)  contract in the following way to the so it additionally integrates Uniswap V3 TWAP oracle on Optimism for market creation:  
- - [PriceFeed.sol twap-price-feed branch](https://github.com/thales-markets/contracts/blob/feat/twap-price-feed/contracts/PriceFeed/PriceFeed.sol)
+ > [PriceFeed.sol twap-price-feed branch](https://github.com/thales-markets/contracts/blob/feat/twap-price-feed/contracts/PriceFeed/PriceFeed.sol)
  
 
  This integration would allow the PriceFeed.sol contract to take in any Uniswap V3 pool address and output the Time-weighted Averaged Price from that specific pool in the time interval chosen by the ProtocolDAO after researching the said pool and deriving the most optimal value.
