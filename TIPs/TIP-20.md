@@ -1,12 +1,18 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-20 | Staked and Escrowed THALES migration to L2 | Draft | Danijel (@dgornjakovic) | Automatic migration of staked THALES to L2 | https://discord.gg/8bzFdpGTrp | 2022-01-01
+| TIP-20 | THALES token migration to l2| Draft | Danijel (@dgornjakovic) | Details of THALES token migration to l2 | https://discord.gg/8bzFdpGTrp | 2022-01-01
  
 ## Simple Summary
-This TIP proposes an automatic migration of all Stakers to L2.
+This TIP describes all the nuances of THALES token migration to L2
 ## Abstract
-Initial plan laid out in TIP-17 was to reduce the staking cooldown to a minimum value of 1 block so that all stakers can migrate individually. However, considering the 3 digits gas prices we witnessed lately, I want to propose to the council and the community to consider allowing Protocol DAO to conduct an automatic migration of all Staked THALES as well as for Escrowed THALES.
+As Thales is getting ready to rollout token support on L2, there are a lot of details to consider. This TIP aim to summarize all of those and provide a detailed migration plan.
 ## Motivation
+As per [link](https://thalesmarket.medium.com/a-part-of-thales-core-contributors-tokens-are-locked-and-its-implications-241fcec37888?source=user_profile---------6-------------------------------) 15.9m THALES tokens that were supposed to be added to a vesting contract for CCs per tokenomics vesting schedule of 4 years linear unlock, have been locked fully for 5 years. To offset for this, we propose a seamless token migration, that will swap THALES for a new token provisionally called OpTHALES 1 to 1 on L1 and migrate in to L2.  
+
+Alongside  the release of new token, Exchanger and Bridge, this TIP proposes to migrate all unclaimed rewards to L2, as well as all staked and escrowed THALES from L1 to L2 for wallets that do not opt out and are not contracts.
+More details about the auto-migration of staking and escrow below:
+
+## Automigration of staking and escrow motivation
 A number of THALES stakers have enquired about the possibility to be auto-migrated to L2 once staking is available there. Initially, we found this unconventional as the usual path when moving to another chain is that everyone chooses to migrate individually.
 However, after more consideration, it felt fair to give the Thales council and community a chance to express their view and wish on how this should be handled.  
 
@@ -48,7 +54,7 @@ CONs:
 ## Specification
 
 * On 26th of January set the unstaking cooldown to 1 minute thus giving everyone an option to unstake before migration
-* (To be finalized if council insists on this) Add an option to opt out of migration via message signing. If someone opts out we will send THALES to that address on L1
+* Add an option to opt out of migration via message signing. If someone opts out we will send THALES to that address on L1
 * Last period of staking on L1 ends on 2nd of February
 * After the last period is closed and final rewards are calculated into ongoing airdrop contract, we pause the following contracts on L1:  
     * Airdrop https://contracts.thalesmarket.io/mainnet/Airdrop
@@ -56,7 +62,8 @@ CONs:
     * StakingThales https://contracts.thalesmarket.io/mainnet/StakingThales
     * EscrowThales https://contracts.thalesmarket.io/mainnet/EscrowThales
 * Snapshots are taken for all of the above contracts
-* Snapshot Airdrop and Ongoing Airdrop balances will be summed up per wallet and made available on L2 in a new merkle tree contract
+* Airdrop of 137 will be made available on l2 to all that didnt claim it already, unless the address that did not claim is a contract, in which case it will still be claimable on L1.
+* All ongoing rewards are migrated to L2 using the same contract (ongoing airdrop), unless the address that did not claim is a contract, in which case it will still be claimable on L1.
 * Balances of Staking and Escrow are summed up per wallet and auto-staked on L2 if the said wallet was staking on l1
 * Balance of Escrow that wasnt staked on L1 will be directly sent to that wallet on l2
 * Important: If an address is a contract, it will not be migrated. All contracts will be able to claim their pending balances on L1.
@@ -66,9 +73,22 @@ CONs:
   * Destroy Escrow contract on L1
   * Airdrop contract on L1 can not be destroyed before Septembar 2022. It will remain paused until it can be destroyed
   * Ongoing contract on l1 can not be destroyed before a year passes since last merkle root update, which will be February 2023. It will remain paused until it can be destroyed
-* Each staker that doesnt have any ETH on L2 will get $10 worth of ETH during migration  
+* Each staker that doesnt have any ETH on L2 will get $10 worth of ETH during migration
 
-  
+Technical details:
+* OpTHALES will be deployed both on L1 and L2
+* 100m will be minted on L1 and sent to the treasury. For safety reason not all supply will be put in the Exchanger contract immediately, but the treasury will not use any OpTHALES unless it puts up collateral THALES in the Exchanger and user regular Exchanger methods to get OpTHALES
+* On l2 only the standard optimism bridge implementation can mint OpTHALES
+* Initially only the standard withdrawal with 7 days wait period can be used. There is no clear scenario while there would be a lot of reason to bridge to L1 other than arbing between THALES liquidity pools.  
+
+The following contracts will be deployed on L2:  
+* [ThalesExchanger](https://github.com/thales-markets/contracts/blob/main/contracts/exchange_L1_L2/ThalesExchanger.sol)
+* [OpTHALESL1](https://github.com/thales-markets/contracts/blob/main/contracts/Token/OpThales_L1.sol)
+* [OpTHALESL2](https://github.com/thales-markets/contracts/blob/main/contracts/Token/OpThales_L2.sol)
+* [StakingTHALES](https://github.com/thales-markets/contracts/blob/main/contracts/EscrowAndStaking/StakingThales.sol)
+* [EscrowTHALES](https://github.com/thales-markets/contracts/blob/main/contracts/EscrowAndStaking/EscrowThales.sol)
+* [OngoingAirdrop](https://github.com/thales-markets/contracts/blob/main/contracts/Airdrop/OngoingAirdrop.sol)
+* [Airdrop](https://github.com/thales-markets/contracts/blob/main/contracts/Airdrop/Airdrop.sol)
    
 
   
