@@ -30,7 +30,7 @@ Further improvements to staking can be formalized in additional TIPs.
 A THALES staker is staking 5200 THALES. Current APR is exactly 100% for base rewards so he is eligible to get 100 THALES as base rewards.  
 He can get an additional 30 THALES bonus if he meets the following criteria:
 - 15 THALES if he has at least 100 SNX staked at normalized cRatio. If he has less SNX staked he gets `amountSNXStaked/100 x 15`
-- 12 THALES if he did 1000 sUSD volume via AMM in last 4 period. If he did less he gets `amountTraded/100 x 12`
+- 12 THALES if he did 1000 sUSD volume via AMM in last 4 period. If he did less he gets `amountTraded/1000 x 12`
 - 3 THALES  if he played in the current or last Thales Royale. This is all or nothing bonus.
  
 ## Implementation
