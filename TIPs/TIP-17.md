@@ -20,7 +20,8 @@ Gamified THALES staking on Optimism Mainnet:
       - 50% based on SNX staking. If a THALES staker has at least 1 SNX staked per THALES he would receive as base reward, he gets maximum bonus, otherwise he gets proportional to the SNX he has staked   
       - 40% weight to AMM trading volume. If a THALES staker has at least 10 sUSD AMM volume in last 4 epochs per 1 THALES he gets as base reward, he gets maximum bonus in this category, otherwise he gets a bonus proportional to the average volume he generated in the last 4 epochs divided by the base THALES rewards he is eligible to receive.    
       - 10% weight if the staker participated in the last or ongoing Thales Royale. This value can be either 0 or max.
-       
+
+`Amount of SNX staked` is not a direct variable that can be fetched from Synthetix contracts given that cRatio fluctuates with SNX price movements. Instead, this TIP proposes to use a normalized SNX staked value that calculates the SNX staked based on the current amount of debt per wallet and its cRATIO.       
       
 On Optimism Mainnet rewards will have to be claimed weekly and be subject to same escrow rules as in the staking contract on Ethereum Mainnet.
 Further improvements to staking can be formalized in additional TIPs.
