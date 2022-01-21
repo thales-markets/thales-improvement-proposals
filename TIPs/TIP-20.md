@@ -67,7 +67,7 @@ CONs:
 * All ongoing rewards are migrated to L2 using the same contract (ongoing airdrop), unless the address that did not claim is a contract, in which case it will still be claimable on L1.
 * Balances of Staking and Escrow are summed up per wallet and auto-staked on L2 if the said wallet was staking on l1
 * Balance of Escrow that wasnt staked on L1 will be directly sent to that wallet on L2
-* If someone was in the unstaking cooldown, his balance will be sent directly to him on L1
+* If someone triggered unstaking, the unstaking balance will be sent directly to him on L1
 * Important: If an address is a contract, it will not be migrated. All contracts will be able to claim their pending balances on L1.
 * The migration might take hours to days. We'll make sure to check all the data as long as we need to until we are 100% comfortable to release the new balances on L2.
 * Once migration is done and new balances are available on L2:
