@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-22 | Extension of THALES/ETH LP rewards on L1 | Draft | slade (@slade45), padzank (@padzank)| Extend THALES rewards for THALES/ETH pair on DODO on L1 to allow for gradual transition towards Optimism L2 | https://discord.gg/rPpPcMXSeU | 2022-01-18
+| TIP-22 | Extension of THALES/ETH LP rewards on L1 | Vote Pending | slade (@slade45), padzank (@padzank)| Extend THALES rewards for THALES/ETH pair on DODO on L1 to allow for gradual transition towards Optimism L2 | https://discord.gg/rPpPcMXSeU | 2022-01-18
  
 ## Simple Summary
  
