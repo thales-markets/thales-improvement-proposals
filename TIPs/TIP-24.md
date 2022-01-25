@@ -16,6 +16,7 @@ In the TIP-10, that among other things formalized the second epoch of Thales Cou
 > Duration of 6 months is a relatively long epoch and it is not impossible that, for whatever reason, a council member is not able to tend to his duties. To ensure that the governance is fully operational without a single weak link, the active council members can make a decision that requires an unanimous vote (6 of 6) to replace the inactive member as they see fit.  
 
 > In case of an unanimous vote by the Thales Council to remove an inactive Council Member, this proposal also entails Thales Protocol DAO to remove the Thales Council NFT from the said inactive Council Member and send it to an address of the new Council Member that is chosen as a replacement by the council.  
+
 As the council member Orilla decided to step down from his position, the Thales Council unofficially agreed to replace him with the next nominee in line that is ramblers99. If this proposal gets a unanimous YES vote, this transition would be official and formalized.
  
 ## Specification
