@@ -64,7 +64,7 @@ CONs:
 * Snapshots are taken for all of the above contracts
 * Airdrop of 137 will be made available on l2 to all that didnt claim it already, unless the address that did not claim is a contract.
 * There are 119 contracts on L1 that did not claim the airdrop. Its unlikely those addresses will ever claim the airdrop, so the proposal is to leave that THALES 119*137 on stand by should anyone of those contract owners reach out with a desire to claim the airdrop. In such a case, we can confirm the address ownership and send 137 THALES directly.
-* All ongoing rewards are migrated to L2 using the same contract (ongoing airdrop), unless the address that did not claim is a contract, in which case it will still be claimable on L1.
+* All ongoing rewards are migrated to L2 using the same contract (ongoing airdrop), unless the address that did not claim is a contract, in which case it will be handled as described above.
 * Balances of Staking and Escrow are summed up per wallet and auto-staked on L2 if the said wallet was staking on l1
 * Balance of Escrow that wasnt staked on L1 will be directly sent to that wallet on L2
 * If someone triggered unstaking, the unstaking balance will be sent directly to him on L1
@@ -73,8 +73,8 @@ CONs:
 * Once migration is done and new balances are available on L2:
   * Destroy StakingThales contract on L1
   * Destroy Escrow contract on L1
+  * Destroy Ongoing airdrop contract on L1
   * Airdrop contract on L1 can not be destroyed before Septembar 2022. It will remain paused until it can be destroyed
-  * Ongoing contract on L1 can not be destroyed before a year passes since last merkle root update, which will be February 2023. It will remain paused until it can be destroyed
 * Each staker that doesnt have any ETH on L2 will get $10 worth of ETH during migration
 
 Technical details:
