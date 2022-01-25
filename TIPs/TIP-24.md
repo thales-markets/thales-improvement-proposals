@@ -21,7 +21,7 @@ As the council member Orilla decided to step down from his position, the Thales 
  
 ## Specification
  
- If this TIP gets voted in by unanimous YES vote, it would entail the Thales ProtocolDAO to remove TC-NFT from orilla.eth address and send it to Vote4S.eth address that ramblers99 is in control of. This would effectively give ramblers99 voting power on TIPs and thus formalize his role as new member of Thales Council.
+ If this TIP gets voted in by unanimous YES vote, it would entail the Thales ProtocolDAO to remove TC-NFT from `orilla.eth` address and send it to `Vote4S.eth` address that ramblers99 is in control of. This would effectively give ramblers99 voting power on TIPs and thus formalize his role as new member of Thales Council.
  
 ## Rationale
  
