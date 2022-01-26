@@ -14,6 +14,7 @@ Furthermore, this TIP aims to improve Thales Staking module by offering a gamifi
 ## Specification
 Thales wants to make DeFi feel like playing a game. Instead of having ad hoc incentives programs for each product rollout, Thales wants to try on ongoing approach that ties usage of the protocol to bonus rewards paid for staking THALES.
 
+
 Gamified THALES staking on Optimism Mainnet:
 - Base weekly rewards of 70k THALES
 - Introduce a bonus with a maximum value of 30% on top of base rewards that is calculated based on the following:  
