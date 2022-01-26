@@ -25,14 +25,15 @@ This TIP entails Thales Protocol DAO to support [Thales Royale contract](https:/
 
 Proposed format:  
 
-* The first 6 Thales Royale Events will be boosted with 1000 sUSD from the Thales Treasury.
+* The first 6 Thales Royale Events will be boosted with 1000 sUSD from the Thales Treasury as part of the pot (claimable for winners).
+* The first 6 Thales Royale Events will be be incentivized with 1000 THALES distributed directly to winners after each event 
 * Each Thales Royale will be played by speculating the price of ETH.
 * Each Thales Royale Event starts on a Monday, 16:00 UTC time on a biweekly basis (clarification: the next Thales Royale Event starts two weeks after the previous one).
 * Sign-up phase of each Royale to last for 3 days.
 * After Sign-up phase is over, each Thales Royale starts with total of 6 rounds with each round lasting 24h.
 * Each round has a 8h position phase and a 16h resolution phase.
-* Buy-in is to be set to 20 sUSD.
-* Each round has a 8h position phase and a 16h resolution phase.
+* Buy-in is to be set to 30 sUSD.
+* There is a possibility of a safe box and safe box percentage, which is set to 0% in the first six Royales. That percentage will be transferred from the buy-in amount to the safe box address and the rest of the sUSD will be added to the reward.
 * The price of ETH at the end of the 16h Resolution Phase is the result used for round resolution of the finished round and, at the same time, the starting Strike Price of the next round.
 * Within the 8h Positioning Phase, players have to signal if the ETH price will be higher or lower at the end of the current round than current round Strike Price. Players can change their position as many times as they want during the positioning phase.
 * If there is only a single person "alive" after a certain round, he is declared winner.
