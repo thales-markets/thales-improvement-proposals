@@ -45,6 +45,7 @@ Configurable variables for this TIP:
 - **max Thales Royale Participation Rewards Percentage** - the extra percentage added to the base reward due to Thales Royale participation (e.g., max 3% for Thales Royale participation in last and current season).
 
 ## Implementation
+https://github.com/thales-markets/contracts/blob/main/contracts/EscrowAndStaking/StakingThales.sol
 
 ## Copyright
  
