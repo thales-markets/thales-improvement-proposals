@@ -26,7 +26,7 @@ Currently, Gelato does not support automated rebalancing strategies for G-UNI po
 
 ## Specification
  
-  - This TIP entails the Thales Protocol DAO to use a `GUniFactory` contract to call the `createPool` function to create a manager-free, infinite range THALES/ETH pool with fixed parameters.
+  - This TIP entails the Thales Protocol DAO to use a `GUniFactory` contract and call the `createPool` function to create a manager-free, infinite range THALES/ETH G-UNI pool.
 
  - This TIP also entails the Thales Protocol DAO to deploy a staking contract that accepts G-UNI LP tokens of the newly created THALES/ETH G-UNI pool as deposits, and in return emits THALES token as reward pro rata, with inflation parameters being set to equal 35,000 THALES tokens per week for the duration of 10 weeks.
  
