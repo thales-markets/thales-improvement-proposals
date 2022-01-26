@@ -34,7 +34,15 @@ He can get an additional 30 THALES bonus if he meets the following criteria:
 - 15 THALES if he has at least 100 SNX staked at normalized cRatio. If he has less SNX staked he gets `amountSNXStaked/100 x 15`
 - 12 THALES if he did 1000 sUSD volume via AMM in last 4 period. If he did less he gets `amountTraded/1000 x 12`
 - 3 THALES  if he played in the current or last Thales Royale. This is all or nothing bonus.
- 
+
+## Configurable Variables
+Configurable variables for this TIP:
+
+- **max SNX Rewards Percentage** - the extra percentage added to the base reward due to SNX staking (e.g., max 15% added due to SNX staking).
+- **max AMM Volume Rewards Percentage** - the extra percentage added to the base reward due to AMM volume (e.g., max 12% added due to produced AMM volume in the last 4 epochs).
+- **max AMM Multiplier** - constant multiplier used to maintain the base rewards to AMM volume ratio (e.g., max extra rewards for stakers with *AMM volume >= multiplier x base reward*; )
+- **max Thales Royale Participation Rewards Percentage** - the extra percentage added to the base reward due to Thales Royale participation (e.g., max 3% for Thales Royale participation in last and current season).
+
 ## Implementation
 
 ## Copyright
