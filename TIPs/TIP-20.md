@@ -97,6 +97,11 @@ The following contracts will be deployed on L2:
 ## Test Cases
  
 ## Implementation
+https://github.com/thales-markets/contracts/tree/main/contracts/exchange_L1_L2
+https://github.com/thales-markets/contracts/blob/main/contracts/Token/OpThales_L1.sol
+https://github.com/thales-markets/contracts/blob/main/contracts/Token/OpThales_L2.sol
+Scripts:
+https://github.com/thales-markets/contracts/tree/main/scripts/THALES_migration
 
 ## Copyright
  
