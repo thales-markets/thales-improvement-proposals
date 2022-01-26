@@ -39,6 +39,7 @@ He can get an additional 30 THALES bonus if he meets the following criteria:
 Configurable variables for this TIP:
 
 - **max SNX Rewards Percentage** - the extra percentage added to the base reward due to SNX staking (e.g., max 15% added due to SNX staking).
+- **max SNX Multiplier** - constant multiplier used to maintain the base rewards to SNX staking ratio (e.g., max extra rewards for stakers with *SNX staking >= multiplier x base reward*; )
 - **max AMM Volume Rewards Percentage** - the extra percentage added to the base reward due to AMM volume (e.g., max 12% added due to produced AMM volume in the last 4 epochs).
 - **max AMM Multiplier** - constant multiplier used to maintain the base rewards to AMM volume ratio (e.g., max extra rewards for stakers with *AMM volume >= multiplier x base reward*; )
 - **max Thales Royale Participation Rewards Percentage** - the extra percentage added to the base reward due to Thales Royale participation (e.g., max 3% for Thales Royale participation in last and current season).
