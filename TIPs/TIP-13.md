@@ -42,6 +42,17 @@ Proposed format:
 * Thales Royale is now a seasonal event and users can navigate through past seasons. By default the current season is presented.
 * A “Thales Royale Event” describes the entirety of the sign-up phase, all 6 rounds (or less if all or all but 1 player gets eliminated before the end of round 6) and the final conclusion of the winner(s).  
 
+## Configurable Variables
+
+ - nextSeasonStartsAutomatically: for the first season property is false after is set to true, which means that any player after pauseBetweenSeasonsTime can start next royale season
+ - pauseBetweenSeasonsTime: time between royales (14 days by default)
+ - signUpPeriod: a period which payer has to sign up for royale (3 days by default)
+ - roundChoosingLength: a period which player has to choose a position (8 hours by default)
+ - roundLength: length of a round after that round can be closed (24 hours by default)
+ - priceFeed: price feed oracle address for getting asset price
+ - buyInAmount: buy-in amount which player needs to pay so he can sign in and play royale (30 sUSD by default)
+ - safeBoxPercentage: percentage which will go from buy-in amount into safebox address (0% by default in first six royale seasons)
+ - safeBox: address of a safebox which amounts from a buy-in will be sent to (no address by default)
 
 ## Test Cases
 
