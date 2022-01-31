@@ -18,12 +18,12 @@ With the recent introduction of the novel Thales AMM contract, users would also 
 
 ## Specification
 
-This TIP entails the Thales Protocol DAO to integrate the following Chainlink Optimism data feeds into the [PriceFeed.sol](https://github.com/thales-markets/contracts/blob/main/contracts/PriceFeed/PriceFeed.sol) contract and this way enable creation of markets around these assets:
+This TIP entails the Thales Protocol DAO to integrate the following Chainlink Optimism data feeds into Thales smart contracts and this way enable creation of markets around these assets:
 
  - AAVE/USD	(Proxy: 0x338ed6787f463394D24813b297401B9F05a8C9d1)
  - EUR/USD (Proxy: 0x3626369857A10CcC6cc3A6e4f5C2f5984a519F20)
  - SOL/USD (Proxy: 0xC663315f7aF904fbbB0F785c32046dFA03e85270)
- - UNI / USD (Proxy: 0x11429eE838cC01071402f21C219870cbAc0a59A0)
+ - UNI/USD (Proxy: 0x11429eE838cC01071402f21C219870cbAc0a59A0)
 
 ## Rationale
 
