@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-23 | Deployment of incentivised opTHALES/ETH G-UNI pool on Optimism  | Draft | padzank (@padzank) | Support THALES token migration to Optimism with an incentivized THALES/ETH G-UNI pool | https://discord.gg/rPpPcMXSeU | 2022-01-22
+| TIP-23 | Deployment of incentivised THALES/ETH G-UNI pool on Optimism  | Vote Pending | padzank (@padzank) | Support THALES token migration to Optimism with an incentivized THALES/ETH G-UNI pool | https://discord.gg/rPpPcMXSeU | 2022-01-22
  
 ## Simple Summary
  
