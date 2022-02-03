@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-17 | THALES L2 Gamified Staking| Vote Pending | Danijel (@dgornjakovic) | Define gamified THALES approach on L2| https://discord.gg/8bzFdpGTrp | 2021-12-29
+| TIP-17 | THALES L2 Gamified Staking| Implemented | Danijel (@dgornjakovic) | Define gamified THALES approach on L2| https://discord.gg/8bzFdpGTrp | 2021-12-29
  
 ## Simple Summary
  

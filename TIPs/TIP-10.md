@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-10 | Formalizing THALES token voting power, second Thales Council elections with expansion of Thales Council seats and other additional changes| Vote Pending| padzank (@padzank) | Formalizing THALES token voting power, second Thales Council elections with expansion of Thales Council seats and other additional changes | https://research.thales.io | 2021-12-08
+| TIP-10 | Formalizing THALES token voting power, second Thales Council elections with expansion of Thales Council seats and other additional changes| Implemented | padzank (@padzank) | Formalizing THALES token voting power, second Thales Council elections with expansion of Thales Council seats and other additional changes | https://research.thales.io | 2021-12-08
  
 ## Simple Summary
  

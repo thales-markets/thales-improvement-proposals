@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-15 | Adapt AMM parameter| Draft | Danijel (@dgornjakovic) | Adapt Thales AMM maximum skew impact | https://discord.gg/8bzFdpGTrp | 2021-12-16
+| TIP-15 | Adapt AMM parameter| Implemented | Danijel (@dgornjakovic) | Adapt Thales AMM maximum skew impact | https://discord.gg/8bzFdpGTrp | 2021-12-16
  
 ## Simple Summary
  

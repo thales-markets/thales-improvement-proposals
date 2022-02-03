@@ -2,7 +2,7 @@
  
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-21 | TWAP Price Feeds deployment | Draft | padzank (@padzank) | Deploy Optimism Uniswap V3 TWAP function in the PriceFeed.sol contract and enable market creation around the price feeds of Uniswap V3 pools on Optimism | https://discord.gg/rPpPcMXSeU | 2022-02-14
+| TIP-21 | TWAP Price Feeds deployment | Approved | padzank (@padzank) | Deploy Optimism Uniswap V3 TWAP function in the PriceFeed.sol contract and enable market creation around the price feeds of Uniswap V3 pools on Optimism | https://discord.gg/rPpPcMXSeU | 2022-02-14
  
 ## Simple Summary
  

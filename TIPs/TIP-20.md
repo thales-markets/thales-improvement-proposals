@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-20 | THALES token migration to l2| Vote Pending | Danijel (@dgornjakovic) | Details of THALES token migration to l2 | https://discord.gg/8bzFdpGTrp | 2022-01-01
+| TIP-20 | THALES token migration to l2| Implemented | Danijel (@dgornjakovic) | Details of THALES token migration to l2 | https://discord.gg/8bzFdpGTrp | 2022-01-01
  
 ## Simple Summary
 This TIP describes all the nuances of THALES token migration to L2

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-18 | Pause SNX based distribution | Draft | BigPlutus/BigPenny (@RealBigPenny) | Pause SNX based distribution in preparation of TIP-17 | https://discord.gg/8bzFdpGTrp | 2022-01-01
+| TIP-18 | Pause SNX based distribution | Implemented | BigPlutus/BigPenny (@RealBigPenny) | Pause SNX based distribution in preparation of TIP-17 | https://discord.gg/8bzFdpGTrp | 2022-01-01
  
 ## Simple Summary
 This TIP aims to pause the weekly SNX based THALES distribution until the community decided on a final draft for TIP-17 and the Thales Council approved it.

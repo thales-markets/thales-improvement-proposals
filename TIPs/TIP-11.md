@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-11 | Deploy an AMM implementation to ensure initial liquidity for Thales Markets on Optimism layer 2 | Vote Pending | Danijel (@dgornjakovic) | Describe the AMM contract that Thales would use to provide some out of the box liquidity to Thales Markets | https://discord.gg/8bzFdpGTrp | 2021-12-10
+| TIP-11 | Deploy an AMM implementation to ensure initial liquidity for Thales Markets on Optimism layer 2 | Implemented | Danijel (@dgornjakovic) | Describe the AMM contract that Thales would use to provide some out of the box liquidity to Thales Markets | https://discord.gg/8bzFdpGTrp | 2021-12-10
  
 ## Simple Summary
  

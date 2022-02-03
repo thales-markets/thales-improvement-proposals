@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-19 | AMM v0.2 | Draft | Danijel (@dgornjakovic) | Capture changes proposed for AMM v0.2  | https://discord.gg/8bzFdpGTrp | 2022-01-01
+| TIP-19 | AMM v0.2 | Implemented | Danijel (@dgornjakovic) | Capture changes proposed for AMM v0.2  | https://discord.gg/8bzFdpGTrp | 2022-01-01
  
 ## Simple Summary
 This TIP aims to summarize the proposed changes for AMM v0.2

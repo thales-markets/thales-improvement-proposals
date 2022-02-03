@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-12 | Deploy Thales protocol on Optimism Mainnet | Vote Pending | Danijel (@dgornjakovic) | Deploy and enable the suite of contracts pertaining to Thales protocol on Optimism Mainnet | https://discord.gg/8bzFdpGTrp | 2021-12-10
+| TIP-12 | Deploy Thales protocol on Optimism Mainnet | Implemented | Danijel (@dgornjakovic) | Deploy and enable the suite of contracts pertaining to Thales protocol on Optimism Mainnet | https://discord.gg/8bzFdpGTrp | 2021-12-10
  
 ## Simple Summary
  

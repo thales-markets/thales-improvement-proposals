@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-5 | Title | Draft | padzank (@padzank) | Create a budget for marketing, product growth and driving THALES liquidity | https://research.thales.io/t/tip-5-budget-for-marketing-product-growth-and-driving-thales-liquidity/43 | 2021-09-28
+| TIP-5 | Title | Implemented | padzank (@padzank) | Create a budget for marketing, product growth and driving THALES liquidity | https://research.thales.io/t/tip-5-budget-for-marketing-product-growth-and-driving-thales-liquidity/43 | 2021-09-28
 
 ## Simple Summary
 

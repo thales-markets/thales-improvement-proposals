@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-24 | Move Thales Council NFT from Orilla to ramblers99  | Vote Pending | padzank (@padzank)| Replace Orilla from Thales Council with ramblers99, who is next in line by election votes, by removing TC NFT from Orilla and sending it to ramblers99 | https://discord.gg/rPpPcMXSeU | 2022-01-25
+| TIP-24 | Move Thales Council NFT from Orilla to ramblers99  | Implemented | padzank (@padzank)| Replace Orilla from Thales Council with ramblers99, who is next in line by election votes, by removing TC NFT from Orilla and sending it to ramblers99 | https://discord.gg/rPpPcMXSeU | 2022-01-25
  
 ## Simple Summary
  

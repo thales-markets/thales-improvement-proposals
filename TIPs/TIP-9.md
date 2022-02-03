@@ -3,7 +3,7 @@ Formalizing Core Contributors THALES token allocation and respective rules
 
 | id  | Title | Status | Author | Description | Discussions to | Created |
 | --- | --- | --- | --- | --- | --- | --- |
-| TIP-9 | Formalizing Core Contributors THALES token allocation and respective rules | Vote Pending | Danijel (@Danijel), padzank (@padzank) | This TIP aims to formalize how a CC allocation vesting will work in detail and what are the rules for when a CC vesting can be interrupted | [https://research.thales.io](https://research.thales.io) | 2021-11-04 |
+| TIP-9 | Formalizing Core Contributors THALES token allocation and respective rules | Implemented | Danijel (@Danijel), padzank (@padzank) | This TIP aims to formalize how a CC allocation vesting will work in detail and what are the rules for when a CC vesting can be interrupted | [https://research.thales.io](https://research.thales.io) | 2021-11-04 |
 
 Simple Summary[#](#simple-summary "Direct link to heading")
 -----------------------------------------------------------

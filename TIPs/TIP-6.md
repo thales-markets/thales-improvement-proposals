@@ -1,6 +1,6 @@
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-6 | Title | Draft | padzank (@padzank) | Adapt ongoing THALES distribution ratio between L1 and L2 SNX stakers dynamically | https://research.thales.io | 2021-10-05
+| TIP-6 | Title | Implemented | padzank (@padzank) | Adapt ongoing THALES distribution ratio between L1 and L2 SNX stakers dynamically | https://research.thales.io | 2021-10-05
 
 ## Simple Summary
 

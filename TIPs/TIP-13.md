@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-13 | Thales Royale mainnet rollout| Vote Pending | Danijel (@dgornjakovic) | Deploy and support Thales Royale as a recurring event on Optimism Mainnet | https://discord.gg/8bzFdpGTrp | 2021-12-10
+| TIP-13 | Thales Royale mainnet rollout| Implemented | Danijel (@dgornjakovic) | Deploy and support Thales Royale as a recurring event on Optimism Mainnet | https://discord.gg/8bzFdpGTrp | 2021-12-10
  
 ## Simple Summary
  

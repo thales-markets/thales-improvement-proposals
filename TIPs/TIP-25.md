@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-25 | Integrate AAVE, SOL and UNI as available assets on Thales | Draft | padzank (@padzank)| Add AAVE, SOL and UNI price feeds from Chainlink to Thales on Optimism and enable market creation around those assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-01-31
+| TIP-25 | Integrate AAVE, SOL and UNI as available assets on Thales | Approved | padzank (@padzank)| Add AAVE, SOL and UNI price feeds from Chainlink to Thales on Optimism and enable market creation around those assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-01-31
  
 ## Simple Summary
  
