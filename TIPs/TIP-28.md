@@ -145,19 +145,19 @@ TBD
  
 ## Test Cases
  
-###Example1
+### Example1
 WalletA creates a market "Who will win the Super Bowl LVI", with positions `Rams` or `Bengals` and a `Fixed Ticket` type with 50 sUSD ticket.
 The market parameters are all correctly set (positioning ends before the game starts, strike is at least 5h after the game is scheduled to start).
 The creator resolves the market correctly within 24h hours. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
 
-###Example2
+### Example2
 WalletB creates a market "Will Lakers win the NBA Championship 2022-23" with positions `Yes` and `No`.   
 End of positioning is set at end of regular season.  
 
 While this market might look ok at first glance, it can be disputed because Lakers have not secured a play-off spot and thus the market might become obsolete before the end of positioning.  
 
 
-###Example3
+### Example3
 WalletC creates a market "How many goals will be scored in the match Liverpool vs Manchester United" with positions "0-2", "3-4" or "5+".  
 All dates are set correctly, end of positioning is before the match starts and market can be resolved 3h after the match start time.  
 The creator resolves the market correctly within 24h hours. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
