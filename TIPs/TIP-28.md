@@ -118,13 +118,13 @@ Resolving a market with this position will allow anyone who bid on the market to
 Once a market has been resolved, there is 24h window for anyone to raise a dispute on the market outcome.
 This dispute has to have a `reasonForDispute` string and the proposed winning position result.
  
-The Oracle council reviews the dispute and can decide the following:
-    - `Accept the dispute` in which case the market is now resolved with the proposed position within the dispute. Two subtypes are:
-        - `Accept the dispute and slash the resolver` The wallet that made the dispute gets the bond of the resolver. If the resolver is not the market creator, the market creator bond goes to the Oracle Council budget.
-        - `Accept the dispute but do not slash the resolver` The wallet that opened the dispute gets the bond from creator if the resolver was not the creator, or from the Oracle Council budget if the resolver was the creator.  
-    - `Refuse the dispute` with two sub-resolutions 
-        - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Oracle council budget 
-        - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back
+The Oracle council reviews the dispute and can decide the following:  
+- `Accept the dispute` in which case the market is now resolved with the proposed position within the dispute. Two subtypes are:  
+    - `Accept the dispute and slash the resolver` The wallet that made the dispute gets the bond of the resolver. If the resolver is not the market creator, the market creator bond goes to the Oracle Council budget.  
+    - `Accept the dispute but do not slash the resolver` The wallet that opened the dispute gets the bond from creator if the resolver was not the creator, or from the Oracle Council budget if the resolver was the creator.    
+- `Refuse the dispute` with two sub-resolutions   
+    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Oracle council budget   
+    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back  
 
 If 24h has passed since the market was resolved and at least 2h since the last dispute was closed, the market is formally resolved.   
 
