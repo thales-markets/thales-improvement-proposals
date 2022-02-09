@@ -94,13 +94,13 @@ Apart from disputes about not following the guidelines one can also raise a disp
 Oracle council is the body resolving the disputes. 
 An open dispute does not affect the market while its been processed (buy-in and positioning still goes on unaffected).
 
-Oracle council can choose the following options to resolve a dispute:
-- `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:
-    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator
-    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and additional 100 THALES from Oracle Council budget 
-- `Refuse the dispute` with two sub-resolutions 
-    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Oracle council budget 
-    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back
+Oracle council can choose the following options to resolve a dispute:  
+- `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
+    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  
+    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and additional 100 THALES from Oracle Council budget   
+- `Refuse the dispute` with two sub-resolutions   
+    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Oracle council budget   
+    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back  
     
 Bonds are intended to ensure good behaviour, but are not meant to be punitive. Its within the autonomy of Oracle Council to decide if there was irresponsibility of malice when deciding if a certain bond should be slashed.
 
