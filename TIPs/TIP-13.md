@@ -1,7 +1,8 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-13 | Thales Royale mainnet rollout| Implemented | Danijel (@dgornjakovic) | Deploy and support Thales Royale as a recurring event on Optimism Mainnet | https://discord.gg/8bzFdpGTrp | 2021-12-10
- 
+| TIP-13 | Thales Royale mainnet rollout| Implemented | Danijel (@danijelthales) | Deploy and support Thales Royale as a recurring event on Optimism Mainnet | https://discord.gg/8bzFdpGTrp | 2021-12-10
+| TIP-13 v1.1 | Thales Royale change contract| To be confirmed | gruja (@gruja.work) | Change of default position, sign up players on behalf of owners which did't position at first season first round | https://discord.com/channels/906484044915687464/939095931490549800 | 2022-02-09
+
 ## Simple Summary
  
 This TIP proposes to formalize inclusion of Thales Royale as part of Thales protocol offering. 
@@ -41,6 +42,13 @@ Proposed format:
 * Winners split the pot and can claim sUSD directly from the contract.
 * Thales Royale is now a seasonal event and users can navigate through past seasons. By default the current season is presented.
 * A “Thales Royale Event” describes the entirety of the sign-up phase, all 6 rounds (or less if all or all but 1 player gets eliminated before the end of round 6) and the final conclusion of the winner(s).  
+
+### Updated format (v1.1)
+
+Based on discussions and [community feedback](https://discord.com/channels/906484044915687464/939095931490549800) we added two points:
+
+* Adding possibility for a player to choose default position on a first round (UP or DOWN)
+* Adding possibility for owner of a contract to sign in players which didn't choose a position at first season first round
 
 ## Configurable Variables
 
