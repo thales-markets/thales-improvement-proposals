@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIPs/TIP-28.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-28.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="51">
-                <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+                <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret lean-forward="true" />
+              <first_editor relative-caret-position="608">
+                <caret line="170" selection-start-line="170" selection-end-line="170" />
               </first_editor>
               <second_editor />
             </state>
@@ -172,12 +172,12 @@
       <workItem from="1641651088148" duration="2151000" />
       <workItem from="1641824892838" duration="598000" />
       <workItem from="1641978795503" duration="18344000" />
-      <workItem from="1644331552544" duration="10740000" />
+      <workItem from="1644331552544" duration="12835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49143000" />
+    <option name="totallyTimeSpent" value="51238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -336,7 +336,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
-            <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -345,8 +345,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" />
+          <first_editor relative-caret-position="608">
+            <caret line="170" selection-start-line="170" selection-end-line="170" />
           </first_editor>
           <second_editor />
         </state>
