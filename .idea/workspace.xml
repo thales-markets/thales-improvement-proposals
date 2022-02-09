@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="316">
-                <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+              <first_editor relative-caret-position="336">
+                <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
               </first_editor>
               <second_editor />
             </state>
@@ -172,15 +172,15 @@
       <workItem from="1641651088148" duration="2151000" />
       <workItem from="1641824892838" duration="598000" />
       <workItem from="1641978795503" duration="18344000" />
-      <workItem from="1644331552544" duration="12968000" />
+      <workItem from="1644331552544" duration="14864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51371000" />
+    <option name="totallyTimeSpent" value="53267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
@@ -345,8 +345,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="316">
-            <caret line="103" column="4" lean-forward="true" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+          <first_editor relative-caret-position="336">
+            <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
           </first_editor>
           <second_editor />
         </state>

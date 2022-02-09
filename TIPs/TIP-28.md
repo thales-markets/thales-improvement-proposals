@@ -54,6 +54,9 @@ When creating a market the following parameters have to be provided:
           - `Open Bid`  
           - Placeholder for more types that will be in additional TIPs
 - Withdrawals allowed
+- An array of up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery. 
+
+The list of available tags is managed by Oracle Council. Examples are: Sports, Politics, Football, NBA, E-Sports, DeFi, Crypto...   
 
 As soon as a market is created it is considered in positioning phase and open to participants to bid and position.
 
@@ -65,7 +68,6 @@ Market creation will be reverted on contract side if the following is not adhere
 - There are a minimum of 2 positions and those are not blank
 - Length of positioning phase has to be at least 8h
 - Strike date is after end of positioning phase
-
 
 
 Every market must be created according to the following guidelines. Not adhering to these guidelines can be a subject of a dispute:
@@ -85,7 +87,7 @@ For `Fixed Ticket` market one wallet can buy only one ticket and choose a single
 For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position.
 
 ### Disputes in positioning phase
-Anyone can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 THALES as a bond.
+Anyone, that is not the market creator or a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 THALES as a bond.
 On raising the dispute, the person disputing the market inputs the reason for the dispute as string (up to 100 characters).  
 The number of open disputes on a market is not limited, but duplicating disputes can lead to a slash for the wallet raising the duplicated dispute.
 
@@ -109,7 +111,7 @@ Bonds are intended to ensure good behaviour, but are not meant to be punitive. I
 
 Once the market hits maturity phase the market creator has 24h to resolve a market.  
 
-If he fails to do so in the given time, the market is open for anyone to resolve the market, but that wallet has to put up 100 THALES bond.  
+If he fails to do so in the given time, the market is open for anyone to resolve the market (apart from Oracle Council members and the creator), but that wallet has to put up 100 THALES bond.  
 If there are no disputes to the outcome, the wallet that resolved the market gets the bond of the creator.
 
 In addition to all positions listed on the market creation, there is a default position available to select when resolving a market which is called `Cancelled`.  
@@ -163,6 +165,28 @@ All dates are set correctly, end of positioning is before the match starts and m
 The creator resolves the market correctly within 24h hours. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
 
 This is an example of a market with more than 2 positions, but only one position can be the winning one. 
+
+
+### General examples of markets that should not be created
+
+Any markets speculating on deaths in any form should be instantly disputed and slashed.  
+Any markets that community members could have inside info on, or otherwise be in a position to take advantage of non public info, should be instantly disputed and slashed.
+Any racism or discriminatory markets should be instantly disputed and slashed.
+
+Any market in which the outcome could be known before end of positioning, e.g. speculating on the number of ETH burned (this requires a different type of market to be defined in another TIP down the line).
+
+
+### General examples of markets that would be acceptable
+
+Winner of a sports match (positioning has to end before the match starts)
+Winner of a tournament (positioning has to end before the tournament starts)
+Speculating on asset prices or market caps is fine. Also speculating on their ratios (e.g. the flippening).
+Winner of political elections ((positioning has to end before the election starts).
+
+
+
+
+  
  
  
 ## Implementation
