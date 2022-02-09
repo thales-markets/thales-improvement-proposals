@@ -31,7 +31,13 @@ Based on discussions and [community feedback](https://discord.com/channels/90648
 NOTE: There will still be an option to opt-out from choosing a default position on the first round.
 
 ## Test Cases
- 
+
+- Sign Up on behalf with added owner address
+- Sign Up on behalf with no owner address
+- Sign up with position, no changing positions
+- Sign up with postition with changing positions after Royale started
+- Try to change Sign up with position before Royale started
+
 ## Implementation
  
 https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyale.sol
