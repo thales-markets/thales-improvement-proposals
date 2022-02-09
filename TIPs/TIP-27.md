@@ -4,7 +4,7 @@
 
 ## Simple Summary
  
-This TIP proposes change of [TIP-13](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-13.md) - Thales Royale. 
+This TIP proposes a change of [TIP-13](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-13.md) - Thales Royale. 
  
 ## Abstract
  
