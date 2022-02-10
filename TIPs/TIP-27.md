@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-27 | Thales Royale new features| Draft | gruja (@gruja.work), padzank(@padzank) | Implement default position choosing on Sign Up for Thales Royale and temporarily allow Protocol DAO to sign in addresses for the Thales Royale sponsored by the Treasury DAO | [discord url](https://discord.com/channels/906484044915687464/939095931490549800) | 2022-02-09
+| TIP-27 | Thales Royale new features| Vote Pending | gruja (@gruja.work), padzank(@padzank) | Implement default position choosing on Sign Up for Thales Royale and temporarily allow Protocol DAO to sign in addresses for the Thales Royale sponsored by the Treasury DAO | [discord url](https://discord.com/channels/906484044915687464/939095931490549800) | 2022-02-09
 
 ## Simple Summary
  
