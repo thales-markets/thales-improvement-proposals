@@ -44,14 +44,19 @@ Proposed specification:
 8. The Creator will be choosing the room type
    - OPEN - an open room is a room that will be open to everyone but with a limited number of players per Royale (a number which the Creator will set)
    - CLOSED - a closed room is a room that will be open only to people (addresses) which the Creator will specify and the max number of people in a closed room is 10 (Creator plus nine more)
+9. There is a possibility of a safe box and safe box percentage. That percentage will be transferred from the buy-in amount to the safe box address and the rest of the sUSD will be added to the reward.
 
 Proposed specification for room management:
 
 **NOTE: All below specification points are valid and enabled only until the first user is signed in, which means he accepted the condition.**
 
 1. Increasing/decreasing buy-in amount - The Creator will be able to increase buy-in amount or decrease it (decrease cannot be smaller than the minimum buy-in) until the first person has signed-up for his room.
-   - in the case of decreasing - the difference will be returned to the Creator and a new amount is set
-   - in the case of increasing - the difference  needs to be paid by the Creator and a new amount is set
+   - in the case of decreasing - the difference will be returned to the Creator and a new amount is set, if safebox percentage is set the that % amount will NOT be transfered back from safebox, just the difference between rewards.
+   Example:
+   Buy in is 100 sUSD with 2% safebox if creator decrease buy in to 50 sUSD return will be 49 sUSD (98 - 49, difference after safebox calculation)  
+   - in the case of increasing - the difference  needs to be paid by the Creator and a new amount is set, if safebox percentage is set that % amount will be transfered to safebox 
+   Example:
+   Buy in is 100 sUSD with 2% safebox if creator increase buy in to 200 sUSD and new 2 sUSD is put into safebox 
 2. Setting new round length - The Creator will be able to set new a round length. The round length must be greater than the minimal round length, and offset time between round length and choosing period is also checked
 4. Setting new sign up period - The Creator will be able to set a new sign up period, that period must be greater than the minimum period time
 5. Setting a new number of rounds - The Creator will be able to change the number of rounds as long as it is not smaller than the minimal number of rounds.
