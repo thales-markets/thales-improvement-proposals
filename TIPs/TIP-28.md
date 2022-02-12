@@ -105,12 +105,10 @@ Oracle council can choose the following options to resolve a dispute:
 - `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
     - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  minus 10 THALES which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
     - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in THALES up to 100 THALES from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
-- `Refuse the dispute` with two sub-resolutions   
-    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council find that the user that raised the dispute did so unjustifiably.   
-    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back. Oracle Council likely found there was enough reason to raise the dispute, but perhaps circumstances have changed and OC does not feel the market should be cancelled.
+- `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council finds that the user that raised the dispute did so unjustifiably.   
     
 When a dispute is accepted, all disputes raised after that dispute are cancelled and bonds are returned to those that raised them.
-Accepting a dispute starts a timelock of 4h in which Protocol DAO or Thales Council can step in as backstops and pause the market if they have doubts about the decision OC made. 
+Accepting a dispute starts a timelock of 4h in which Protocol DAO or Thales Council can step in as backstops and pause the market from being cancelled if they have doubts about the decision OC made. 
 
 When the 4h passes, users can claim their refunds from the market.
     
@@ -137,7 +135,7 @@ The Oracle council reviews the dispute and can decide the following:
 When Oracle Council accepts a dispute all subsequent disputes are closed and bonds are returned to those that raised them.
 If Oracle Council chose `Accepted the dispute and set a result` a timelock of 4h begins during which Protocol DAO or Thales Council can act as a backstop should they find the result set by the Oracle Council contentious.  
 
-If 24h has passed since the market was resolved or at least 4h since the last dispute was closed, the market is formally resolved and winners can start claiming their winnings.
+If 24h has passed since the market was resolved or at least 4h since a dispute was closed with `Accept the dispute and set a result`, the market is formally resolved and winners can start claiming their winnings.
 In case there are no winners, everyone can claim their initial bid minus the fees.
 
 If 48h have passed since the market could have been resolved in theory (per real life events) but no one submitted a request to resolve it, Oracle council may set a result themselves with a unanimous decision, in which case the creator bond is send to the Safe Box.     
