@@ -41,14 +41,14 @@ Thales Council needs to maintain the guidelines for market creation and keep act
 
 ### Market Creation   
 
-
 Anyone can create a market. When creating a market, the creator has to put up a bond of 100 THALES.  
+With this bond the creators commits to have created a market adhering to the guidelines and to submit a request to resolve a market no longer than 24h after the market is theoretically resolvable.  
+
 When creating a market the following parameters have to be provided:  
 - Market question (String up to 100 characters)
 - Market data sources (String up to 100 characters, can basically be a url linking to a page that will show the result on maturity)
 - An array of positions participants can assume (up to 5 positions supported of type String)
 - End of positioning phase (timestamp)
-- Strike date (timestamp)
 - Type:  
           - `Fixed Ticket` (same ticket price for anyone), needs amount to be specified  
           - `Open Bid`  
@@ -60,23 +60,28 @@ The list of available tags is managed by Oracle Council. Examples are: Sports, P
 
 As soon as a market is created it is considered in positioning phase and open to participants to bid and position.
 
-Each bid is subject to a total fee of 2%, out of which 1% goes to the market creator and 1% towards the Safe Box. The fees are only paid out in case of a successful market resolution.  
+Each bid is subject to a total fee of 3%, out of which 1% goes to the market creator, 1% to the market resolver and 1% towards the Safe Box. The fees are only paid out in case market is not cancelled.  
 If allowed, withdrawals are subject to a total 6% fee. 3% paid to the market creator and 3% towards Safe Box. These fees are paid within the withdrawal transactions.  
+
+
+Market creator can cancel the market at any time if there are no other bids but his/her own in the market pool.
 
 Market creation will be reverted on contract side if the following is not adhered to:
 - Market question is not blank   
+- Market data sources parameter is not blank
 - There are a minimum of 2 positions and those are not blank
 - Length of positioning phase has to be at least 8h
-- Strike date is after end of positioning phase
+- Market has at least one tag
 
 
 Every market must be created according to the following guidelines. Not adhering to these guidelines can be a subject of a dispute:
-- Market question has to be precise and free of any ambiguity
+- Market question has to be precise, written in English language and free of any ambiguity
 - The list of available positions has to be mutually fully exclusive and capture the full range of potential outcomes
 - End of positioning phase has to be at least 1h before the event actually starts
-- Strike date has to be at least 1h after the event is expected to end
 - The market question should not have an option to become obsolete or resolved before the end of positioning
 - No morbid, racist, death related markets or otherwise malicious markets are allowed and will be disputed and slashed
+- The market has to be linkable to at least one of the offered tags maintained by Oracle Council
+- No duplicated markets should be created. Its ok to create more markets around the same event, but with a different sentiment (different question and/or positions).  
 
 
 ### Positioning phase
@@ -87,51 +92,55 @@ For `Fixed Ticket` market one wallet can buy only one ticket and choose a single
 For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position.
 
 ### Disputes in positioning phase
-Anyone, that is not the market creator or a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 THALES as a bond.
+Anyone, that is not a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 THALES as a bond.
 On raising the dispute, the person disputing the market inputs the reason for the dispute as string (up to 100 characters).  
 The number of open disputes on a market is not limited, but duplicating disputes can lead to a slash for the wallet raising the duplicated dispute.
 
-Apart from disputes about not following the guidelines one can also raise a dispute for every onforeseen event that causes the market to become obsolete, e.g. a game is postponed. 
+Apart from disputes about not following the guidelines one can also raise a dispute for ant onforeseen event that causes the market to become obsolete, e.g. a game is postponed. 
 
 Oracle council is the body resolving the disputes. 
 An open dispute does not affect the market while its been processed (buy-in and positioning still goes on unaffected).
 
 Oracle council can choose the following options to resolve a dispute:  
 - `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
-    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  
-    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and additional 100 THALES from Oracle Council budget   
+    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  minus 10 THALES which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
+    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in THALES up to 100 THALES from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
 - `Refuse the dispute` with two sub-resolutions   
-    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Oracle council budget   
-    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back  
+    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council find that the user that raised the dispute did so unjustifiably.   
+    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back. Oracle Council likely found there was enough reason to raise the dispute, but perhaps circumstances have changed and OC does not feel the market should be cancelled.
+    
+When a dispute is accepted, all disputes raised after that dispute are cancelled and bonds are returned to those that raised them.
+Accepting a dispute starts a timelock of 4h in which Protocol DAO or Thales Council can step in as backstops and pause the market if they have doubts about the decision OC made. 
+
+When the 4h passes, users can claim their refunds from the market.
     
 Bonds are intended to ensure good behaviour, but are not meant to be punitive. Its within the autonomy of Oracle Council to decide if there was irresponsibility of malice when deciding if a certain bond should be slashed.
 
 
 ### Maturity phase
 
-Once the market hits maturity phase the market creator has 24h to resolve a market.  
-
-If he fails to do so in the given time, the market is open for anyone to resolve the market (apart from Oracle Council members and the creator), but that wallet has to put up 100 THALES bond.  
-If there are no disputes to the outcome, the wallet that resolved the market gets the bond of the creator.
+Once the market hits maturity phase anyone can submit a request to resolve the market with a certain outcome and a bond of 100 THALES.
+Market creator can also submit a request to resolve the market, but he doesnt need to submit a new bond, rather his initial bond is used in case of a dispute.
 
 In addition to all positions listed on the market creation, there is a default position available to select when resolving a market which is called `Cancelled`.  
-Resolving a market with this position will allow anyone who bid on the market to claim a full refund.  
+Resolving a market with this position will allow anyone who bid on the market to claim a full refund, just like per rules in positioning phase due to a cancellation.
 
-Once a market has been resolved, there is 24h window for anyone to raise a dispute on the market outcome.
-This dispute has to have a `reasonForDispute` string and the proposed winning position result.
+Once a market has been resolved, there is 24h window for anyone to raise a dispute on the market outcome with a bond of 100 THALES.
+This dispute has to have a `reasonForDispute` string.
  
 The Oracle council reviews the dispute and can decide the following:  
-- `Accept the dispute` in which case the market is now resolved with the proposed position within the dispute. Two subtypes are:  
-    - `Accept the dispute and slash the resolver` The wallet that made the dispute gets the bond of the resolver. If the resolver is not the market creator, the market creator bond goes to the Oracle Council budget.  
-    - `Accept the dispute but do not slash the resolver` The wallet that opened the dispute gets the bond from creator if the resolver was not the creator, or from the Oracle Council budget if the resolver was the creator.    
-- `Refuse the dispute` with two sub-resolutions   
-    - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Oracle council budget   
-    - `Refuse the dispute but do not slash the wallet that raised it` The wallet that made the dispute gets the bond back  
+- `Accept the dispute and set a result` in which case the resolver fee goes to the Safe Box.  
+- `Accept the dispute and reset market result` (in case OC believes it is not yet possible to resolve a market)  
+    Both cases lead to a slash for the resolver and the bond of the resolver, - 10 THALES which go to the Safe Box, goes to the wallet raising the dispute.  
+- `Refuse the dispute` the bond goes towards Safe Box  
 
-If 24h has passed since the market was resolved and at least 2h since the last dispute was closed, the market is formally resolved.   
+When Oracle Council accepts a dispute all subsequent disputes are closed and bonds are returned to those that raised them.
+If Oracle Council chose `Accepted the dispute and set a result` a timelock of 4h begins during which Protocol DAO or Thales Council can act as a backstop should they find the result set by the Oracle Council contentious.  
 
-Oracle council can not set the result of a market themselves, they can only accept a correct result from a dispute.
+If 24h has passed since the market was resolved or at least 4h since the last dispute was closed, the market is formally resolved and winners can start claiming their winnings.
+In case there are no winners, everyone can claim their initial bid minus the fees.
 
+If 48h have passed since the market could have been resolved in theory (per real life events) but no one submitted a request to resolve it, Oracle council may set a result themselves with a unanimous decision, in which case the creator bond is send to the Safe Box.     
 
 ### Oracle Council backstop
 Bonds serve as deterrent for bad actors while creating, resolving and disputing markets, but what if oracle council decides to collude?
@@ -149,8 +158,8 @@ TBD
  
 ### Example1
 WalletA creates a market "Who will win the Super Bowl LVI", with positions `Rams` or `Bengals` and a `Fixed Ticket` type with 50 sUSD ticket.
-The market parameters are all correctly set (positioning ends before the game starts, strike is at least 5h after the game is scheduled to start).
-The creator resolves the market correctly within 24h hours. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
+The market parameters are all correctly set. 
+The creator resolves the market himself and gets 2% of fees. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
 
 ### Example2
 WalletB creates a market "Will Lakers win the NBA Championship 2022-23" with positions `Yes` and `No`.   
@@ -161,8 +170,10 @@ While this market might look ok at first glance, it can be disputed because Lake
 
 ### Example3
 WalletC creates a market "How many goals will be scored in the match Liverpool vs Manchester United" with positions "0-2", "3-4" or "5+".  
-All dates are set correctly, end of positioning is before the match starts and market can be resolved 3h after the match start time.  
-The creator resolves the market correctly within 24h hours. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
+All dates are set correctly, end of positioning is before the match starts.  
+WalledD resolves the market correctly within 24h hours. There are no disputes in the following 24h so those that positioned on the winning side can redeed their winnings.
+
+WalletC gets 1% of fees and WalletD gets 1% of fees.
 
 This is an example of a market with more than 2 positions, but only one position can be the winning one. 
 
