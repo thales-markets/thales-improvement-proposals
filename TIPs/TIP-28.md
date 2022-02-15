@@ -25,11 +25,11 @@ All details of the framework are in specification section.
 ## Specification
 
 ### Thales Oracle Council 
-Form a Thales Oracle Council of 4 members elected by THALES stakers.  
+Form a Thales Oracle Council of 4 members elected by sUSD stakers.  
 The nominations and elections process as well as stipends are as established before for the Thales Council (1000 THALES per month).  
 First epoch will be shorter to align it with regular council epoch going forward, so it will end 30th of June 2022.    
 
-Thales Treasury DAO will fund Oracle Council multisig wallet with 10,000 THALES budget to be used to reward successful disputes.
+Thales Treasury DAO will fund Oracle Council multisig wallet with 10,000 sUSD budget to be used to reward successful disputes.
 
 
 ### Duties of Oracle Council
@@ -41,7 +41,7 @@ Thales Council needs to maintain the guidelines for market creation and keep act
 
 ### Market Creation   
 
-Anyone can create a market. When creating a market, the creator has to put up a bond of 100 THALES.  
+Anyone can create a market. When creating a market, the creator has to put up a bond of 100 sUSD.  
 With this bond the creators commits to have created a market adhering to the guidelines and to submit a request to resolve a market no longer than 24h after the market is theoretically resolvable.  
 
 When creating a market the following parameters have to be provided:  
@@ -92,7 +92,7 @@ For `Fixed Ticket` market one wallet can buy only one ticket and choose a single
 For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position.
 
 ### Disputes in positioning phase
-Anyone, that is not a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 THALES as a bond.
+Anyone, that is not a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 sUSD as a bond.
 On raising the dispute, the person disputing the market inputs the reason for the dispute as string (up to 100 characters).  
 The number of open disputes on a market is not limited, but duplicating disputes can lead to a slash for the wallet raising the duplicated dispute.
 
@@ -103,8 +103,8 @@ An open dispute does not affect the market while its been processed (buy-in and 
 
 Oracle council can choose the following options to resolve a dispute:  
 - `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
-    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  minus 10 THALES which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
-    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in THALES up to 100 THALES from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
+    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  minus 10 sUSD which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
+    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in sUSD up to 100 sUSD from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
 - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council finds that the user that raised the dispute did so unjustifiably.   
     
 When a dispute is accepted, all disputes raised after that dispute are cancelled and bonds are returned to those that raised them.
@@ -117,19 +117,19 @@ Bonds are intended to ensure good behaviour, but are not meant to be punitive. I
 
 ### Maturity phase
 
-Once the market hits maturity phase anyone can submit a request to resolve the market with a certain outcome and a bond of 100 THALES.
+Once the market hits maturity phase anyone can submit a request to resolve the market with a certain outcome and a bond of 100 sUSD.
 Market creator can also submit a request to resolve the market, but he doesnt need to submit a new bond, rather his initial bond is used in case of a dispute.
 
 In addition to all positions listed on the market creation, there is a default position available to select when resolving a market which is called `Cancelled`.  
 Resolving a market with this position will allow anyone who bid on the market to claim a full refund, just like per rules in positioning phase due to a cancellation.
 
-Once a market has been resolved, there is 24h window for anyone to raise a dispute on the market outcome with a bond of 100 THALES.
+Once a market has been resolved, there is 24h window for anyone to raise a dispute on the market outcome with a bond of 100 sUSD.
 This dispute has to have a `reasonForDispute` string.
  
 The Oracle council reviews the dispute and can decide the following:  
 - `Accept the dispute and set a result` in which case the resolver fee goes to the Safe Box.  
 - `Accept the dispute and reset market result` (in case OC believes it is not yet possible to resolve a market)  
-    Both cases lead to a slash for the resolver and the bond of the resolver, - 10 THALES which go to the Safe Box, goes to the wallet raising the dispute.  
+    Both cases lead to a slash for the resolver and the bond of the resolver, - 10 sUSD which go to the Safe Box, goes to the wallet raising the dispute.  
 - `Refuse the dispute` the bond goes towards Safe Box  
 
 When Oracle Council accepts a dispute all subsequent disputes are closed and bonds are returned to those that raised them.
@@ -145,7 +145,7 @@ Bonds serve as deterrent for bad actors while creating, resolving and disputing 
 Protocol DAO will maintain the possibility to pause either individual markets or all markets if it detects any suspicious behavious and inform Thales Council about malpractice of Oracle Council members.
 Thales Council can then choose to replace individual council members with the next candidate per voting tally, or call a new election if needed.
 
-Treasury DAO will set aside 500k THALES as insurance fund for all market participants.       
+Treasury DAO will set aside 500k sUSD as insurance fund for all market participants.       
        
 
 ## Rationale
