@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-29 |  Deployment of Thales Royale Pass Utility NFT| Draft | padzank(@padzank) | Deploy Thales Royale Pass NFTs to act as transferable Buy-Ins | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-02-20
+| TIP-29 |  Deployment of Thales Royale Pass Utility NFT| Draft | padzank(@padzank), gruja.work(@gruja.work) | Deploy Thales Royale Pass NFTs to act as transferable Buy-Ins | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-02-20
 
 ## Simple Summary
  
@@ -20,17 +20,45 @@ There are several clear benefits of having Thales Royale Pass NFTs.
  
 ## Specification
 
-This TIP entails the Protocol DAO to ...
+This TIP entails the Protocol DAO to create [NFT contract](https://github.com/thales-markets/contracts/tree/main/contracts/ThalesRoyale) which will be a representation of Thales Royale Pass.
 
-
+NFT contract contains:
+ - `mint` method which creates a new NFT and sends it to the recipient, who can then be used to sign in for Thales Royale, each minting is 30 sUSD (buy-in amount)
+ - `burnWithTransfer` method which is called from [Thales Royale contract](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyale.sol) only, this method will be called inside signUpWithPass method, after burning this NFT can not be used in the future.
+ - the contract will have paused flag which is set to `false` and can be set to `true` when needed, this will pause all future minting.
 
  This TIP additionally entails the Protocol DAO to remove the following reduntant method from the Thales Royale contract that served it's purpose for the elapsed Season II Round 1:
 
  - signUpOnBehalf(address player) external *onlyOwner*
 
+In the Thales Royale contract will be added two methods for signing in into Royale with Pass:
+
+ - `function signUpWithPass(uint passId) external playerCanSignUpWithPass(passId)` - Sign up with Royale pass without default position for first round
+ - `function signUpWithPassWithPosition(uint passId, uint position) external playerCanSignUpWithPass(passId)` - Sign up with Royale pass with default position for first round
+
+ For both methods, the buy-in amount will be transferred from NFT contract to the Thales Royale contract and included in the total prize money.
+
+## Configurable Variables
+
+Thales Royale Pass will have configurable variables
+
+- *price* - price is the amount of sUSD which minter will pay for the Thales Royale Pass, default is set to `30 sUSD`, this amount will be in sinc with buy-in amount in Thales Royale contract
+- *tokenURI* - is URI to an image of the NFT, which is changed if some of the functionality is changed 
+- *paused* - variable which allows NFT to be minted, the default value is `false`.
+
 ## Test Cases
 
+- mint NFT for yourself, NFT in wallet
+- mint NFT for another player, NFT in wallet
+- mint NFT transfer to another player and play royale, NFT burned
+- sign up with pass with position, play royale, NFT burned
+- sign up with pass without position, play royale, NFT burned
+- try to sign up with a pass from another player, expected to fail, failed
+
 ## Implementation
+
+- [Thales Royale Contract](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyale.sol)
+- [Thales Royale Pass Contract](https://github.com/thales-markets/contracts/tree/main/contracts/ThalesRoyale)
  
 ## Copyright
  
