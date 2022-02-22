@@ -47,8 +47,9 @@ Third architectual change is to adapt the SafeBox contract to the previously men
  - - Cost for buyer using the **old method** - 0.2 + 0.2*10% = **0.22 sUSD**
  - - Cost for buyer using the **new method** - 0.2 + (1-0.2)*10% = **0.28 sUSD**  
  - - Potential profit using the **old method** - **0.78 sUSD**
- - - Potential profit using the **new method** - **0.72 sUSD**
+ - - Potential profit using the **new method** - **0.72 sUSD**  
 
+  
 - - **Example #2**
  - - Algorigthm Price of Positional Token - 0.8 sUSD
  - - Skew Impact - 10%
