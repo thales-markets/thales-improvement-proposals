@@ -16,7 +16,11 @@ Initial deployment of the Thales AMM contract introduced a solution for on-deman
  
 - **Decouple SafeBox impact from the Skew Impact calculation** by introducing it to the final pricing, instead of adding it to the Skew Impact at initial trade calculations.
  
-**With these core changes and optimizations allowing for it, this TIP additionally proposes to significantly increase Positional Token supported price range ( from 0.1 <-> 0.9 to 0.05 <-> 0.95 ), significantly increase allowed sUSD risk per market for the AMM and thus offer deeper liquidity per market (from 7k to 10k sUSD risk per market), increase Skew Impact total range (from 1%<->12% to 2%<->20%) and significantly decrease the timing of the AMM trading halt close to respective Market Maturity (from 24h to 8h before Market Maturity).**
+With these core changes and optimizations allowing for it, this TIP additionally proposes:  
+ - Increase Positional Token supported price range -  from 0.1 <-> 0.9 to **0.05 <-> 0.95**
+ - Increase allowed sUSD risk per market for the AMM and thus offer deeper liquidity per market - from 7k to **10k sUSD** risk per market
+ - Increase Skew Impact total range - from 1% <-> 12% to **2%<->20%**
+ - Decrease the timing of the AMM trading halt close to respective Market Maturity - from 24h to **8h before Market Maturity**
  
 ## Motivation
  
