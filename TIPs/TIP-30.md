@@ -39,7 +39,7 @@ Third architectual change is to adapt the SafeBox contract to the previously men
 
 ## Test Cases
 
- - Buyer Skew Impact change examples:  
+### Buyer Skew Impact change examples:  
 
 **Example #1**
  - - Algorithm Price of Positional Tokens - 0.2 sUSD
