@@ -44,18 +44,34 @@ Third architectual change is to adapt the SafeBox contract to the previously men
 **Example #1**
  - - Algorithm Price of Positional Tokens - 0.2 sUSD
  - - Skew Impact - 10%
- - - Cost for buyer using the **old method** - 0.2 + 0.2*10% = **0.22 sUSD**
+ - - Cost for buyer using the **old method** - 0.2 + 0.2*10% = 0.22 sUSD
  - - Cost for buyer using the **new method** - 0.2 + (1-0.2)*10% = **0.28 sUSD**  
- - - Potential profit using the **old method** - **0.78 sUSD**
- - - Potential profit using the **new method** - **0.72 sUSD**  
+ - - Potential profit using the **old method** - 0.78 sUSD
+ - - Potential profit using the **new method** - **0.72 sUSD**
+ - - Potential profit if you mint and sell the other side to the AMM using the **old method** - 0.72 sUSD
+ - - Potential profit if you mint and sell the other side to the AMM using the **new method** - **0.72 sUSD**
+
+ **Example #2**
+ - - Algorithm Price of Positional Tokens - 0.5 sUSD
+ - - Skew Impact - 10%
+ - - Cost for buyer using the **old method** - 0.2 + 0.5*10% = 0.55 sUSD
+ - - Cost for buyer using the **new method** - 0.2 + (1-0.5)*10% = **0.55 sUSD**  
+ - - Potential profit for the buyer using the **old method** - 0.45 sUSD
+ - - Potential profit for the buyer using the **new method** - **0.45 sUSD**
+ - - Potential profit if you mint and sell the other side to the AMM using the **old method** - 0.45 sUSD
+ - - Potential profit if you mint and sell the other side to the AMM using the **new method** - **0.45 sUSD**
   
-**Example #2**
+**Example #3**
  - - Algorigthm Price of Positional Token - 0.8 sUSD
  - - Skew Impact - 10%
- - - Total cost for buyer using the **old method** - 0.8 + 0.8*10% = **0.88 sUSD**
+ - - Total cost for buyer using the **old method** - 0.8 + 0.8*10% = 0.88 sUSD
  - - Total cost for buyer using the **new method** - 0.8 + (1-0.8)*10% = **0.82 sUSD**
- - - Potential profit using the **old method** - **0.12 sUSD**
- - - Potential profit using the **new method** - **0.18 sUSD**
+ - - Potential profit for the buyer using the **old method** - 0.12 sUSD
+ - - Potential profit for the buyer using the **new method** - **0.18 sUSD**
+ - - Potential profit if you mint and sell the other side to the AMM using the **old method** - 0.18 sUSD
+ - - Potential profit if you mint and sell the other side to the AMM using the **new method** - **0.18 sUSD**
+
+
 
 ## Implementation
 
