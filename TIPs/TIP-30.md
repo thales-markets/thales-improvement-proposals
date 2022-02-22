@@ -40,18 +40,22 @@ Third architectual change is to adapt the SafeBox contract to the previously men
 ## Test Cases
 
  - Buyer Skew Impact change examples:  
- 
-Example #1
- - - Algorithm Price of Positional Token - 0.2 sUSD
- - - Skew Impact - 10%
- - - Total cost for buyer using the old design - 0.2 + 0.2*10% = **0.22 sUSD**
- - - Total cost for buyer using the new design - 0.2 + (1-0.2)*10% = **0.28 sUSD**  
 
-Example #2
+ - - **Example #1**
+ - - Algorithm Price of Positional Tokens - 0.2 sUSD
+ - - Skew Impact - 10%
+ - - Cost for buyer using the **old method** - 0.2 + 0.2*10% = **0.22 sUSD**
+ - - Cost for buyer using the **new method** - 0.2 + (1-0.2)*10% = **0.28 sUSD**  
+ - - Potential profit using the **old method** - **0.78 sUSD**
+ - - Potential profit using the **new method** - **0.72 sUSD**
+
+- - **Example #2**
  - - Algorigthm Price of Positional Token - 0.8 sUSD
  - - Skew Impact - 10%
- - - Total cost for buyer using the old design - 0.8 + 0.8*10% = **0.88 sUSD**
- - - Total cost for buyer using the new design - 0.8 + (1-0.8)*10% = **0.82 sUSD**
+ - - Total cost for buyer using the **old method** - 0.8 + 0.8*10% = **0.88 sUSD**
+ - - Total cost for buyer using the **new method** - 0.8 + (1-0.8)*10% = **0.82 sUSD**
+ - - Potential profit using the **old method** - **0.12 sUSD**
+ - - Potential profit using the **new method** - **0.18 sUSD**
 
 ## Implementation
 
