@@ -25,7 +25,7 @@ All details of the framework are in specification section.
 ## Specification
 
 ### Thales Oracle Council 
-Form a Thales Oracle Council of 4 members elected by sUSD stakers.  
+Form a Thales Oracle Council of 5 members elected by THALES stakers.  
 The nominations and elections process as well as stipends are as established before for the Thales Council (1000 THALES per month).  
 First epoch will be shorter to align it with regular council epoch going forward, so it will end 30th of June 2022.    
 
@@ -34,7 +34,7 @@ Thales Treasury DAO will fund Oracle Council multisig wallet with 10,000 sUSD bu
 
 ### Duties of Oracle Council
 Oracle Council has to resolve raised disputes during a market positioning or maturity phase.
-The oracle council does this by having 3 out of 4 members opt for the same resolution on the smart contract directly.  
+The oracle council does this by having 3 out of 5 members opt for the same resolution on the smart contract directly.  
 Oracle Council commits to resolve disputes within 24h, otherwise the council as a whole or individual members could be relieved at the discretion of Thales council.  
 
 Thales Council needs to maintain the guidelines for market creation and keep active communication with community asking for feedback about potential markets to create.
@@ -138,11 +138,14 @@ If Oracle Council chose `Accepted the dispute and set a result` a timelock of 4h
 If 24h has passed since the market was resolved or at least 4h since a dispute was closed with `Accept the dispute and set a result`, the market is formally resolved and winners can start claiming their winnings.
 In case there are no winners, everyone can claim their initial bid minus the fees.
 
-If 48h have passed since the market could have been resolved in theory (per real life events) but no one submitted a request to resolve it, Oracle council may set a result themselves with a unanimous decision, in which case the creator bond is send to the Safe Box.     
+If 48h have passed since the market could have been resolved in theory (per real life events) but no one submitted a request to resolve it, Oracle council may set a result themselves with a 4/5 decision, in which case the creator bond is sent to the Safe Box.  
+This commences the timelock of 4h before the funds are claimable from the market.     
 
 ### Oracle Council backstop
 Bonds serve as deterrent for bad actors while creating, resolving and disputing markets, but what if oracle council decides to collude?
 Protocol DAO will maintain the possibility to pause either individual markets or all markets if it detects any suspicious behavious and inform Thales Council about malpractice of Oracle Council members.
+To ensure a swift reaction any of the Protocol DAO signers or Thales Council members will have the possibility to pause a market, but unpause can only be done via the Protocol DAO multisig.  
+
 Thales Council can then choose to replace individual council members with the next candidate per voting tally, or call a new election if needed.
 
 Treasury DAO will set aside 500k sUSD as insurance fund for all market participants.       
