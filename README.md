@@ -37,4 +37,4 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP_29 | [Deployment of Thales Royale Pass Utility NFT](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-29.md) | Implemented |
 | TIP_30 | [Thales AMM token pricing and skew impact core improvements and parameter changes](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-30.md) | Draft |
 | TIP_31 | [Increase of THALES/WETH G-UNI LP rewards and deployment of Olympus Pro bond on Optimism L2	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-31.md) | Implemented |
-| TIP_32 | [Closing airdrop claims windown](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-32.md) | Approved |
+| TIP_32 | [Closing airdrop claiming window](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-32.md) | Approved |
