@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-33 | Formalize the new DAO token | Draft | padzank (@padzank) | Formalize the new DAO token and this way support future token related processes such as CEX listings, fast-bridge integrations and similar  | https://discord.gg/8bzFdpGTrp | 2022-03-10
+| TIP-33 | Formalize the new DAO token | Vote Pending | padzank (@padzank) | Formalize the new DAO token and this way support future token related processes such as CEX listings, fast-bridge integrations and similar  | https://discord.gg/8bzFdpGTrp | 2022-03-10
  
 ## Simple Summary
 This TIP aims to formalize the new DAO token and this way support future processes of CEX listings, fast bridging integrations and similar.
