@@ -152,7 +152,24 @@ To ensure a swift reaction any of the Protocol DAO signers or Thales Council mem
 Thales Council can then choose to replace individual council members with the next candidate per voting tally, or call a new election if needed.
 
 Treasury DAO will set aside 500k sUSD as insurance fund for all market participants.       
-       
+
+### Table of dispute states and actions
+
+| State / Disputes | ACCEPT & SLASH | ACCEPT NO SLASH | REFUSE ON POSITIONING | ACCEPT & RESULT | ACCEPT & RESET | REFUSE |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Description | Accept the dispute and slash the creator | Accept the dispute but do not slash the creator | Refuse the dispute and slash the wallet that raised it | Accept the dispute and set a result | Accept the dispute and reset market result | Refuse the dispute |
+| Phase | POSITIONING | POSITIONING | POSITIONING | MATURE | MATURE | MATURE |
+| Creator fee | to Disputor minus 10 sUSD to SafeBox | to Creator | - | - | - | - |
+| Resolver fee | - | - | - | to SafeBox | to Disputor minus 10 sUSD to SafeBox | - |
+| Disputor fee | to Disputor + (Creator fee - 10sUSD) | to Disputor + (reward from: 10 to 100 sUSD) | to SafeBox | to Disputor | to Disputor + (Resolver fee - 10sUSD) | to SafeBox |
+| Funds to SafeBox | 10 sUSD | - | Disputor fee | Resolver fee | 10 sUSD | Disputor Fee |
+| Backstop timer | 4 h | 4 h | - | 4 h | 4 h | - |
+| Market closed for disputes | CLOSED | CLOSED | OPEN | CLOSED | OPEN | OPEN |
+| Disputors can clain back open dispute fees | Claimable | Claimable | Not Claimable | Claimable | Not Claimable | Not Claimable |
+| Market cancelled | Yes | Yes | No | No | No | No |
+| Market resolved | Yes | Yes | No | Yes | No | No |
+| Funds claimable | Market cancelled, deposited funds claimable | Market cancelled, deposited funds claimable | 24h after Market is resolved | Market reset, 4h after Dispute closure | 24h after Market is resolved | 24h after Market is resolved |
+
 
 ## Rationale
  
