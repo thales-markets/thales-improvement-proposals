@@ -161,8 +161,9 @@ Treasury DAO will set aside 500k sUSD as insurance fund for all market participa
 | Phase | POSITIONING | POSITIONING | POSITIONING | MATURE | MATURE | MATURE |
 | Creator fee | to Disputor minus 10 sUSD to SafeBox | to Creator | - | - | - | - |
 | Resolver fee | - | - | - | to SafeBox | to Disputor minus 10 sUSD to SafeBox | - |
-| Disputor fee | to Disputor + (Creator fee - 10sUSD) | to Disputor + (reward from: 10 to 100 sUSD) | to SafeBox | to Disputor | to Disputor + (Resolver fee - 10sUSD) | to SafeBox |
+| Disputor fee | to Disputor + (Creator fee - 10sUSD) | to Disputor + (reward from: 10 to 100 sUSD) | to SafeBox | to Disputor | to Disputor + (Resolver fee - 10 sUSD) | to SafeBox |
 | Funds to SafeBox | 10 sUSD | - | Disputor fee | Resolver fee | 10 sUSD | Disputor Fee |
+| Disputor additional reward | - | up to 100 sUSD | - | - | - | - |
 | Backstop timer | 4 h | 4 h | - | 4 h | 4 h | - |
 | Market closed for disputes | CLOSED | CLOSED | OPEN | CLOSED | OPEN | OPEN |
 | Unsolved Open Disputes -> dispute fees claimable | Claimable | Claimable | Not Claimable | Claimable | Not Claimable | Not Claimable |
