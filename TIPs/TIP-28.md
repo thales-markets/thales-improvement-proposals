@@ -165,7 +165,7 @@ Treasury DAO will set aside 500k sUSD as insurance fund for all market participa
 | Funds to SafeBox | 10 sUSD | - | Disputor fee | Resolver fee | 10 sUSD | Disputor Fee |
 | Backstop timer | 4 h | 4 h | - | 4 h | 4 h | - |
 | Market closed for disputes | CLOSED | CLOSED | OPEN | CLOSED | OPEN | OPEN |
-| Disputors can clain back open dispute fees | Claimable | Claimable | Not Claimable | Claimable | Not Claimable | Not Claimable |
+| Unsolved Open Disputes -> dispute fees claimable | Claimable | Claimable | Not Claimable | Claimable | Not Claimable | Not Claimable |
 | Market cancelled | Yes | Yes | No | No | No | No |
 | Market resolved | Yes | Yes | No | Yes | No | No |
 | Funds claimable | Market cancelled, deposited funds claimable | Market cancelled, deposited funds claimable | 24h after Market is resolved | Market reset, 4h after Dispute closure | 24h after Market is resolved | 24h after Market is resolved |
