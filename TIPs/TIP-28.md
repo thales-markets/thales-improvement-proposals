@@ -120,9 +120,6 @@ If Oracle Council chose `Accepted the dispute and set a result` a timelock of 4h
 If 24h has passed since the market was resolved or at least 4h since a dispute was closed with `Accept the dispute and set a result`, the market is formally resolved and winners can start claiming their winnings.
 In case there are no winners, everyone can claim their initial bid minus the fees.
 
-If 48h have passed since the market could have been resolved in theory (per real life events) but no one submitted a request to resolve it, Oracle council may set a result themselves with a 4/5 decision, in which case the creator bond is sent to the Safe Box.  
-This commences the timelock of 4h before the funds are claimable from the market.     
-
 ### Oracle Council backstop
 Bonds serve as deterrent for bad actors while creating, resolving and disputing markets, but what if oracle council decides to collude?
 Protocol DAO will maintain the possibility to pause either individual markets or all markets if it detects any suspicious behavious and inform Thales Council about malpractice of Oracle Council members.

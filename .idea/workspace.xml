@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="186">
-                <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+              <first_editor relative-caret-position="136">
+                <caret line="122" selection-start-line="122" selection-end-line="122" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,12 +190,12 @@
       <workItem from="1646597912354" duration="1124000" />
       <workItem from="1646821281000" duration="597000" />
       <workItem from="1647821394908" duration="585000" />
-      <workItem from="1648113542992" duration="3444000" />
+      <workItem from="1648113542992" duration="4054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67604000" />
+    <option name="totallyTimeSpent" value="68214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -401,8 +401,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="186">
-            <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+          <first_editor relative-caret-position="136">
+            <caret line="122" selection-start-line="122" selection-end-line="122" />
           </first_editor>
           <second_editor />
         </state>
