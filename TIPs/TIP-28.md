@@ -40,8 +40,8 @@ When creating a market the following parameters have to be provided:
 - An array of positions participants can assume (up to 8 positions supported of type String)
 - End of positioning phase (timestamp)
 - Type:  
-          - `Fixed Ticket` (same ticket price for anyone, min 30 sUSD), needs amount to be specified  
-          - `Open Bid`  (min 30sUSD)
+          - `Fixed Ticket` (same ticket price for anyone, min 10 sUSD), needs amount to be specified  
+          - `Open Bid`  (min 10 sUSD)
           - Placeholder for more types that will be in additional TIPs
 - Withdrawals allowed (if allowed can be made only up to 24h before positioning ends)
 - An array of up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery. 
