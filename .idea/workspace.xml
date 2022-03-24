@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="75" column="96" selection-start-line="75" selection-start-column="96" selection-end-line="75" selection-end-column="96" />
+              <first_editor relative-caret-position="255">
+                <caret line="45" selection-start-line="45" selection-end-line="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,12 +190,12 @@
       <workItem from="1646597912354" duration="1124000" />
       <workItem from="1646821281000" duration="597000" />
       <workItem from="1647821394908" duration="585000" />
-      <workItem from="1648113542992" duration="4497000" />
+      <workItem from="1648113542992" duration="4897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68657000" />
+    <option name="totallyTimeSpent" value="69057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -221,7 +221,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.28277355" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.27952328" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -401,8 +401,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-28.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="75" column="96" selection-start-line="75" selection-start-column="96" selection-end-line="75" selection-end-column="96" />
+          <first_editor relative-caret-position="255">
+            <caret line="45" selection-start-line="45" selection-end-line="45" />
           </first_editor>
           <second_editor />
         </state>

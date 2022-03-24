@@ -43,6 +43,7 @@ When creating a market the following parameters have to be provided:
           - `Fixed Ticket` (same ticket price for anyone, min 10 sUSD), needs amount to be specified  
           - `Open Bid`  (min 10 sUSD)
           - Placeholder for more types that will be in additional TIPs
+- Creator's initial amount and position (creator has to put up at least the minimum 10 sUSD into a single position)
 - Withdrawals allowed (if allowed can be made only up to 24h before positioning ends)
 - An array of up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery. 
 
