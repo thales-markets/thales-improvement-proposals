@@ -33,7 +33,7 @@ Oracle Council needs to maintain the guidelines for market creation and keep act
 
 Oracle Council maintains a list of tags which can be assigned on markets.  
 
-### Initial Guidelines
+### Initial Guidelines for market creation
 Every market must be created according to the following guidelines. The list of guidelines is preliminary and after Oracle Council is voted in its their duty to complement it and update it as new edge cases are discovered.  
 Not adhering to these guidelines can be a subject of a dispute:
 - Market question has to be precise, written in English language and free of any ambiguity
@@ -48,7 +48,7 @@ Not adhering to these guidelines can be a subject of a dispute:
 - No duplicated markets should be created. Its ok to create more markets around the same event, but with a different sentiment (different question and/or positions).  
 
 
-### Initial Tags
+### Initial Tags available for market creation
 - Sport
 - Politics
 - Crypto
