@@ -72,9 +72,8 @@ During the positioning phase participants pay the fixed entry bid in case of `Fi
 
 For `Fixed Ticket` market one wallet can buy only one ticket and choose a single position. The position can be changed during positioning phase as many times as that participant wishes.  
 
-For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position.  
+For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position.
 
-Withdrawas (if enabled) and repositioning can only be executed up until 8h to positioning end.  
 
 ### Disputes in positioning phase
 Anyone, that is not a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 sUSD as a bond.
