@@ -25,19 +25,9 @@ All details of the framework are in specification section.
 ## Specification
 
 ### Thales Oracle Council 
-Form a Thales Oracle Council of 5 members elected by THALES stakers.  
-The nominations and elections process as well as stipends are as established before for the Thales Council (1000 THALES per month).  
-First epoch will be shorter to align it with regular council epoch going forward, so it will end 30th of June 2022.    
-
-Thales Treasury DAO will fund Oracle Council multisig wallet with 10,000 sUSD budget to be used to reward successful disputes.
-
+Thales Oracle Council is described in TIP-35.
 
 ### Duties of Oracle Council
-Oracle Council has to resolve raised disputes during a market positioning or maturity phase.
-The oracle council does this by having 3 out of 5 members opt for the same resolution on the smart contract directly.  
-Oracle Council commits to resolve disputes within 24h, otherwise the council as a whole or individual members could be relieved at the discretion of Thales council.  
-
-Thales Council needs to maintain the guidelines for market creation and keep active communication with community asking for feedback about potential markets to create.
 
 ### Market Creation   
 
@@ -45,15 +35,15 @@ Anyone can create a market. When creating a market, the creator has to put up a 
 With this bond the creators commits to have created a market adhering to the guidelines and to submit a request to resolve a market no longer than 24h after the market is theoretically resolvable.  
 
 When creating a market the following parameters have to be provided:  
-- Market question (String up to 100 characters)
-- Market data sources (String up to 100 characters, can basically be a url linking to a page that will show the result on maturity)
-- An array of positions participants can assume (up to 5 positions supported of type String)
+- Market question (String up to 200 characters)
+- Market data sources (String up to 200 characters, can basically be a url linking to a page that will show the result on maturity)
+- An array of positions participants can assume (up to 8 positions supported of type String)
 - End of positioning phase (timestamp)
 - Type:  
-          - `Fixed Ticket` (same ticket price for anyone), needs amount to be specified  
-          - `Open Bid`  
+          - `Fixed Ticket` (same ticket price for anyone, min 30 sUSD), needs amount to be specified  
+          - `Open Bid`  (min 30sUSD)
           - Placeholder for more types that will be in additional TIPs
-- Withdrawals allowed
+- Withdrawals allowed (if allowed can be made only up to 24h before positioning ends)
 - An array of up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery. 
 
 The list of available tags is managed by Oracle Council. Examples are: Sports, Politics, Football, NBA, E-Sports, DeFi, Crypto...   
@@ -74,18 +64,7 @@ Market creation will be reverted on contract side if the following is not adhere
 - Market has at least one tag
 
 
-Every market must be created according to the following guidelines. Not adhering to these guidelines can be a subject of a dispute:
-- Market question has to be precise, written in English language and free of any ambiguity
-- Market has to be mainstream and verifiable via data sources parameter.
-- The list of available positions has to be mutually fully exclusive and capture the full range of potential outcomes
-- End of positioning phase has to be before the event actually starts
-- End of positioning must not be more than 1 month into the future
-- Market resolution/question should not be more than 2 months into the future
-- The market must not be theoretically resolvable with any of the offered positions before the end of positioning
-- No morbid, racist, death related markets or otherwise malicious markets are allowed and will be disputed and slashed
-- The market has to be linkable to at least one of the offered tags maintained by Oracle Council
-- No duplicated markets should be created. Its ok to create more markets around the same event, but with a different sentiment (different question and/or positions).  
-
+Every market must be created according to the guidelines maintaned by Oracle Council.
 
 ### Positioning phase
 During the positioning phase participants pay the fixed entry bid in case of `Fixed Ticket` markets or put up custom sized bid in case of `Open Bids` markets.  
