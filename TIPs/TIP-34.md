@@ -16,18 +16,18 @@ With streamlined expansion of Thales offerings for Positional Markets for assets
    
 With the recent introduction of the novel Thales AMM contract, users would also have on-demand liquidity of positional tokens for markets created around these new assets. Increasing the offering of Thales marketplace with these assets creates more flexibility for market creation, Thales Royale organization and has a direct impact on driving volume and increasing the user base of the Thales protocol.  
   
-The Implied Volatility parameter of these assets, that will be used for Thales AMM integration, will be derived from measure of `Historical Volatility` for each asset multiplied by `Implied Volatility / Historical Volatility` ratio of ETH.  
+The Implied Volatility parameter of these assets, that will be used for Thales AMM integration, will be derived from measure of `Historical Volatility` for each asset multiplied by `Implied Volatility / Historical Volatility` ratio of ETH. Historical volatility (HV) is a statistical measure of the dispersion of returns for a given security or market index over a given period of time. Historical volatility period of time to be used in this case is 30 days. Implied Volatility of ETH to be used for reference will be the the [Deribit ETH Volatility Index (DVOL)](https://www.deribit.com/statistics/ETH/volatility-index).
   
   When using this logic, the following Implied Volatility percentages are measured for each price feed:  
-
-- AVAX/USD 88%
-- BNB/USD 111% 
-- FLOW/USD 85% 
+- ATOM/USD 110%
+- AVAX/USD 91%
+- BNB/USD 70% 
+- FLOW/USD 80% 
 - FTM/USD 140% 
 - MATIC/USD 80%
-- NEAR/USD 165%
-- ONE/USD 120%
-- SAND/USD 80%
+- NEAR/USD 130%
+- ONE/USD 107%
+- SAND/USD 97%
  
 ## Specification
  
