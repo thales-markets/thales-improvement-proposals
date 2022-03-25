@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-34 | Integrate ATOM, AVAX, BNB, FLOW, FTM, MATIC, NEAR, ONE and SAND as supported assets on Thales| Draft | padzank (@padzank)| Add ATOM, AVAX, BNB, FLOW, FTM, MATIC, NEAR, ONE and SAND price feeds from Chainlink to Thales on Optimism and enable market creation around those assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-03-14
+| TIP-34 | Integrate ATOM, AVAX, BNB, FLOW, FTM, MATIC, NEAR, ONE and SAND as supported assets on Thales| Vote Pending | padzank (@padzank)| Add ATOM, AVAX, BNB, FLOW, FTM, MATIC, NEAR, ONE and SAND price feeds from Chainlink to Thales on Optimism and enable market creation around those assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-03-14
  
 ## Simple Summary
  
