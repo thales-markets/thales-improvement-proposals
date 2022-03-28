@@ -9,9 +9,9 @@ This TIP aims to stop the linear unlocking THALES rewards allocation to SNX stak
 ## Motivation
 
 Thales initially set out to distribute 35% of its total supply directly to SNX stakers. This was split into following buckets:  
-    - Retro rewards since start of staking till TGE 15%
-    - Ongoing rewards for SNX stakers 18%
-    - Airdrop 2% to everyone that ever staked SNX
+    - Retro rewards since start of staking till TGE 15%  
+    - Ongoing rewards for SNX stakers 18%  
+    - Airdrop 2% to everyone that ever staked SNX  
     
 Retro rewards captured stakers since day 1 of SNX staking. The effect of this was that 80% of this allocation went to top 10 stakers. 
 While the intent of this was to "thank" all the SNX supporters since beginning, a number of those top 10 historical stakers are no longer aligned with Synthetix.  
