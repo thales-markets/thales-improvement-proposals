@@ -16,7 +16,7 @@ As we put funds and efforts into promoting the royale with Royale Passes NFTs, i
 There are further benefits from allowing all positions to be submitted on sign-up:  
     - An average of 50% gas savings as half of the times you will be happy with your position in a certain round and would not have to change it  
     - Less pressure to have to be physically available to position on a certain day during the positioning window.   
-    - Less frustration from scenarious where you believe you positioned, but someone didnt see the transaction through till the end  
+    - Less frustration from scenarious where you believe you positioned, but somehow didnt see the transaction through till the end  
     
     
 The biggest arguments against this so far was the competitive spirit where active players do not want "accidental winners".  
