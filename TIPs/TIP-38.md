@@ -24,6 +24,7 @@ The biggest arguments against this so far was the competitive spirit where activ
 While this is a fair argument, the odds of someone winning without actively monitoring market movements in positioning phase are much less than the mathematical 1 to 64, as often market will be quite skewed in certain rounds and price will move up to 10% from strike.  
 It is also believed that there is more to gain from introducing this even for active players, as ultimately the goal of Royale is to maximize the pot and to onboard users into positional markets without much backfire.  
 
+However, to ensure that even AFK "accidental winners" happen, the winning will be claimable for a limited window of 1 month.
 
 Second part of this TIP is to allow ProtocolDAO to choose which asset will be speculated on within a certain season.  
 The motivation behimd this is to "keep things fresh" and as an example use SNX for season 5.  
@@ -37,7 +38,8 @@ The said positions can be changed during the positiong phase of the rounds thems
 Implementation will be phased out in interest of time:  
 
 Season 5 will have the default position applied in all rounds. Season 5 will use SNX as an asset to speculate on to introduce some fresh experience.  
-Season 6 will have the randomized positions for all 6 rounds offered in the UI and user will be able to change those before submitting.  
+Season 6 will have the randomized positions for all 6 rounds offered in the UI and user will be able to change those before submitting.
+  
 
  
 ## Copyright
