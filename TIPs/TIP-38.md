@@ -9,7 +9,7 @@ This TIP aims to allow users to submit an array of positions (one per each round
 ## Motivation
 
 In the first 4 royale seasons we have unfortunately witnessed many players to miss positioning in a certain round.  
-We added discord bots and have done a lot of reminders to a point where we probably focused too much energy on such a trivial things, but still in last season 20 out of 51 players did not position in rounds 2.  
+We added discord bots and have done a lot of reminders to a point where we probably focused too much energy on such trivial things, but still in last season 20 out of 51 players did not position in rounds 2.  
 
 As we put funds and efforts into promoting the royale with Royale Passes NFTs, it is likely that a bunch of these players have tried the NFTs but didnt fully grasp the rules about the limited window for positioning. So marketing wise instead of attracting more players, we risk creating apathy.  
 
