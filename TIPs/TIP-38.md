@@ -26,7 +26,12 @@ It is also believed that there is more to gain from introducing this even for ac
 ## Specification
  
 On sign-up for a certain Royale season allow a player to submit an array of 6 positions, one for each round.  
-The said positions can be changed during the positiong phase of the rounds themselves.
+The said positions can be changed during the positiong phase of the rounds themselves.  
+
+Implementation will be phased out in interest of time:  
+
+Season 5 will have the default position applied in all rounds  
+Season 6 will have the randomized positions for all 6 rounds offered in the UI and user will be able to change those before submitting
 
  
 ## Copyright
