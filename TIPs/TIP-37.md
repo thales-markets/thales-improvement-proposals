@@ -26,10 +26,10 @@ Reusing that logic on THALES to date the following has been distributed:
 This adds up to a total of 9.2 million. Current THALES circulating supply is close to 16m, so THALES has effectively distributed almost 60% of circulating supply to SNX stakers in one way or another.  
 Furthermore, considering that the rest of circulating supply came from THALES staking, reusing some of the logic introduced by other ecosystem projects, we can get that percentage closer to 70%.  
 
-As the largest individual retro staker I find it within my best interest and thus the interest of any other SNX stakers that is still aligned with the ecosystem to stop the retro rewards, thus forfeiting the rest of my allocation.  
-I am positive that there is more value in staking what was unlocked so far and thus accumulating more without the sell pressure of whales no longer aligned with the ecosystem.  
+As the largest individual retro staker I find it within my best interest and thus the interest of any other THALES holder that is still aligned with the ecosystem to stop the retro rewards, thus forfeiting the rest of my allocation.  
+I am positive that there is more value in staking THALES which was unlocked so far and thus accumulating more without the sell pressure of whales no longer aligned with the ecosystem.  
 
-Everything that was unlocked so far will be available to those wallets to claim on L2 with an airdrop contract as Thales has used before. However, as we learned from previous airdrop, there should be a time window on how long this is claimable. This TIP proposes a 1 month window for claiming the unlocked rewards.     
+Everything that was unlocked so far will be available to those wallets to claim on L2 with an airdrop contract as Thales has used before. However, as we learned from previous airdrops, there should be a time window on how long this is claimable. This TIP proposes a 1 month window for claiming the unlocked rewards.     
 
 The remaining for retro unlock which is close to 9m THALES is to be returned to treasury and can be used in a variety of ways to be distributed to those aligned with Thales protocol, which many of current SNX stakers are.
 
