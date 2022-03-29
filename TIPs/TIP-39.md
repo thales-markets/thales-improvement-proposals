@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-39 | Allow Thales pDAO to integrate new assets from Chainlink on their own discretion | Draft | padzank (@padzank)| Allow Thales pDAO to integrate new assets from Chainlink on their own discretion and thus remove overhead of having a separate TIP for each integration. | https://discord.gg/rPpPcMXSeU | 2022-03-29
+| TIP-39 | Allow Thales pDAO to integrate new assets from Chainlink on their own discretion | Vote Pending | padzank (@padzank)| Allow Thales pDAO to integrate new assets from Chainlink on their own discretion and thus remove overhead of having a separate TIP for each integration. | https://discord.gg/rPpPcMXSeU | 2022-03-29
  
 ## Simple Summary
  
