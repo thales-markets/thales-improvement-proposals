@@ -1,55 +1,60 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-38 | Position per round on sign-up and asset per season at pDAO discretion| Vote Pending | Danijel | Allow position for each round to be submitted on royale sign-up. Allow Protocol DAO to choose the asset per season. Set rewards claiming deadline. | https://discord.gg/rPpPcMXSeU | 2022-03-28
+| TIP-37 | Stop vesting of the retro SNX rewards | Draft | Kain | Stop the linear retro unlocking rewards | https://discord.gg/rPpPcMXSeU | 2022-03-24
  
 ## Simple Summary
  
-- This TIP aims to allow users to submit an array of positions (one per each round) on signup.
-- This TIP also allows ProtocolDAO to choose which asset from available THALES offering is used in a particular season.
-- Additionally, this TIP proposes to set a one month deadline for winners to claim their prizes.
+This TIP proposes to terminate the linear unlocking of THALES token allocation towards past SNX stakers.
  
-## Abstract
+## Abstract  
  
-Following community feedback and data collection around participation behavior, this TIP proposes to implement a solution that allows submitting an array of positions for each round of Thales Royale in advance during the sign-up phase.
- 
-This TIP also proposes to allow pDAO to choose an asset to be speculated around on subsequent seasons on their own discretion.
- 
-Additionally this TIP proposes to set a deadline of 1 month for winners to claim their Thales Royale prize. Unclaimed rewards to be returned to treasury by default and subsequently to be rolled over manually to the next Thales Royale season as bonus to the prize pool by the Treasury DAO.  
+Retroactive pro rata rewards of THALES tokens towards SNX stakers captured all of historical SNX stakers. The effect of this proportional distribution meant that 80% of this specific allocation went to the top 10 historical SNX stakers. As some of these Top 10 SNX stakers are no longer aligned with Synthetix, and hence no longer aligned with Thales, this allocation proved to be dangerous for the liquidity of the THALES token and this TIP proposes a plan to terminate this specific allocation.
  
 ## Motivation
  
-In the first 4 Thales Royale seasons we have unfortunately witnessed many players miss positioning in a certain round.  
-We added discord bots and have done a lot of reminders to a point where we probably focused too much energy on such trivial things, but still in last season 20 out of 51 players did not position in rounds 2.  
+Thales initially set out to distribute 35% of its total supply directly to SNX stakers. This was split into following buckets:  
  
-As we put funds and efforts into promoting the royale with Royale Passes NFTs, it is likely that a bunch of these players have tried the NFTs but didn't fully grasp the rules about the limited window for positioning. So marketing wise instead of attracting more players, we risk creating apathy.  
- 
-There are further benefits from allowing all positions to be submitted on sign-up:  
-    - An average of 50% gas savings as half of the times you will be happy with your position in a certain round and would not have to change it  
-    - Less pressure to have to be physically available to position on a certain day during the positioning window.  
-    - Less frustration from scenarios where you believe you positioned, but somehow didn't see the transaction through till the end  
+    - Retro rewards since start of SNX staking until THALES TGE: 15% of total supply  
+    - Ongoing rewards towards present SNX stakers: 18% of total supply
+    - "One-off" airdrop to every wallet that ever staked SNX: 2% of total supply
    
+Since THALES TGE event until time of writing this TIP, certain large Retro reward eligible wallets have "dumped" almost all of their unlocked THALES to date (a total of approximately 600,000 THALES tokens). Considering the limited early liquidity, this has been a significant hit on liquidity providers.  
+ 
+To further elaborate on initial decision making around this allocation, after THALES committed to initial tokemonics of percentage of total supply, other ecosystem projects introduced the narrative of percentage of early circulating supply. If we implement that logic into distribution of THALES tokens to date, we get the following numbers already distributed to SNX stakers so far:
+ 
+    -  4,500,000 THALES to retro SNX stakers  
+    -  2,500,000 THALES to ongoing SNX stakers  
+    -  2,200,000 THALES via "one-off" airdrop    
    
-The biggest arguments against this so far was the competitive spirit where active players do not want "accidental winners".  
-While this is a fair argument, the odds of someone winning without actively monitoring market movements in positioning phase are much less than the mathematical 1 to 64, as often markets will be quite skewed in certain rounds and price will move up to 10% from strike.  
-It is also believed that there is more to gain from introducing this even for active players, as ultimately the goal of Royale is to maximize the pot and to onboard users into positional markets without much backfire.  
+This adds up to a total of 9.2 million THALES tokens towards SNX stakers so far. Current THALES circulating supply is close to 16m, so Thales has effectively distributed almost 60% of circulating supply to SNX stakers in one way or another.  
+Furthermore, considering that the rest of circulating supply came from THALES staking, reusing some of the logic introduced by other ecosystem projects, we can get that percentage closer to a total of 70% unlocked tokens.  
  
-However, to ensure that even AFK "accidental winners" happen, the winning will be claimable for a limited window of 1 month.
+As the largest individual retro staker, I find it within my best interest and thus the interest of any other THALES holder that is still aligned with the ecosystem, to stop the retro rewards effectively forfeiting the remainder of my unlocking allocation.  
+I am positive that there is more value in staking THALES which was unlocked so far and thus increase individual ownership of total supply during time, without having unaligned wallets accrue non-trivial amounts of THALES tokens for free.  
  
-Second part of this TIP is to allow ProtocolDAO to choose which asset will be speculated on within a certain season.  
-The motivation behind this is to "keep things fresh" and as an example use SNX for season 5.  
-It also allows us to set MATIC as an asset to speculate on during Polygon rollout.  
+Every THALES token unlocked so far since TGE will be available for claiming to wallets in question, on L2 with an airdrop contract. However, as we learned the lessons from previous airdrops, there should be a time limit on how long these tokens are claimable. This TIP additionally proposes a 2 month window for claiming the unlocked rewards.    
+ 
+The remaining tokens that were not yet unlocked (approximately 9 million THALES), are to be returned to treasury and used in a variety of ways as to be most optimally distributed to those aligned with the Thales protocol, which many of current SNX stakers are.
  
 ## Specification
  
-This TIP entails the Thales pDAO to deploy a solution that allows a player, on sign-up for a certain Thales Royale season, to submit an array of 6 positions in advance for that specific season. One for each round. The individual positions will be adjustable by players during the position phase of the rounds themselves.  
+Retro distribution contract is immutable, however it is using the old THALES token.  
+This TIP proposes an execution plan that involves stopping the old THALES migration contract, and auto-migrating all current holders of old THALES tokens. Effectively completely deprecating the legacy THALES token.
+Additional note is that the same contract contains and handles strategic partners unlocks, so that allocation is to be handled separately on separate terms.
  
-This TIP entails the Thales pDAO to set a deadline of 1 month for winners to claim Thales Royale reward, from time of winning. Treasury DAO is entailed to facilitate the transfer of unclaimed rewards to the next Thales Royale season as bonus to the prize pool.  
+Current proposed execution steps that are subject to change as we dry run the approach:
  
-Implementation is to be phased out in interest of time:  
+1. Take a snapshot of all holders of old THALES token
+2. Take a snapshot of all DODO THALES/ETH liquidity providers, the corresponsive ETH and THALES balances of their positions and unclaimed THALES rewards.
+3. Coordinate with all relevant tools/websites to adapt to following changes (coingecko, CMC, DeBank, Blockfolio... etc)
+4. Coordinate a manual migration of Discord TipBot balances
+5. Once all of the above is prepared, terminate the token migration contract
+6. Manually send new THALES to all holders from the snapshot
+7. Manually send new THALES and ETH to all DODO Liquidity Providers
+8. Prepare a snapshot of all unlocked THALES from the retro contract and make it available to be claimed as new THALES on a newly deployed airdrop contract (L1 or L2 is yet to be determined)
+9. Run calculations for Strategic investors on how much they still have left to be unlocked and prepare a new retro vesting contract for them. Gather their sentiment on how and on what network they wish to proceed.
  
- - Season 5 will have the default position applied in all rounds.
- - Season 5 will use SNX as an asset to speculate on to introduce some fresh experience.  
- - Season 6 will have the randomized positions for all 6 rounds offered in the UI and users will be able to change those before submitting.
+ 
  
  
 ## Copyright
