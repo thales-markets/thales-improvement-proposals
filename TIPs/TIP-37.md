@@ -30,7 +30,7 @@ This adds up to a total of 9.2 million THALES tokens towards SNX stakers so far.
 Furthermore, considering that the rest of circulating supply came from THALES staking, reusing some of the logic introduced by other ecosystem projects, we can get that percentage closer to a total of 70% unlocked tokens.  
  
 As the largest individual retro staker, I find it within my best interest and thus the interest of any other THALES holder that is still aligned with the ecosystem, to stop the retro rewards effectively forfeiting the remainder of my unlocking allocation.  
-I am positive that there is more value in staking THALES which was unlocked so far and thus increase individual ownership of total supply during time, without having unaligned wallets accrue non-trivial amounts of THALES tokens for free.  
+I am positive that there is more value in staking THALES which was unlocked so far and thus increase individual ownership of total supply during time, without having unaligned wallets accrue non-trivial amounts of THALES tokens for free.  Bonus staking rewards for SNX stakers that THALES has included in their staking logic surely help with that.
  
 Every THALES token unlocked so far since TGE will be available for claiming to wallets in question, on L2 with an airdrop contract. However, as we learned the lessons from previous airdrops, there should be a time limit on how long these tokens are claimable. This TIP additionally proposes a 1 month window for claiming the unlocked rewards.    
  
