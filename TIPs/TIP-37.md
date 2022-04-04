@@ -46,13 +46,17 @@ Current proposed execution steps that are subject to change as we dry run the ap
  
 1. Take a snapshot of all holders of old THALES token
 2. Take a snapshot of all DODO THALES/ETH liquidity providers, the corresponsive ETH and THALES balances of their positions and unclaimed THALES rewards.
-3. Coordinate with all relevant tools/websites to adapt to following changes (coingecko, CMC, DeBank, Blockfolio... etc)
-4. Coordinate a manual migration of Discord TipBot balances
-5. Once all of the above is prepared, terminate the token migration contract
-6. Manually send new THALES to all holders from the snapshot
-7. Manually send new THALES and ETH to all DODO Liquidity Providers
-8. Prepare a snapshot of all unlocked THALES from the retro contract and make it available to be claimed as new THALES on a newly deployed airdrop contract (L1 or L2 is yet to be determined)
-9. Run calculations for Strategic investors on how much they still have left to be unlocked and prepare a new retro vesting contract for them. Gather their sentiment on how and on what network they wish to proceed.
+3. Prepare a snapshot of all unlocked THALES from the retro contract
+4. Take a snapshot of investors  
+5. Coordinate with all relevant tools/websites to adapt to following changes (coingecko, CMC, DeBank, Blockfolio... etc)
+6. Coordinate a manual migration of Discord TipBot balances
+7. Once all of the above is prepared, terminate the token migration contract
+8. Drain DODO pool
+9. Manually send new THALES to all holders from the snapshot
+10. Manually send new THALES and ETH to all DODO Liquidity Providers
+11. Make all the vested THALES available to be claimed as new THALES on a newly deployed airdrop contract on L2 (multisigs will be handled separately
+12. Setup an airdrop contract on L1 for all unclaimed rewards for investors on L1
+13. Deploy and setup new retro unlock contract for remaining investors unclock on L1
  
  
  
