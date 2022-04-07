@@ -34,11 +34,15 @@ Third architectural change is to adapt the SafeBox contract to the previously me
  
 ## Specification
  
-...  
- 
-(WIP)
- 
-...  
+This TIP entials the Thales Protocol DAO to implement the following changes to the [ThalesAMM.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol) contract:  
+  
+ - Implement logic so the Buyer Skew Impact calculation is done against the potential profit of the respective Positional Token.
+ - Implement logic so the Skew Impact is calculated as linearly applied for each subsequent token purchased.
+ - Implement logic to decouple SafeBox impact from the Skew Impact calculation by introducing it to the final pricing
+ - Increase Positional Token supported price range from 0.1 <-> 0.9 to **0.05 <-> 0.95**
+ - Increase allowed sUSD risk per market for the AMM from 7k to **10k sUSD** risk per market
+ - Increase Skew Impact total range from 1% <-> 12% to **2%<->20%**
+ - Decrease the timing of the AMM trading halt close to respective Market Maturity from 24h to **8h before Market Maturity**
  
  
 ## Test Cases
