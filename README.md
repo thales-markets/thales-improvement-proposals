@@ -4,7 +4,7 @@
 
 Thales Improvement Proposals (TIPs) describe standards, processes and provide general guidelines or information to the Thales Communit.
 
-| # | Title | Status | 
+| # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Title | Status | 
 | ----------- | ----------- | ----------- | 
 | TIP-1  | [TIP Formats and Templates](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-1.md) | Approved |
 | TIP-2  | [Formalizing technical agenda items for Thales - Contracts deployment](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-2.md) | Implemented |
