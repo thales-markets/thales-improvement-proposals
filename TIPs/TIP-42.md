@@ -1,17 +1,15 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-42 |  Deployment of Thales Royale Passport NFTs and new default position system | Draft | padzank(@padzank) | Deploy Thales Royale Passport NFTs to act as transferable Royale Season Positions and introduce new default positions on sign-up mechanism | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-04-09
+| TIP-42 |  Deployment of Thales Royale Passport NFTs | Draft | padzank(@padzank) | Deploy Thales Royale Passport NFTs to act as transferable Royale Season Positions | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-04-09
 
 ## Simple Summary
  
-This TIP proposes to deploy evolvable Thales Royale Passport NFTs on Optimism that will represent a transferable player season position and deploy a new default position on sign-up mechanism where users can choose default position for each round on sign-up.
+This TIP proposes to deploy evolvable Thales Royale Passport NFTs on Optimism that will represent a transferable player season position.
  
 ## Abstract
  
 By initial design, a user sign ups for Thales Royale with a 30 sUSD buy-in that whitelists that specific wallet for the ongoing Thales Royale Season participation. Recently we also introduced Thales Royale Pass NFT that is purchasable with 30 sUSD, and that NFT enables a wallet that is holding it a free Sign-Up for any 30 sUSD buy-in Thales Royale Season of choice. This TIP takes usage of utility NFTs in Thales Royale a big step further.  
 **This TIP proposes to deploy Thales Royale Passport NFTs that will represent a transferable player position for the season.** Thales Royale Passport NFT is minted on player Sign-Up and is graphically represented by a Passport-like document that shows player status for the current season, address that minted it, Passport number and place of residence (which is, of course, the metaverse).
-
-This TIP additionally proposes to change the default positioning on Sign-Up so it allows a player to choose a default position for every round and not just the first one.  
 
 ## Motivation
 
@@ -25,8 +23,6 @@ The introduction of Thales Royale Passport NFT also unlocks the possibility of "
 ## Specification
 
 This TIP entails the Protocol DAO to deploy the [Thales Royale Passport NFT contract](https://github.com/thales-markets/contracts/blob/main/contracts/ThalesRoyale/ThalesRoyalePassport.sol).
-
-This TIP additionally entails the Protocol DAO to update the Default Positioning mechanism so it enables participants to choose a default position for all Thales Royale rounds.
 
 ## Rationale
  
