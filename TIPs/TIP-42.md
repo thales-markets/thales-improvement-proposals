@@ -15,8 +15,8 @@ This TIP additionally proposes to change the default positioning on Sign-Up so i
 
 ## Motivation
 
-![Winner Passport](./images/winner_passport3.svg)
-<img src="./images/winner_passport3.svg">
+![Winner Passport](./images/3.png)
+<img src="./images/3.png">
   
  With the introduction of **Thales Royale Passport** NFTs, the Thales ecosystem becomes one of the pioneers of using evolving NFTs as Utility for product offerings. After this deployment, the mechanism of participation is not in whitelisted buy-in wallets anymore but in the Passport NFTs themselves. The NFT itself represents the entity that is going through the Royale rounds. This means that this makes it  possible to transfer the Thales Royale Passport NFT to a different wallet, and then that wallet can pick off from  the previous wallet's position in the Royale season in question.  
  Thales Royale Passport is minted when a wallet Sign-Ups for Thales Royale Season by buying in with sUSD or with the Royale Pass. After the Sign-Up and the mint, the Royale Passport is a "blank page" with visible current season, address that minted it, Passport number and place of residence. The wallet holding the passport can use that passport to position for the current round of Thales Royale.  If the chosen positions wins, the passport NFT evolves with addition of a stamp showcasing a position which cleared the round. If the chose position loses, the passport NFT evolves into a eliminated passport. As the passport progresses rounds, more stamps are added until the final round is cleared and the passport evolves into its final form: The Season Winner Passport.  
