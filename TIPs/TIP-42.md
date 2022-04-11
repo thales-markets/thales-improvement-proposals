@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-42 |  Deployment of Thales Royale Passport evolving NFTs | Draft | padzank(@padzank) | Deploy Thales Royale Passport evolving NFTs to act as transferable Royale Season Positions | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-04-09
+| TIP-42 |  Deployment of Thales Royale Passport evolving NFTs | Vote Pending | padzank(@padzank) | Deploy Thales Royale Passport evolving NFTs to act as transferable Royale Season Positions | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-04-09
  
 ## Simple Summary
  

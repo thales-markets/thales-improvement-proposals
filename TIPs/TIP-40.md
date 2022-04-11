@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-40 | Deploy Thales protocol on Polygon Mainnet | Draft | padzank (@padzank) | Deploy and enable the suite of contracts pertaining to Thales protocol on Polygon Mainnet | https://discord.gg/8bzFdpGTrp | 2022-04-07
+| TIP-40 | Deploy Thales protocol on Polygon Mainnet | Vote Pending | padzank (@padzank) | Deploy and enable the suite of contracts pertaining to Thales protocol on Polygon Mainnet | https://discord.gg/8bzFdpGTrp | 2022-04-07
  
 ## Simple Summary
  

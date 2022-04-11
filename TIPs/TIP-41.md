@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-41 | Extension of THALES token LP program | Draft | padzank (@padzank)| Extend the program for 4 weeks, taper LP rewards and increase the bond program  | https://discord.gg/rPpPcMXSeU | 2022-04-09
+| TIP-41 | Extension of THALES token LP program | Vote Pending | padzank (@padzank)| Extend the program for 4 weeks, taper LP rewards and increase the bond program  | https://discord.gg/rPpPcMXSeU | 2022-04-09
  
 ## Simple Summary
  
