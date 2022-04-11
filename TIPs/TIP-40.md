@@ -40,7 +40,7 @@ This TIP entails Thales Protocol DAO to execute the following points:
     * [ThalesAMM.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/ThalesAMM.sol)
     * [DeciMath.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/AMM/DeciMath.sol) (helper contract for Math operations]
  
-* Deploy Thales Royale contract with seasons and buy-ins:
+* Deploy Thales Royale contract with seasons and buy-ins and all additional Royale contracts:
  
     * [ThalesRoyale.sol](https://github.com/thales-markets/contracts/blob/ThalesAMM/contracts/ThalesRoyale/ThalesRoyale.sol)
  
