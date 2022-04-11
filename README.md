@@ -44,3 +44,6 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-37 | [Stop vesting of the retro SNX rewards](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-37.md) | Implemented |
 | TIP-38 | [Position per round on sign-up and asset per season at pDAO discretion](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-38.md) | Implemented |
 | TIP-39 | [Allow Thales pDAO to integrate new assets from Chainlink on their own discretion](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-39.md) | Implemented |
+| TIP-40 | [Deploy Thales protocol on Polygon Mainnet](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-40.md) | Implemented |
+| TIP-41 | [Extension of THALES token LP program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-41.md) | Implemented |
+| TIP-42 | [Deployment of Thales Royale Passport evolving NFTs](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-42.md) | Implemented |
