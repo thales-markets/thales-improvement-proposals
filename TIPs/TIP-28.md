@@ -25,7 +25,7 @@ All details of the framework are in specification section.
 ## Specification
 
 ### Thales Oracle Council 
-Thales Oracle Council is described in TIP-35.
+Thales Oracle Council is described in TIP-35 https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-35.md.
 
 ### Duties of Oracle Council
 
