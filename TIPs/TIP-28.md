@@ -202,7 +202,7 @@ Winner of political elections ((positioning has to end before the election start
  
 ## Implementation
  
-TBD
+Only fixed type will be released in this iteration. Open bid needs more considerations about how to ensure fairness for participants.
  
 ## Copyright
  
