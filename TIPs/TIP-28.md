@@ -38,7 +38,7 @@ When creating a market the following parameters have to be provided:
 - Market question (String up to 200 characters)
 - Market data sources (String up to 200 characters, can basically be a url linking to a page that will show the result on maturity)
 - An array of positions participants can assume (up to 8 positions supported of type String)
-- End of positioning phase (timestamp)
+- End of positioning phase (timestamp - minimum 8 hours for positioning)
 - Type:  
           - `Fixed Ticket` (same ticket price for anyone, min 10 sUSD), needs amount to be specified  
           - `Open Bid`  (min 10 sUSD)
@@ -47,7 +47,7 @@ When creating a market the following parameters have to be provided:
 - Withdrawals allowed (if allowed can be made only up to 8h before positioning ends)
 - An array of up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery. 
 
-The list of available tags is managed by Oracle Council. Examples are: Sports, Politics, Football, NBA, E-Sports, DeFi, Crypto...   
+The list of available tags is managed by Oracle Council. Examples are: Sports, Politics, Football, NBA, Esports, DeFi, Crypto...   
 
 As soon as a market is created it is considered in positioning phase and open to participants to bid and position.
 
@@ -87,11 +87,11 @@ An open dispute does not affect the market while its been processed (buy-in and 
 
 Oracle council can choose the following options to resolve a dispute:  
 - `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
-    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator  minus 10 sUSD which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
+    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator minus 10 sUSD which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
     - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in sUSD up to 100 sUSD from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
 - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council finds that the user that raised the dispute did so unjustifiably.   
     
-When a dispute is accepted, all disputes raised after that dispute are cancelled and bonds are returned to those that raised them.
+When a dispute is accepted, all disputes raised after that dispute are cancelled and bonds are claimable back to those that raised them.
 Accepting a dispute starts a timelock of 4h in which Protocol DAO or Thales Council can step in as backstops and pause the market from being cancelled if they have doubts about the decision OC made. 
 
 When the 4h passes, users can claim their refunds from the market.
@@ -116,11 +116,16 @@ The Oracle council reviews the dispute and can decide the following:
     Both cases lead to a slash for the resolver and the bond of the resolver, - 10 sUSD which go to the Safe Box, goes to the wallet raising the dispute.  
 - `Refuse the dispute` the bond goes towards Safe Box  
 
-When Oracle Council accepts a dispute all subsequent disputes are closed and bonds are returned to those that raised them.
+When Oracle Council accepts a dispute all subsequent disputes are closed and bonds are claimable back to those that raised them.
 If Oracle Council chose `Accepted the dispute and set a result` a timelock of 4h begins during which Protocol DAO or Thales Council can act as a backstop should they find the result set by the Oracle Council contentious.  
 
 If 24h has passed since the market was resolved or at least 4h since a dispute was closed with `Accept the dispute and set a result`, the market is formally resolved and winners can start claiming their winnings.
 In case there are no winners, everyone can claim their initial bid minus the fees.
+
+### Oracle Council emergency pause
+Each Oracle Council member is able to pause a malicious market in case of an emergency. 
+The market can be resummed by the Protocol DAO. 
+In the case of a malicious use of the emergency pause by an Oracle Council member, the Thales Council can then choose to replace the individual Oracle Council member with the next candidate per voting tally, or call a new election if needed.
 
 ### Oracle Council backstop
 Bonds serve as deterrent for bad actors while creating, resolving and disputing markets, but what if oracle council decides to collude?
