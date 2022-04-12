@@ -77,7 +77,7 @@ For `Open Bid` market one wallet can enter multiple bids and spread the bids acr
 
 ### Disputes in positioning phase
 Anyone, that is not a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 sUSD as a bond.
-On raising the dispute, the person disputing the market inputs the reason for the dispute as string (up to 100 characters).  
+On raising the dispute, the person disputing the market inputs the reason for the dispute as string (up to 1000 characters).  
 The number of open disputes on a market is not limited, but duplicating disputes can lead to a slash for the wallet raising the duplicated dispute.
 
 Apart from disputes about not following the guidelines one can also raise a dispute for a not foreseen event that causes the market to become obsolete, e.g. a game is postponed. 
