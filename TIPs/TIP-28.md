@@ -141,7 +141,7 @@ Every Thales staker trading Exotic markets contributes to the weekly Product bon
 
 Note that the accumulated Exoting trading volume is combined together with the AMM trading volume. 
 
-The Exotic trading volume considers both positioning on all active Exotic markets during a Thales staking period. Bonds for creation/disputes/resolution of Exotic markets are not calculated in the Exotic trading volume. 
+The Exotic trading volume considers positioning on all active Exotic markets during a Thales staking period. Bonds for creation/disputes/resolution of Exotic markets are not calculated in the Exotic trading volume. 
 
 ### Table of dispute states and actions
 
