@@ -134,7 +134,14 @@ To ensure a swift reaction any of the Protocol DAO signers or Thales Council mem
 
 Thales Council can then choose to replace individual council members with the next candidate per voting tally, or call a new election if needed.
 
-Treasury DAO will set aside 500k sUSD as insurance fund for all market participants.       
+Treasury DAO will set aside 500k sUSD as insurance fund for all market participants.
+
+### Product bonus (previous AMM bonus)
+Every Thales staker trading Exotic markets contributes to the weekly Product bonus with maximum 12%, previously referred only as AMM bonus. 
+
+Note that the accumulated Exoting trading volume is combined together with the AMM trading volume. 
+
+The Exotic trading volume considers both positioning/claiming on all active Exotic markets during a Thales staking period. Bonds for creation/disputes/resolution of Exotic markets are not calculated in the Exotic trading volume. 
 
 ### Table of dispute states and actions
 
