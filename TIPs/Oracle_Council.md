@@ -8,17 +8,21 @@ Not adhering to these guidelines can be a subject of a dispute:
 - The list of available positions has to be mutually fully exclusive and capture the full range of potential outcomes
 - End of positioning phase has to be before the event actually starts
 - End of positioning must not be more than 1 month into the future
-- Market resolution/question should not be more than 2 months into the future
-- The market must not be theoretically resolvable with any of the offered positions before the end of positioning
+- Market resolution/question should not be more than 6 months into the future
 - No morbid, racist, death related markets or otherwise malicious markets are allowed and will be disputed and slashed
 - The market has to be linkable to at least one of the offered tags maintained by Oracle Council
-- No duplicated markets should be created. Its ok to create more markets around the same event, but with a different sentiment (different question and/or positions).  
+- No duplicated markets should be created. Its ok to create more markets around the same event, but with a different sentiment (different question and/or positions). 
+- Markets that are trivially manipulatable or markets relating to easily inflatable statistics are not allowed 
+- Any names/labels used in the market question and in the available options must be sited in the Market Data Source
 
 
 ### Tags available for market creation
 - Sport
-- Politics
+- Political Elections
 - Crypto
 - E-Sports
 - Pop Culture
 - NFTs
+- Macro-Economics
+- Trad-Fi
+- web3
