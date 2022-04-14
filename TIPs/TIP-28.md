@@ -88,7 +88,7 @@ An open dispute does not affect the market while its been processed (buy-in and 
 Oracle council can choose the following options to resolve a dispute:  
 - `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
     - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator minus 10 sUSD which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
-    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in sUSD up to 100 sUSD from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
+    - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in sUSD from 50 to 100 sUSD from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
 - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council finds that the user that raised the dispute did so unjustifiably.   
     
 When a dispute is accepted, all disputes raised after that dispute are cancelled and bonds are claimable back to those that raised them.
