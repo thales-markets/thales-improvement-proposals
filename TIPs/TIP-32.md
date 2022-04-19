@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-32 | Closing airdrop claims windown| Draft | BigPenny| Close airdrop claim window and set 2 weeks notice to close migrated rewards claims  | https://discord.gg/rPpPcMXSeU | 2022-03-06
+| TIP-32 | Closing airdrop claims windown| Implemented | BigPenny| Close airdrop claim window and set 2 weeks notice to close migrated rewards claims  | https://discord.gg/rPpPcMXSeU | 2022-03-06
  
 ## Simple Summary
  
