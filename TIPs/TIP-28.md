@@ -27,25 +27,23 @@ All details of the framework are in specification section.
 ### Thales Oracle Council 
 Thales Oracle Council is described in TIP-35 https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-35.md.
 
-### Duties of Oracle Council
-
 ### Market Creation   
 
 Anyone can create a market. When creating a market, the creator has to put up a bond of 100 sUSD.  
-With this bond the creators commits to have created a market adhering to the guidelines and to submit a request to resolve a market no longer than 24h after the market is theoretically resolvable.  
+With this bond the creators commits to have created a market adhering to the guidelines and to submit a request to resolve a market no longer than 24h after the market is theoretically resolvable.
 
 When creating a market the following parameters have to be provided:  
 - Market question (String up to 200 characters)
-- Market data sources (String up to 200 characters, can basically be a url linking to a page that will show the result on maturity)
+- Market data sources (URL)
 - An array of positions participants can assume (up to 8 positions supported of type String)
 - End of positioning phase (timestamp - minimum 8 hours for positioning)
 - Type:  
-          - `Fixed Ticket` (same ticket price for anyone, min 10 sUSD), needs amount to be specified  
-          - `Open Bid`  (min 10 sUSD)
+          - `Fixed Ticket` (same ticket price for anyone, min 10 sUSD, max 1000 sUSD), needs amount to be specified  
+          - `Open Bid`  (min 10 sUSD, max 1000 sUSD)
           - Placeholder for more types that will be in additional TIPs
 - Creator's initial amount and position (creator has to put up at least the minimum 10 sUSD into a single position)
 - Withdrawals allowed (if allowed can be made only up to 8h before positioning ends)
-- An array of up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery. 
+- An array of at least 1 and up to 5 tags from the available list of tags. Tags will be used by dapps for easier market discovery and ensuring users pick topics supported by Oracle Council.
 
 The list of available tags is managed by Oracle Council. Examples are: Sports, Politics, Football, NBA, Esports, DeFi, Crypto...   
 
@@ -72,8 +70,7 @@ During the positioning phase participants pay the fixed entry bid in case of `Fi
 
 For `Fixed Ticket` market one wallet can buy only one ticket and choose a single position. The position can be changed during positioning phase as many times as that participant wishes.  
 
-For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position.
-
+For `Open Bid` market one wallet can enter multiple bids and spread the bids across multiple positions. To reposition, they have to first pull the bid from a position and then choose to deposit it into a new position. In Open Bid type it is not allowed to reposition or withdraw more than 10% of total market liquidity if 1 market holds more than that, and only one repositioning is allowed during that time (last 24h)
 
 ### Disputes in positioning phase
 Anyone, that is not a member of Oracle Council, can dispute a market while in positioning phase. To open a dispute the wallet raising the dispute needs to put up 100 sUSD as a bond.
@@ -87,7 +84,7 @@ An open dispute does not affect the market while its been processed (buy-in and 
 
 Oracle council can choose the following options to resolve a dispute:  
 - `Accept the dispute` in which case the market is closed and everyone can claim the full refund from the market. This resolution is split into two sub-resolutions depending on whether a slash will occur:  
-    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator minus 10 sUSD which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to, or if at least 24h has passed in which its considered that the creator has an opportunity to submit this dispute himself (e.g. a sport's match is postponed indefinitely and 24h passed since the news were released)
+    - `Accept the dispute and slash the creator` The wallet that opened the dispute gets the bond back and the bond of the creator minus 10 sUSD which goes to the Safe Box. This is likely to happen if the guidelines were not adhered to.
     - `Accept the dispute but do not slash the creator` The wallet that opened the dispute gets the bond back and an arbitrary reward in sUSD from 50 to 100 sUSD from Oracle Council budget. In this case Oracle Council did not find enough reason to slash the creator, but considers the dispute valid.   
 - `Refuse the dispute and slash the wallet that raised it` The bond goes towards Safe Box. In this case Oracle Council finds that the user that raised the dispute did so unjustifiably.   
     
