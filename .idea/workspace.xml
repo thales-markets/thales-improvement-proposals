@@ -17,8 +17,20 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-37.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+              <first_editor relative-caret-position="731">
+                <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TIPs/TIP-38.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="217" selection-start-line="2" selection-start-column="217" selection-end-line="2" selection-end-column="217" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,11 +38,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TIPs/TIP-38.md">
+        <entry file="file://$PROJECT_DIR$/TIPs/TIP-44.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="34">
-                <caret line="2" column="214" selection-start-line="2" selection-start-column="214" selection-end-line="2" selection-end-column="214" />
+                <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,6 +84,7 @@
         <option value="$PROJECT_DIR$/TIPs/TIP-28.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-37.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-38.md" />
+        <option value="$PROJECT_DIR$/TIPs/TIP-44.md" />
       </list>
     </option>
   </component>
@@ -86,8 +99,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +117,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,16 +172,18 @@
       <workItem from="1647821394908" duration="585000" />
       <workItem from="1648113542992" duration="6529000" />
       <workItem from="1648420209742" duration="6156000" />
+      <workItem from="1651225338551" duration="369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76845000" />
+    <option name="totallyTimeSpent" value="77214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -378,8 +393,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-37.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <first_editor relative-caret-position="731">
+            <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -389,7 +404,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
-            <caret line="2" column="214" selection-start-line="2" selection-start-column="214" selection-end-line="2" selection-end-column="214" />
+            <caret line="2" column="217" selection-start-line="2" selection-start-column="217" selection-end-line="2" selection-end-column="217" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIPs/TIP-44.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
