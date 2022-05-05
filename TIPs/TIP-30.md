@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-30 | Thales AMM v0.3 Update | Draft | Danijel (@dgornjakovic), padzank(@padzank) | Thales AMM token pricing and skew impact core improvements and parameter changes | https://discord.gg/8bzFdpGTrp | 2022-02-21
+| TIP-30 | Thales AMM v0.3 Update | Implemented | Danijel (@dgornjakovic), padzank(@padzank) | Thales AMM token pricing and skew impact core improvements and parameter changes | https://discord.gg/8bzFdpGTrp | 2022-02-21
  
 ## Simple Summary
  
