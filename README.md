@@ -33,9 +33,9 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-25 | [Integration of AAVE, SOL and UNI as available assets on Thales](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-25.md) | Implemented |
 | TIP-26 | [Integration of CRV as available asset on Thales](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-26.md) | Implemented |
 | TIP-27 | [Default positioning for Thales Royale and allow Protocol DAO to sign in addresses sponsored by the Treasury DAO](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-27.md) | Implemented |
-| TIP-28 | [Optimistic Exotic Positional Markets](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-28.md) | Draft |
+| TIP-28 | [Optimistic Exotic Positional Markets](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-28.md) | Implemented |
 | TIP-29 | [Deployment of Thales Royale Pass Utility NFT](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-29.md) | Implemented |
-| TIP-30 | [Thales AMM token pricing and skew impact core improvements and parameter changes](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-30.md) | Approved |
+| TIP-30 | [Thales AMM token pricing and skew impact core improvements and parameter changes](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-30.md) | Implemented |
 | TIP-31 | [Increase of THALES/WETH G-UNI LP rewards and deployment of Olympus Pro bond on Optimism L2	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-31.md) | Implemented |
 | TIP-32 | [Closing airdrop claiming window](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-32.md) | Implemented |
 | TIP-33 | [Formalize the new DAO token and this way support future token related processes such as CEX listings, fast-bridge integrations and similar](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-33.md) | Implemented |
@@ -44,6 +44,6 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-37 | [Stop vesting of the retro SNX rewards](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-37.md) | Implemented |
 | TIP-38 | [Position per round on sign-up and asset per season at pDAO discretion](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-38.md) | Implemented |
 | TIP-39 | [Allow Thales pDAO to integrate new assets from Chainlink on their own discretion](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-39.md) | Implemented |
-| TIP-40 | [Deploy Thales protocol on Polygon Mainnet](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-40.md) | Approved |
-| TIP-41 | [Extension of THALES token LP program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-41.md) | Approved |
-| TIP-42 | [Deployment of Thales Royale Passport evolving NFTs](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-42.md) | Approved |
+| TIP-40 | [Deploy Thales protocol on Polygon Mainnet](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-40.md) | Implemented |
+| TIP-41 | [Extension of THALES token LP program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-41.md) | Implemented |
+| TIP-42 | [Deployment of Thales Royale Passport evolving NFTs](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-42.md) | Implemented |
