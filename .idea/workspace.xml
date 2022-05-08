@@ -51,12 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-45.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="300">
                 <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TIPs/TIP-46.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="187">
+                <caret line="11" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,6 +112,7 @@
         <option value="$PROJECT_DIR$/TIPs/TIP-38.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-44.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-45.md" />
+        <option value="$PROJECT_DIR$/TIPs/TIP-46.md" />
       </list>
     </option>
   </component>
@@ -187,12 +200,12 @@
       <workItem from="1647821394908" duration="585000" />
       <workItem from="1648113542992" duration="6529000" />
       <workItem from="1648420209742" duration="6156000" />
-      <workItem from="1651225338551" duration="2844000" />
+      <workItem from="1651225338551" duration="3878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79689000" />
+    <option name="totallyTimeSpent" value="80723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,6 +453,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="300">
             <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIPs/TIP-46.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
