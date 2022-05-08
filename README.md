@@ -47,3 +47,6 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-40 | [Deploy Thales protocol on Polygon Mainnet](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-40.md) | Implemented |
 | TIP-41 | [Extension of THALES token LP program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-41.md) | Implemented |
 | TIP-42 | [Deployment of Thales Royale Passport evolving NFTs](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-42.md) | Implemented |
+| TIP-43 | [Modification of THALES token LP program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-43.md) | Implemented |
+| TIP-44 | [Increase AMM Liquidity](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-44.md) | Implemented |
+| TIP-45 | [Ranged Markets	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-45.md) | Implemented |
