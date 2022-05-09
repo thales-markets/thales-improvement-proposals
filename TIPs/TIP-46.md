@@ -1,6 +1,6 @@
 | id     | Title                  | Status | Author  | Description             | Discussions to                | Created    |
 | ------ | ---------------------- | ------ | ------- | ----------------------- | ----------------------------- | ---------- |
-| TIP-46 | AMM - cap per asset | Draft  | Danijel | Introduce Cap per asset for AMM and other param changes | https://discord.gg/rPpPcMXSeU | 2022-04-29 |
+| TIP-46 | AMM - cap per asset | Draft  | Danijel | Introduce Cap per asset for AMM and other param changes | https://discord.gg/rPpPcMXSeU | 2022-05-09 |
 
 ## Simple Summary
 
