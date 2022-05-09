@@ -22,7 +22,7 @@ Trading AMM positions that close to maturity results in leveraged pricing change
 
 This TIP also proposes an addition of whitelisted addresses concept into the AMM. The whitelisted addresses, which would be hardware wallets owned by CCs, can update the IV (implied volatility) per asset.  
 Right now this can only be done by protocol DAO, but with the growing number of assets and the need to keep IVs up to date, this will allow us to stay on top of IV configuration.  
-
+The whitelisted addresses have to checked off with Thales Council.
 ## Specification
 - Introduce capPerAsset variable and use it in place of capPerMarket  
 - Fallback to capPerMarket for assets which dont have an explicit cap set    
