@@ -4,7 +4,8 @@
 
 ## Simple Summary
 
-This TIP proposes to introduce cap per asset into AMM, change the way min_spread variable is applied and revert to 10-90 and 24h rules for AMM trading
+This TIP proposes to introduce cap per asset into AMM, change the way min_spread variable is applied and revert to 10-90 and 24h rules for AMM trading.  
+This TIP also proposes to allow whitelisted addresses to configure Implied Volatility of assets to allow for more dynamic reconfiguration of IV as needed.
 
 ## Motivation
 
@@ -19,11 +20,15 @@ I propose to apply the min_spread variable as it was originally intended which i
 I further propose to revert AMM rules to 24h and 90-10 in preparation for ranged markets release. 
 Trading AMM positions that close to maturity results in leveraged pricing changes as the price of the underlying asset changes and unfortunately is prone to frontrunning.  
 
+This TIP also proposes an addition of whitelisted addresses concept into the AMM. The whitelisted addresses, which would be hardware wallets owned by CCs, can update the IV (implied volatility) per asset.  
+Right now this can only be done by protocol DAO, but with the growing number of assets and the need to keep IVs up to date, this will allow us to stay on top of IV configuration.  
+
 ## Specification
 - Introduce capPerAsset variable and use it in place of capPerMarket  
 - Fallback to capPerMarket for assets which dont have an explicit cap set    
 - Revert AMM trading rules to 24h and 90-10  
 - Apply min_spread as absolute pricing change of 2c to algorithmic pricing  
+- Add the concept of whitelisted addresses into the AMM which can configure IV per asset
 
 Individual cap per asset is to be managed at Protocol DAO discretion, but an example it could be something like:
 Cap per asset:  
