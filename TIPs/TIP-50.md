@@ -20,7 +20,7 @@ I am proposing the buyback and burn strategy as I find it more impactful now the
  
 ## Specification 
 
-Establish a rate in which THALES will be bought back using SafeBox contract. There will be a method called "executeBuyback" that will be callable if enough time has passes since last call per defined ratio.  
+Establish a rate in which THALES will be bought back using SafeBox contract. There will be a method called "executeBuyback" that will be callable if enough time has passed since last call per defined ratio.  
 The method will be callable by anyone, but we will have a keeper bot doing it.  
 
 I am proposing a low rate to get the framework started and adapting it as we monitor the inflow of sUSD into SafeBox.  
