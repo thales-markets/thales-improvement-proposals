@@ -9,7 +9,7 @@ It also proposes removing Thales Royale bonus and changing threshold for SNX bon
  
 ## Abstract
  
-With council agreeing protocol usage is the most important aspect for Thales growth with regards to distributing OP tokens, and Thales releasing 3 new products (ranged AMM, exotic markets and sport markets) it makes sense to focus THALES allocation for on usage of these products.  
+With council agreeing protocol usage is the most important aspect for Thales growth with regards to distributing OP tokens, and Thales releasing 3 new products (ranged AMM, exotic markets and sport markets) it makes sense to focus THALES inflation allocation for stakers on usage of these products.  
  
 ## Motivation
  
