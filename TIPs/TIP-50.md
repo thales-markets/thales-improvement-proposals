@@ -4,7 +4,7 @@
  
 ## Simple Summary
  
-This TIP proposes to commense leveraging sUSD accrued in SafeBox as part of THALES token tokenomics
+This TIP proposes to commence leveraging sUSD accrued in SafeBox as part of THALES token tokenomics
  
 ## Abstract
  
@@ -34,7 +34,7 @@ Proposed rate is 100 sUSD per 24h.
 Method executeBuyback can be called if at least 1 TickLength has passed since last buyback.  
 It then calculates how many ticks passes and executes buyback via 1inch integrated contract.  
 
-As burning makes no sense on L1, THALES will accrue in SafeBox contract until ProtocolDAO periodically pulls it, sends it to L1 and executes the Burn.
+As burning makes no sense on L2, THALES will accrue in SafeBox contract until ProtocolDAO periodically pulls it, sends it to L1 and executes the Burn.
  
 ## Copyright
  
