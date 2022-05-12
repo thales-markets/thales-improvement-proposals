@@ -16,7 +16,7 @@ While SafeBox is still not at significant levels, it did 2x in a matter of coupl
 With Thales releasing more products very soon (Ranged markets, Sport markets), and OP tokens distribution incentivizing protocol volume, it is expected SafeBox to receive further fees.  
 This proposal however is more about establishing the infrastructure for potential buyback&burn strategy, while the exact rates are to be configured as we monitor the income of sUSD into SafeBox.  
 
-I am proposing the buyback and burn strategy as I find it more impactfull now then distributing the sUSD fees to stakers on weekly basis.  At current low THALES price, this could allow a large amount of THALES to be burned, until such a time comes that sUSD fees distributed to THALES stakers can be significant and the protocol should move to seize buyback and burn and instead distribute the fees directly pro rata to stakers.    
+I am proposing the buyback and burn strategy as I find it more impactful now then distributing the sUSD fees to stakers on weekly basis.  At current low THALES price, this could allow a large amount of THALES to be burned, until such a time comes that sUSD fees distributed to THALES stakers can be significant and the protocol should move to seize buyback and burn and instead distribute the fees directly pro rata to stakers.    
  
 ## Specification 
 
