@@ -5,7 +5,7 @@
 ## Simple Summary
  
 This TIP proposes to increase protocol usage bonus while reducing the minimal threshold to receive it.    
-It also proposes removing Thales Royale bonus and changing threshold for SNX bonus.  
+It also proposes removing Thales Royale bonus and the SNX bonus.  
  
 ## Abstract
  
@@ -13,7 +13,7 @@ With council agreeing protocol usage is the most important aspect for Thales gro
  
 ## Motivation
  
-Is is currently relatively difficult to max out protocol usage bonus, while relatively easy to max out SNX staking bonus and Royale bonus.  
+Is is currently relatively difficult to max out protocol usage bonus.  
 With Thales releasing 3 new products: Ranged AMM, Exotic Markets and Sport' Markets, it makes more sense to focus staking rewards to additionaly rewards stakers that use the protocol, per the original idea of gamified staking. 
 Thales Royale is to be paused after season 10 (Royale of Royales).  
 
@@ -30,14 +30,14 @@ Current Gamified staking configuration is:
   - 10% or 2.1k THALES weight if the staker participated in the last or ongoing Thales Royale. This value can be either 0 or max.  
   
 I propose the following:  
-- 60k THALES base rewards  
-- 30k THALES bonus rewards
+- 70k THALES base rewards  
+- 21k THALES bonus rewards
   
-    - 70% or  21k to Protocol Usage bucket. This counts sUSD volume from AMM trading, ranged AMM trading, sport's AMM trading and exotic markets bidding. To max out the bucket a user needs to have at least 5 sUSD traded per 1 THALES received in last 4 weeks (staking epochs).  If he has less, he gets proportionally less rewards.
-    - 30% or 9k to SNX stakers.   If a THALES staker has at least 2 SNX staked per THALES he would receive as base reward, he gets maximum bonus, otherwise he gets proportional to the SNX he has staked  
+21k THALES go to Protocol Usage bucket. This counts sUSD volume from AMM trading, ranged AMM trading, sport's AMM trading and exotic markets bidding. To max out the bucket a user needs to have at least 5 sUSD traded per 1 THALES received in last 4 weeks (staking epochs).  If he has less, he gets proportionally less rewards.
+ 
     
 Effectively the threshold for protocol usage bucket is halved while offering multiple products in which this bonus can be increased.  
-Effectively the threshold for SNX bucket is doubled in light of recent inflation increase and the subjective impression of making it relatively on par with the protocol usage bucket.    
+The SNX bucket is removed. 
  
 
 ## Implementation
