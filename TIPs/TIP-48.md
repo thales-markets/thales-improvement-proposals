@@ -33,7 +33,7 @@ I propose the following:
 - 60k THALES base rewards  
 - 30k THALES bonus rewards
   
-    - 70% or  21k to Protocol Usage bucket. This counts sUSD volume from AMM trading, ranged AMM trading, sport's AMM trading and exotic markets bidding. To max out the bucket a user needs to have at least 5 sUSD traded per 1 THALES received in last 4 weeks (staking epochs).  If he has less, he gets proportionally less rewards.
+    - 70% or  21k to Protocol Usage bucket. This counts sUSD volume from AMM trading, ranged AMM trading, sport's AMM trading and exotic markets bidding. To max out the bucket a user needs to have at least 2 sUSD traded per 1 THALES received in last 4 weeks (staking epochs).  If he has less, he gets proportionally less rewards.
     - 30% or 9k to SNX stakers.   If a THALES staker has at least 2 SNX staked per THALES he would receive as base reward, he gets maximum bonus, otherwise he gets proportional to the SNX he has staked  
     
 Effectively the threshold for protocol usage bucket is halved while offering multiple products in which this bonus can be increased.  
