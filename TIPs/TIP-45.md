@@ -68,7 +68,9 @@ Ranged AMM doesnt introduce a concept such as skew impact, instead it relies on 
 **minSupportedPrice = 10c** - minimum odds to support </br>
 **maxSupportedPrice = 90c** - maximum odds to support </br>
 **safeBoxImpact = 1%** - Safe Box fee applied to each IN trade </br>
-**rangedAMMFee = 1%** - a fee applied for liquidity providers to to rangedAMM </br>
+**rangedAMMFee = 1%** - a fee applied for liquidity providers to to rangedAMM </br>  
+
+Note: SafeBox impact will not be applied to OUT trades as ranged AMM has no additional risk, but rather just composes the two underlying positions into an ERC20 token
 
 ## Test Cases
 
