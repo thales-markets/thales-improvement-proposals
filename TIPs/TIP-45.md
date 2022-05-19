@@ -64,11 +64,11 @@ Ranged AMM doesnt introduce a concept such as skew impact, instead it relies on 
 
 ## Variables
 
-**capPerMarket** - maximum risk the ranged AMM can take per market </br>
-**minSupportedPrice** - minimum odds to support </br>
-**maxSupportedPrice** - maximum odds to support </br>
-**safeBoxImpact** - Safe Box fee applied to each trade </br>
-**rangedAMMFee** - a fee applied for liquidity providers to to rangedAMM </br>
+**capPerMarket = 5000 sUSD** - maximum risk the ranged AMM can take per market </br>
+**minSupportedPrice = 10c** - minimum odds to support </br>
+**maxSupportedPrice = 90c** - maximum odds to support </br>
+**safeBoxImpact = 1%** - Safe Box fee applied to each IN trade </br>
+**rangedAMMFee = 1%** - a fee applied for liquidity providers to to rangedAMM </br>
 
 ## Test Cases
 
