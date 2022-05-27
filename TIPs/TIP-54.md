@@ -16,9 +16,23 @@ As we want to get as much fees into SafeBox as possible, I am proposing to pay t
 
 In addition I am proposing to maintain a leaderboard of all referrers and dedicate a bucket of 20k OP tokens from Protocol Incentives to be allocated at Thales council discretion to top referrers at arbitrary time during the program.  
 
-Initially Thales AMM and RangedAMM will be supporting this program. Exotic and Sports products will be considered at a later point due to technical overhead.      
+Initially Thales AMM and RangedAMM will be supporting this program. Exotic and Sports products will be considered at a later point due to technical overhead.
 
---TODO:Marketing experts to elaborate on marketing reasoning 
+Regarding marketing initiatives:  
+  
+Affiliate/referrals are an integral part of marketing plans and they come in different formats. There are different examples from Binance, Okex, PERP protocol, KNC, and many others projects related to web3. If we delve into web2 there are tons of other examples too.
+Thales hasn't delved into using this marketing tool yet and right now, with the products matured and already iterated with community feedback we feel it's the right time to start tapping into this and trialing it.
+
+Why affiliate/referrals work (in general)?  
+
+- The idea is to orchestrate and put a system in place to basically boost the word-of-mouth we already have (because we've already been developing the products and iterating those with the community, so now they are finally at the point where we can start reaching out outside our existing userbase).
+
+- Affiliate/referrals give people a reason (besides just liking the product) that directly benefits them, and this beats passively hoping for word-of-mouth to come into place.
+
+- Users almost always know other users that are like them or share the same interests, so if they would recommend the product to someone else, by having an affiliate/referral program they are incentivized to do so by making both parties win: The user they refer gets to use such a cool product as Thales ones and the one who refers gets double benefit by: a) Being aknowledged by the one they refer and b) Also winning in a tangible way for them, monetarily speaking.
+
+This affiliate marketing tool initiative will be part of the wider marketing funnel as the idea is to amplify it so it can reach as many interested people as possible.   
+
 
 ## Specification
 A new contract `Referrals` is added. The contract stores the link between the referrer and the address that it referred Thales too.  
