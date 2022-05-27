@@ -21,7 +21,7 @@ Initially Thales AMM and RangedAMM will be supporting this program. Exotic and S
 --TODO:Marketing experts to elaborate on marketing reasoning 
 
 ## Specification
-A new contract `Referalls` is added. The contract stores the link between the referrer and the address that it referred Thales too.  
+A new contract `Referrals` is added. The contract stores the link between the referrer and the address that it referred Thales too.  
 The link is generated on the first AMM or Ranged AMM buy the referred address does.  
 The referrer gets a percentage of each trade in sUSD that the referred address makes until the program lasts.  
 
