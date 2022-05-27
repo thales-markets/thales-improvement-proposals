@@ -7,11 +7,11 @@
 Add the concept of on-chain referral program into Thales AMMs
 
 ## Abstract
-This TIP proposes to commence an affiliate program via referrals and send sUSD from every AMM trade to the referrers while program is lasting.
+This TIP proposes to commence an affiliate program via referrals and send sUSD from every AMM trade to the referrers while program is ongoing.
 
 ## Motivation
-With Thales having released or about to release a number of unique and innovative products as well of having commenced the buyback&burn program, it feels like a good time to focus on user acquisition and boosting protocol volume.  
-By introduced the referral/affiliate program, Thales users can generate links and share those with potential traders. If such new traders start generating volume on Thales protocol, the referrers get a percentage from each trade paid in sUSD directly.  
+With Thales having released or about to release a number of unique and innovative products as well as having commenced the buyback&burn program, it feels like a good time to focus on user acquisition and boosting protocol volume.  
+By introducing the referral/affiliate program, Thales users can generate links and share those with potential traders. If such new traders start generating volume on Thales protocol, the referrers get a percentage from each trade paid in sUSD directly.  
 As we want to get as much fees into SafeBox as possible, I am proposing to pay the referral fee out of the AMM fees, rather than take a cut of the SafeBox fees.    
 
 In addition I am proposing to maintain a leaderboard of all referrers and dedicate a bucket of 20k OP tokens from Protocol Incentives to be allocated at Thales council discretion to top referrers at arbitrary time during the program.  
