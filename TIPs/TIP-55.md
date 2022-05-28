@@ -8,11 +8,11 @@ This TIP proposes a plan on how to execute the allocation of 315,000 OP tokens t
  
 ## Abstract
  
-This TIP proposes to distribute 315,000 OP tokens towards THALES/WETH liquidity providers as a second stream of LP rewards for an already active LP staking contract that emits THALES rewards. The proposal is to emit these tokens for the duration of 20 weeks with 15,750 OP tokens awarded per week. As these emissions will run in parallel with the current LP rewards program which emits THALES rewards, the current LP staking contract is to be adapted to support dual reward emissions and claiming.
+This TIP proposes to distribute 315,000 OP tokens towards THALES/WETH liquidity providers as a second stream of LP rewards for an already active LP staking contract that emits THALES rewards. The proposal is to emit these tokens in amounts of 15,750 OP tokens awarded per week. As these emissions will run in parallel with the current LP rewards program which emits THALES rewards, the current LP staking contract is to be adapted to support dual reward emissions and claiming.
  
 ## Motivation
  
-Since liquidity increase is in Optimism's and in Thales' best interest at the same time, having OP token as a second stream of LP rewards alongside THALES token rewards themselves will alleviate the need for spending more THALES tokens for that cause. Choosing a duration of 20 weeks should ensure healthy and stable liquidity for the THALES token for almost 5 months and there is a good chance to renew these incentives for an even longer time if Phase 1 OP token distribution is successful for Thales.
+Since liquidity increase is in Optimism's and in Thales' best interest at the same time, having OP token as a second stream of LP rewards alongside THALES token rewards themselves will alleviate the need for spending more THALES tokens for that cause. With these weekly emissions, a duration of 20 weeks should ensure healthy and stable liquidity for the THALES token for almost 5 months and there is a good chance to renew these incentives for an even longer time if Phase 1 OP token distribution is successful for Thales. However, flexibility to adapt as things change and progress will be kept and the amount of weekly emissions will be a subject of change under those circumstances.
  
 ## Specification
  
