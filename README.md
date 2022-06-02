@@ -50,3 +50,13 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-43 | [Modification of THALES token LP program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-43.md) | Implemented |
 | TIP-44 | [Increase AMM Liquidity](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-44.md) | Implemented |
 | TIP-45 | [Ranged Markets	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-45.md) | Implemented |
+| TIP-46 | [AMM - cap per asset](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-46.md) | Implemented |
+| TIP-47 | [Extension of THALES token LP staking program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-47.md) | Implemented |
+| TIP-48 | [Changes to gamified staking	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-48.md) | Implemented |
+| TIP-50 | [Utilize Safe Box ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-50.md) | Implemented |
+| TIP-51 | [Allow negative AMM skew impact	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-51.md) | Implemented |
+| TIP-52 | [Supply liquidity to Thales Bancor pool	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-52.md) | Implemented |
+| TIP-53 | [OP token allocation towards Gamified Staking ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-53.md) | Implemented |
+| TIP-54 | [Thales referrals program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-54.md) | Implemented |
+| TIP-55 | [OP token allocation towards THALES/WETH liquidity providers	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-55.md) | Voted in |
+
