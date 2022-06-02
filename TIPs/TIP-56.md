@@ -16,7 +16,7 @@ Direct Trading Incentives towards Thales traders are proven to have a high impac
   
 The choice of splitting the incentives as dedicated pro rata rewards for each of the 4 possible possible positions (UP, DOWN, IN and OUT) equally, is decided for the reason of organically balancing the AMM skew. Using this method, the amount of rewards a trader gets per round are inversely correlated to the amount of total sUSD buy volume his specific type of position has for said round. This causes the organic effect of awards being more lucrative for the positional tokens that are overall less purchased, thus incentivising traders to buy the less purchased type of a positional token and this way help in balancing the global AMM skew or helping the AMM to have less risk (exposure) to which way the markets resolve.  
 
-For example, if Thales traders heavily buy UP tokens from the markets but don't buy as much DOWN tokens, DOWN tokens Buy Volume will organically accrue more rewards because you will get the "larger piece of the 6,125 OP tokens pie" than if you were to buy UP tokens. The subsequent effect is that traders will be more incentivized to buy the positional tokens that help the AMM increase the overall balance.
+For example, if Thales traders heavily buy UP tokens from the markets but don't buy as much DOWN tokens, DOWN tokens Buy Volume will organically accrue more rewards because you will get the "larger piece of the 5,000 OP tokens pie" than if you were to buy UP tokens. The subsequent effect is that traders will be more incentivized to buy the positional tokens that help the AMM increase the overall balance.
  
 ## Specification
  
