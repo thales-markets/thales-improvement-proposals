@@ -4,11 +4,11 @@
  
 ## Simple Summary
  
-This TIP proposes a plan on how to execute the allocation of 250,000 OP tokens and 40,000 THALES tokens towards the Thales Marketplace traders as Pro rata Trading Incentives
+This TIP proposes a plan on how to execute the allocation of 250,000 OP tokens and 100,000 THALES tokens towards the Thales Marketplace traders as Pro rata Trading Incentives
  
 ## Abstract
  
-This TIP proposes to distribute 250,000 OP tokens towards the Thales Marketplace traders as Pro rata Trading Incentives. The proposal is to emit these tokens in amounts of 25,000 OP tokens and 40,000 THALES tokens per 14-day round of new markets. Proposing that each round of incentives is split between **Buy Volume** of UP, DOWN, IN and OUT  tokens. This effectively means that each of the 4 types of positions will be incentivised with dedicated 6,125 OP tokens per 14-day round, for a total program duration of 20 weeks (10 14-day rounds).
+This TIP proposes to distribute 200,000 OP tokens towards the Thales Marketplace traders as Pro rata Trading Incentives. The proposal is to emit these tokens in amounts of 20,000 OP tokens and 100,000 THALES tokens per 14-day round of new markets. Proposing that each round of incentives is split between **Buy Volume** of UP, DOWN, IN and OUT  tokens. This effectively means that each of the 4 types of positions will be incentivised with dedicated 5,000 OP and 2,500 THALES tokens per 14-day round, for a total program duration of 20 weeks (10 14-day rounds).
  
 ## Motivation
  
@@ -20,7 +20,7 @@ For example, if Thales traders heavily buy UP tokens from the markets but don't 
  
 ## Specification
  
- This TIP entails the Thales Treasury to dedicate 250,000 OP tokens from the total Phase 0 OP tokens distribution for Thales, as 20-week Pro Rata Trading Incentives program for Thales traders. The distribution between traders for each round and for each positional token buy volume is to be calculated by off-chain scripts, and distributed accordingly.
+ This TIP entails the Thales Treasury to dedicate 100,000 THALES tokens and 200,000 OP tokens from the total Phase 0 OP tokens distribution for Thales, as a 20-week Pro Rata Trading Incentives program for Thales traders. The distribution between traders for each round and for each positional token buy volume is to be calculated by off-chain scripts, and distributed accordingly.
 
 ## Rationale
  
