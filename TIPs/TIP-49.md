@@ -16,11 +16,12 @@ To improve the UX, this TIP proposes that staked and vested Thales that are curr
 Staked Thales are currently locked for 7 days (Cooldown) and Staking rewards are locked for 10 weeks from the date they are claimed, despite being locked they are still counted as staked. One of the consequences of this is that a staker who has earned rewards in a wallet is forced to continue to maintain this wallet. The purpose of locking these staking rewards was to ensure that they were not able to be transferred, however, this creates a problem if a wallet is compromised or if a user would like to cycle wallets. This TIP proposes a compromise whereby a staker can transfer the entire balance of their staked/vested balance to a different wallet.
 
 Not being able to merge accounts has caused several problems to stakers, such as:
-
-Small stakers foregoing rewards due to inability to consolidate large wallets. Less accounts staking as Thales is vested in wallets that are not maintained
-Thales staker cannot benefit from bonus rewards as SNX was staked on another wallet
-Overall worsening of UX
-
+  
+ - Small stakers foregoing rewards due to inability to consolidate large wallets. 
+ - Less accounts staking as Thales is vested in wallets that are not maintained
+ - Thales staker cannot benefit from bonus rewards as SNX was staked on another wallet
+ - Overall worsening of UX
+  
 ## Specification
 A user will be able to sign a transaction assigning the Thales tokens in the staked/vested contract from the signing wallet to a new wallet. Only the full amount of Thales staked and vested will be able to be reassigned; partial reassignments will not be possible.
 
