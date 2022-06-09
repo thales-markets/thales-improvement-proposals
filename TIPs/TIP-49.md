@@ -7,8 +7,12 @@
 ## Simple Summary
 Make Account Merging always possible in order to enable transferring staked and vested Thales balances to a different account.
 
+## Abstract 
+
+To improve the UX, this TIP proposes that staked and vested Thales that are currently locked and can only be transferred after 7 days / 10 weeks, are to be made transferable. However, this TIP additionally proposes that the THALES transferred this way should also be staked and vested on the new receiving wallet.
 
 ## Motivation
+
 Staked Thales are currently locked for 7 days (Cooldown) and Staking rewards are locked for 10 weeks from the date they are claimed, despite being locked they are still counted as staked. One of the consequences of this is that a staker who has earned rewards in a wallet is forced to continue to maintain this wallet. The purpose of locking these staking rewards was to ensure that they were not able to be transferred, however, this creates a problem if a wallet is compromised or if a user would like to cycle wallets. This TIP proposes a compromise whereby a staker can transfer the entire balance of their staked/vested balance to a different wallet.
 
 Not being able to merge accounts has caused several problems to stakers, such as:
