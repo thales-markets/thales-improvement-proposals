@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-58 | Implement a solution for trading with USDC, USDT and DAI in the Thales AMM contract| Draft | padzank (@padzank) | Deploy and enable an implementation that allows Thales traders to directly trade with USDC, USDT and DAI when using the Thales AMM | https://discord.gg/8bzFdpGTrp | 2022-06-10
+| TIP-58 | Implement seemless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract | Draft | padzank (@padzank) | Deploy and enable an implementation that allows Thales traders to directly trade with USDC, USDT and DAI when using the Thales AMM | https://discord.gg/8bzFdpGTrp | 2022-06-10
  
 ## Simple Summary
  
@@ -10,7 +10,7 @@ This TIP proposes to deploy and enable an implementation that allows Thales trad
  
 Allowing Thales traders to also use other types of stablecoins when trading with the AMM, was frequently proposed as a solution that would increase UX and onboarding for many new traders that have no sUSD exposure.  
  
-This TIP proposes to introduce an implementation that allows Thales traders to directly trade with the Thales AMM with USDC, USDT or DAI as well. Traders will be able to position on Thales markets with these stablecoins, while the contract will swap to sUSD in the background before executing the trade. First iteration of this solution will allow only **purchases** of Positional Tokens, while Exercising and Selling will be supported on the next iteration of this implementation.
+This TIP proposes to introduce an implementation that allows Thales traders to directly trade with the Thales AMM with USDC, USDT or DAI as well by **seamlessly swapping them to sUSD in the same transaction**. Traders will be able to position on Thales markets with these stablecoins, while the contract will swap to sUSD in the background using the sUSD+3CRV Curve pool before executing the trade. First iteration of this solution will allow only **purchases** of Positional Tokens, while Exercising and Selling will be supported on the next iteration of this implementation.
  
 ## Motivation
  
