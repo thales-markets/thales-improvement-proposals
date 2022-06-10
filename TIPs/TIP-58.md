@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-58 | Implement seemless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract | Draft | padzank (@padzank) | Deploy and enable an implementation that allows Thales traders to directly trade with USDC, USDT and DAI when using the Thales AMM | https://discord.gg/8bzFdpGTrp | 2022-06-10
+| TIP-58 | Implement seamless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract | Draft | padzank (@padzank) | Deploy and enable an implementation that allows Thales traders to directly trade with USDC, USDT and DAI when using the Thales AMM | https://discord.gg/8bzFdpGTrp | 2022-06-10
  
 ## Simple Summary
  
