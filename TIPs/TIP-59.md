@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-59 | This TIP proposes to update parameters in order to increase Thales token buyback frequency | Vote Pending | MrBreakout (@mrbreakout) | Increase Thales Token Buybacks | https://discord.gg/8bzFdpGTrp | 2022-06-16
+| TIP-59 | Increase Thales Token Buybacks  | Vote Pending | MrBreakout (@mrbreakout) | This TIP proposes to update parameters in order to increase Thales token buyback frequency | https://discord.gg/8bzFdpGTrp | 2022-06-16
 
 ## Simple Summary
 
