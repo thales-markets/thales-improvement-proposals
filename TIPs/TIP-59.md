@@ -18,7 +18,7 @@ Moreover, Thales Protocol is showing steady increase in volume and its new produ
 
 ## Specification
 
-Update variable sTickLength from "24h" to "18h"
+Update variable `sTickLength` from "24h" to "18h"
 
 ## Rationale
 N/A
