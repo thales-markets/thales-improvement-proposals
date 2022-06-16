@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-56 | OP token allocation towards pro rata Trading Incentives | Draft | padzank (@padzank)| Detailed plan around allocating 250,000 OP tokens from Thales Phase 0 distribution towards traders the Thales Marketplace traders as Pro rata Trading Incentives | https://discord.gg/rPpPcMXSeU | 2022-06-02
+| TIP-56 | OP token allocation towards pro rata Trading Incentives | Draft | padzank (@padzank)| Detailed plan around allocating 200,000 OP tokens from Thales Phase 0 distribution towards traders the Thales Marketplace traders as Pro rata Trading Incentives | https://discord.gg/rPpPcMXSeU | 2022-06-02
  
 ## Simple Summary
  
