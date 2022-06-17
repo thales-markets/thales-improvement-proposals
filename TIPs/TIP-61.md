@@ -37,7 +37,7 @@ N/A
 
 Let’s take the following AMM Position Distribution as a snapshot for calculating the Global Skew Impact per Asset using the previously proposed parameters.
 
-![4](./images/4.png)
+![4](./images/4.PNG)
 
  - **AAVE** - AAVE’s getCapPerAsset = 5000. AMM owns 5,000 UP tokens and 0 DOWN tokens. Difference between UP and DOWN tokens owned is 5,000, which is 25% of 20,000. This means that the Global Skew Impact (premium) for DOWN tokens of AAVE markets is 5%.
 
