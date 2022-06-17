@@ -59,9 +59,9 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-53 | [OP token allocation towards Gamified Staking ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-53.md) | Implemented |
 | TIP-54 | [Thales referrals program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-54.md) | Implemented |
 | TIP-55 | [OP token allocation towards THALES/WETH liquidity providers	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-55.md) | Voted in |
-| TIP-56 |  |  |
-| TIP-57 |  |  |
-| TIP-58 |  |  |
-| TIP-59 |  |  |
+| TIP-56 | [OP token allocation towards pro rata Trading Incentives](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-56.md) | Draft |
+| TIP-57 | [Exotic Markets referrals program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-57.md)| Draft |
+| TIP-58 | [Implement seamless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-58.md) | Implemented |
+| TIP-59 | [Increase THALES buybacks frequency](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-59.md)  | Voted in |
 | TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Draft |
 
