@@ -39,21 +39,21 @@ Let’s take the following AMM Position Distribution as a snapshot for calculati
 
 ![4](./images/4.PNG)
 
- - **AAVE** - AAVE’s getCapPerAsset = 5000. AMM owns 5,000 UP tokens and 0 DOWN tokens. Difference between UP and DOWN tokens owned is 5,000, which is 25% of 20,000. This means that the Global Skew Impact (premium) for DOWN tokens of AAVE markets is 5%.
+ - **AAVE** - AAVE’s getCapPerAsset = 5000. AMM owns 5,000 UP tokens and 0 DOWN tokens. Difference between UP and DOWN tokens owned is 5,000, which is 25% of 20,000. **This means that the Global Skew Impact (premium) for DOWN tokens of AAVE markets is 5%.**
 
- - **BTC** - BTC’s  getCapPerAsset = 10,000. AMM owns 9,038 UP tokens and 15,116 DOWN tokens. Difference between UP and DOWN tokens owned  is -6,078, which is 15.19% of 40,000. This means that the Global Skew Impact (premium) for UP tokens of BTC markets is 3.03%.
+ - **BTC** - BTC’s  getCapPerAsset = 10,000. AMM owns 9,038 UP tokens and 15,116 DOWN tokens. Difference between UP and DOWN tokens owned  is -6,078, which is 15.19% of 40,000. **This means that the Global Skew Impact (premium) for UP tokens of BTC markets is 3.03%.**
 
- - **CRV** - CRV’s getCapPerAsset = 5000. AMM owns 5,250 UP tokens and 1,050 DOWN tokens. Difference between UP and DOWN tokens owned  is 4,200, which is 21% of 50,000. This means that the Global Skew Impact for DOWN tokens of CRV markets is 4.2%.
+ - **CRV** - CRV’s getCapPerAsset = 5000. AMM owns 5,250 UP tokens and 1,050 DOWN tokens. Difference between UP and DOWN tokens owned  is 4,200, which is 21% of 50,000. **This means that the Global Skew Impact for DOWN tokens of CRV markets is 4.2%.**
 
- - **ETH** - ETH’s  getCapPerAsset = 10,000. AMM owns 38,823 UP tokens and 28,169 DOWN tokens. Difference between UP and DOWN tokens owned  is 10,654, which is 26.6% of 40,000. This means that the Global Skew Impact for DOWN tokens of ETH markets is 5.32%.
+ - **ETH** - ETH’s  getCapPerAsset = 10,000. AMM owns 38,823 UP tokens and 28,169 DOWN tokens. Difference between UP and DOWN tokens owned  is 10,654, which is 26.6% of 40,000. **This means that the Global Skew Impact for DOWN tokens of ETH markets is 5.32%.**
 
- - **OP** - OP’s getCapPerAsset = 5000. AMM owns 6,825 UP tokens and 1,754 DOWN tokens. Difference between UP and DOWN tokens owned  is 5,071, which is 25.3% of 20,000. This means that the Global Skew Impact for DOWN tokens of ETH markets is 5.07%.
+ - **OP** - OP’s getCapPerAsset = 5000. AMM owns 6,825 UP tokens and 1,754 DOWN tokens. Difference between UP and DOWN tokens owned  is 5,071, which is 25.3% of 20,000. **This means that the Global Skew Impact for DOWN tokens of ETH markets is 5.07%.**
 
- - **PERP** - PERP’s getCapPerAsset = 5000. AMM owns 11,377 UP tokens and 150 DOWN tokens. Difference between UP and DOWN tokens owned  is 11,227, which is 56.1% of 20,000. This means that the Global Skew Impact for DOWN tokens of ETH markets is 11.22%.
+ - **PERP** - PERP’s getCapPerAsset = 5000. AMM owns 11,377 UP tokens and 150 DOWN tokens. Difference between UP and DOWN tokens owned  is 11,227, which is 56.1% of 20,000. **This means that the Global Skew Impact for DOWN tokens of ETH markets is 11.22%.**
 
- - **SNX** - SNX’s getCapPerAsset = 8000. AMM owns 35,880 UP tokens and 9,559 DOWN tokens. Difference between UP and DOWN tokens owned  is 26,321, which is 82.2% of 32,000. This means that the Global Skew Impact for DOWN tokens of ETH markets is 16.45%.
+ - **SNX** - SNX’s getCapPerAsset = 8000. AMM owns 35,880 UP tokens and 9,559 DOWN tokens. Difference between UP and DOWN tokens owned  is 26,321, which is 82.2% of 32,000. **This means that the Global Skew Impact for DOWN tokens of ETH markets is 16.45%.**
 
- - **SOL** - SOL’s getCapPerAsset = 5000. AMM owns 4,778 UP tokens and 700 DOWN tokens. Difference between UP and DOWN tokens owned  is 4,078, which is 20.3% of 20,000. This means that the Global Skew Impact for DOWN tokens of ETH markets is 4.07%.
+ - **SOL** - SOL’s getCapPerAsset = 5000. AMM owns 4,778 UP tokens and 700 DOWN tokens. Difference between UP and DOWN tokens owned  is 4,078, which is 20.3% of 20,000. **This means that the Global Skew Impact for DOWN tokens of ETH markets is 4.07%.**
 
 
 ## Implementation
