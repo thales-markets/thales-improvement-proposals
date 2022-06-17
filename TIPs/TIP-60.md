@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), kirilA (@kirila), Red (@Red-Thales) | This TIP proposes to Sorts AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
+| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), kirilA (@kirila), Red (@Red-Thales) | This TIP proposes to Sport AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
 
 ## Simple Summary
 
