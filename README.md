@@ -59,4 +59,9 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-53 | [OP token allocation towards Gamified Staking ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-53.md) | Implemented |
 | TIP-54 | [Thales referrals program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-54.md) | Implemented |
 | TIP-55 | [OP token allocation towards THALES/WETH liquidity providers	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-55.md) | Voted in |
+| TIP-56 |  |  |
+| TIP-57 |  |  |
+| TIP-58 |  |  |
+| TIP-59 |  |  |
+| TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Draft |
 
