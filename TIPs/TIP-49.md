@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-49 |  Account Merging | Draft | Milkywave | Enable staked & vested thales account merging | https://discord.gg/WTe9sK5A | 2022-06-09
+| TIP-49 |  Account Merging | Vote Pending | Milkywave | Enable staked & vested thales account merging | https://discord.gg/WTe9sK5A | 2022-06-09
 
 
 
