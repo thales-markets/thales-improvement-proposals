@@ -4,13 +4,13 @@
 
 ## Simple Summary
 
-This TIP proposes to implement and release a Sport AMM. Sports AMM is a positional market for a sport games which is created from a Chanlink sport data [oracle](https://market.link/nodes/TheRundown/integrations)
+This TIP proposes to implement and release a Sport AMM. Sports AMM is a positional market for sports games that are created from a Chainlink sports data [oracle](https://market.link/nodes/TheRundown/integrations)
 
 @Red please add 
 
 ## Abstract
 
-Sports AMM is a positional market for a sport games. In each market there is a two positional or three positional sports game (home win, away win or draw).
+Sports AMM is a positional market for sports games. In each market, there is a two positional or three positional sports game (home win, away win, or draw).
 
 @Red please add 
 
@@ -20,64 +20,64 @@ Sports AMM is a positional market for a sport games. In each market there is a t
 
 ## Specification
 
-Based on a CL sports data, system grep games from it and create, resolve and pull odds. System then create markets, update automaticlly price per position and resolve markets.
+Based on CL sports data, the system fetches the games and creates, resolves, and pulls odds. The system then creates markets, updates the price per position automatically, and resolves markets.
 
 Sports that are supported by Sport AMM are:
 
-@Red please add and elaborate
+@Red please add the sports and elaborate
 
-Based on a requrement there is a need for next technical specification:
+Based on the requirements, there are needs for the following technical specifications:
 
-1) *Wrapper contract* - is part of a grapping games from chainlink sports data, it contains grapping games, results and odds from CL, those data is transfered to consumer contract. Wrapper contract will be called from bots which execute those grapping functions:
+1) *Wrapper contract* - is part of fetching games from chainlink sports data, it contains fetching games, results, and odds from CL, and that data is transferred to the consumer contract. Wrapper contract will be called by bots that execute those fetching functions:
 
-    - `requestGames` - function which is called when games needed to be created (input params are date of a game and sports id), function is called for each sport 7 days in front two times per week
-    - `requestGamesResolveWithFilters` - function which is called when games needed resolved and it is resolved when game is ended (calculation based on a start of game depending on a sport, now it is set 3 hours from starting of a game regardless of a sport)
-    - `requestOddsWithFilters` - function which is called when odds needed to be pulled. Each game odds will be pulled on 6h, except on a game day which will be pulled each hour.
+    - `requestGames` - this function is called when games need to be created (input params are the date of the game and sports id), the function is called for each sport 7 days in advance, two times per week
+    - `requestGamesResolveWithFilters` - this function is called when games need to be resolved and it is called when the game has ended (the calculation is based on the start of the game, and the type of sport, now it is set to 3 hours from the start of the game, regardless of a sport)
+    - `requestOddsWithFilters` - this function is called when odds need to be pulled. Each game's odds will be pulled every 6 hours, except on game day, when will be pulled each hour.
 
-    This contract has LINK inside which will be used for pay to CL request. 
-    Also, all those methods can be called manually but only from whitelisted addresses, which prevent LINK to be spend by calling methods from some untrusted address. Beside grapping functions, contract will have next methods which can be called only if you are an contract owner:
+    This contract has LINK inside which will be used to pay for the CL requests. 
+    Also, all those methods can be called manually but only from whitelisted addresses, which prevents LINK from being spent by calling methods from some untrusted address. Besides fetching functions, the contract will have the following methods which can be called only if you are the contract owner:
 
     - `addToWhitelist` - adding address to whitelist
     - `setOracle` - setting oracle from CL if change is needed
-    - `setConsumer` - set consumer address if needded
-    - `withdrawLink` - if we need to change contract this function will withdraw LINK from contract 
+    - `setConsumer` - set consumer address if needed
+    - `withdrawLink` - if we need to change the contract this function will withdraw LINK from the contract 
 
-2) *Consumer contract* - is part of processing pipeline and store dames which are sended from wrapper contract. This contract is a proxy contract, and stors all data from games, and also calls queue contract to stora data which are needed for processing part of a results and odds. Consumer calls market creator to create/resolve/update odds based on which request is send from a wrapper. In this contract there is a methods for manual resolve/cancel of a games. Also, all those methods can be called only from a wrapper address or whitelisted address. This contract is going to sen normalized odds based on moneyline (american) odds which we get from a CL.
+2) *Consumer contract* - is part of the processing pipeline and store games that are sent from the wrapper contract. This contract is a proxy contract, and stores all data from games, and also calls the queue contract to store data that are needed for the processing part of the results and odds. Consumer calls the market creator to create/resolve/update odds based on which request is sent from the wrapper. In this contract, there is a method for manual resolution/cancellation of games. Also, all those methods can be called only from the wrapper address or a whitelisted address. This contract is going to send normalized odds based on moneyline (American) odds which we get from a CL.
 
-    Main functions in consumer contract are:
+    The main functions of the consumer contract are:
 
-    - `fulfillGamesCreated` -  wrapper can only call function which fulfill games which are fetched from CL
-    - `fulfillGamesResolved` - wrapper can only call function which fulfill game results which are fetched from CL
-    - `fulfillGamesOdds` - wrapper can only call function which fulfill game odds results which are fetched from CL
-    - `createMarketForGame` - craates market for a certan game id 
-    - `resolveMarketForGame` - resolve market for a certan game id 
-    - `resolveMarketManually` - resolving of a game based on market id and outcome only whitelisted address can call this function
-    - `resolveGameManually` - resolving of a game based on game id and outcome only whitelisted address can call this function
-    - `cancelGameManually` - cancel of a game based on game id and outcome only whitelisted address can call this function
-    - `cancelMarketManually` - cancel of a game based on market id and outcome only whitelisted address can call this function
-    - `getNormalizedOdds` - function that do a calculation based on moneyline odds to transfer them into normalized odds to a 100%
+    - `fulfillGamesCreated` -  wrapper can only call the function which fills the contract with games that are fetched from CL
+    - `fulfillGamesResolved` - wrapper can only call the function which fills the contract with game results that are fetched from CL
+    - `fulfillGamesOdds` - wrapper can only call the function which fills the contract with game odds results that are fetched from CL
+    - `createMarketForGame` - creates market for a certan game id 
+    - `resolveMarketForGame` - resolves the market for a certain game id 
+    - `resolveMarketManually` - resolving of a game based on market id and outcome, only whitelisted address can call this function
+    - `resolveGameManually` - resolving of a game based on game id and outcome, only whitelisted address can call this function
+    - `cancelGameManually` - the cancellation of a game based on game id and outcome, only whitelisted address can call this function
+    - `cancelMarketManually` - the cancellation of a game based on market id and outcome, only whitelisted address can call this function
+    - `getNormalizedOdds` - a function that does a calculation based on moneyline odds to transfer them into normalized odds to a 100%
 
     Owner functions:
 
-    - `addToWhitelist` - adding address to whitelist
-    - `setSupportedSport` - setting new sport which is supported by markets
+    - `addToWhitelist` - adding address to the whitelist
+    - `setSupportedSport` - setting a new sport that is supported by markets
     - `setSupportedResolvedStatuses` - setting supported resolve statuses of a game
     - `setSupportedCancelStatuses` - setting supported cancel statuses of a game
-    - `setwoPositionSport` - adding sport if sport is two positional (like NBA, no draw allowed)
+    - `setwoPositionSport` - adding a sport if the sport is two positional (like NBA, no draw allowed)
     - `setSportsManager` - setting new sports manager if needed 
     - `setWrapperAddress` - setting new wrapper address if needed
     - `setQueueAddress` - setting new queue address if needed
 
 
-3) *GamesQueue contract* - is a contract part of a processing pipeline which is a pure store contract which has all games that are created, and based on that queue pulling odds and game resolve is working by finding which game is needed to be processed. This contract is also a proxy contract.
+3) *GamesQueue contract* - is a contract part of a processing pipeline which is a pure store contract that contains all games that are created, and based on that queue is pulling odds. Game resolving is working by finding which game is needed to be processed. This contract is also a proxy contract.
 
-    Main functions in games queue contract and which can be called only from a consumer contract are:
+    The main functions in the games queue contract and which can be called only from a consumer contract are:
 
-    - `enqueueGamesCreated` - populate queue when game is created
-    - `dequeueGamesCreated` - remove game from queue when market is created based on id
-    - `enqueueGamesResolved` - populate queue when game is resolved
-    - `dequeueGamesResolved` - remove game from queue when market is resolved based on id
-    - `removeItemUnproccessedGames` - removing game from a list of games that is resolved
+    - `enqueueGamesCreated` - populate queue when the game is created
+    - `dequeueGamesCreated` - remove the game from the queue when the market is created based on the id
+    - `enqueueGamesResolved` - populate queue when the game is resolved
+    - `dequeueGamesResolved` - remove the game from the queue when the market is resolved based on id
+    - `removeItemUnproccessedGames` - removing the game from a list of games that is resolved
 
     Owner functions:
 
