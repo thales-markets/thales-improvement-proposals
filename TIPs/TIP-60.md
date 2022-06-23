@@ -66,7 +66,7 @@ Each market offers buying/selling of positions:
 
 The price of each position is calculated using the Chainlink odd feeds and the price impact upon each trade. The price impact is determined by the minimum/maximum skrew impact set in the Sport AMM contract. This mechanism motivates traders to jump in early on without delay. 
 
-The price of each position is in the range from 0 to 1.  
+The price per position is in the range from 0 to 1.  
 For example, if the price of the HOME team to win is 0.55, it means: **a user to buy 1 HOME position needs to pay 0.55 sUSD.**
 
 Each game is capped with a default cap. This means if the traders continously buy from AMM only the HOME position, the trading for the HOME position goes out of liquidity once the default cap is exceeded.
