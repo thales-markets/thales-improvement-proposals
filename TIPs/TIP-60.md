@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), kirilA (@kirila), Red (@Red-Thales) | This TIP proposes to implement and release a Sport AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
+| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sport AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
 
 ## Simple Summary
 
@@ -10,7 +10,9 @@ This TIP proposes to implement and release a Sport AMM. Sports AMM is a position
 
 ## Abstract
 
-Sports AMM is a positional market for sports games. In each market, there is a two positional or three positional sports game (home win, away win, or draw).
+Sports AMM is an AMM dedicated for trading positional sport markets using Chainlink feeds for price calculation. 
+For each market, there are two or three positions/outcomes (home win, away win, or draw). 
+Additionally, a game can be cancelled which in that case the last provided odds are used to exercise the users' positions.
 
 @Red please add 
 
@@ -19,6 +21,42 @@ Sports AMM is a positional market for sports games. In each market, there is a t
 @Red please add 
 
 ## Specification
+
+The Sports AMM enables creation of markets, positions trading and exercising user positions. 
+Hence, the workflow of the SportsAMM is divided in three parts:
+
+- Market creation
+- AMM trading
+- Market resolution
+
+### Market creation
+
+This is the starting phase when markets are created from games offered by the [Chainlink end-point](https://market.link/nodes/TheRundown/integrations).
+The games are organized in `sportIds` which represent a league competition of given sport, not only sport in general. 
+Current list of supported `sportIds` (or leagues):
+- NCAA Men's Football: 1 (American football)
+- NFL: 2 (American football)
+- MLB: 3 (Baseball)
+- NBA: 4 (Basketball)
+- NCAA Men's Basketball: 5 (Basketball)
+- NHL: 6 (Hockey)
+- WNBA: 8 (Basketball)
+- MLS: 10 (Soccer)
+- EPL: 11 (Soccer)
+- Ligue 1: 12 (Soccer)
+- Bundesliga: 13 (Soccer)
+- La Liga: 14 (Soccer)
+- Serie A: 15 (Soccer)
+- UEFA Champions League: 16 (Soccer)
+
+The market creation starts with fetching games for each `sportId` each day from the end-point. The fetched games are stored on-chain.
+Next, markets are created from every fetched game. Each game is a positional market with two or three positions depending on the possible outcomes of the game. For e.g., in a basketball game there are two outcomes: home win and away win, but in a soccer game there are three possible outcomes: home win, away win, and a draw. 
+The created market becomes active and eligible for AMM trading. 
+
+### AMM trading
+
+### Market resolution
+
 
 Based on CL sports data, the system fetches the games and creates, resolves, and pulls odds. The system then creates markets, updates the price per position automatically, and resolves markets.
 
