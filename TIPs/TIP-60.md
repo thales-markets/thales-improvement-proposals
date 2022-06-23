@@ -29,6 +29,9 @@ Hence, the workflow of the SportsAMM is divided in three parts:
 - AMM trading
 - Market resolution
 
+The Sports AMM smart contract is a modified version of the Thales AMM to support three outcomes ([TIP-11](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-11.md), [TIP-30](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-30.md)).
+Each market smart contract is a modified version of the Positional market. More in technical details section.
+
 ### Market creation
 
 This is the starting phase when markets are created from games offered by the [Chainlink end-point](https://market.link/nodes/TheRundown/integrations).
@@ -55,8 +58,32 @@ The created market becomes active and eligible for AMM trading.
 
 ### AMM trading
 
+Each market is open for AMM trading after it is created. 
+The AMM trading finishes when the game starts (or a fixed period of time before the game starts, e.g. 10 minutes before the game). 
+Each market offers buying/selling of positions:
+- HOME and AWAY - for two positional markets (basketball)
+- HOME, AWAY and DRAW - for three positional markets (soccer)
+
+The price of each position is calculated using the Chainlink odd feeds and the price impact upon each trade. The price impact is determined by the minimum/maximum skrew impact set in the Sport AMM contract. This mechanism motivates traders to jump in early on without delay. 
+
+The price of each position is in the range from 0 to 1.  
+For example, if the price of the HOME team to win is 0.55, it means: **a user to buy 1 HOME position needs to pay 0.55 sUSD.**
+
+Each game is capped with a default cap. This means if the traders continously buy from AMM only the HOME position, the trading for the HOME position goes out of liquidity once the default cap is exceeded.
+
+The Sports AMM allows for multi-collateral trading by seamless use of sUSD, DAI, USDC, USDT as in [TIP-58](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-58.md).
+
 ### Market resolution
 
+Each market can be resolved with one of the two/three outcomes or cancelled. 
+Users possesing winning positions are eligible to exercise and receive payment in sUSD. 
+
+**1 WINNING OPTION = 1 sUSD**
+
+In case of cancellation, each user can exercise its position and receive sUSD according to the last recorded price per option.  
+For example: *if the user poses 1 HOME option, for which the last price per HOME option is 0.55, the user will receive 0.55 sUSD in case of cancellation.*
+
+## Technical details
 
 Based on CL sports data, the system fetches the games and creates, resolves, and pulls odds. The system then creates markets, updates the price per position automatically, and resolves markets.
 
