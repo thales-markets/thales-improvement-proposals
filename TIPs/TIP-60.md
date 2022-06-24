@@ -148,7 +148,11 @@ Based on the requirements, there are needs for the following technical specifica
 
     - `setConsumerAddress` - setting new consumer address if needed
 
-4) ...
+4) SportPositionalMarketManager - is a contract responsible to relay creation of a game market or resolution of a game market. The market creation is relayed from `Consumer` to the `SportPositionalMarketFactory`. Each game is created as a market clone of `SportPositionalMarket`. Each game market position is a ERC-20 `SportPosition` contract.   
+5) SportPositionalMarketFactory - is a contract responsible for creation of game markets - `SportPositionalMarket`.
+6) SportPositionalMarket - is the game market contract.
+7) SportPosition - is a position contract which represent a single position of a given game market. For example, a *HOME position for game market X vs. Y*. 
+8) SportsAMM - is the main contract for buying/selling positions for active markets
 
 @Kirila please add 
 
