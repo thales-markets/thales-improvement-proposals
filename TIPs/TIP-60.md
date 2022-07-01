@@ -6,7 +6,7 @@
 
 This TIP proposes to implement and release a Sport AMM. Sports AMM is a positional market for sports games that are created from a Chainlink sports data [oracle](https://market.link/nodes/TheRundown/integrations)
 
-@Red please add 
+The TIP will outline the oracle supported sports and leagues, the specification behind the novel Sport AMM, as well as the motivation behind the Sport AMM release.
 
 ## Abstract
 
@@ -14,11 +14,17 @@ Sports AMM is an AMM dedicated for trading positional sport markets using Chainl
 For each market, there are two or three positions/outcomes (home win, away win, or draw). 
 Additionally, a game can be cancelled which in that case the last provided odds are used to exercise the users' positions.
 
-@Red please add 
+It's the vision of the Thales Protocol to support Sport markets and the sport AMM integration. This TIP proposes a format that can achieve this in a decentralized manner with the support of Chainlink data feed.
 
 ## Motivation
 
-@Red please add 
+In the summer of 2020, Thales built markets around the Olympic medal ranking of the Olympics in Tokyo. The markets were supported by Chainlink oracles and we were able to create a unique product within Thales' offering. The markets were successful and the results reliable, this was a first for many within the community where they got the ability to watch and trade on their favourite sporting event in a decentralised way. 
+
+Although successful, the orderbook mechanism and gas costs on Ethereum mainnet weren’t an ideal combination when dealing with sports markets making for an inconvenient user experience. Now, with the convenience of layer2 roll-ups, the innovation behind our Sport AMM, and the proven reliance or Chainlink oracle it is in Thales and its community best interest to launch its Overtime platform.
+
+The sport AMM is one of the most anticipated products built on Thales and will allow users to position themselves based on their favourite sports teams through the whole season. The Overtime platform will be able to offer sports such as soccer, football, baseball, hockey, and basketball. Over the next few months we will be growing our product to include more sports, and deliver from more API. Potential sports that might be included: UFC, Formula 1, Moto GP and more.
+
+The sport AMM product also has the opportunity to showcase the usage of blockchain technology to one of the biggest industries in the world. The market has reached a maturity point with an opportunity for us to tap into mass adoption. Our goal to gamify DeFi stays the same, Thales keeps building and brings you Overtime, the first decentralized sport AMM.
 
 ## Specification
 
@@ -89,7 +95,9 @@ Based on CL sports data, the system fetches the games and creates, resolves, and
 
 Sports that are supported by Sport AMM are:
 
-@Red please add the sports and elaborate
+Baseball, Football, Soccer, Hockey, and Basketball.
+
+Due to the nature of our launch schedule, the Sport AMM will first focus on the MLB & MLS leagues as these two are ongoing and match our release schedule. As the other leagues start their season over the next few months they will be integrated within. The current list of leagues is also up to change and we are likely to obtain major tournaments integrated as they approach the start date.
 
 Based on the requirements, there are needs for the following technical specifications:
 
@@ -163,7 +171,7 @@ Based on the requirements, there are needs for the following technical specifica
 
 ## Rationale
 
-@Red please add 
+The sport AMM implementation is a novel idea built on Thales.  The AMM allows users to trade sport markets with deep liquidity. The product being fully on-chain enables our users to engage in their favourite games and mega sport events in a truly decentralised manner. With this TIP Thales keeps pushing the boundaries of gamified DeFi.
 
 ## Test Cases
 
