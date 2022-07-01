@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sport AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
+| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sport AMM | https://discord.gg/8bzFdpGTrp | 2022-07-01
 
 ## Simple Summary
 
@@ -97,15 +97,14 @@ Based on the requirements, there are needs for the following technical specifica
 
     - `requestGames` - this function is called when games need to be created (input params are the date of the game and sports id), the function is called for each sport 7 days in advance, two times per week
     - `requestGamesResolveWithFilters` - this function is called when games need to be resolved and it is called when the game has ended (the calculation is based on the start of the game, and the type of sport, now it is set to 3 hours from the start of the game, regardless of a sport)
-    - `requestOddsWithFilters` - this function is called when odds need to be pulled. Each game's odds will be pulled every 6 hours, except on game day, when will be pulled each hour.
+    - `requestOddsWithFilters` - this function is called when odds need to be pulled. Each game's odds if the odd changed by 2% from priveous stored odd.
 
-    This contract has LINK inside which will be used to pay for the CL requests. 
-    Also, all those methods can be called manually but only from whitelisted addresses, which prevents LINK from being spent by calling methods from some untrusted address. Besides fetching functions, the contract will have the following methods which can be called only if you are the contract owner:
+    This contract will have buy-in on each request which amount is set into `payment` variable user/bot needs to pay(for now CL on OP Main request is 0.3 LINK). 
+    Also, all those methods can be called manually but then user needs to pay amount of each request. Besides fetching functions, the contract will have the following methods which can be called only if you are the contract owner:
 
-    - `addToWhitelist` - adding address to whitelist
     - `setOracle` - setting oracle from CL if change is needed
     - `setConsumer` - set consumer address if needed
-    - `withdrawLink` - if we need to change the contract this function will withdraw LINK from the contract 
+    - `setLink` - set new LINK address
 
 2) *Consumer contract* - is part of the processing pipeline and store games that are sent from the wrapper contract. This contract is a proxy contract, and stores all data from games, and also calls the queue contract to store data that are needed for the processing part of the results and odds. Consumer calls the market creator to create/resolve/update odds based on which request is sent from the wrapper. In this contract, there is a method for manual resolution/cancellation of games. Also, all those methods can be called only from the wrapper address or a whitelisted address. This contract is going to send normalized odds based on moneyline (American) odds which we get from a CL.
 
@@ -120,7 +119,12 @@ Based on the requirements, there are needs for the following technical specifica
     - `resolveGameManually` - resolving of a game based on game id and outcome, only whitelisted address can call this function
     - `cancelGameManually` - the cancellation of a game based on game id and outcome, only whitelisted address can call this function
     - `cancelMarketManually` - the cancellation of a game based on market id and outcome, only whitelisted address can call this function
+    - `pauseOrUnpauseMarketManualy` - the pause/unpause of a game based on market id and flag, only whitelisted address can call this function
+    - `pauseOrUnpauseGameManualy` - the pause/unpause of a game based on game id  and flag, only whitelisted address can call this function
     - `getNormalizedOdds` - a function that does a calculation based on moneyline odds to transfer them into normalized odds to a 100%
+    - `removeFromResolvedQueue` - a function that which removes game from resolved queue 
+    - `removeFromCreatedQueue` - a function that which removes game from created queue 
+    - `removeFromUnprocessedGamesArray` - a function that which removes game unprocessed array
 
     Owner functions:
 
