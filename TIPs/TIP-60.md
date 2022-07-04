@@ -113,6 +113,7 @@ Based on the requirements, there are needs for the following technical specifica
     - `setOracle` - setting oracle from CL if change is needed
     - `setConsumer` - set consumer address if needed
     - `setLink` - set new LINK address
+    - `setPayment` - set new payment amount for each request
 
 2) *Consumer contract* - is part of the processing pipeline and store games that are sent from the wrapper contract. This contract is a proxy contract, and stores all data from games, and also calls the queue contract to store data that are needed for the processing part of the results and odds. Consumer calls the market creator to create/resolve/update odds based on which request is sent from the wrapper. In this contract, there is a method for manual resolution/cancellation of games. Also, all those methods can be called only from the wrapper address or a whitelisted address. This contract is going to send normalized odds based on moneyline (American) odds which we get from a CL.
 
