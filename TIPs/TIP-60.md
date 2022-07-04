@@ -4,7 +4,7 @@
 
 ## Simple Summary
 
-This TIP proposes to implement and release a Sport AMM. Sports AMM is a positional market for sports games that are created from a Chainlink sports data [oracle](https://market.link/nodes/TheRundown/integrations)
+This TIP proposes to implement and release a Sport AMM suite of contracts. This captures positional markets for sports games that are created from a Chainlink sports data [oracle](https://market.link/nodes/TheRundown/integrations) and an AMM contract that supports trading on such markets.
 
 The TIP will outline the oracle supported sports and leagues, the specification behind the novel Sport AMM, as well as the motivation behind the Sport AMM release.
 
