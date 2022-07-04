@@ -62,6 +62,8 @@ The market creation starts with fetching games for each `sportId` each day from 
 Next, markets are created from every fetched game. Each game is a positional market with two or three positions depending on the possible outcomes of the game. For e.g., in a basketball game there are two outcomes: home win and away win, but in a soccer game there are three possible outcomes: home win, away win, and a draw. 
 The created market becomes active and eligible for AMM trading. 
 
+Protocol DAO would like to reserve the right to enable sports 1 by 1 as the product matures and becomes more battle tested.
+
 ### AMM trading
 
 Each market is open for AMM trading after it is created. 
@@ -223,7 +225,7 @@ The sport AMM implementation is a novel idea built on Thales.  The AMM allows us
 
 Implementation is on a [link](https://github.com/thales-markets/contracts/tree/main/contracts/SportMarkets)
 
-### Implementation setup
+### Variables
 
 1. Default cap in sUSD per game market = 1000 sUSD.
 2. Minimal supported oracle odds = 0.1.
@@ -231,6 +233,8 @@ Implementation is on a [link](https://github.com/thales-markets/contracts/tree/m
 4. Minimal skew impact = 1%.
 5. Maximum skew impact = 5%.
 6. SafeBox percentage = 1%.
+
+Protocol DAO would like to keep the discretion to raise sUSD per game as the product matures without an additional explicit TIP.
     
 ## Copyright
 
