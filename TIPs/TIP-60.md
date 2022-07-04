@@ -192,6 +192,14 @@ Based on the requirements, there are needs for the following technical specifica
     - `buyFromAMM` - buying a specified number of positional tokens from AMM for a specific game market.
     - `sellToAMM` - selling a specified number of positional tokens to AMM for a specific game market.
 
+    Main variables:
+    - `defaultCapPerGame` - default cap in sUSD per game market - set to 1000 sUSD.
+    - `minSupportedOdds` - minimal supported oracle odds - set to 0.1.
+    - `maxSupportedOdds` - maximum supported oracle odds - set to 0.9.
+    - `min_spread` - minimal skew impact - set to 1%.
+    - `max_spread` - maximum skew impact - set to 5%.
+    - `safeBoxImpact` - safeBox percentage - set to 1%.
+
 
 ## Rationale
 
@@ -215,6 +223,15 @@ The sport AMM implementation is a novel idea built on Thales.  The AMM allows us
 
 Implementation is on a [link](https://github.com/thales-markets/contracts/tree/main/contracts/SportMarkets)
 
+### Implementation setup
+
+1. Default cap in sUSD per game market = 1000 sUSD.
+2. Minimal supported oracle odds = 0.1.
+3. Maximum supported oracle odds = 0.9.
+4. Minimal skew impact = 1%.
+5. Maximum skew impact = 5%.
+6. SafeBox percentage = 1%.
+    
 ## Copyright
 
 Copyright and related rights waived via CC0.
