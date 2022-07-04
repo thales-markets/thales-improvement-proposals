@@ -1,16 +1,16 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-60 | Sport AMM  | Draft | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sport AMM | https://discord.gg/8bzFdpGTrp | 2022-07-01
+| TIP-60 | Sports Markets AMM  | Draft | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sports Markets AMM | https://discord.gg/8bzFdpGTrp | 2022-07-01
 
 ## Simple Summary
 
-This TIP proposes to implement and release a Sport AMM suite of contracts. This captures positional markets for sports games that are created from a Chainlink sports data [oracle](https://market.link/nodes/TheRundown/integrations) and an AMM contract that supports trading on such markets.
+This TIP proposes to implement and release a Sports Markets AMM suite of contracts. This captures positional markets for sports games that are created from a Chainlink sports data [oracle](https://market.link/nodes/TheRundown/integrations) and an AMM contract that supports trading on such markets.
 
-The TIP will outline the oracle supported sports and leagues, the specification behind the novel Sport AMM, as well as the motivation behind the Sport AMM release.
+The TIP will outline the oracle supported sports and leagues, the specification behind the novel Sports Markets AMM, as well as the motivation behind the Sport AMM release.
 
 ## Abstract
 
-Sports AMM is an AMM dedicated for trading positional sport markets using Chainlink feeds for price calculation. 
+Sports Markets AMM is an AMM dedicated for trading positional sport markets using Chainlink feeds for price calculation. 
 For each market, there are two or three positions/outcomes (home win, away win, or draw). 
 Additionally, a game can be cancelled which in that case the last provided odds are used to exercise the users' positions.
 
