@@ -160,13 +160,36 @@ Based on the requirements, there are needs for the following technical specifica
 
     - `setConsumerAddress` - setting new consumer address if needed
 
-4) SportPositionalMarketManager - is a contract responsible to relay creation of a game market or resolution of a game market. The market creation is relayed from `Consumer` to the `SportPositionalMarketFactory`. Each game is created as a market clone of `SportPositionalMarket`. Each game market position is a ERC-20 `SportPosition` contract.   
-5) SportPositionalMarketFactory - is a contract responsible for creation of game markets - `SportPositionalMarket`.
-6) SportPositionalMarket - is the game market contract.
-7) SportPosition - is a position contract which represent a single position of a given game market. For example, a *HOME position for game market X vs. Y*. 
-8) SportsAMM - is the main contract for buying/selling positions for active markets
-
-@Kirila please add 
+4) *SportPositionalMarketManager* - is a contract responsible to relay creation of a game market or resolution of a game market. The market creation is relayed from `Consumer` to the `SportPositionalMarketFactory`. Each game is created as a market clone of `SportPositionalMarket`. Each game market position is a ERC-20 `SportPosition` contract.   
+    The main contract functions are:
+    - `createMarket` - creation of a game market based on the game details. Only Therundown consumer can create a market. 
+    - `resolveMarket` - resolution of a game market.
+    - `expirveMarkets` - expire old markets, so they are not considered *active*.
+    - `isActiveMarket` - check if a game market is active.
+5) *SportPositionalMarketFactory* - is a contract responsible for creation of game markets - `SportPositionalMarket`.  
+    The main contract functions is:
+    - `createMarket` - creation of a game market based on the game details. Only Therundown consumer can create a market. 
+6) *SportPositionalMarket* - is the game market contract.
+    The main contract functions are:
+    - `initialize` - all the game market parameters are initialized, and each `SportPosition` is created as ERC-20 position. 
+    - `mint` - mints new tokens for each position.
+    - `burnOptions` - burn number of position tokens.
+    - `resolve` - resolves the game market.
+    - `exerciseOptions` - burns user's tokens, and sends back to the user an amount of sUSD based of the caller holding of winning position tokens. Example: *if the user has 100 HOME, and HOME is the winning resolved position, the user receives 100 sUSD.*
+7) *SportPosition* - is a position contract which represent a single position of a given game market. For example, a *HOME position for game market X vs. Y*. 
+    The main contract functions are:
+    - `mint` - creation of new position tokens.
+    - `exercise` - burning user tokens.
+8) *SportsAMM* - is the main contract for buying/selling positions for active markets
+    The main contract functions are:
+    - `isMarketInAMMTrading` - checks if a game market is eligible for AMM trading.
+    - `availableToBuyFromAMM` - checks the available position tokens that can be bought from AMM for a specific game market.
+    - `availableToSellToAMM` - checks the amount of position tokens that can be sold to the AMM for a specific game market.
+    - `getMarketDefaultOdds` - obatins the odds for each position (including skew impact) for a specific game market.
+    - `buyFromAmmQuote` - returns the amount of sUSD required to pay for a specified number of positional tokens for a specific game market.
+    - `sellToAmmQuote` - returns the amount of sUSD that a user would receive for seling a specified number of positional tokens for a specific game market.
+    - `buyFromAMM` - buying a specified number of positional tokens from AMM for a specific game market.
+    - `sellToAMM` - selling a specified number of positional tokens to AMM for a specific game market.
 
 
 ## Rationale
