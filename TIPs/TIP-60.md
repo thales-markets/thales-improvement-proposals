@@ -18,7 +18,7 @@ It's the vision of the Thales Protocol to support Sport markets and the sport AM
 
 ## Motivation
 
-In the summer of 2020, Thales built markets around the Olympic medal ranking of the Olympics in Tokyo. The markets were supported by Chainlink oracles and we were able to create a unique product within Thales' offering. The markets were successful and the results reliable, this was a first for many within the community where they got the ability to watch and trade on their favourite sporting event in a decentralised way. 
+In the summer of 2021, Thales built markets around the Olympic medal ranking of the Olympics in Tokyo. The markets were supported by Chainlink oracles and we were able to create a unique product within Thales' offering. The markets were successful and the results reliable, this was a first for many within the community where they got the ability to watch and trade on their favourite sporting event in a decentralised way. 
 
 Although successful, the orderbook mechanism and gas costs on Ethereum mainnet weren’t an ideal combination when dealing with sports markets making for an inconvenient user experience. Now, with the convenience of layer2 roll-ups, the innovation behind our Sport AMM, and the proven reliance or Chainlink oracle it is in Thales and its community best interest to launch its Overtime platform.
 
