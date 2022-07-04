@@ -176,7 +176,18 @@ The sport AMM implementation is a novel idea built on Thales.  The AMM allows us
 ## Test Cases
 
 @coa @cvija please add
-
+ - Buy and sell home team options
+ - Buy and sell away team options
+ - Buy and sell draw options
+ - Buy and keep options until maturity
+ - Exercise mature options
+ - Sell unbought options
+ - Buy options with insufficient funds
+ - Buy options for a game that has started
+ - Sell options for a game that has started
+ - Exercise options for a game that has not started / is in progress
+ - Exercise losing options
+ - Buy options without approval
 ## Implementation
 
 Implementation is on a [link](https://github.com/thales-markets/contracts/tree/main/contracts/SportMarkets)
