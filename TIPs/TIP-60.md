@@ -175,7 +175,6 @@ The sport AMM implementation is a novel idea built on Thales.  The AMM allows us
 
 ## Test Cases
 
-@coa @cvija please add
  - Buy and sell home team options
  - Buy and sell away team options
  - Buy and sell draw options
