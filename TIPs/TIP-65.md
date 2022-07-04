@@ -4,7 +4,7 @@
 
 ## Simple Summary
 
-This TIP proposes implementation of certain risk management limits around Market Creation to combat the risk of too similar markets existing at the same time rendering the par-market risk management mechanisms ineffective.
+This TIP proposes implementation of certain risk management limits around Market Creation to combat the risk of too similar markets existing at the same time rendering the per-market risk management mechanisms ineffective.
 
 ## Abstract
 
