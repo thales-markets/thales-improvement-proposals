@@ -32,6 +32,12 @@ This TIP entails the Thales Protocol DAO to implement the following safety limit
  
 This TIP additionally entails the Thales Protocol DAO to remove the Initial Collateral requirements for Market Creation as this is a deprecated requirement from when the market creators were the source of initial liquidity as well.
 
+### Configurable Variables
+
+- Price buffer (mutliplier against IV) = `0.05`
+- Timeframe buffer (in both directions) = `78h`
+- Max distance to maturity = `30 days`
+
 ## Rationale
  
 N/A
