@@ -117,7 +117,7 @@ Based on the requirements, there are needs for the following technical specifica
     - `setLink` - set new LINK address
     - `setPayment` - set new payment amount for each request
 
-2) *Consumer contract* - is part of the processing pipeline and store games that are sent from the wrapper contract. This contract is a proxy contract, and stores all data from games, and also calls the queue contract to store data that are needed for the processing part of the results and odds. Consumer calls the market creator to create/resolve/update odds based on which request is sent from the wrapper. In this contract, there is a method for manual resolution/cancellation of games. Also, all those methods can be called only from the wrapper address or a whitelisted address. This contract is going to send normalized odds based on moneyline (American) odds which we get from a CL.
+2) *Consumer contract* - is part of the processing pipeline and store games that are sent from the wrapper contract. This contract is a proxy contract, and stores all data from games, and also calls the queue contract to store data that are needed for the processing part of the results and odds. Consumer calls the market creator to create/resolve/update odds based on which request is sent from the wrapper. In this contract, there is a method for manual resolution/cancellation of games. Also, all those methods can be called only from the wrapper address or a whitelisted address (pDAO address). This contract is going to send normalized odds based on moneyline (American) odds which we get from a CL.
 
     The main functions of the consumer contract are:
 
@@ -221,6 +221,7 @@ The sport AMM implementation is a novel idea built on Thales.  The AMM allows us
  - Exercise options for a game that has not started / is in progress
  - Exercise losing options
  - Buy options without approval
+
 ## Implementation
 
 Implementation is on a [link](https://github.com/thales-markets/contracts/tree/main/contracts/SportMarkets)
@@ -233,6 +234,7 @@ Implementation is on a [link](https://github.com/thales-markets/contracts/tree/m
 4. Minimal skew impact = 1%.
 5. Maximum skew impact = 5%.
 6. SafeBox percentage = 1%.
+7. Whitelisted addresses in consumer = pDAO address
 
 Protocol DAO would like to keep the discretion to raise sUSD per game as the product matures without an additional explicit TIP.
     
