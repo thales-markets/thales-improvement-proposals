@@ -1,27 +1,30 @@
-Tip-63 Rewards Rollover & Burn
-
 | id | Title | Status | Author | Description | Discussions to | Created |
- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| TIP-63 | Rewards Rollover & Burn | Draft | BigPenny & Milkywave | Rollover & partially burn unclaimed staking rewards | https://discord.gg/ZK89ZkDZwT | 2022-07-03
-
-
-
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
+| TIP-63 | Governance Nomination Restriction | Vote Pending | BigPenny | Prohibit the nomination for multiple Thales governance positions by the same person | https://discord.gg/WfYEB98P6c | 2022-07-04
+ 
 ## Simple Summary
-Staking rewards, including base rewards and bonus rewards which get not claimed till the end of an epoch get partially burned and partially rolled over to the next weekly epoch instead of being sent back to Treasury.
-
-
+ 
+Limit the number of Thales governance nominations to one per person.
+ 
+## Abstract
+ 
+To avoid potential conflict of interest that could endanger the Thales governance structure, this TIP proposes to not allow a single individual to be eligible for Thales Council and Oracle Council elections at the same time.
+ 
 ## Motivation
-Right now THALES stakers get a pro rata share of the total weekly base rewards assigned to them which they have to claim before the start of the next weekly epoch. Additionally Stakers can earn bonus rewards for staking SNX and generating volume on the Thales protocol markets. Base rewards and bonus rewards which are not claimed until the end of a weekly epoch get sent back to the Treasury. Effectively every new staker dilutes the base rewards for every other staker, regardless of them claiming or not.
-
-Active stakers benefit from the partial roll over and all Thales token holders benefit from the partial burn, as the total supply is reduced (+ token value due to future fee distribution share). Given the fact that not everyone who claims base rewards also claims 100% of their bonus rewards, there will be a surplus of bonus rewards after the base rewards supply is fully depleted. That surplus shall be burned as well, concluding the token distribution schedule.
-
+ 
+Within the THALES DAO only the Thales Council and the Oracle Council members get elected via token governance. Both the Thales Council and the Oracle Council assume different responsibilities within the Thales protocol, however the Thales Council does act as a backstop for the unlikely case that the Oracle Council acts against the protocols interests. This is one of the reasons why the same person is prohibited from serving both on the Thales Council and Oracle Council at the same time. (Conflict of interest.) Despite that prohibition the same person may still nominate and run for both councils during election season. This can lead to the undesirable situation where one person receives enough votes to assume a position in both councils, requiring him or her to forfeit at least one position, effectively nullifying the votes he or she received for the forfeited position.
+ 
+I propose to close that gap and limit the number of Thales governance nominations to one per person.
+ 
 ## Specification
-* 50% of all rewards which were not claimed until the end of the current weekly epoch get sent to address 0x000000000000000000000000000000000000dEaD, effectively burning the tokens.
+ 
+This TIP entails the Thales Protocol DAO to uphold the following rules in regards to Thales Council and Oracle Council elections:
 
-* 50% of all rewards which were not claimed until the end of the current weekly epoch get rolled over to the next weekly epoch, effectively augmenting that weeks reward supply for everyone.
-
-After the depletion of the entire base rewards supply, 100% of the remaining bonus rewards supply gets burned, concluding the token distribution schedule.
-
-The share of burned and rolled over tokens can be adjusted by governance via TIP.
-
+- One person can only have one valid nomination for one council position of choice at a time.
+ 
+- If someone nominates for multiple council positions, the first nomination posted on Discord is considered valid (as long as it fulfills all requirements) and all consecutive nominations of that person are considered void.
+ 
+- If the first nomination gets withdrawn the next nomination in line is considered valid, as long as it fulfills all requirements.
+ 
 ## Copyright Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+ 
