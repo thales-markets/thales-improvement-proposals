@@ -66,6 +66,6 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Draft |
 | TIP-61 | [Introduce Global Skew Impact per Asset for Thales AMM	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-61.md) | Draft |
 | TIP-62 | [Bonus Reward Calculation	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-62.md) | Draft |
-| TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Draft |
+| TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Voted in |
 | TIP-64 | [Governance Nomination Restriction	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-64.md) | Draft |
 | TIP-65 | [Market Creation risk management limitations	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-65.md) | Draft |
