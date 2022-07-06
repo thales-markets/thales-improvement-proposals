@@ -53,6 +53,7 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-46 | [AMM - cap per asset](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-46.md) | Implemented |
 | TIP-47 | [Extension of THALES token LP staking program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-47.md) | Implemented |
 | TIP-48 | [Changes to gamified staking	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-48.md) | Implemented |
+| TIP-49 | [Account Merging	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-49.md) | Voted in |
 | TIP-50 | [Utilize Safe Box ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-50.md) | Implemented |
 | TIP-51 | [Allow negative AMM skew impact	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-51.md) | Implemented |
 | TIP-52 | [Supply liquidity to Thales Bancor pool	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-52.md) | Implemented |
@@ -62,10 +63,11 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-56 | [OP token allocation towards pro rata Trading Incentives](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-56.md) | Draft |
 | TIP-57 | [Exotic Markets referrals program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-57.md)| Draft |
 | TIP-58 | [Implement seamless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-58.md) | Implemented |
-| TIP-59 | [Increase THALES buybacks frequency](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-59.md)  | Voted in |
+| TIP-59 | [Increase THALES buybacks frequency](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-59.md)  | Implemented |
 | TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Draft |
 | TIP-61 | [Introduce Global Skew Impact per Asset for Thales AMM	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-61.md) | Draft |
 | TIP-62 | [Bonus Reward Calculation	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-62.md) | Draft |
 | TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Voted in |
 | TIP-64 | [Governance Nomination Restriction	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-64.md) | Draft |
 | TIP-65 | [Market Creation risk management limitations	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-65.md) | Draft |
+| TIP-66 | [Implement claimOnBehalf method on the THALES staking contract	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-65.md) | Draft |
