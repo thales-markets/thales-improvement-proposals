@@ -18,7 +18,9 @@ There is no protocol relevant reason to keep claiming of weekly staking rewards 
  
 ## Specification
  
-This TIP entails the Thales Protocol DAO to implement `claimOnBehalf` method to the [StakingThales](https://optimistic.etherscan.io/address/0xC392133eEa695603B51a5d5de73655d571c2CE51) contract, that can additionally be enabled/disabled by individual stakers for their respective wallets.
+This TIP entails the Thales Protocol DAO to implement `claimOnBehalf` method to the [StakingThales](https://optimistic.etherscan.io/address/0xC392133eEa695603B51a5d5de73655d571c2CE51) contract.
+  
+The `claimOnBehalf` method is to additionally support `address` input parameter that allows stakers to whitelist addresses to enable them to trigger the claim on their behalf.
  
 ## Rationale
  
