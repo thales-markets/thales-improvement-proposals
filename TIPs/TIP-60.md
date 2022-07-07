@@ -126,12 +126,10 @@ Based on the requirements, there are needs for the following technical specifica
     - `fulfillGamesOdds` - wrapper can only call the function which fills the contract with game odds results that are fetched from CL
     - `createMarketForGame` - creates market for a certan game id 
     - `resolveMarketForGame` - resolves the market for a certain game id 
-    - `resolveMarketManually` - resolving of a game based on market id and outcome, only whitelisted address can call this function
-    - `resolveGameManually` - resolving of a game based on game id and outcome, only whitelisted address can call this function
-    - `cancelGameManually` - the cancellation of a game based on game id and outcome, only whitelisted address can call this function
+    - `resolveMarketManually` - resolving of a game based on market id and outcome and result, only whitelisted address can call this function
+    - `resolveGameManually` - resolving of a game based on game id and outcome and result, only whitelisted address can call this function
     - `cancelMarketManually` - the cancellation of a game based on market id and outcome, only whitelisted address can call this function
     - `pauseOrUnpauseMarketManualy` - the pause/unpause of a game based on market id and flag, only whitelisted address can call this function
-    - `pauseOrUnpauseGameManualy` - the pause/unpause of a game based on game id  and flag, only whitelisted address can call this function
     - `getNormalizedOdds` - a function that does a calculation based on moneyline odds to transfer them into normalized odds to a 100%
     - `removeFromResolvedQueue` - a function that which removes game from resolved queue 
     - `removeFromCreatedQueue` - a function that which removes game from created queue 
