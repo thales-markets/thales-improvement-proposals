@@ -229,9 +229,9 @@ Implementation is on a [link](https://github.com/thales-markets/contracts/tree/m
 1. Default cap in sUSD per game market = 1000 sUSD.
 2. Minimal supported oracle odds = 0.1.
 3. Maximum supported oracle odds = 0.9.
-4. Minimal skew impact = 1%.
+4. Minimal spread = 1%.
 5. Maximum skew impact = 5%.
-6. SafeBox percentage = 1%.
+6. SafeBox percentage = 2%.
 7. Whitelisted addresses in consumer = pDAO address
 
 Protocol DAO would like to keep the discretion to raise sUSD per game as the product matures without an additional explicit TIP.
