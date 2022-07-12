@@ -10,7 +10,7 @@ This TIP proposes a plan on how to execute the allocation of 200,000 OP tokens a
  
 This TIP proposes to distribute 200,000 OP tokens towards the Thales Marketplace traders as Pro rata Trading Incentives. The proposal is to emit these tokens in amounts of 28,000 OP tokens and 50,000 THALES tokens per 14-day rounds of trading. Total number of rounds to be 7, which means the total duration of the program will be 14 weeks.
  
-  It is additionally proposed to split the reward token amounts, for the sake of organically balancing the AMM, as following:
+  It is additionally proposed to split the reward token amounts, for the sake of organically balancing the AMM, per 14-day round as following:
   - 11,000 OP + 20,000 THALES pro-rata towards UP token Buyers
   - 11,000 OP + 20,000 THALES towards DOWN token Buyers
   - 6,000 OP + 10,000 THALES towards Ranged Markets IN/OUT tokens Buyers
