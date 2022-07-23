@@ -64,7 +64,7 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-57 | [Exotic Markets referrals program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-57.md)| Draft |
 | TIP-58 | [Implement seamless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-58.md) | Implemented |
 | TIP-59 | [Increase THALES buybacks frequency](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-59.md)  | Implemented |
-| TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Draft |
+| TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Implemented |
 | TIP-61 | [Introduce Global Skew Impact per Asset for Thales AMM	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-61.md) | Draft |
 | TIP-62 | [Bonus Reward Calculation	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-62.md) | Draft |
 | TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Voted in |
