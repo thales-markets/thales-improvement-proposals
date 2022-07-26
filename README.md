@@ -70,4 +70,8 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Voted in |
 | TIP-64 | [Governance Nomination Restriction	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-64.md) | Draft |
 | TIP-65 | [Market Creation risk management limitations	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-65.md) | Draft |
-| TIP-66 | [Implement claimOnBehalf method on the THALES staking contract	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-65.md) | Draft |
+| TIP-66 | [Implement claimOnBehalf method on the THALES staking contract	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-66.md) | Draft |
+| TIP-67 | [Velodrome bribes program		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-66.md) | Implemented |
+| TIP-68 | [Overtime referrals and new configuration	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-68.md) | Draft |
+| TIP-69 | [Speed Royales	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-69.md) | Draft |
+| TIP-70 | [Thales vaults	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-70.md) | Draft |
