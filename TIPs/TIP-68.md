@@ -26,7 +26,6 @@ The above should be coupled with further marketing incentives in both THALES and
 - Introduce referral program where the referrer gets 0.5% of any trade of a wallet that came via his/her referral link  
 - Raise cap per market from 1000 sUSD to 5000 sUSD  
 - Raise maximum skew impact from 5% to 10%  
-- Add additional THALES and OP incentives to promote overtime (details TBD)   
  
 ## Copyright
  
