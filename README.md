@@ -75,3 +75,4 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-68 | [Overtime referrals and new configuration	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-68.md) | Draft |
 | TIP-69 | [Speed Royales	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-69.md) | Draft |
 | TIP-70 | [Thales vaults	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-70.md) | Draft |
+| TIP-71 | [Increase Thales Token Buybacks	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-71.md) | Vote Pending |
