@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-60 | Sports Markets AMM  | Draft | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sports Markets AMM | https://discord.gg/8bzFdpGTrp | 2022-07-01
+| TIP-60 | Sports Markets AMM  | Implemented | gruja.work (@gruja.work), KirilA (@kirilaa), Red (@Red-Thales) | This TIP proposes to implement and release a Sports Markets AMM | https://discord.gg/8bzFdpGTrp | 2022-07-01
 
 ## Simple Summary
 
@@ -106,10 +106,10 @@ Based on the requirements, there are needs for the following technical specifica
 1) *Wrapper contract* - is part of fetching games from chainlink sports data, it contains fetching games, results, and odds from CL, and that data is transferred to the consumer contract. Wrapper contract will be called by bots that execute those fetching functions:
 
     - `requestGames` - this function is called when games need to be created (input params are the date of the game and sports id), the function is called for each sport 7 days in advance, two times per week
-    - `requestGamesResolveWithFilters` - this function is called when games need to be resolved and it is called when the game has ended (the calculation is based on the start of the game, and the type of sport, now it is set to 3 hours from the start of the game, regardless of a sport)
+    - `requestGamesResolveWithFilters` - this function is called when games need to be resolved and it is called when the game has ended (the calculation is based on the start of the game, and the type of sport, now it is set to 3-4 hours from the start of the game, depending on a sport)
     - `requestOddsWithFilters` - this function is called when odds need to be pulled. Each game's odds if the odd changed by 2% from priveous stored odd.
 
-    This contract will have buy-in on each request which amount is set into `payment` variable user/bot needs to pay(for now CL on OP Main request is 0.3 LINK). 
+    This contract will have buy-in on each request which amount is set into `payment` variable user/bot needs to pay (for now CL on OP Main request is 0.2 LINK for resolve and create games, and for odds it is 0.15 LINK). 
     Also, all those methods can be called manually but then user needs to pay amount of each request. Besides fetching functions, the contract will have the following methods which can be called only if you are the contract owner:
 
     - `setOracle` - setting oracle from CL if change is needed
@@ -198,7 +198,7 @@ Based on the requirements, there are needs for the following technical specifica
     - `maxSupportedOdds` - maximum supported oracle odds - set to 0.9.
     - `min_spread` - minimal skew impact - set to 1%.
     - `max_spread` - maximum skew impact - set to 5%.
-    - `safeBoxImpact` - safeBox percentage - set to 1%.
+    - `safeBoxImpact` - safeBox percentage - set to 2%.
 
 
 ## Rationale
