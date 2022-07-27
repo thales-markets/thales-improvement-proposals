@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-65 | Market Creation risk management limitations | Draft | padzank (@padzank) | This TIP proposes an implementation for certain risk management limits regarding Market Creation and thus pave the way towards eventual lifting of the Market Creation whitelist | https://discord.gg/8bzFdpGTrp | 2022-07-04
+| TIP-65 | Market Creation risk management limitations | Vote Pending | padzank (@padzank) | This TIP proposes an implementation for certain risk management limits regarding Market Creation and thus pave the way towards eventual lifting of the Market Creation whitelist | https://discord.gg/8bzFdpGTrp | 2022-07-04
 
 ## Simple Summary
 
