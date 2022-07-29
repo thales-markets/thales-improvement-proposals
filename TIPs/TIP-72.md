@@ -43,8 +43,8 @@ If all positions fail, the user just risked 15 cents, but Parlay AMM is down 16 
 If 2 positions are correct, the user lost 15 cents, but Parlay AMM is good 20 sUSD - 16sUSD + 0.15 sUSD = 4.15 sUSD.    
 
 ## Variables
-ParlayAMMFee - a fee applied to each individual quote = 5%
-min_supported_price - minimum supported price per Parlay token = 0.05c 
+1. ParlayAMMFee - a fee applied to each individual quote = 5%
+2. min_supported_price - minimum supported price per Parlay token = 0.05c 
 
 ## Implementation
 N/A
