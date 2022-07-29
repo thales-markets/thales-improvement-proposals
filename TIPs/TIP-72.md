@@ -17,34 +17,81 @@ This TIP proposes how Thales can build such a mechanism on top of its existing S
 
 ## Specification
 A user can choose up to 4 positions on different markets to create a Parlay ticket.   
-The Parlay AMM calculates the price of such a ticket by multiplying the individual prices of all single positions by getting quotes from the underlying Sport Markets AMM and adding a ParlayAMMFee to each individual quote.  
-The Parlay AMM proceed to buy those up to 4 positions and tokenizes them into a new position with a contract ParlayAMMMarketPosition. Maximum return of a Parlay is capped at max_price_supported price with initial value of 20x.  
-Parlay AMM has to colaterize each Parlay position with the amount of sUSD a user can exercize should he be correct on all individual positions.  
-When a ParlayAMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).  
+The Parlay AMM calculates the price of such a ticket by multiplying the individual prices of all single positions by getting quotes from the underlying Sport Markets AMM and adding a ParlayAMMFee and the SafeBoxFee.  
+The Parlay AMM proceed to buy those 1 of each of the 4 positions and tokenizes them into a new position with a contract ParlayAMMMarketPosition. Maximum return of a Parlay is capped at max_price_supported price with initial value of 20x.   
+When a ParlayAMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).   
 A user can then exercize his winnings from the ParlayAMMContract.  
+
+For this to be economically feasible, the underlying Sport Markets AMM will have to greatly reduce the SafeBox fee when the buyer is the ParlayAMM. The ParlayAMM will also have its own SafeBoxFee variable.     
 
 The parlay AMM has to keep track of how much it can risk in total and make sure its solvent at any given time (it can not mint a new Parlay if it doesnt have enough sUSD to collaterize it).
  
 
-## Test Cases
+## Test Cases  
+### Example 1
 A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 10 tokens for EPL game Man United - Liverpool for position Man United with a quote 3 sUSD, which means base price is 0.3
-* 10 tokens for EPL game Man City - Chelsea for position Draw with a quote 2 sUSD, which means base price is 0.2
-* 10 tokens for Primera game Real- Barcelona for position Real with a quote 5 sUSD, which means base price is 0.5
-* 10 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 6 sUSD, which means base price is 0.6  
+* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.75 sUSD, which means base price is 0.3 
+* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
+* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 1.25 sUSD, which means base price is 0.5
+* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 1.5 sUSD, which means base price is 0.6  
 
-So Parlay AMM has to calculate the price for these 4 positions by multiplying individual base prices increased by ParlayAMMFee which is 5% as example:  
-Parlay token price = 0.3x0.95 x 0.2x0.95 x 0.5x0.95 x 0.6x0.95 = 0.0146611125
-Which is 68x winning. This would not be supported as the min_supported_price is 0.05, but lets follow through on this example. 
-So the ParlayAMM qoutes the user 10 x 0.0146611125 = 0.146611125 sUSD. The user pays about 15 cents and he can win 10 sUSD.  
+If all 4 positions are correct, the ParlayContract can exercize 4 sUSD from the underlying SportsAMM so the Parlay for the user is fully collaterized that way.    
 
-Parlay AMM proceed to buy the individual tokens from SportsAMM and pays for them 3+2+5+6=16 sUSD. Parlay AMM now has 10 positions of each market. If all the positions are succesfull the Parlay AMM can exercize 40 sUSD, it pays the user 10 sUSD, and effectively earns 40-10-16 = 14 sUSD itself. 
-If all positions fail, the user just risked 15 cents, but Parlay AMM is down 16 sUSD - 0.15 sUSD = 15.85 sUSD.  
-If 2 positions are correct, the user lost 15 cents, but Parlay AMM is good 20 sUSD - 16sUSD + 0.15 sUSD = 4.15 sUSD.    
+So Parlay AMM has to calculate the price for these 4 positions by multiplying individual base prices the add the ParlayAMMFee and SafeBoxFee.  
+    
+ParlayAMM fee is added to each quote and summed up.  
+
+**ParlayAMM fee = (0.75+0.5+1.25+1.5) x 0.002 = 0.008**    
+
+**Parlay base token price = 0.3x x 0.2x x 0.5x x 0.6 = 0.018 which is 55x winning**   
+
+**Parlay token price with fees = (0.018+0.008)x1.005 =  0.02613 => 38x**  
+
+
+### Example 2
+A user chooses 4 markets to buy 10 ParlayPosition tokens:  
+* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.5 sUSD, which means base price is 0.2
+* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
+* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 0.5 sUSD, which means base price is 0.2
+* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 0.5 sUSD, which means base price is 0.2  
+
+**ParlayAMM fee = 2x 0.002 = 0.004**    
+
+**Parlay base token price = 0.5^4  = 0.0625 which is 16x winning**   
+
+**Parlay token price with fees = (0.0625+0.005)x1.005 =  0.0678375 => 14.74x**  
+
+### Example 3
+A user chooses 3 markets to buy 10 ParlayPosition tokens:  
+* 3.33 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.75 sUSD, which means base price is 0.3 
+* 3.33 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
+* 3.33 tokens for Primera game Real- Barcelona for position Real with a quote 1.25 sUSD, which means base price is 0.5
+
+**ParlayAMM fee = (0.75+0.5+1.25) * 0.002 = 0.005**    
+
+**Parlay base token price = 0.3x x 0.2x x 0.5x  = 0.03 which is 33.33x winning**   
+
+**Parlay token price with fees = (0.03+0.005)x1.005 =  0.035175 => 28.4x**  
+
+### Example 4
+A user chooses 4 markets to buy 10 ParlayPosition tokens:  
+* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 2 sUSD, which means base price is 0.8
+* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 1.75 sUSD, which means base price is 0.7
+* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 1.5 sUSD, which means base price is 0.6
+* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 2.25 sUSD, which means base price is 0.9  
+
+**ParlayAMM fee = 7.5x 0.002 = 0.015**    
+
+**Parlay base token price = 0.6x0.7x0.8x0.9  = 0.3024 which is 3.3x winning**   
+
+**Parlay token price with fees = (0.3024+0.005)x1.005 =  0.308937 => 3.23x winning**  
+
 
 ## Variables
 1. ParlayAMMFee - a fee applied to each individual quote = 5%
 2. min_supported_price - minimum supported price per Parlay token = 0.05c 
+3. SafeBoxFee on Parlay contract = 5% 
+4. SafeBoxFee on Sport Markets AMM when Parlay is the called = 0.1%  
 
 ## Implementation
 N/A
