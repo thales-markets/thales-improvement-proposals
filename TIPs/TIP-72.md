@@ -25,7 +25,20 @@ A user can then exercize his winnings from the ParlayAMMContract.
 For this to be economically feasible, the underlying Sport Markets AMM will have to greatly reduce the SafeBox fee when the buyer is the ParlayAMM. The ParlayAMM will also have its own SafeBoxFee variable.     
 
 The parlay AMM has to keep track of how much it can risk in total and make sure its solvent at any given time (it can not mint a new Parlay if it doesnt have enough sUSD to collaterize it).
- 
+
+-------------
+TBD: If one or more markets in a parlay result in cancellation, usual approach in centralized books is to ignore that market, but multiple the odds for other winning markets in the parlay. However, since we are collaterizing each position of a parlay, the Parlay AMM will still be able to claim back what it paid for such a market.  This needs more thinking on how to handle it exactly. I think the way it should be done is that not every position needs to be collaterized with an equal amount in the Parlay AMM, but rather it should be a function of individual odds per position.  
+0.25 =>4x
+0.5 =>2x 
+0.125 =>8x 
+Parlay token price = 0.015625 = 64x
+
+if the first game is cancelled the return should be 16x = 0.25  
+if both first and second game are cancelled the return should be 8x = 0.125
+
+To achieve this, 1 such parlay token needs to be collaterized with: 
+???   
+-------------
 
 ## Test Cases  
 ### Example 1

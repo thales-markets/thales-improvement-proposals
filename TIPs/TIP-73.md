@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-X | Overtime update threshold | Draft | Svenska (@svenskafr) | This TIP proposes to update Overtime threshold | https://discord.gg/qHjr5aF7 | 2022-07-31
+| TIP-73 | Overtime update threshold | Draft | Svenska (@svenskafr) | This TIP proposes to update Overtime threshold | https://discord.gg/qHjr5aF7 | 2022-07-31
  
 ## Simple Summary
  
