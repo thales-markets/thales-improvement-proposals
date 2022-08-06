@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-74 | Implement seamless swaps from sUSD to USDC, USDT and DAI | Vote Pending | BigPenny (@RealBigPenny) | Deploy and enable an implementation that allows Thales traders to directly exercise "in the money" options with USDC, USDT and DAI when using the Thales AMM | https://discord.gg/coming_soon | 2022-08-05
+| TIP-74 | Enable exercize to USDC, USDT or DAI | Vote Pending | BigPenny (@RealBigPenny) | Deploy and enable an implementation that allows Thales traders to directly exercise "in the money" options with USDC, USDT and DAI when using the Thales AMM | https://discord.gg/coming_soon | 2022-08-05
  
 ## Simple Summary
  
