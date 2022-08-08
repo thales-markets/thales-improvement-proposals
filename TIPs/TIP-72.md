@@ -36,8 +36,6 @@ Parlay token price = 0.015625 = 64x
 if the first game is cancelled the return should be 16x = 0.25  
 if both first and second game are cancelled the return should be 8x = 0.125
 
-To achieve this, 1 such parlay token needs to be collaterized with: 
-???   
 -------------
 
 ## Test Cases  
