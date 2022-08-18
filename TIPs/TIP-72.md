@@ -18,7 +18,11 @@ This TIP proposes how Thales can build such a mechanism on top of its existing S
 ## Specification
 A user can choose up to 4 positions on different markets to create a Parlay ticket.   
 The Parlay AMM calculates the price of such a ticket by multiplying the individual prices of all single positions by getting quotes from the underlying Sport Markets AMM and adding a ParlayAMMFee and the SafeBoxFee.  
-The Parlay AMM proceed to buy those 1 of each of the 4 positions and tokenizes them into a new position with a contract ParlayAMMMarketPosition. Maximum return of a Parlay is capped at max_price_supported price with initial value of 20x.   
+
+The Parlay AMM proceed to buy each of the positions inversely proportional to the odd of each position. 
+In simple wording the Parlay AMM buys the most positions with the least likely outcome (lowest odds -> highest amount purchased), while the least positions are purchased for the positions with the most likely outcome (highest odds -> lowest amount purchased). The rationale behind this strategy is that when a user wins the parlay, the Parlay AMM purchased it for a lower price than using uniform distribution (equally purchased amount for each position).
+
+Maximum return of a Parlay is capped at max_price_supported price with initial value of 20x or `max_odds_supported = 0.05`.   
 When a ParlayAMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).   
 A user can then exercize his winnings from the ParlayAMMContract.  
 
