@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-75 | Overtime Voucher Contract | Vote Pending | Danijel (@danthales) | Deploy a Overtime Voucher NFT Contract | https://discord.gg/8bzFdpGTrp  | 2022-08-18
+| TIP-76 | Overtime Voucher Contract | Vote Pending | Danijel (@danthales) | Deploy a Overtime Voucher NFT Contract | https://discord.gg/8bzFdpGTrp  | 2022-08-18
  
 ## Simple Summary
  
