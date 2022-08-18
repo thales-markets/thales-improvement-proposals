@@ -1,11 +1,11 @@
 ---
-id: tip-74
+id: tip-77
 title: TIP-74: Market Description Input Field for Ex0t1cs
 status: Draft
 author: Millie
 discussions-to: https://discord.gg/nDtrdx9B
 hide_title: false
-sidebar_label: TIP-74
+sidebar_label: TIP-77
 ---
 
 ## Simple Summary
