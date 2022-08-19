@@ -59,23 +59,28 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-52 | [Supply liquidity to Thales Bancor pool	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-52.md) | Implemented |
 | TIP-53 | [OP token allocation towards Gamified Staking ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-53.md) | Implemented |
 | TIP-54 | [Thales referrals program	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-54.md) | Implemented |
-| TIP-55 | [OP token allocation towards THALES/WETH liquidity providers	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-55.md) | Voted in |
-| TIP-56 | [OP token allocation towards pro rata Trading Incentives](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-56.md) | Draft |
+| TIP-55 | [OP token allocation towards THALES/WETH liquidity providers	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-55.md) | Implemented |
+| TIP-56 | [OP token allocation towards pro rata Trading Incentives](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-56.md) | Implemented |
 | TIP-57 | [Exotic Markets referrals program](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-57.md)| Draft |
 | TIP-58 | [Implement seamless swaps from USDC, USDT and DAI to sUSD in the Thales AMM contract](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-58.md) | Implemented |
 | TIP-59 | [Increase THALES buybacks frequency](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-59.md)  | Implemented |
 | TIP-60 | [Sport AMM](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-60.md) | Implemented |
 | TIP-61 | [Introduce Global Skew Impact per Asset for Thales AMM	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-61.md) | Draft |
-| TIP-62 | [Bonus Reward Calculation	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-62.md) | Draft |
-| TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Voted in |
+| TIP-62 | [Bonus Reward Calculation	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-62.md) | Implemented |
+| TIP-63 | [Rewards Rollover & Burn		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-63.md) | Implemented |
 | TIP-64 | [Governance Nomination Restriction	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-64.md) | Implemented |
 | TIP-65 | [Market Creation risk management limitations	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-65.md) | Implemented |
-| TIP-66 | [Implement claimOnBehalf method on the THALES staking contract	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-66.md) | Draft |
+| TIP-66 | [Implement claimOnBehalf method on the THALES staking contract	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-66.md) | Implemented |
 | TIP-67 | [Velodrome bribes program		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-67.md) | Implemented |
-| TIP-68 | [Overtime referrals and new configuration	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-68.md) | Draft |
+| TIP-68 | [Overtime referrals and new configuration	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-68.md) | Implemented |
 | TIP-69 | [Speed Royales	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-69.md) | Draft |
 | TIP-70 | [Thales vaults	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-70.md) | Draft |
-| TIP-71 | [Increase Thales Token Buybacks	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-71.md) | Voted In |
+| TIP-71 | [Increase Thales Token Buybacks	](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-71.md) | Implemented |
 | TIP-72 | [Parlay AMM		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-72.md) | Vote Pending |
-| TIP-73 | [Overtime update threshold		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-73.md) | Voting |
+| TIP-73 | [Overtime update threshold		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-73.md) | Implemented |
+| TIP-74 | [Enable exercize to USDC, USDT or DAI		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-74.md) | Voting |
+| TIP-75 | [Implement Stablecoin onboarding and offboarding for Optimistic Exotic Positional Markets ](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-75.md) | Voted in |
+| TIP-76 | [Overtime Voucher Contract		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-76.md) | Voting |
+| TIP-77 | [Market Description Input Field for Ex0t1cs		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-77.md) | Draft |
+| TIP-78 | [Increase Thales Token Buyback Frequency		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-78.md) | Draft |
 
