@@ -21,7 +21,7 @@ Upon consideration the Oracle Council decided that a market summary box is as an
 
 ## Specification
 
-At time of market creation, give creators an optional string input field capped at 1000 charachters which is to represent a summary of the market that is being created. 
+At time of market creation, give creators an optional string input field capped at 2000 charachters, to communicate a summary of the market that is being created. 
 The Purpose of this optional input is not to restate the market question, but to provide context about the market. The Market discription must not contain another question in it and must not give a description of the market which contradicts the market question or any of the other input fields (eg: use of conflicting dates or event details/participants than what is used in other input fields) 
 This TIP is to be accompanied with a Guideline change which represents the conditions above.
 
@@ -31,7 +31,7 @@ Although the text in the market description is not directly subject to dispute f
 This input field is optional so not including it upon market creation is acceptable, and the use of it is only disputable if the content contradicts the rest of the market details, poses another question or contains spam.
 
 ## Test Cases
-TBD
+
 
 ## Implementation
 TBD
