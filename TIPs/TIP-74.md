@@ -14,9 +14,9 @@ This TIP proposes to introduce an implementation that allows Thales traders to d
  
 ## Motivation
  
-Since TIP-58 was implemented many of the largest buy transactions on the Thales AMM were done with USDC and USDT. This is a strong indicator that users with large stablecoin holdings prefer to trade on Thales directly with their dollar coin denomination of choice. For a holstically positive user experience it is necessary to allow those players to excerise their options in their preffered stablecoin denomination as well. This will make the fact that Thales is using sUSD as its base currency nearly irrelevant to most users, especially on short term markets.
+Since [TIP-58](TIP-58.md) was implemented many of the largest buy transactions on the Thales AMM were done with USDC and USDT. This is a strong indicator that users with large stablecoin holdings prefer to trade on Thales directly with their dollar coin denomination of choice. For a holstically positive user experience it is necessary to allow those players to excerise their options in their preffered stablecoin denomination as well. This will make the fact that Thales is using sUSD as its base currency nearly irrelevant to most users, especially on short term markets.
  
-This proposal does not address users who don't want any sUSD exposure at all, while they are holding a position. A solution with majority appeal that accomodates players of that type has yet to be found. However this proposal addresses the vast majority of Thales users needs in regards to stablecoin choice and as such is a good and important addition to the Thales user experience and the logical advancement from TIP-58 
+This proposal does not address users who don't want any sUSD exposure at all, while they are holding a position. A solution with majority appeal that accomodates players of that type has yet to be found. However this proposal addresses the vast majority of Thales users needs in regards to stablecoin choice and as such is a good and important addition to the Thales user experience and the logical advancement from [TIP-58](TIP-58.md) 
 
  
 ## Specification
