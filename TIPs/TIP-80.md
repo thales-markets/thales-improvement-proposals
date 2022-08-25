@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-80 | Deploy Thales protocol to Binance Smart Chain | Draft | Danijel (@danthales) | Deploy and enable the UP/DOWN/RANGE AMM markets on Binance Smart Chain | https://discord.gg/pending | 2022-08-23
+| TIP-80 | Deploy Thales protocol to Binance Smart Chain | Draft | Danijel (@danthales) | Deploy and enable the UP/DOWN/RANGE AMM markets on Binance Smart Chain | https://discord.gg/pending | 2022-08-25
  
 ## Simple Summary
  
