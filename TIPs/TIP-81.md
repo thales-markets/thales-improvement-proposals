@@ -11,7 +11,9 @@ This TIP proposes to further incentivize trading on Overtime by awarding pro-rat
 Since the launch of 4-week Overtime incentives that awarded traders pro-rata based on total negative PnL per wallet, Overtime growth metrics started increasing significantly on all fields and not just pure incentive driven volume.  
   
   To keep up the momentum, this TIP proposes a new incentives program for additional 4 weeks but with few key differences from previous program:  
-  - Duration: 2 reward rounds with each round lasting for 2 weeks
+  - Total Duration: 4 weeks divided into two biweekly rounds
+  - Round 1: 00:00 UTC August 29 - 00:00 UTC September 12
+  - Round 2: 00:00 UTC September 12 - 00:00 UTC September 26
   - Amount: Increased to 8,000 THALES + 8,000 OP per round (Total of 16,000 OP + 16,000 THALES)
   - Distribution: Changed to pro-rata based on sum of all finalized position losses in sUSD during the ongoing 2-week round
 
@@ -22,7 +24,7 @@ Token incentives proved to have a [significantly positive effect of bootstrappin
 
 ## Specification
 
-This TIP entails the Thales Treasury DAO to distribute 8,000 OP + 8,000 THALES every 2 weeks for the total duration of 4 weeks pro-rata towards wallets that have accrued losses on Overtime Markets (that have realized sUSD losses on resolved positions/games) during the current 2-week round.
+This TIP entails the Thales Treasury DAO to distribute 8,000 OP + 8,000 THALES every 2 weeks for the total duration of 4 weeks pro-rata towards wallets that have accrued losses on Overtime Markets (that have realized sUSD losses on resolved positions/games) during the ongoing 2-week round.
  
 ## Copyright
  
