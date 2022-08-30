@@ -8,7 +8,7 @@ This TIP proposes a plan on how to execute the allocation of 10,000 OP tokens (o
  
  ## Abstract
 
-This TIP proposes to distribute **10,000 OP** tokens **pro-rata** towards **Buy Volume drivers** with a minimum of $40 total Buy Volume on Exotic Markets for the duration of **30 days**.  
+This TIP proposes to distribute **10,000 OP** tokens **pro-rata** towards **Buy Volume drivers** with a minimum of $50 total Buy Volume on Exotic Markets for the duration of **30 days**.  
 
 ## Motivation
 
@@ -16,7 +16,7 @@ Exotic Markets are the one Thales product currently without $OP incentives. Allo
 
 ## Specification
 
-This TIP entails the Thales Treasury DAO to dedicate 10,000 OP tokens from the total Phase 0 OP tokens distribution for Thales, as a 30 day pro-rata  awards for Exotic markets Buy Volume drivers. The distribution between the positioners based on the buy volume is to be calculated by off-chain scripts, and distributed accordingly at the end of the 30 day period.
+This TIP entails the Thales Treasury DAO to dedicate 10,000 OP tokens from the total Phase 0 OP tokens distribution for Thales, as a 30 day pro-rata  awards for Exotic markets Buy Volume drivers with a minimum of $50 total Buy Volume for the duration. The distribution between the positioners based on the buy volume is to be calculated by off-chain scripts, and distributed accordingly at the end of the 30 day period.
  
 ## Copyright
  
