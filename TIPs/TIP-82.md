@@ -12,7 +12,7 @@ This TIP proposes to formally accept a nomination by L2DAO protocol for demonstr
 
 ## Motivation
 
-Layer2DAO is a decentralized organization governed by the L2DAO token, that works towards investing in L2 native projects and thus supporting the growth of Layer 2 networks.  
+Layer2DAO is a decentralized autonomous organization governed by the L2DAO token, that works towards investing in L2 native projects and thus supporting the growth of Layer 2 networks.  
 
 Layer2DAO is governed by L2DAO token holders. Through the proposal and voting process L2DAO token holders determine the actions and direction of Layer2DAO.  
 
