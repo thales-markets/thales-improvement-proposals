@@ -8,7 +8,7 @@ This TIP proposes a plan on how to execute the allocation of 10,000 OP tokens (o
  
  ## Abstract
 
-This TIP proposes to distribute **10,000 OP** tokens **pro-rata** towards **Buy Volume drivers** on Exotic Markets users for the duration of **30 days**.  
+This TIP proposes to distribute **10,000 OP** tokens **pro-rata** towards **Buy Volume drivers** with a minimum of $40 total Buy Volume on Exotic Markets for the duration of **30 days**.  
 
 ## Motivation
 
