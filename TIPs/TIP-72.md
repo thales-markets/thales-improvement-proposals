@@ -33,7 +33,7 @@ The parlay AMM has to keep track of how much it can risk in total and make sure 
 -------------
 TBD: If one or more markets in a parlay result in cancellation, usual approach in centralized books is to ignore that market, but multiple the odds for other winning markets in the parlay.   
 The current implementation implements this logic. The cancelled game is included with odd `1` in the total odds calculation. If the parlay has four games with odds `[ 0.6, 0.5, 0.3, 0.7]` with total product of `0.063` and the third game is cancelled, the parlay will result in the `[ 0.6, 0.5, 1, 0.7]` with total product of `0.21`.   
-In the case of winning parlay with cancelled positions, the user obtains the expected amount while the Parlay AMM is refunded for the cancelled positions. 
+In the case of winning parlay with cancelled positions, the user obtains, as expected, less than the total winnning amount while the Parlay AMM is refunded for the cancelled positions. 
 
 -------------
 
