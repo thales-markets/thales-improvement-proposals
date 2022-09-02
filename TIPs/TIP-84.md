@@ -1,10 +1,10 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-84 | Pause trading contracts on Optimism during ETH 2.0 Merge | Draft | padzank (@padzank) | Pause ThalesAMM, RangedAMM and SportsAMM contracts 1h before Synthetix contracts pause on the day of ETH2.0 Merge and unpause after Synthetix unpauses contracts | https://discord.gg/8bzFdpGTrp | 2022-09-02
+| TIP-84 | Pause trading contracts on Optimism during The Ethereum Merge | Draft | padzank (@padzank) | Pause ThalesAMM, RangedAMM and SportsAMM contracts 1h before Synthetix contracts pause on the day of The Ethereum Merge and unpause after Synthetix unpauses contracts | https://discord.gg/8bzFdpGTrp | 2022-09-02
  
 ## Simple Summary
  
-This TIP proposes to pause [ThalesAMM](https://optimistic.etherscan.io/address/0x5ae7454827D83526261F3871C1029792644Ef1B1), [RangedAMM](https://optimistic.etherscan.io/address/0x2d356b114cbCA8DEFf2d8783EAc2a5A5324fE1dF) and [SportsAMM](https://optimistic.etherscan.io/address/0x170a5714112daEfF20E798B6e92e25B86Ea603C1) contracts on the day of ETH2.0 Merge on timing that coincides with 1h prior to Synthetix System Wide Suspension ([SIP-271](https://sips.synthetix.io/sips/sip-271/)) and subsequently unpause them when Synthetix contracts resume activities.
+This TIP proposes to pause [ThalesAMM](https://optimistic.etherscan.io/address/0x5ae7454827D83526261F3871C1029792644Ef1B1), [RangedAMM](https://optimistic.etherscan.io/address/0x2d356b114cbCA8DEFf2d8783EAc2a5A5324fE1dF) and [SportsAMM](https://optimistic.etherscan.io/address/0x170a5714112daEfF20E798B6e92e25B86Ea603C1) contracts on the day of The Ethereum Merge on timing that coincides with 1h prior to Synthetix System Wide Suspension ([SIP-271](https://sips.synthetix.io/sips/sip-271/)) and subsequently unpause them when Synthetix contracts resume activities.
  
  ## Abstract
  
