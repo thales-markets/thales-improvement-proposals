@@ -35,7 +35,7 @@ The Thales Protocol DAO shall:
 
 * Deploy all contracts necessary to facilitate SafeBox functionality with USDC on Arbitrum.
 
-* Ask the Thales Core Contributors to develop a modified version of the "Buy-in and exercise with USDC, USDT, DAI"-feature as described in TIP-58 and TIP-74, but with USDC being the base currency and Curve Arbitrum being used (https://arbitrum.curve.fi/), for deployment at a later date after launch.
+* Ask the Thales Core Contributors to develop a modified version of the "multi stablecoin buy-in and exercise"-feature as described in TIP-58 and TIP-74, but with USDC being the base currency and Curve Arbitrum being used (https://arbitrum.curve.fi/), for deployment at a later date after launch.
 
  
 ## Rationale
