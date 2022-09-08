@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-85 | Liquidity Incentive Program Adjustment | Draft | Ramblers & Red | Redistribute 5k Thales weekly reward from Arrakis to Velodrome | https://discord.com/channels/906484044915687464/1016487086339137686 | 2022-09-06
+| TIP-85 | 0 | Draft | Ramblers & Red | Redistribute 5k Thales weekly reward from Arrakis to Velodrome | https://discord.com/channels/906484044915687464/1016487086339137686 | 2022-09-06
 
 ## Simple Summary
 
