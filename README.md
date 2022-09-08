@@ -83,12 +83,13 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-76 | [Overtime Voucher Contract		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-76.md) | Voting |
 | TIP-77 | [Market Description Input Field for Ex0t1cs		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-77.md) | Draft |
 | TIP-78 | [Increase Thales Token Buyback Frequency		](https://github.com/thales-markets/thales-improvement-proposals/blob/main/TIPs/TIP-78.md) | Draft |
-| TIP-79 | [Deploy Thales protocol on Arbitrum Mainnet	](TIPs/TIP-79.md) | Draft |
-| TIP-80 | [Deploy Thales protocol to Binance Smart Chain	](TIPs/TIP-80.md) | Draft |
-| TIP-81 | [Continuation of Overtime OP incentives program](TIPs/TIP-81.md) | Draft |
-| TIP-82 | [Layer2DAO Support, Token Swap and OP tokens grant	](TIPs/TIP-82.md) | Draft |
-| TIP-83 | [Exotic Markets OP token incentives		](TIPs/TIP-83.md) | Draft |
+| TIP-79 | [Deploy Thales protocol on Arbitrum Mainnet	](TIPs/TIP-79.md) | Voted In |
+| TIP-80 | [Deploy Thales protocol to Binance Smart Chain	](TIPs/TIP-80.md) | Implemented |
+| TIP-81 | [Continuation of Overtime OP incentives program](TIPs/TIP-81.md) | Implemented |
+| TIP-82 | [Layer2DAO Support, Token Swap and OP tokens grant	](TIPs/TIP-82.md) | Implemented |
+| TIP-83 | [Exotic Markets OP token incentives	](TIPs/TIP-83.md) | Implemented |
 | TIP-84 | [Pause trading contracts on Optimism during The Ethereum Merge		](TIPs/TIP-84.md) | Draft |
+| TIP-85 | [Liquidity Incentive Program Adjustment ](TIPs/TIP-84.md) | Draft |
 | TIP-86 | [Implement contract changes inline with Audit report	](TIPs/TIP-86.md) | Draft |
 | TIP-87 | [Increase SafeBox fee of ThalesAMM.sol contract by +1%	](TIPs/TIP-87.md) | Draft |
 
