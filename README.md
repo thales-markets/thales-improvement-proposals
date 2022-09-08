@@ -89,7 +89,7 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-82 | [Layer2DAO Support, Token Swap and OP tokens grant	](TIPs/TIP-82.md) | Implemented |
 | TIP-83 | [Exotic Markets OP token incentives	](TIPs/TIP-83.md) | Implemented |
 | TIP-84 | [Pause trading contracts on Optimism during The Ethereum Merge		](TIPs/TIP-84.md) | Draft |
-| TIP-85 | [Liquidity Incentive Program Adjustment ](TIPs/TIP-84.md) | Draft |
+| TIP-85 | [Liquidity Incentive Program Adjustment ](TIPs/TIP-85.md) | Draft |
 | TIP-86 | [Implement contract changes inline with Audit report	](TIPs/TIP-86.md) | Draft |
 | TIP-87 | [Increase SafeBox fee of ThalesAMM.sol contract by +1%	](TIPs/TIP-87.md) | Draft |
 
