@@ -4,7 +4,7 @@
  
 ## Simple Summary
  
-Implement changes to Thales contracts based on reports from recent smart contract audit by Iosiro
+Implement changes to Thales contracts based on reports from recent smart contract audit by Iosiro https://iosiro.com/audits/thales-amm-smart-contract-audit
  
  ## Abstract
 
@@ -28,12 +28,20 @@ This TIP entials the Thales ProtocolDAO to implement the following Smart Contrac
 
 - Mint/Burn exclusive AMM whitelist:
 
-- Base Price check fix:
+- Base Price check fix
 
 - Typo fix on `_updateSpentOnOnMarketOnBuy`:
 
-- Gas optimizations:
+- Various gas optimizations listed below  
 
+
+### Gas Optimizations
+During feasibility testing of BSC deployment it has come to attention that our gas costs are very unfavourable for an environment that charges L2 gas pro rata (optimism transactions are mostly a variable of L1 gas).  
+We have thus analyzed and implemented various improvements for gas costs:  
+- Refactor methods so that BlackScholes is never called twice within a single atomic transaction
+- Instead of DeciMath library use PRB math library. This requires an upgrade to solidity v0.8 which will be used for Arbitrum and BSC, and at a later point will be rolled out to Optimism (as it requires migrating contracts)
+- In ranged markets, don't use quotes to verify slippage but returned values of buy and sell from underlying AMMs 
+- Multiple other refactorings that terminate methods as soon as possible if conditions are not met and simplify the used math
 
 ## Copyright
 
