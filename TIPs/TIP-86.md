@@ -42,6 +42,9 @@ We have thus analyzed and implemented various improvements for gas costs:
 - Instead of DeciMath library use PRB math library. This requires an upgrade to solidity v0.8 which will be used for Arbitrum and BSC, and at a later point will be rolled out to Optimism (as it requires migrating contracts)
 - In ranged markets, don't use quotes to verify slippage but returned values of buy and sell from underlying AMMs 
 - Multiple other refactorings that terminate methods as soon as possible if conditions are not met and simplify the used math
+  
+## Source code
+https://github.com/thales-markets/contracts/tree/iosiro-amm-audit
 
 ## Copyright
 
