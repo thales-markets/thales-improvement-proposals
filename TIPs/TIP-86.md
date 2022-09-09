@@ -24,13 +24,13 @@ Reports from a recent audit of Thales smart contract by Iosiro were promising, w
 
 This TIP entials the Thales ProtocolDAO to implement the following Smart Contract changes:
 
-- Multi-collateral onboarding peg check:
+- Multi-collateral onboarding peg check
 
-- Mint/Burn exclusive AMM whitelist:
+- Mint/Burn exclusive AMM whitelist
 
 - Base Price check fix
 
-- Typo fix on `_updateSpentOnOnMarketOnBuy`:
+- Typo fix on `_updateSpentOnOnMarketOnBuy`
 
 - Various gas optimizations listed below  
 
