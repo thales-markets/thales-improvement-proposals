@@ -8,7 +8,7 @@
 Change the way Overtime incentives are paid out to use fee rebates as the basis.
 
 ## Motivation  
-Several community members have shared concerns about a part of the incentives being farmed by wash traders. After some consideration, I believe using FeeRebates as the base for how the OP and THALES rewards are paid out removes any chance of wash trading.   
+Several community members have shared concerns about a part of the incentives being farmed by wash traders. After some consideration, I believe using FeeRebates as the base for how the OP and THALES rewards are paid out removes any chance of wash trading and ensures only organic traders are rewarded pro rata.   
 
 ## Specification
 The maximum amount of bi-weekly rewards stays the same as previously established: 8,000 OP tokens and 8,000 THALES tokens.    
