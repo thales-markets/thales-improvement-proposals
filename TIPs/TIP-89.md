@@ -31,7 +31,7 @@ This TIP entails Protocol DAO to utilize other available bet types and sports fr
 
 Based on our observations working with Rundown feed last few weeks, we are proposing a number of improvements to ensure a more robust experience for overtime users:  
     - For UFC: Upgrade the rundown consumer contract so that it automatically cancels markets if UFC fighters change and create a new market for the new fight  
-    - For all sports: Introduce logic that check if the start of the market has been changed on the data side since the market has been created. If yes and if the new time is in the future, update the time. If the new time is in the past, pause the market.  
+    - For all sports: Introduce logic that checks if the start of the market has been changed on the oracle side since the market has been created. If yes and if the new time is in the future, update the time. If the new time is in the past, pause the market.  
     - Introduce a list of whitelisted addresses that can pause markets in case of emergencies.        
 
 
