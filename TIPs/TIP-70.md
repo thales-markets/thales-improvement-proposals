@@ -34,7 +34,7 @@ Variables values above are tentative and will be further refined.
 
 Other vaults that are planned and will be supported in the future:
 - Crab vault that buys IN tokens if the asset price is no more than 5% away from the middle of the IN range  
-- High volatility markets (buying OUT options close to current price outside the range) 
+- High volatility markets (buying OUT options when current price is inside the range) 
 - Max degen vault (only buying options with a max price of 15 cents and no skew impact)  
 
 Vaults allow the community to get very creative and there is potential to create a UI where anyone will be ablle to run an automated strategy.
