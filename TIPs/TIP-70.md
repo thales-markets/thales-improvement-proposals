@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-68 | Thales vaults| Draft | Danijel (@danijelthales) | Introduce Thales Vaults | https://discord.gg/8bzFdpGTrp | 2022-07-18
+| TIP-70 | Thales vaults| Draft | Danijel (@danijelthales) | Introduce Thales Vaults | https://discord.gg/8bzFdpGTrp | 2022-07-18
  
 ## Simple Summary
  Vaults will be a suite of automated trading strategies, where users can deposit funds that trade against Thales AMM.  
