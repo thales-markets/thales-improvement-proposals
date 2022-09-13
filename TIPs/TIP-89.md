@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-89 | New overtime feed and Rundown improvements | Draft | @danthales | Add Apex feed support to overtime to support MotoSports. Improve Rundown consumer. | https://discord.gg/pending | 2022-09-12
+| TIP-89 | New overtime feed and Rundown improvements | Draft | @danthales | Add Apex feed support to overtime to support MotoSports. Improve Rundown consumer. | https://discord.gg/thales | 2022-09-12
 
 ## Simple Summary
 
