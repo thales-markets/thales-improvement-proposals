@@ -18,8 +18,8 @@ Adding more feeds and data providers also improves the decentralization and dive
 ### Apex integration  
 
 Create a new contract called ApexConsumer that will call chainlink jobs serving data from Apex. These contracts will be able to create markets and resolve markets on overtime.  
-Apex supports a number of sports and bet types, but we will start with F1 and MotoGP.  
-Initially only h2h (head to head) bet type will be supported. For each F1 or MotoGP Apex will prepare 10 head to head markets (1 driver vs another), where the odds are calculated based on their algorithm and empirical data.  
+Apex supports a number of racing sports and bet types, but we will start with F1 and MotoGP.  
+Initially only h2h (head to head) bet type will be supported. For each F1 or MotoGP race Apex will prepare 10 head to head markets (1 driver vs another), where the odds are calculated based on their algorithm and empirical data.  
 
 During the beta testing of this new feed, only whitelisted addresses will be able to interact with the ApexConsumer contract. Once a few races have concluded and we get more comfortable with the robustness of the feed, the whitelisting can be removed.  
 
