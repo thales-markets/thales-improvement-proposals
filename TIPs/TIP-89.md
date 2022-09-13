@@ -9,10 +9,12 @@ This TIP entails Thales protocol to add support for Apex146 [feed](https://marke
 It also includes other improvements to overtime protocol listed in #specification  
 
 ## Motivation  
-Overtime aims to continuously upgrade its offer in supportd sports and markets. [Apex](https://www.apex146.com/) has reached out to Thales CCs to enquire if there is interest in using the specialized data for created F1 and MotoGP markets.  
+Overtime aims to continuously upgrade its offer in supportd sports and markets. [Apex](https://www.apex146.com/) has reached out to Thales CCs to enquire if there is interest in using their specialized data for supporting F1 and MotoGP markets.  
 After feasibility and integration tests that CCs have conducted, I am proposing that we make these markets part of Overtime offer.  
 
-Adding more feeds and data providers also improves the decentralization and diversification aspect of Overtime, as in Rundown API no longer not being a single point of failure for the whole platform.  
+Adding more feeds and data providers also improves the decentralization and diversification aspect of Overtime, as in Rundown API no longer not being a single point of failure for the whole platform.    
+
+Furthermore, this TIP proposes some improvements to RundownConsumer contract to handle the issues we have been having most notably with UFC fights and fighter swaps.
 
 ## Specification
 ### Apex integration  
