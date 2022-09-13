@@ -5,7 +5,7 @@
 
 ## Simple Summary
 
-This TIP entails Thales protocol to add support for Apex146 [feed](https://market.link/nodes/Apex146/integrations).   
+This TIP entitles Thales protocol to add support for Apex146 [feed](https://market.link/nodes/Apex146/integrations).   
 It also includes other improvements to overtime protocol listed in #specification  
 
 ## Motivation  
@@ -27,14 +27,14 @@ During the beta testing of this new feed, only whitelisted addresses will be abl
 
 Initially markets will only be open until the qualifiers, as h2h odds will change drastically during that time. Apex does support odds after qualifiers, and for second iteration we will need to pause these markets during qualifiers and reopen them when we got new odds post qualifiers and until the start of the race.
 
-This TIP entails Protocol DAO to utilize other available bet types and sports from Apex feed if there is community interest for those.  
+This TIP entitles Protocol DAO to utilize other available bet types and sports from Apex feed if there is community interest for those.  
 
 ### Rundown improvements
 
 Based on our observations working with Rundown feed last few weeks, we are proposing a number of improvements to ensure a more robust experience for overtime users:  
     - For UFC: Upgrade the rundown consumer contract so that it automatically cancels markets if UFC fighters change and create a new market for the new fight  
     - For all sports: Introduce logic that checks if the start of the market has been changed on the oracle side since the market has been created. If yes and if the new time is in the future, update the time. If the new time is in the past, pause the market.  
-    - Introduce a list of whitelisted addresses that can pause markets in case of emergencies.        
+    - Introduce a list of whitelisted addresses that can pause markets in case of emergencies. Addresses of all CCs will be added to ensure there is someone available to pause whenever an emergency happens.        
 
 
 ## Implementation
