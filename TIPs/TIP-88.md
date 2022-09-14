@@ -21,7 +21,7 @@ To preserve due process and avoid creating an arbitrary bypass of Council Govern
 
 ## Specification
 
-pDAO gets granted permission to apply hot-fixes to Thales smart contracts for critical security vulnerabilities pursuant to the above extend and limitations.
+pDAO is granted permission to apply hot-fixes to Thales smart contracts for critical security vulnerabilities pursuant to the above extend and limitations. This includes codes changes and/or variable changes where necessary.
 
 ## Copyright
 
