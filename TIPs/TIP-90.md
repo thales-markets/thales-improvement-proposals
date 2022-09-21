@@ -30,7 +30,7 @@ Example1:
 Example2:   
     - TWAP value of 8,000 OP tokens and 8,000 THALES is $15k  
     - Total fees during the period are $20k  
-    - 90% rebates would be $18k which is more than the max cap of rewards. The rebate is reduced proportionally for all traders by using the formula `myTotalRebales x 15 / 18`        
+    - 90% rebates would be $18k which is more than the max cap of rewards. The rebate is reduced proportionally for all traders by using the formula `myTotalRebates x 15 / 18`        
 
 
 
