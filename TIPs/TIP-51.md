@@ -22,6 +22,8 @@ I am proposing that on top of making the skewed side more expensive, we introduc
 
 The discount will be easy to read from contract and easy to discover in the UI so that interested parties can get positional tokens at discount and thus balance AMM risks.  
 
+## Test cases   
+
 Example:  
 UP is 80 cents, down is 20 cents per option  
 Someone buys all of the UP tokens, let's say thats 10,000 options, which means the current skew impact on UP is 20%. 
@@ -41,6 +43,8 @@ The positive skew impact is applied to the profits, so we have to calculate how 
 
 The resulting skew impact for his quote is:  
 `(10,000 * (-5%)+5000 * 10%) / 15000 = 0`  
+
+## Implementation
 
 
 ## Copyright
