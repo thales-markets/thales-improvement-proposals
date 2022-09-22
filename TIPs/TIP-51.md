@@ -34,15 +34,37 @@ If someone was to buy all 10,000 DOWN options, his discount starts at 10% and en
 The discount is applied to the pricing of the option. As price of the short option is 20 cents, a 10% discount takes that price down to 18 cents. 
 
 Let's go back to the state where AMM has 10,000 DOWN options starting at 10% discount. What if someone wants to buy more than 10,000 options?  
-E.g. someone wants to buy 15k options. 
-We established he will get a 5% discount for 10,000 options, so he pays for those 19 cents a piece. 
-The remaining 5,0000 options is subject to a positive skew impact, starting at 0% and ending at 5%, so an average of 2.5%.  
-The positive skew impact is applied to the profits, so we have to calculate how much 2.5& premium is from 80 cents profit and then calculate how much skew impact is that on the price itself.  
 
-`(80x0.025/20) x 100 = 10% skew impact on the price`  
+1. Someone wants to buy 15k options. 
+We established he will get a 5% discount for 10,000 options, so he pays for those 19 cents a piece. 
+The remaining 5,000 options is subject to a positive skew impact, starting at 0% and ending at 10%, so an average of 5%.  
+The positive skew impact is applied to the profits, so we have to calculate how much 5% premium is from 80 cents profit and then calculate how much skew impact is that on the price itself.  
+
+`(80x0.05/20) x 100 = 20% skew impact on the price`  
 
 The resulting skew impact for his quote is:  
-`(10,000 * (-5%)+5000 * 10%) / 15000 = 0`  
+`(10,000 * (-5%)+5000 * 20%) / 15000 = 0.033`  so his avg skew on that quote is 3.3%
+
+2.Someone wants to buy 12k options. 
+We established he will get a 5% discount for 10,000 options, so he pays for those 19 cents a piece. 
+The remaining 2,000 options is subject to a positive skew impact, starting at 0% and ending at 4%, so an average of 2%.  
+The positive skew impact is applied to the profits, so we have to calculate how much 2% premium is from 80 cents profit and then calculate how much skew impact is that on the price itself.  
+
+`(80x0.02/20) x 100 = 8% skew impact on the price`  
+
+The resulting skew impact for his quote is:  
+`(10,000 * (-5%)+2000 * 8%) / 12000 = -0.02833` So he gets a 2.833% discount for the full quote of 12k  
+
+3.Someone wants to buy 17k options. 
+We established he will get a 5% discount for 10,000 options, so he pays for those 19 cents a piece. 
+The remaining 17,0000 options is subject to a positive skew impact, starting at 0% and ending at 14%, so an average of 7%.  
+The positive skew impact is applied to the profits, so we have to calculate how much 7% premium is from 80 cents profit and then calculate how much skew impact is that on the price itself.  
+
+`(80x0.07/20) x 100 = 28% skew impact on the price`  
+
+The resulting skew impact for his quote is:  
+`(10,000 * (-5%)+7000 * 28%) / 17000 = 0.085` So he gets 8.5% premium applied to the price. Since its a positive number it needs to be transformed into a SkewImpact from profit. 
+(20x1.085 - 20)/80 = 0.02125 => 2.125% is the resulting skew impact
 
 ## Implementation
 
