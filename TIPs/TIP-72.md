@@ -20,11 +20,12 @@ A user can choose up to 4 positions on different markets to create a Parlay tick
 The Parlay AMM calculates the price of such a ticket by multiplying the individual prices of all single positions by getting quotes from the underlying Sport Markets AMM and adding a ParlayAMMFee and the SafeBoxFee.  
 
 The calculation is done in two phases:  
-1. The total (payout) amount is calculated by using the default odds per position.  
+1. The total (payout) amount is calculated by using the product of the default odds per position.  
 2. The total (payout) amount is spread accross the different positions.  
 The Parlay AMM proceed to buy each of the positions inversely proportional to the buy quote of each position.  
 In simple wording the Parlay AMM buys the most positions with the least likely outcome (lowest odds -> highest amount purchased), while the least positions are purchased for the positions with the most likely outcome (highest odds -> lowest amount purchased).  
-The rationale behind this strategy is that when a user wins the parlay, the Parlay AMM purchased it for a lower price than using uniform distribution (equally purchased amount for each position).
+The rationale behind this strategy is that when a user wins the parlay, the Parlay AMM purchased it for a lower price than using uniform distribution (equally purchased amount for each position).  
+In this case the product of the odds is different than the one from step 1, mainly due to the different skew impact per position.
 
 Maximum return of a Parlay is capped at max_price_supported price with initial value of 20x or `max_odds_supported = 0.05`.   
 When a ParlayAMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).   
