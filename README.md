@@ -74,23 +74,30 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-67 | [Velodrome bribes program		](TIPs/TIP-67.md) | Implemented |
 | TIP-68 | [Overtime referrals and new configuration	](TIPs/TIP-68.md) | Implemented |
 | TIP-69 | [Speed Royales	](TIPs/TIP-69.md) | Draft |
-| TIP-70 | [Thales vaults	](TIPs/TIP-70.md) | Draft |
+| TIP-70 | [Thales vaults	](TIPs/TIP-70.md) | Voting |
 | TIP-71 | [Increase Thales Token Buybacks	](TIPs/TIP-71.md) | Implemented |
 | TIP-72 | [Parlay AMM		](TIPs/TIP-72.md) | Vote Pending |
 | TIP-73 | [Overtime update threshold		](TIPs/TIP-73.md) | Implemented |
 | TIP-74 | [Enable exercize to USDC, USDT or DAI		](TIPs/TIP-74.md) | Voting |
-| TIP-75 | [Implement Stablecoin onboarding and offboarding for Optimistic Exotic Positional Markets ](TIPs/TIP-75.md) | Voted in |
-| TIP-76 | [Overtime Voucher Contract		](TIPs/TIP-76.md) | Voting |
-| TIP-77 | [Market Description Input Field for Ex0t1cs		](TIPs/TIP-77.md) | Draft |
-| TIP-78 | [Increase Thales Token Buyback Frequency		](TIPs/TIP-78.md) | Draft |
-| TIP-79 | [Deploy Thales protocol on Arbitrum Mainnet	](TIPs/TIP-79.md) | Voted In |
+| TIP-75 | [Implement Stablecoin onboarding and offboarding for Optimistic Exotic Positional Markets ](TIPs/TIP-75.md) | Implemented |
+| TIP-76 | [Overtime Voucher Contract		](TIPs/TIP-76.md) | Implemented |
+| TIP-77 | [Market Description Input Field for Ex0t1cs		](TIPs/TIP-77.md) | Implemented |
+| TIP-78 | [Increase Thales Token Buyback Frequency		](TIPs/TIP-78.md) | Implemented |
+| TIP-79 | [Deploy Thales protocol on Arbitrum Mainnet	](TIPs/TIP-79.md) | Implemented |
 | TIP-80 | [Deploy Thales protocol to Binance Smart Chain	](TIPs/TIP-80.md) | Implemented |
 | TIP-81 | [Continuation of Overtime OP incentives program](TIPs/TIP-81.md) | Implemented |
 | TIP-82 | [Layer2DAO Support, Token Swap and OP tokens grant	](TIPs/TIP-82.md) | Implemented |
 | TIP-83 | [Exotic Markets OP token incentives	](TIPs/TIP-83.md) | Implemented |
-| TIP-84 | [Pause trading contracts on Optimism during The Ethereum Merge		](TIPs/TIP-84.md) | Draft |
+| TIP-84 | [Pause trading contracts on Optimism during The Ethereum Merge		](TIPs/TIP-84.md) | Implemented |
 | TIP-85 | [Liquidity Incentive Program Adjustment ](TIPs/TIP-85.md) | Draft |
-| TIP-86 | [Implement contract changes inline with Audit report	](TIPs/TIP-86.md) | Draft |
-| TIP-87 | [Increase SafeBox fee of ThalesAMM.sol contract by +1%	](TIPs/TIP-87.md) | Draft |
+| TIP-86 | [Implement contract changes inline with Audit report	](TIPs/TIP-86.md) | Implemented |
+| TIP-87 | [Increase SafeBox fee of ThalesAMM.sol contract by +1%	](TIPs/TIP-87.md) | Implemented |
+| TIP-88 | [Allow hot-fixes for critical security vulnerabilities	](TIPs/TIP-88.md) | Implemented |
+| TIP-89 | [New overtime feed and Rundown improvements	](TIPs/TIP-89.md) | Implemented |
+| TIP-90 | [New Overtime incentives module	](TIPs/TIP-90.md) | Implemented |
+| TIP-91 | [Increase Ranged AMM Fee	](TIPs/TIP-91.md) | Implemented |
+| TIP-92 | [Updates on Sports Markets	](TIPs/TIP-92.md) | Draft |
+
+
 
 
