@@ -5,7 +5,7 @@
 
 ## Simple Summary
 
-Update the cap per sport and canceled markets cooldown
+Update which adds a cap per sport and canceled markets cooldown timeout.
 
 ## Motivation  
 
