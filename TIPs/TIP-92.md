@@ -9,7 +9,7 @@ Update which adds a cap per sport and canceled markets cooldown timeout.
 
 ## Motivation  
 
-During the almost 3 months that Overtime markets have been operational, we came to the conclusion that some sports would benefint from having a different cap per market from other. For example, it makes more sense th NFL to have higher risks per market than College Football. 
+During the almost 3 months that Overtime markets have been operational, we came to the conclusion that some sports would benefint from having a different cap per market from other. For example, it makes more sense the NFL to have higher risks per market than College Football. 
 
 The second update is the cooldown of canceled markets. In case of a market being canceled, we want to have a cooldown period for this cancelation, allowing pDAO to check if this cancelation is valid and actually took place. 
 
