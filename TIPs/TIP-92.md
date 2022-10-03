@@ -15,10 +15,10 @@ The second update is the cooldown of canceled markets. In case of a market being
 
 ## Specification
 
-  `capPerSport` - the property that wild hold the mapping of the cap per sport
-  `setCapPerSport` - setting the value of the capPerSport variable
-  `cancelTimeout` - the time after the market was canceled, during which the user can't claim back their investment
-  `setCancelTimeout` - setting the value of cancelTimeout
+  - `capPerSport` - the property that wild hold the mapping of the cap per sport
+  - `setCapPerSport` - setting the value of the capPerSport variable
+  - `cancelTimeout` - the time after the market was canceled, during which the user can't claim back their investment
+  - `setCancelTimeout` - setting the value of cancelTimeout
 
   The `defaultCapPerGame` will be 5k, as is it now. Only if the `capPerSport` is set, the value will be overwritten.
 
