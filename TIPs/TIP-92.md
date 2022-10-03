@@ -22,8 +22,9 @@ The second update is the cooldown of canceled markets. In case of a market being
 
   The `defaultCapPerGame` is 5k, as it is currently.  
   If the `capPerSport` is set, the default value is overwritten.
+  The value of `capPerSport` can be dynamically set by pDAO, as seen fit.
 
-  The value of cancelTimeout is set to 2 hours originally. In case of a wrongful cancelation, during the cooldown period, whitelisted addresses are able to set a correct result, so the users that have a winning positon can actually claim thier winnings.
+  The value of `cancelTimeout` is set to 2 hours originally. In case of a wrongful cancelation, during the cooldown period, whitelisted addresses are able to set a correct result, so the users that have a winning positon can actually claim thier winnings.
 
 
 ## Copyright
