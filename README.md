@@ -97,6 +97,7 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-90 | [New Overtime incentives module	](TIPs/TIP-90.md) | Implemented |
 | TIP-91 | [Increase Ranged AMM Fee	](TIPs/TIP-91.md) | Implemented |
 | TIP-92 | [Updates on Sports Markets	](TIPs/TIP-92.md) | Draft |
+| TIP-93 | [Update on RundownConsumer and adding circular breaker	](TIPs/TIP-93.md) | Draft |
 
 
 
