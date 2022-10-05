@@ -11,8 +11,8 @@ This TIP proposes a plan around changes towards Thales marketplace Trading Incen
 This TIP proposes to change the OP + THALES Trading Incentives towards traders on Thales in a way they additionally include a fourth bucket (additional to UP, DOWN and Ranged buyers) that will be the rewards for traders who purchase the Discounted Positions and thus award them for further balancing the Thales AMM.
  
   With these changes, the rewards distribution will look like the following (per 14-day rewards round):
-  - 9,000 OP + 16,000 THALES pro-rata towards UP token Buyers
-  - 9,000 OP + 16,000 THALES towards DOWN token Buyers
+  - 9,000 OP + 15,000 THALES pro-rata towards UP token Buyers
+  - 9,000 OP + 15,000 THALES towards DOWN token Buyers
   - 5,000 OP + 10,000 THALES towards Ranged Markets IN/OUT tokens Buyers
   - **5,000 OP + 10,000 THALES towards any Discounted Tokens Buyers**
    
@@ -26,8 +26,8 @@ This TIP proposes to change the OP + THALES Trading Incentives towards traders o
  
  This TIP entails the Thales Treasury to continue with the designated total Trading Incentives allocation detailed in TIP-56, but with distribution per 14-day round changed to following:  
   
-  - 9,000 OP + 16,000 THALES pro-rata towards UP token Buyers
-  - 9,000 OP + 16,000 THALES towards DOWN token Buyers
+  - 9,000 OP + 15,000 THALES pro-rata towards UP token Buyers
+  - 9,000 OP + 15,000 THALES towards DOWN token Buyers
   - 5,000 OP + 10,000 THALES towards Ranged Markets IN/OUT tokens Buyers
   - **5,000 OP + 10,000 THALES towards any Discounted Tokens Buyers**
  
