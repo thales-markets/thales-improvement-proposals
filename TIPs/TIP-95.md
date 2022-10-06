@@ -8,9 +8,9 @@ This TIP proposes to add the discount concept that aims to balance the AMM as in
  
 ## Abstract
  
-Add discounts concept to Sports AMM.
-Increase skew impact from 5% to 10%, so that maximum discount is 5%.
-Increase min_spread variable from 0.5% to 1%.
+Add discounts concept to Sports AMM.  
+Increase skew impact from 5% to 10%, so that maximum discount is 5%.  
+Increase min_spread variable from 0.5% to 1%.  
 
 ## Motivation
  
