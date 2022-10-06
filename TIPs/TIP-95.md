@@ -14,7 +14,8 @@ Increase min_spread variable from 0.5% to 1%.
 
 ## Motivation
  
-The discount concept was added to Thales AMM and I believe its a very good tool for balancing the AMM exposure. In addition it can be very attractive for traders, much more so that for Crypto Positions, as there is no concept of out of the money position, rather you could get a bonus profit on a team you were already thinking of positioning on. 
+The discount concept was added to Thales AMM and I believe its a very good tool for balancing the AMM exposure. In addition it can be very attractive for traders, much more so than for Crypto Positions, as there is no concept of out of the money position, rather you could get a bonus profit on a team you were already thinking of positioning on.   
+
 The discount concept together with increased skew impact would in a sense act as a self balancing sports book, which gives the AMM more flexibility in mitigating occasional stale odds, which can be reduced with more frequent polling of oracles, but can never really be 100% removed.
  
 ## Specification
