@@ -4,7 +4,7 @@
  
 ## Simple Summary
  
-This TIP proposes to add the discount concept that aims to balance the AMM as introduced in Thales AMM
+This TIP proposes to add the discount concept to Overtime that aims to balance the Sports AMM as introduced in Thales AMM
  
 ## Abstract
  
