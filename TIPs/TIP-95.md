@@ -26,7 +26,9 @@ While the implementation can be applied 1 to 1 to sports with binary outcome, fo
 
 For the mechanism of self-balancing book to be efficient we need a higher max skew impact, so that we can offer a higher discount. I am proposing a change to max_skew_impact variable from 5% to 10%.  
   
-To the same effect, I am proposing increasing min_spread from 0.5% to 1%, as discounts introduce a risk to the AMM if there isn't at least a minimal spread (0.5% can be used up for referrals, which many traders leverage).
+To the same effect, I am proposing increasing min_spread from 0.5% to 1%, as discounts introduce a risk to the AMM if there isn't at least a minimal spread (0.5% can be used up for referrals, which many traders leverage). 
+
+The fee adjustments are also a preparation for Parlays, where combining multiple discounts could offer a huge bonus to traders, but we also need to make sure to not offer higher discounts than what was charged for skew impact. 
 ## Variables
  
 discountDivider = 2 (maxSkewImpact/2)
