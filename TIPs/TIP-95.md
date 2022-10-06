@@ -20,8 +20,8 @@ The discount concept together with increased skew impact would in a sense act as
  
 ## Specification
  
-Add the discount implementation to Sports AMM as it was done in Thales AMM. 
-Max discount would be maxSkewImpact/2; 
+Add the discount implementation to Sports AMM as it was done in Thales AMM.  
+Max discount would be maxSkewImpact/2.   
  
 While the implementation can be applied 1 to 1 to sports with binary outcome, for those with ternary (that have a draw), the discount would be a function of the side where the AMM is most exposed.
 
