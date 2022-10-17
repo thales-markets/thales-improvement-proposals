@@ -10,12 +10,12 @@ This TIP proposes to modify Trading Incentives for the Thales Marketplace by int
  
  Currently, the Trading Incentives rewards are rewarding traders in four separate buy volume buckets which are: UP token, DOWN token, Ranged Markets and Discounted Tokens Buy Volume. This TIP proposes to more effectively push for balancing the AMM by optimizing the incentives further by introducing a new system of awarding >0.5 sUSD token buyers, <0.5 sUSD token buyers and Discounted token buyers equally. 
  
- **This TIP additionally proposes to prolong the Trading Rewards incentive program for additional 3 rounds (6 weeks) after the regular 7th round is ended.** This means that the Trading Incentive rewards will last until November 30th 2022..
+ **This TIP additionally proposes to prolong the Trading Rewards incentive program for additional 2 rounds (4 weeks) after the regular 7th round is ended.** This means that the Trading Incentive rewards will last until November 14th 2022..
      
    The new emissions are to be as following:  
-  - 7,000 OP + 12,000 THALES pro-rata towards >0.5 sUSD priced token Buyers 
-  - 7,000 OP + 12,000 THALES pro-rata towards <0.5 sUSD priced token Buyers
-  - 7,000 OP + 12,000 THALES pro-rata towards Discounted token Buyers
+  - 5,000 OP + 7,000 THALES pro-rata towards >0.5 sUSD priced token Buyers 
+  - 5,000 OP + 7,000 THALES pro-rata towards <0.5 sUSD priced token Buyers
+  - 5,000 OP + 7,000 THALES pro-rata towards Discounted token Buyers
 
 
 
@@ -32,9 +32,9 @@ This TIP entails the Thales Treasury DAO to allocate additional 42,000 OP and 72
 
 This TIP additionally entails the Thales Treasury DAO to continue the rewards distribution for Trading Incentives program under a new model with the following details:  
 
-  - 7,000 OP + 12,000 THALES pro-rata towards >0.5 sUSD priced token Buyers 
-  - 7,000 OP + 12,000 THALES pro-rata towards <0.5 sUSD priced token Buyers 
-  - 7,000 OP + 12,000 THALES pro-rata towards Discounted token Buyers
+  - 5,000 OP + 7,000 THALES pro-rata towards >0.5 sUSD priced token Buyers 
+  - 5,000 OP + 7,000 THALES pro-rata towards <0.5 sUSD priced token Buyers 
+  - 5,000 OP + 7,000 THALES pro-rata towards Discounted token Buyers
 
 ## Variables
  
