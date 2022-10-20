@@ -63,8 +63,8 @@ Total in round 2 at the start is $130k. Your share is 1100*100/130000 = 0.84615%
 
 ## Specification
  
-Liquidity providing will be based on shares with would be ERC20 tokens with 18 decimals. Users deposit before the beginning of trading.  
-Before the beginning of trading, a single share token is minted for each sUSD deposited.  
+Liquidity providing will be based on shares which would be ERC20 tokens with 18 decimals. 
+Before the beginning of trading, a single share token is minted for each 1 sUSD deposited.  
 
 When trading starts the price of a single share will be determined based on the price of the positions held by the AMM. 
 That price is available to be read from the contract at any given time by iterating through all of the positions of unresolved markets in the AMM and multiplying the number of positions with the last odds received from the oracle.  
@@ -73,11 +73,11 @@ Users can deposit and withdraw at any given time, unless there is a market that 
 
 When users deposit, new shares are minted at current price, e.g. if current price is $1.1, for $1100 deposit a user gets 1000 new minted shares.  
 
-When users withdraw, their shares are burned and they get either sUSD in return at current price.  
+When users withdraw, their shares are burned and they get sUSD in return at current price.  
 
 If there is not enough sUSD for users to withdraw, they may chose to exit by receiving a proportional amount of each position held by the AMM compared to their share in the pool.  
 
-The value of the AMM is always split between the sUSD in it and ongoing positions. When a position is exercised, if those positions were winning, the sUSD amount automatically to the total value of the AMM.     
+The value of the AMM is always split between the sUSD in it and ongoing positions. When a position is exercised, if those positions were winning, the sUSD amount is automatically added to the total value of the AMM.     
 
 ## Examples 
 
