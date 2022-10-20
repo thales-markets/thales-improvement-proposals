@@ -1,6 +1,12 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | TIP-99 | Open up Sports AMM for liquidity providing | Draft | Danijel (@danThales)| Allow anyone to deploy liquidity to Sports AMM  | https://discord.gg/rPpPcMXSeU | 2022-10-17
+
+
+## Abstract
+
+Implement the architecture to allow anyone to deposit into the Sports AMM. 
+Deprecate method "sellToAMM".
  
 ## Simple Summary
  
@@ -16,7 +22,14 @@ Furthermore, Overtime liquidity providing program is to be incentivized with OP 
 
 Liquidity providers will split a pot of 5,000 OP tokens and 5,000 THALES tokens a week for 12 weeks, which can be extended with a governance vote.      
 
-I am proposing two ways of implementing this:
+## Specification 
+
+Two different ways of implementing this are shared below. 
+Common for both cases is that I am proposing to lose the "sellToAMM" function as I feel it just increases the complexity and risk surface, without having a lot of value of the product itself. 
+
+For the initial few weeks, only whitelisted addresses will be able to add liquidity which would be Treasury and team wallets, which would serve to make sure we have covered any possible edge case with games being cancelled or moved or odds shifting significantly.  
+
+Its important to note that ParlayAMM is completely decoupled from this, and would have its own liquidity providing mechanism    
 
 # Option 1
 
@@ -50,7 +63,7 @@ Total in round 2 at the start is $130k. Your share is 1100*100/130000 = 0.84615%
 
 ## Specification
  
-Liquidity providing will be based on shares with would be ERC20 tokens with 18 decimals. Users deposit before the beginning trading.  
+Liquidity providing will be based on shares with would be ERC20 tokens with 18 decimals. Users deposit before the beginning of trading.  
 Before the beginning of trading, a single share token is minted for each sUSD deposited.  
 
 When trading starts the price of a single share will be determined based on the price of the positions held by the AMM. 
@@ -81,6 +94,8 @@ Someone wants to deposit $1200 into the AMM. 1000 shares are minted and sent to 
 
 
 ## Variables
+
+minDepositAmount = 100 sUSD
  
 ## Implementation
  
