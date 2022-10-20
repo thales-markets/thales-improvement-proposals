@@ -15,7 +15,10 @@ With the release of discounts and soon Overtime Discount Chaser vaults, the expo
 Furthermore, Overtime liquidity providing program is to be incentivized with OP and THALES rewards as well as count towards gamified staking rewards.  
 
 Liquidity providers will split a pot of 5,000 OP tokens and 5,000 THALES tokens a week for 12 weeks, which can be extended with a governance vote.      
-   
+
+I am proposing two ways of implementing this:
+
+# Option 1
 
 ## Specification
  
@@ -41,6 +44,40 @@ Round 1 starts at 8th of November with $100k. If you provided $1000 your share i
 Round 2 receives $20k of new deposits.   
 Round 1 ends with a total of 110k in the AMM. Your balance is now $1100 entering round 2.  
 Total in round 2 at the start is $130k. Your share is 1100*100/130000 = 0.84615%  
+
+
+# Option 2 
+
+## Specification
+ 
+Liquidity providing will be based on shares with would be ERC20 tokens with 18 decimals. Users deposit before the beginning trading.  
+Before the beginning of trading, a single share token is minted for each sUSD deposited.  
+
+When trading starts the price of a single share will be determined based on the price of the positions held by the AMM. 
+That price is available to be read from the contract at any given time by iterating through all of the positions of unresolved markets in the AMM and multiplying the number of positions with the last odds received from the oracle.  
+
+Users can deposit and withdraw at any given time, unless there is a market that has entered maturity but is not resolved yet.  
+
+When users deposit, new shares are minted at current price, e.g. if current price is $1.1, for $1100 deposit a user gets 1000 new minted shares.  
+
+When users withdraw, their shares are burned and they get either sUSD in return at current price.  
+
+If there is not enough sUSD for users to withdraw, they may chose to exit by receiving a proportional amount of each position held by the AMM compared to their share in the pool.  
+
+The value of the AMM is always split between the sUSD in it and ongoing positions. When a position is exercised, if those positions were winning, the sUSD amount automatically to the total value of the AMM.     
+
+## Examples 
+
+AMM starts with 100k sUSD so 100k shares are minted.  
+
+Some trading transpires so AMM now has 93k sUSD and 10k positions on one market, and 5k positions and another market.  
+   
+The 10k positions are valued at 60 cents a piece, which makes for 6k while the 5k positions are now valued at 80 cents, which makes for $4000.  
+
+Total value of the AMM is now 102k, or value per share is $1.02.  
+
+Someone wants to deposit $1200 into the AMM. 1000 shares are minted and sent to that wallet and the total number of shares is now 101k.  
+
 
 
 ## Variables
