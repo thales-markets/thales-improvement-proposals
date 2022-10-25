@@ -11,17 +11,17 @@ This TIP proposes a plan to deprecate Exotic Markets
  
 While I personally still believe and love the idea of permissionless prediction markets, I find that the numbers since Exotic has been released and to date, do not justify further investments into it, especially considering how Overtime fared in comparison.  
 
-Exotic:
-6 months
-128k USD volume
-3200 trades
-3100 USD in fees
+Exotic:  
+6 months  
+128k USD volume  
+3200 trades  
+3100 USD in fees  
 
-Overtime:
-3 months
-1.7M USD in volume (13x more volume than Exotics)
-16800 trades (5x more trades than Exotic)
-34.3k USD in SafeBox fees (11x more than Exotics)
+Overtime:  
+3 months  
+1.7M USD in volume (13x more volume than Exotics)  
+16800 trades (5x more trades than Exotic)  
+34.3k USD in SafeBox fees (11x more than Exotics)  
 
 The costs of running Exotic include 15,000 THALES a month for Oracle Council but also resourcing costs for development, marketing, comms, infrastructure, etc...    
 
