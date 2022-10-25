@@ -9,7 +9,7 @@ This TIP proposes a plan to deprecate Exotic Markets
 
 ## Motivation
  
-While I personally still believe and love the idea of permissionless prediction markets, I find that the numbers since Exotic has been released and to date, do not justify further investments into it, especially considering how Overtime fared in comparison.  
+While I personally still believe and love the idea of permissionless parimutuel prediction markets, I find that the numbers since Exotic has been released and to date, do not justify further investments into it, especially considering how Overtime fared in comparison.  
 
 Exotic:  
 6 months  
