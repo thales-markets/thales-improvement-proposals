@@ -1,9 +1,9 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-70 | Thales vaults| Draft | Danijel (@danijelthales) | Introduce Thales Vaults | https://discord.gg/8bzFdpGTrp | 2022-07-18
+| TIP-70 | Thales and Overtime vaults| Draft | Danijel (@danijelthales) | Introduce Thales and Overtime Vaults | https://discord.gg/8bzFdpGTrp | 2022-07-18
  
 ## Simple Summary
- Vaults will be a suite of automated trading strategies, where users can deposit funds that trade with Thales AMM.  
+ Vaults will be a suite of automated trading strategies, where users can deposit funds that trade with Thales AMM or Sports AMM.  
  
  ## Motivation
 Structured products are very popular in DeFi space. Thales unique offering allows for many interesting automated strategies to be implemented. Furthermore, the concept can be reused by external contributors to create their own automated stategies and allow users to deposit into those (similar to dhedge).  
@@ -29,19 +29,37 @@ All protocol ran vaults will have keeper bots that check if a trade can be made 
 The product will initially have two vaults:
 - Deep in the money vault that buys only options above 80 cents that have 0 or negative skew impact  (discounts)
 - Discount chaser vault that only buys options at a discount higher than 2%  
+- Overtime Discount Chaser Vault - buys positions that are at least 3% discounted and have base odds of at least 50% of happening
 
 Variables values above are tentative and will be further refined.  
 
 Other vaults that are planned and will be supported in the future:
 - Crab vault that buys IN tokens if the asset price is no more than 5% away from the middle of the IN range  
 - High volatility markets (buying OUT options when current price is inside the range) 
-- Max degen vault (only buying options with a max price of 15 cents and no skew impact)  
+- Max degen vault (only buying options with a max price of 15 cents and no skew impact) 
+
+Other Overtime vaults:  
+- Degen discount chaser that buys positions with at least 5x to win and 5% discount
+- Discounted Parlays vault which only puts discounted positons on a parlay ticket
+- Managed user vaults - every user can create their own vault that they manage for a fee   
 
 More complex and dynamic vault strategies are being considered for future. 
 Vaults allow the community to get very creative and there is potential to create a UI where anyone will be able to run their own vault and have users deposit into it.
 
+## Variables
+	priceLowerLimit - minimum price at which the vault can buy
+    priceUpperLimit - maximum price at which the vault can buy
+    skewImpactLimit - minimum skew impact/discount at which the vault can buy
+    allocationLimitsPerMarketPerRound - self explanatory
+    maxAllowedDeposit - maximum amount of sUSD that can be deposited into the vault
+    utilizationRate - how much of the funds entering a round can be used to trade
+    minDepositAmount - the minimum a user can deposit
+    maxAllowedUsers - maximum amount of users in the vault at any point in time
+    minTradeAmount - the minimum amount of positions the vault can trade in a single tx
+
 ## Implementation  
 https://github.com/thales-markets/contracts/tree/feat/trading-vaults
+https://github.com/thales-markets/contracts/tree/feat/overtime-vaults
  
 ## Copyright
  
