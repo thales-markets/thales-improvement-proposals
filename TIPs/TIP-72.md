@@ -31,13 +31,13 @@ Maximum return of a Parlay is capped at `maxSupportedAmount` price with initial 
 When a Parlay AMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).   
 A user can then exercize his winnings from the ParlayAMMContract.  
 
-For this to be economically feasible, the underlying Sport Markets AMM will have to greatly reduce the SafeBox fee when the buyer is the ParlayAMM. The ParlayAMM will also have its own SafeBoxFee variable.     
+For this to be economically feasible, the underlying Sport Markets AMM will not be charging SafeBox fee when the buyer is the ParlayAMM. The ParlayAMM will have its own SafeBoxFee variable.     
 
 The Parlay AMM has to keep track of how much it can risk in total and make sure its solvent at any given time (it can not mint a new Parlay if it doesnt have enough sUSD to collaterize it). To lower the exposure, there is a `maxAllowedRiskPerCombination` variable that prevents the Parlay AMM to be over-exposed for a same set of games in a parlay. This caps the sum of all the user deposits per parlay combination up until the `maxAllowedRiskPerCombination` (for example parlay with games combination `[A, B, C, D]`, `[A, D, C, B]` or `[B, D, C, A]`).
 
 -------------
 On cancelled games:  
-If one or more markets in a parlay result in cancellation, usual approach in centralized books is to ignore that market, but multiple the odds for other winning markets in the parlay.   
+If one or more markets in a parlay result in cancellation, usual approach in centralized books is to ignore that market, but multiplu the odds for other winning markets in the parlay.   
 The current implementation implements this logic. The cancelled game is included with odd `1` in the total odds calculation. If the parlay has four games with odds `[ 0.6, 0.5, 0.3, 0.7]` with total product of `0.063` and the third game is cancelled, the parlay will result in the `[ 0.6, 0.5, 1, 0.7]` with total product of `0.21`.   
 In the case of winning parlay with cancelled positions, the user obtains, as expected, less than the total winnning amount while the Parlay AMM is refunded for the cancelled positions. 
 
