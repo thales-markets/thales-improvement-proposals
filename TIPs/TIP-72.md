@@ -114,6 +114,22 @@ A user chooses 4 markets to buy 10 ParlayPosition tokens:
 8. `referrerFee`  = 0.5% - a referral fee for each parlay
 
 ## Implementation
-N/A
+
+### ParlayMarketsAMM
+Main contract used for quoting and buying `ParlayMarket`. 
+Each quote/buy requires a set of `sportMarkets` and `positions` plus a `sUSDamount`.
+The size set can not be higher than the `parlaySize`.
+
+On buy, the `totalAmount` of sport positions are bought from SportsAMM and transferred to the newly created `ParlayMarket`.
+
+### ParlayMarket
+Contract holding the user positions for a parlay. 
+The sum of all positions is equal to the `expectedPayout` for a parlay. 
+On exercise, if parlay poses only winning positions, the winning sUSD amount is transferred to the user.
+In other cases, winning positions are exercised and transferred to `ParlayMarketsAMM`.
+
+### ParlayMarketData
+Used for monitoring on-chain Parlay data.
+
 ## Copyright
 Copyright and related rights waived via CC0.
