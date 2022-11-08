@@ -45,62 +45,38 @@ In the case of winning parlay with cancelled positions, the user obtains, as exp
 
 ## Test Cases  
 ### Example 1
-A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.75 sUSD, which means base price is 0.3 
-* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 1.25 sUSD, which means base price is 0.5
-* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 1.5 sUSD, which means base price is 0.6  
+A user choses to place 10 sUSD on parlay with games:
+* Man United vs. Liverpool - position on Man United - home team initial quote = 0.3
+* Lakers vs. Clippers - position on Lakers - home team initial quote = 0.55
+* Adesanya vs. Pereira - position on Pereira - away fighter initial quote = 0.5
+* Patriots vs. Jets - position on Patriots - home team initial quote = 0.65  
 
-If all 4 positions are correct, the ParlayContract can exercize 4 sUSD from the underlying SportsAMM so the Parlay for the user is fully collaterized that way.    
+First step is to calculate all the initial values:  
+**total quote** = 0.3 x 0.55 x 0.5 x 0.65 = 0.053625  
+**sUSD after fees** = placedAmount - (parlayFee + safeBoxFee) = 10 - 6% = 9.4  
+**expected payout** = 9.4/0.053625 = 175.291
 
-So Parlay AMM has to calculate the price for these 4 positions by multiplying individual base prices the add the ParlayAMMFee and SafeBoxFee.  
-    
-ParlayAMM fee is added to each quote and summed up.  
+Second step is to calculate the positions to be bought from SportsAMM per game. The strategy is to use inverse distribution of the buying amount:  
+* Man United inverse quote = 0.7
+* Lakers inverse quote = 0.45
+* Pereira inverse quote = 0.5
+* Patriots inverse quote = 0.35  
+**sum of inverse quotes** 0.7 + 0.45 + 0.5 + 0.35 = 2  
+**position amount calculation** = (inveseQuotePerGame x initialPayout) / (inverseSumOfQuotes)  
+* Man United position amount = (9.4 * 0.7 * 2) / (0.053625 * 2 * 2) = 61.35
+* Lakers position amount = (9.4 * 0.45 * 2) / (0.053625 * 2 * 2) = 39.44
+* Pereira position amount = (0.5 * 2) / (0.053625 * 2 * 2) = 43.82
+* Man United position amount = (9.4 * 0.35 * 2) / (0.053625 * 2 * 2) = 30.67  
+**totalAmountToBuy** = 61.35 + 39.44 + 43.82 + 30.67 = 175.28
 
-**ParlayAMM fee = (0.75+0.5+1.25+1.5) x 0.002 = 0.008**    
+Due to the skewImpact in the SportsAMM, the values are adjusted accordingly for:
+* totalQuote 
+* expectedPayout
+* quotesPerGame  
 
-**Parlay base token price = 0.3x x 0.2x x 0.5x x 0.6 = 0.018 which is 55x winning**   
-
-**Parlay token price with fees = (0.018+0.008)x1.005 =  0.02613 => 38x**  
-
-
-### Example 2
-A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 0.5 sUSD, which means base price is 0.2  
-
-**ParlayAMM fee = 2x 0.002 = 0.004**    
-
-**Parlay base token price = 0.5^4  = 0.0625 which is 16x winning**   
-
-**Parlay token price with fees = (0.0625+0.005)x1.005 =  0.0678375 => 14.74x**  
-
-### Example 3
-A user chooses 3 markets to buy 10 ParlayPosition tokens:  
-* 3.33 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.75 sUSD, which means base price is 0.3 
-* 3.33 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
-* 3.33 tokens for Primera game Real- Barcelona for position Real with a quote 1.25 sUSD, which means base price is 0.5
-
-**ParlayAMM fee = (0.75+0.5+1.25) * 0.002 = 0.005**    
-
-**Parlay base token price = 0.3x x 0.2x x 0.5x  = 0.03 which is 33.33x winning**   
-
-**Parlay token price with fees = (0.03+0.005)x1.005 =  0.035175 => 28.4x**  
-
-### Example 4
-A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 2 sUSD, which means base price is 0.8
-* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 1.75 sUSD, which means base price is 0.7
-* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 1.5 sUSD, which means base price is 0.6
-* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 2.25 sUSD, which means base price is 0.9  
-
-**ParlayAMM fee = 7.5x 0.002 = 0.015**    
-
-**Parlay base token price = 0.6x0.7x0.8x0.9  = 0.3024 which is 3.3x winning**   
-
-**Parlay token price with fees = (0.3024+0.005)x1.005 =  0.308937 => 3.23x winning**  
+The last step is buying the position amounts using the ParlayMarketsAMM contract, with additional slippage.  
+All the positions are transferred to the newly created ParlayMarket.  
+**In case all the positions are winning, the user can exercise and claim** = 175.28 sUSD
 
 
 ## Variables
