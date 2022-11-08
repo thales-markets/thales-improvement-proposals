@@ -103,10 +103,14 @@ A user chooses 4 markets to buy 10 ParlayPosition tokens:
 
 
 ## Variables
-1. ParlayAMMFee - a fee applied to each individual quote = 5%
-2. min_supported_price - minimum supported price per Parlay token = 0.05c 
-3. SafeBoxFee on Parlay contract = 5% 
-4. SafeBoxFee on Sport Markets AMM when Parlay is the called = 0.1%  
+1. `minUSDAmount` = 20 sUSD - minimum user deposit amount per parlay
+2. `maxSupportedAmount` = 5000 sUSD - maximum payout amount per parlay
+3. `maxSupportedOdds` = 0.05 - maximum total quote per parlay
+4. `maxAllowedRiskPerCombination` = 5000 sUSD - maximum allowed risk for same set/combination of games in parlay. 
+5. `parlaySize` = 4 - max number of games per parlay
+6. `parlayAMMFee` = 3% - a parlay fee for each parlay
+7. `safeBoxFee`   = 3% - a safe box fee for each parlay
+8. `referrerFee`  = 0.5% - a referral fee for each parlay
 
 ## Implementation
 N/A
