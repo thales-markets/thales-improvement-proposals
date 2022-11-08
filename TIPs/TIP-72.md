@@ -42,6 +42,11 @@ The current implementation implements this logic. The cancelled game is included
 In the case of winning parlay with cancelled positions, the user obtains, as expected, less than the total winnning amount while the Parlay AMM is refunded for the cancelled positions. 
 
 -------------
+Ristricted combinations:  
+- Same game can not be included more than once, even with different positions.  
+- Same team/player/fighter can not be combined in a same parlay. Even if the games are in different dates.
+- Single motorsport game is allowed per parlay.
+-------------
 
 ## Test Cases  
 ### Example 1
