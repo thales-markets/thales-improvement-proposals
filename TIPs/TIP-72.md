@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-72 | Parlay AMM  | draft| Danijel (@danijelthales) | Implement a Parlay AMM | https://discord.gg/8bzFdpGTrp | 2022-07-28
+| TIP-72 | Parlay AMM  | draft| Kiril, Danijel (@danijelthales) | Implement a Parlay AMM | https://discord.gg/8bzFdpGTrp | 2022-07-28
 
 ## Simple Summary
 
