@@ -99,11 +99,14 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-92 | [Updates on Sports Markets	](TIPs/TIP-92.md) | Implemted |
 | TIP-93 | [Update on RundownConsumer and adding circuit breaker	](TIPs/TIP-93.md) | Implemented |
 | TIP-94 | [Inclusion of Discount Incentives to pro rata Trading Incentives	](TIPs/TIP-94.md) | Implemented |
-| TIP-95 | [Add discounts to Overtime	](TIPs/TIP-95.md) | Draft |
+| TIP-95 | [Add discounts to Overtime	](TIPs/TIP-95.md) | Implemented |
 | TIP-96 | [Increase Fee Rebates emissions for Overtime	](TIPs/TIP-96.md) | Implemented |
 | TIP-97 | [Rewards Buckets modification for Thales Marketplace Trading Incentives	](TIPs/TIP-97.md) | Implemented |
-| TIP-98 | [Deprecate Exotic Markets 	](TIPs/TIP-98.md) | Draft |
+| TIP-98 | [Deprecate Exotic Markets 	](TIPs/TIP-98.md) | Implemented |
 | TIP-99 | [Open up Sports AMM for liquidity providing	](TIPs/TIP-99.md) | Draft |
+| TIP-100 | [Give LPs voting power	](TIPs/TIP-100.md) | Draft |
+| TIP-101 | [Fixed Limit Prices for Thales AMM	](TIPs/TIP-101.md) | Draft |
+| TIP-102 | [Allow delegating volume for gamified staking	](TIPs/TIP-102.md) | Draft |
 
 
 
