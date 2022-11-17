@@ -107,7 +107,7 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-100 | [Give LPs voting power	](TIPs/TIP-100.md) | Draft |
 | TIP-101 | [Fixed Limit Prices for Thales AMM	](TIPs/TIP-101.md) | Draft |
 | TIP-102 | [Allow delegating volume for gamified staking	](TIPs/TIP-102.md) | Draft |
-
+| TIP-103 | [Deprecate the SELL funticion on Overtime](TIPs/TIP-103.md) | Draft |
 
 
 
