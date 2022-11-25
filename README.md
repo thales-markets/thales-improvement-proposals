@@ -108,6 +108,10 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-101 | [Fixed Limit Prices for Thales AMM	](TIPs/TIP-101.md) | Draft |
 | TIP-102 | [Allow delegating volume for gamified staking	](TIPs/TIP-102.md) | Draft |
 | TIP-103 | [Deprecate the SELL funticion on Overtime](TIPs/TIP-103.md) | Draft |
+| TIP-104 | [Velodrome LP incentives trial](TIPs/TIP-104.md) | Draft |
+| TIP-105 | [Reduce SafeBox fee for Vaults](TIPs/TIP-105.md) | Draft |
+| TIP-106 | [Increase Thales Token Buyback Frequency](TIPs/TIP-106.md) | Draft |
+| TIP-107 | [Increase ThalesAMM Positional Token price limits](TIPs/TIP-107.md) | Draft |
 
 
 
