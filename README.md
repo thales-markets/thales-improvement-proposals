@@ -112,6 +112,10 @@ Thales Improvement Proposals (TIPs) describe standards, processes and provide ge
 | TIP-105 | [Reduce SafeBox fee for Vaults](TIPs/TIP-105.md) | Draft |
 | TIP-106 | [Increase Thales Token Buyback Frequency](TIPs/TIP-106.md) | Draft |
 | TIP-107 | [Increase ThalesAMM Positional Token price limits](TIPs/TIP-107.md) | Draft |
+| TIP-108 | [Reduce min_spread variable for Vaults	](TIPs/TIP-108.md) | Draft |
+| TIP-109 | [Add double chance markets to Overtime](TIPs/TIP-109.md) | Draft |
+| TIP-110 | [Add spread and total points/goals markets to Overtime](TIPs/TIP-110.md) | Draft |
+
 
 
 
