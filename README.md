@@ -120,10 +120,17 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-107 | [Increase ThalesAMM Positional Token price limits](TIPs/TIP-107.md) | Implemented |
 | TIP-108 | [Reduce min_spread variable for Vaults	](TIPs/TIP-108.md) | Implemented |
 | TIP-109 | [Add double chance markets to Overtime](TIPs/TIP-109.md) | Voted in |
-| TIP-110 | [Add spread and total points/goals markets to Overtime](TIPs/TIP-110.md) | Voted in |
+| TIP-110 | [Add spread and total points/goals markets to Overtime](TIPs/TIP-110.md) | Implemented |
 | TIP-111 | [Reduce the duration of Thales Council term](TIPs/TIP-111.md) | Implemented |
 | TIP-112 | [Upgrade Thales AMM contracts](TIPs/TIP-112.md) | Voted in |
-| TIP-113 | [LP Incentives OVerhaul](TIPs/TIP-113.md) | Draft |
+| TIP-113 | [LP Incentives Overhaul](TIPs/TIP-113.md) | Implemented |
+| TIP-114 | [Change Overtime's Oracle to a new Chainlink node](TIPs/TIP-114.md) | Implemented |
+| TIP-115 | [Deploy Overtime to Arbitrum](TIPs/TIP-115.md) | Draft |
+| TIP-116 | [Utilize Celer inter-messaging protocol to enable Overtime on mainnet](TIPs/TIP-116.md) | Draft |
+| TIP-117 | [Increase limits for Parlays](TIPs/TIP-117.md) | Implemented |
+| TIP-118 | [Overtime liquidity&skew impact increases](TIPs/TIP-118.md) | Draft |
+| TIP-119 | [Integrate XAU and XAG as available assets on Thales Marketplace](TIPs/TIP-119.md) | Voted in |
+
 
 
 
