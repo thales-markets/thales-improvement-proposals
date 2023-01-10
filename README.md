@@ -4,6 +4,12 @@
 
 Thales Improvement Proposals (TIPs) describe standards, processes and provide general guidelines or information to the Thales Communit.
 
+## Create a TIP
+
+Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-use-github-to-submit-a-tip-e7d0047b54fd) to learn about the process of creating a TIP.
+
+## List of TIPs
+
 | # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Title | Status | 
 | ----------- | ----------- | ----------- | 
 | TIP-1  | [TIP Formats and Templates](TIPs/TIP-1.md) | Approved |
