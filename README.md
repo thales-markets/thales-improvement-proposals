@@ -123,7 +123,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-110 | [Add spread and total points/goals markets to Overtime](TIPs/TIP-110.md) | Implemented |
 | TIP-111 | [Reduce the duration of Thales Council term](TIPs/TIP-111.md) | Implemented |
 | TIP-112 | [Upgrade Thales AMM contracts](TIPs/TIP-112.md) | Voted in |
-| TIP-113 | [LP Incentives Overhaul](TIPs/TIP-113.md) | Implemented |
+| TIP-113 | [LP Incentives Overhaul](TIPs/TIP-113.md) | Draft |
 | TIP-114 | [Change Overtime's Oracle to a new Chainlink node](TIPs/TIP-114.md) | Implemented |
 | TIP-115 | [Deploy Overtime to Arbitrum](TIPs/TIP-115.md) | Draft |
 | TIP-116 | [Utilize Celer inter-messaging protocol to enable Overtime on mainnet](TIPs/TIP-116.md) | Draft |
