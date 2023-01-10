@@ -102,14 +102,28 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-89 | [New overtime feed and Rundown improvements	](TIPs/TIP-89.md) | Implemented |
 | TIP-90 | [New Overtime incentives module	](TIPs/TIP-90.md) | Implemented |
 | TIP-91 | [Increase Ranged AMM Fee	](TIPs/TIP-91.md) | Implemented |
-| TIP-92 | [Updates on Sports Markets	](TIPs/TIP-92.md) | Implemted |
+| TIP-92 | [Updates on Sports Markets	](TIPs/TIP-92.md) | Implemented |
 | TIP-93 | [Update on RundownConsumer and adding circuit breaker	](TIPs/TIP-93.md) | Implemented |
 | TIP-94 | [Inclusion of Discount Incentives to pro rata Trading Incentives	](TIPs/TIP-94.md) | Implemented |
-| TIP-95 | [Add discounts to Overtime	](TIPs/TIP-95.md) | Draft |
+| TIP-95 | [Add discounts to Overtime	](TIPs/TIP-95.md) | Implemented |
 | TIP-96 | [Increase Fee Rebates emissions for Overtime	](TIPs/TIP-96.md) | Implemented |
 | TIP-97 | [Rewards Buckets modification for Thales Marketplace Trading Incentives	](TIPs/TIP-97.md) | Implemented |
-| TIP-98 | [Deprecate Exotic Markets 	](TIPs/TIP-98.md) | Draft |
+| TIP-98 | [Deprecate Exotic Markets 	](TIPs/TIP-98.md) | Implemented |
 | TIP-99 | [Open up Sports AMM for liquidity providing	](TIPs/TIP-99.md) | Draft |
+| TIP-100 | [Give LPs voting power	](TIPs/TIP-100.md) | Draft |
+| TIP-101 | [Fixed Limit Prices for Thales AMM	](TIPs/TIP-101.md) | Implemented |
+| TIP-102 | [Allow delegating volume for gamified staking	](TIPs/TIP-102.md) | Voted in |
+| TIP-103 | [Deprecate the SELL funticion on Overtime](TIPs/TIP-103.md) | Draft |
+| TIP-104 | [Velodrome LP incentives trial](TIPs/TIP-104.md) | Draft |
+| TIP-105 | [Reduce SafeBox fee for Vaults](TIPs/TIP-105.md) | Implemented |
+| TIP-106 | [Increase Thales Token Buyback Frequency](TIPs/TIP-106.md) | Implemented |
+| TIP-107 | [Increase ThalesAMM Positional Token price limits](TIPs/TIP-107.md) | Implemented |
+| TIP-108 | [Reduce min_spread variable for Vaults	](TIPs/TIP-108.md) | Implemented |
+| TIP-109 | [Add double chance markets to Overtime](TIPs/TIP-109.md) | Voted in |
+| TIP-110 | [Add spread and total points/goals markets to Overtime](TIPs/TIP-110.md) | Voted in |
+| TIP-111 | [Reduce the duration of Thales Council term](TIPs/TIP-111.md) | Implemented |
+| TIP-112 | [Upgrade Thales AMM contracts](TIPs/TIP-112.md) | Voted in |
+| TIP-113 | [LP Incentives OVerhaul](TIPs/TIP-113.md) | Draft |
 
 
 

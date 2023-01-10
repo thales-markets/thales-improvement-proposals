@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-72 | Parlay AMM  | draft| Danijel (@danijelthales) | Implement a Parlay AMM | https://discord.gg/8bzFdpGTrp | 2022-07-28
+| TIP-72 | Parlay AMM  | draft| Kiril, Danijel (@danijelthales) | Implement a Parlay AMM | https://discord.gg/8bzFdpGTrp | 2022-07-28
 
 ## Simple Summary
 
@@ -27,88 +27,90 @@ In simple wording the Parlay AMM buys the most positions with the least likely o
 The rationale behind this strategy is that when a user wins the parlay, the Parlay AMM purchased it for a lower price than using uniform distribution (equally purchased amount for each position).  
 In this case the product of the odds is different than the one from step 1, mainly due to the different skew impact per position.
 
-Maximum return of a Parlay is capped at max_price_supported price with initial value of 20x or `max_odds_supported = 0.05`.   
-When a ParlayAMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).   
+Maximum return of a Parlay is capped at `maxSupportedAmount` price with initial value of 20x or `maxSupportedOdds = 0.05`.   
+When a Parlay AMM market is resolved, in that same method all individual positions are exercized from underlying Sport Markets AMM and all sUSD is moved to the ParlayAMM contract (similar implementation to RangedMarketsAMM).   
 A user can then exercize his winnings from the ParlayAMMContract.  
 
-For this to be economically feasible, the underlying Sport Markets AMM will have to greatly reduce the SafeBox fee when the buyer is the ParlayAMM. The ParlayAMM will also have its own SafeBoxFee variable.     
+For this to be economically feasible, the underlying Sport Markets AMM will not be charging SafeBox fee when the buyer is the ParlayAMM. The ParlayAMM will have its own SafeBoxFee variable.     
 
-The parlay AMM has to keep track of how much it can risk in total and make sure its solvent at any given time (it can not mint a new Parlay if it doesnt have enough sUSD to collaterize it).
+The Parlay AMM has to keep track of how much it can risk in total and make sure its solvent at any given time (it can not mint a new Parlay if it doesnt have enough sUSD to collaterize it). To lower the exposure, there is a `maxAllowedRiskPerCombination` variable that prevents the Parlay AMM to be over-exposed for a same set of games in a parlay. This caps the sum of all the user deposits per parlay combination up until the `maxAllowedRiskPerCombination` (for example parlay with games combination `[A, B, C, D]`, `[A, D, C, B]` or `[B, D, C, A]`).
 
 -------------
-TBD: If one or more markets in a parlay result in cancellation, usual approach in centralized books is to ignore that market, but multiple the odds for other winning markets in the parlay.   
+On cancelled games:  
+If one or more markets in a parlay result in cancellation, usual approach in centralized books is to ignore that market, but multiplu the odds for other winning markets in the parlay.   
 The current implementation implements this logic. The cancelled game is included with odd `1` in the total odds calculation. If the parlay has four games with odds `[ 0.6, 0.5, 0.3, 0.7]` with total product of `0.063` and the third game is cancelled, the parlay will result in the `[ 0.6, 0.5, 1, 0.7]` with total product of `0.21`.   
 In the case of winning parlay with cancelled positions, the user obtains, as expected, less than the total winnning amount while the Parlay AMM is refunded for the cancelled positions. 
 
 -------------
+Ristricted combinations:  
+- Same game can not be included more than once, even with different positions.  
+- Same team/player/fighter can not be combined in a same parlay. Even if the games are in different dates.
+- Single motorsport game is allowed per parlay.
+-------------
 
 ## Test Cases  
 ### Example 1
-A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.75 sUSD, which means base price is 0.3 
-* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 1.25 sUSD, which means base price is 0.5
-* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 1.5 sUSD, which means base price is 0.6  
+A user choses to place 10 sUSD on parlay with games:
+* Man United vs. Liverpool - position on Man United - home team initial quote = 0.3
+* Lakers vs. Clippers - position on Lakers - home team initial quote = 0.55
+* Adesanya vs. Pereira - position on Pereira - away fighter initial quote = 0.5
+* Patriots vs. Jets - position on Patriots - home team initial quote = 0.65  
 
-If all 4 positions are correct, the ParlayContract can exercize 4 sUSD from the underlying SportsAMM so the Parlay for the user is fully collaterized that way.    
+First step is to calculate all the initial values:  
+**total quote** = 0.3 x 0.55 x 0.5 x 0.65 = 0.053625  
+**sUSD after fees** = placedAmount - (parlayFee + safeBoxFee) = 10 - 6% = 9.4  
+**expected payout** = 9.4/0.053625 = 175.291
 
-So Parlay AMM has to calculate the price for these 4 positions by multiplying individual base prices the add the ParlayAMMFee and SafeBoxFee.  
-    
-ParlayAMM fee is added to each quote and summed up.  
+Second step is to calculate the positions to be bought from SportsAMM per game. The strategy is to use inverse distribution of the buying amount:  
+* Man United inverse quote = 0.7
+* Lakers inverse quote = 0.45
+* Pereira inverse quote = 0.5
+* Patriots inverse quote = 0.35  
+**sum of inverse quotes** 0.7 + 0.45 + 0.5 + 0.35 = 2  
+**position amount calculation** = (inveseQuotePerGame x initialPayout) / (inverseSumOfQuotes)  
+* Man United position amount = (9.4 * 0.7 * 2) / (0.053625 * 2 * 2) = 61.35
+* Lakers position amount = (9.4 * 0.45 * 2) / (0.053625 * 2 * 2) = 39.44
+* Pereira position amount = (0.5 * 2) / (0.053625 * 2 * 2) = 43.82
+* Man United position amount = (9.4 * 0.35 * 2) / (0.053625 * 2 * 2) = 30.67  
+**totalAmountToBuy** = 61.35 + 39.44 + 43.82 + 30.67 = 175.28
 
-**ParlayAMM fee = (0.75+0.5+1.25+1.5) x 0.002 = 0.008**    
+Due to the skewImpact in the SportsAMM, the values are adjusted accordingly for:
+* totalQuote 
+* expectedPayout
+* quotesPerGame  
 
-**Parlay base token price = 0.3x x 0.2x x 0.5x x 0.6 = 0.018 which is 55x winning**   
-
-**Parlay token price with fees = (0.018+0.008)x1.005 =  0.02613 => 38x**  
-
-
-### Example 2
-A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 0.5 sUSD, which means base price is 0.2
-* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 0.5 sUSD, which means base price is 0.2  
-
-**ParlayAMM fee = 2x 0.002 = 0.004**    
-
-**Parlay base token price = 0.5^4  = 0.0625 which is 16x winning**   
-
-**Parlay token price with fees = (0.0625+0.005)x1.005 =  0.0678375 => 14.74x**  
-
-### Example 3
-A user chooses 3 markets to buy 10 ParlayPosition tokens:  
-* 3.33 tokens for EPL game Man United - Liverpool for position Man United with a quote 0.75 sUSD, which means base price is 0.3 
-* 3.33 tokens for EPL game Man City - Chelsea for position Draw with a quote 0.5 sUSD, which means base price is 0.2
-* 3.33 tokens for Primera game Real- Barcelona for position Real with a quote 1.25 sUSD, which means base price is 0.5
-
-**ParlayAMM fee = (0.75+0.5+1.25) * 0.002 = 0.005**    
-
-**Parlay base token price = 0.3x x 0.2x x 0.5x  = 0.03 which is 33.33x winning**   
-
-**Parlay token price with fees = (0.03+0.005)x1.005 =  0.035175 => 28.4x**  
-
-### Example 4
-A user chooses 4 markets to buy 10 ParlayPosition tokens:  
-* 2.5 tokens for EPL game Man United - Liverpool for position Man United with a quote 2 sUSD, which means base price is 0.8
-* 2.5 tokens for EPL game Man City - Chelsea for position Draw with a quote 1.75 sUSD, which means base price is 0.7
-* 2.5 tokens for Primera game Real- Barcelona for position Real with a quote 1.5 sUSD, which means base price is 0.6
-* 2.5 tokens for NBA game Lakers vs Clippers for position Lakers with a quote 2.25 sUSD, which means base price is 0.9  
-
-**ParlayAMM fee = 7.5x 0.002 = 0.015**    
-
-**Parlay base token price = 0.6x0.7x0.8x0.9  = 0.3024 which is 3.3x winning**   
-
-**Parlay token price with fees = (0.3024+0.005)x1.005 =  0.308937 => 3.23x winning**  
+The last step is buying the position amounts using the ParlayMarketsAMM contract, with additional slippage.  
+All the positions are transferred to the newly created ParlayMarket.  
+**In case all the positions are winning, the user can exercise and claim** = 175.28 sUSD
 
 
 ## Variables
-1. ParlayAMMFee - a fee applied to each individual quote = 5%
-2. min_supported_price - minimum supported price per Parlay token = 0.05c 
-3. SafeBoxFee on Parlay contract = 5% 
-4. SafeBoxFee on Sport Markets AMM when Parlay is the called = 0.1%  
+1. `minUSDAmount` = 20 sUSD - minimum user deposit amount per parlay
+2. `maxSupportedAmount` = 5000 sUSD - maximum payout amount per parlay
+3. `maxSupportedOdds` = 0.05 - maximum total quote per parlay
+4. `maxAllowedRiskPerCombination` = 5000 sUSD - maximum allowed risk for same set/combination of games in parlay. 
+5. `parlaySize` = 4 - max number of games per parlay
+6. `parlayAMMFee` = 3% - a parlay fee for each parlay
+7. `safeBoxFee`   = 3% - a safe box fee for each parlay
+8. `referrerFee`  = 0.5% - a referral fee for each parlay
 
 ## Implementation
-N/A
+
+### ParlayMarketsAMM
+Main contract used for quoting and buying `ParlayMarket`. 
+Each quote/buy requires a set of `sportMarkets` and `positions` plus a `sUSDamount`.
+The size set can not be higher than the `parlaySize`.
+
+On buy, the `totalAmount` of sport positions are bought from SportsAMM and transferred to the newly created `ParlayMarket`.
+
+### ParlayMarket
+Contract holding the user positions for a parlay. 
+The sum of all positions is equal to the `expectedPayout` for a parlay. 
+On exercise, if parlay poses only winning positions, the winning sUSD amount is transferred to the user.
+In other cases, winning positions are exercised and transferred to `ParlayMarketsAMM`.
+
+### ParlayMarketData
+Used for monitoring on-chain Parlay data.
+
 ## Copyright
 Copyright and related rights waived via CC0.

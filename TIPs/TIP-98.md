@@ -9,15 +9,24 @@ This TIP proposes a plan to deprecate Exotic Markets
 
 ## Motivation
  
-While I personally still believe and love the idea of permissionless prediction markets, I find that the numbers since Exotic has been released and to date, do not justify further investments into it, specially considering how Overtime fared in comparison.  
+While I personally still believe and love the idea of permissionless parimutuel prediction markets, I find that the numbers since Exotic has been released and to date, do not justify further investments into it, especially considering how Overtime fared in comparison.  
 
-- Exotic Volume in 6 months $100,000  
-- Overtime Volume in 3 months $1,500,000  
+Exotic:  
+6 months  
+128k USD volume  
+3200 trades  
+3100 USD in fees  
+
+Overtime:  
+3 months  
+1.7M USD in volume (13x more volume than Exotics)  
+16800 trades (5x more trades than Exotic)  
+34.3k USD in SafeBox fees (11x more than Exotics)  
 
 The costs of running Exotic include 15,000 THALES a month for Oracle Council but also resourcing costs for development, marketing, comms, infrastructure, etc...    
 
 I fully believe that if we focus all our might on Exotic, we would find ways to make it successful, but unfortunately as resources are limited, it's my inclination to go with more likely winners, which Overtime seems to be.    
-Exotic contracts and all code still belongs to Thales DAO and can come back in one way or the other, e.g. as part of Overtime's offering.       
+Exotic contracts and all code still belongs to Thales DAO and can come back in one way or the other, e.g. as part of Overtime's offering. If anyone wants to build something based on these smart contracts they are welcome to reach us on Thales Discord. Documentation will still be supported.        
 
 ## Specification
 - Disable creation of new Exotic markets
@@ -27,3 +36,5 @@ Exotic contracts and all code still belongs to Thales DAO and can come back in o
 ## Copyright
  
 Copyright and related rights waived via CC0.
+
+
