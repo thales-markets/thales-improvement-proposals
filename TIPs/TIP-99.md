@@ -19,7 +19,7 @@ The PnL of the Sports AMM after World Cup has shown that with organic volume and
 
 ## Specification
 
-Liquidity providing will be based much on the proven concept established through vaults. Much of the architecture is inheritted from TIP-70. 
+Liquidity providing will be based much on the proven concept established through vaults. Much of the architecture is inheritted from TIP-70. Liquidity providing is only enabled for THALES stakers with the amount of sUSD stakers can deposit controlled by a variable `stakedThalesMultiplier`
  
 Liquidity providing will be done in weekly rounds with deposits allowed until a round starts. 
 The rounds would begin on Tuesday 9am UTC and go on until next Tuesday at the same time. 
@@ -33,36 +33,41 @@ A single market can only belong to 1 round, which is defined based on the maturi
 
 Any round after round 1 will have all of the deposits + profits from previous round plus any new deposits at round start.  
 
-Sometimes markets are delayed and the start time of a game is changed. If such a change would move the market from one round to another, that market has to be cancelled in the round it previously belonged with all positions refunded, and recreated in a new round.
+Sometimes markets are delayed and the start time of a game is changed. If such a change would move the market from one round to another and shift a round start significantly, that market has to be cancelled in the round it previously belonged with all positions refunded, and recreated in a new round.
 
-
-If there isnt enough liquidity in a certain round, AMM liquidity pool borrows from the Treasury Liquidity Pool contract,
+If there isnt enough liquidity in a certain round, AMM liquidity pool borrows from a special address called `defaultLiquidityProvider`,
  and sets it as one of the depositors for that round.
 This can only be done if that round hasnt started yet (previous round did not finish).
-When the round finally starts, the Treasury Liquidity Pool is repaid from deposits that enter the round, or if there isnt enough to cover what was used from TLP, the TLP enters the round as a regular depositor.
+At the end of the round `defaultLiquidityProvider` always withdraws.
 
-A user can only deposit 1 sUSD per 1 THALES he stakes. A user can only signal withdrawal if he has at least 1 THALES per 1 sUSD that he currently has in that round.
+A user can only deposit 1 sUSD per X THALES he stakes. A user can only signal withdrawal if he has at least X THALES per 1 sUSD that he currently has in that round. 
 
 
 A difference to vaults is that all rounds are statically predetermined at startDate+(roundNumber x 7days). This is done as we dont want to block users from trading an upcoming markets which are sometimes scheduled and available on Overtime even weeks in advance.  
 ## Examples  
 
-
-Round 0 starts at 1st of November.  
-Users deposit $100k for round 1.    
+Users deposit $100k for round 1 and then the round is started
 Round 1 starts at 8th of November with $100k. If you provided $1000 your share is 1%.   
 Round 2 receives $20k of new deposits.   
 Round 1 ends with a total of 110k in the AMM. Your balance is now $1100 entering round 2.  
 Total in round 2 at the start is $130k. Your share is 1100*100/130000 = 0.84615%  
 
+During round 2 a trade is made on a market that belongs to round 3 for an amount of $100. The `defaultLiquidityProvider` seeds the $100 and thus becomes a depositor for round 3. Let's assume round 2 had 0 PnL so the whole $130k is carried over. The total deposited into round3 when it starts is $130.1k.
+
 
 ## Variables
 
+pDAO will conduct an iterative controlled release and slowly raise the `maxAllowedDeposit` variable as the need occurs and the product matures. `minDepositAmount` and `maxAllowedUsers` can also be changed by pDAO ad hoc.
+
+`stakedThalesMultiplier` can only be changed via a TIP.
+
 minDepositAmount = 100 sUSD  
 maxAllowedUsers = 100  
-sUSDPerThalesStakedRatio = 1
+maxAllowedDeposit = 200k
+stakedThalesMultiplier = 10
  
 ## Implementation
+https://github.com/thales-markets/contracts/pull/256
  
 ## Copyright
  
