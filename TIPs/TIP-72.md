@@ -68,10 +68,10 @@ Second step is to calculate the positions to be bought from SportsAMM per game. 
 * Patriots inverse quote = 0.35  
 **sum of inverse quotes** 0.7 + 0.45 + 0.5 + 0.35 = 2  
 **position amount calculation** = (inveseQuotePerGame x initialPayout) / (inverseSumOfQuotes)  
-* Man United position amount = (9.4 * 0.7 * 2) / (0.053625 * 2 * 2) = 61.35
-* Lakers position amount = (9.4 * 0.45 * 2) / (0.053625 * 2 * 2) = 39.44
-* Pereira position amount = (0.5 * 2) / (0.053625 * 2 * 2) = 43.82
-* Man United position amount = (9.4 * 0.35 * 2) / (0.053625 * 2 * 2) = 30.67  
+* Man United position amount = (9.4 * 0.7) / (0.053625 * 2) = 61.35
+* Lakers position amount = (9.4 * 0.45) / (0.053625 * 2) = 39.44
+* Pereira position amount = (9.4 * 0.5) / (0.053625 * 2) = 43.82
+* Patriots position amount = (9.4 * 0.35) / (0.053625 * 2) = 30.67  
 **totalAmountToBuy** = 61.35 + 39.44 + 43.82 + 30.67 = 175.28
 
 Due to the skewImpact in the SportsAMM, the values are adjusted accordingly for:
