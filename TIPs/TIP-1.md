@@ -4,14 +4,14 @@ title: TIP-1:TIP Purpose and Guidelines
 status: Draft
 author: [Farmwell](https://github.com/farmwell)
 description: TIP-1:TIP Purpose and Guidelines
-discussions-to: https://discord.com/invite/cFGv5zyVEj 
+discussions-to: http://discord.gg/thales
 hide_title: false
 sidebar_label: TIP-1
 ---
 
 ## What is a TIP?
 
-TIP stands for Thales Improvement Proposal, it has been adapted from the EIP (Ethereum Improvement Proposal) and SIP (Synthetix Improvement Proposal) stndards. The purpose of this process is to ensure changes to Thales are transparent and well governed.
+TIP stands for Thales Improvement Proposal, it has been adapted from the EIP (Ethereum Improvement Proposal) and SIP (Synthetix Improvement Proposal) standards. The purpose of this process is to ensure changes to Thales are transparent and well governed.
 
 An TIP is a design document providing information to the Thales community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
 
@@ -27,7 +27,7 @@ A TIP must meet certain minimum criteria. It must be a clear and complete descri
 
 Parties involved in the process are the *author*, the [*TIP editors*](#TIP-editors), the [Thales Core Contributors] and the Thales community.
 
-:warning: Before you begin, vet your idea, this will save you time. Ask the Thales community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intend effect. The appropriate public forum to gauge interest around your TIP or is [the Thales Discord](https://discord.gg/hUt94jD7MY).
+:warning: Before you begin, vet your idea, this will save you time. Ask the Thales community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intended effect. The appropriate public forum to gauge interest around your TIP is [the Thales Discord](http://discord.gg/thales).
 
 Your role as the champion of a TIP is to write the TIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea. Following is the process that a successful TIP will move along:
 
@@ -71,7 +71,7 @@ Each TIP document must begin with the following markdown header fields completed
 
 `- description`: Short description of TIP 
 
-`- discussions-to`: [URL pointing to the officiali discussion thread]
+`- discussions-to`: [URL pointing to the official discussion thread]
 
 `- created`: date created on
 
@@ -166,10 +166,10 @@ See [the revision history for further details](https://github.com/Thales-Markets
 
 ### Bibliography
 
-1. [Thales Discord](https://discord.com/invite/cFGv5zyVEj)
+1. [Thales Discord](http://discord.gg/thales)
 2. [pull request](https://github.com/Thales-Markets/TIPs/pulls) 
 3. [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-4. [Synthetix's TIP-01](https://TIPs.synthetix.io/TIPs/TIP-1)
+4. [Synthetix's SIP-01](https://sips.synthetix.io/sips/sip-1/)
 5. [Bitcoin's BIP-0001](https://github.com/bitcoin/bips)
 6. [Python's PEP-0001](https://www.python.org/dev/peps/)
 
