@@ -1,0 +1,45 @@
+| id | Title | Status | Author | Description | Discussions to | Created |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| TIP-123 | Grant funding for an alternative Overtime dApp | Draft | cyberduck (@acyberduck) | Fund a grant to kickstart the creation of an alternative Overtime dApp | https://discord.gg/thales | 2023-2-14
+ 
+## Simple Summary
+
+This TIP proposes to provide a grant to kickstart the creation of an alternative Overtime dApp 
+
+## Motivation
+
+The goal of this dApp is to enable sports enthusiasts to copy successful sport market tipsters, either on a ticket level or as a vault-based strategy. 
+
+The dApp will be built on top of the overtimemarkets.xyz protocol, providing new functionalities as well as an alternative front-end to buying positions on Overtime markets. The dApp will act solely as a referral to Overtime markets protocol. 
+
+In the first phase, to be funded by the grant provided in this proposal, the project team intends to create a platform that allows sports enthusiasts to not only place tickets, but to also copy single positions of their favorite sport market tipsters. The platform will include a rating system of tipsters based on their past positions along with some analytics. 
+    
+## Value to Thales
+
+This dApp presents two immediate advantages: 
+
+first being the contribution to the decentralization of the protocol’s front-end by offering an alternative, 
+
+second being the referral of trading volume leading to increased protocol revenues for the Thales DAO. 
+
+## Proposer Background
+Proposer is a team built from two experienced development & marketing agencies, where the project owners have a multi-year web3 investment experience as well as DAO presence.
+
+One of the project owners, cyberduck, is also currently a Thales council member. 
+
+## Funding Request
+
+65,000 USD in $OP to be locked at market rate at vote of this proposal
+
+## Final Notes
+
+Aim is to have a self-funding project from referral fees, which will be used to fund maintenance and upgrades to the project. 
+
+Upon release, the project team will remain the interim owner of the dApp, leading further growth and allocation of the funds raised through the referral fee until a decision on future ownership (i.e. decentralization) by the project team is made. 
+
+More on the project can be found in the attached presentation here: 
+
+## Copyright
+ 
+Copyright and related rights waived via CC0.
+
