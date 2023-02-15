@@ -1,0 +1,41 @@
+| id | Title | Status | Author | Description | Discussions to | Created |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| TIP-124 | Pause Buyback and Burn Program for Thales Token| Draft | mrbreakout (@mrbreakout) | Pause Buyback and Burn | https://discord.gg/thales | 2023-2-15
+
+
+## Abstract
+
+Pause existing Thales governance token buyback and burn program
+
+## Simple Summary
+
+This TIP proposes to pause current buyback and burn program and restart again if certain price criteria met.
+
+## Motivation
+
+Currently, we use safebox fees to purchase 1500 sUSD worth of Thales Tokens per day and burn them later on.
+
+Thales Token price almost did 3x price boost since we last updated BBB program.
+Hence amount of tokens with same budget that could be purchased from market dropped significantly.
+
+With current macro economic conditions (lower CPI and FED possibly pausing rates) and bullish protocol roadmap (consistent weekly protocol profits + OT Arbitrum implementation + OT vaults etc.) it seems like this bullish trend will not fade anytime soon and token price may increase even further.
+
+In which case it makes more sense to halt BBB program and accumulate more safebox funds to be used else where when needed.
+
+
+## Specification
+
+if Buyback and Burn Program is active and market price of thales token goes above `BBBPricePoint` variable and conditions stay as is for more than 3 hours, then pause the BBB program.
+
+if Buyback and Burn Program is not active and market price of thales token drops below `BBBPricePoint` variable and conditions stay as is for more than 3 hours, then restart the BBB program.
+
+## Variables
+
+`BBBPricePoint` - 0,60 sUSD
+
+## Implementation
+
+
+## Copyright
+
+Copyright and related rights waived via CC0.
