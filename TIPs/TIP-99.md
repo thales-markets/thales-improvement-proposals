@@ -61,10 +61,11 @@ pDAO will conduct an iterative controlled release and slowly raise the `maxAllow
 
 `stakedThalesMultiplier` can only be changed via a TIP.
 
-minDepositAmount = 100 sUSD  
+minDepositAmount = 10 sUSD  
 maxAllowedUsers = 100  
-maxAllowedDeposit = 200k
-stakedThalesMultiplier = 10
+maxAllowedDeposit = 200k  
+stakedThalesMultiplier = 10  
+roundLength = 7 days (cant be changes without moving liquidity to a new contract)
  
 ## Implementation
 https://github.com/thales-markets/contracts/pull/256
