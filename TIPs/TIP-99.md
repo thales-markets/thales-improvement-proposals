@@ -42,7 +42,7 @@ and sets it as one of the depositors for that round.
 This can only be done if that round hasnt started yet (previous round did not finish).
 At the end of the round `defaultLiquidityProvider` always withdraws.
 
-A user can only deposit 1 sUSD per X THALES he stakes. A user can only signal withdrawal if he has at least X THALES per 1 sUSD that he currently has in that round. A user can not unstake while he is providing liquidity.
+A user can only deposit 1 sUSD per X THALES he stakes. A user can only signal withdrawal if he has at least X THALES per 1 sUSD that he currently has in that round. A user can not unstake while he is providing liquidity. Just like with vaults, all user balance that goes into a round is counted towards gamified staking. 
 
 A difference to vaults is that all rounds are statically predetermined at startDate+(roundNumber x 7days). This is done as we dont want to block users from trading an upcoming markets which are sometimes scheduled and available on Overtime even weeks in advance.
 
