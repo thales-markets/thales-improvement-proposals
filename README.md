@@ -129,7 +129,19 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-116 | [Utilize Celer inter-messaging protocol to enable Overtime on mainnet](TIPs/TIP-116.md) | Draft |
 | TIP-117 | [Increase limits for Parlays](TIPs/TIP-117.md) | Implemented |
 | TIP-118 | [Overtime liquidity&skew impact increases](TIPs/TIP-118.md) | Draft |
-| TIP-119 | [Integrate XAU and XAG as available assets on Thales Marketplace](TIPs/TIP-119.md) | Voted in |
+| TIP-119 | [Integrate XAU and XAG as available assets on Thales Marketplace](TIPs/TIP-119.md) | Implemented |
+| TIP-120 | [Unify market claim window](TIPs/TIP-120.md) | Implemented |
+| TIP-121 | [Solution for refunding SafeBox fee to cancelled positions](TIPs/TIP-121.md) | Draft |
+| TIP-122 | [Additional LP Incentives Tapering](TIPs/TIP-122.md) | Draft |
+| TIP-123 | [Grant funding for an alternative Overtime dApp](TIPs/TIP-123.md) | Implemented |
+| TIP-124 | [Pause Buyback and Burn Program for Thales Token](TIPs/TIP-124.md) | Implemented |
+| TIP-125 | [Deploy Gamified Staking and co-incentivized Camelot THALES/WETH pool on Arbitrum](TIPs/TIP-125.md) | Draft |
+| TIP-126 | [Reduce SafeBox fee parameter by fixed **-1%** across all products](TIPs/TIP-126.md) | Implemented |
+| TIP-127 | [Reduce min_spread that ParlayAMM pays to SportsAMMs](TIPs/TIP-127.md) | Draft |
+| TIP-128 | [Allow treasury to purchase and burn discounted CC tokens](TIPs/TIP-128.md) | Implemented |
+| TIP-129 | [Parlay Vaults](TIPs/TIP-129.md) | Draft |
+| TIP-130 | [Add Enetpulse as a data provider to Overtime](TIPs/TIP-130.md) | Draft |
+
 
 
 
