@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIPs/TIP-135.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +22,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-134.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="517">
-                <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TIPs/TIP-135.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,8 +103,8 @@
         <option value="$PROJECT_DIR$/TIPs/TIP-99.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-132.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-133.md" />
-        <option value="$PROJECT_DIR$/TIPs/TIP-135.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-134.md" />
+        <option value="$PROJECT_DIR$/TIPs/TIP-135.md" />
       </list>
     </option>
   </component>
@@ -219,12 +207,12 @@
       <workItem from="1677503100072" duration="1570000" />
       <workItem from="1677508580260" duration="4153000" />
       <workItem from="1678874055499" duration="4176000" />
-      <workItem from="1679005557236" duration="1864000" />
+      <workItem from="1679005557236" duration="2577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156705000" />
+    <option name="totallyTimeSpent" value="157418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -742,8 +730,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-135.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="279" selection-start-line="9" selection-start-column="279" selection-end-line="9" selection-end-column="279" />
           </first_editor>
           <second_editor />
         </state>
@@ -752,8 +740,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-134.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="517">
-            <caret line="67" column="67" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>
