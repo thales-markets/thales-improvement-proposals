@@ -141,7 +141,13 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-128 | [Allow treasury to purchase and burn discounted CC tokens](TIPs/TIP-128.md) | Implemented |
 | TIP-129 | [Parlay Vaults](TIPs/TIP-129.md) | Draft |
 | TIP-130 | [Add Enetpulse as a data provider to Overtime](TIPs/TIP-130.md) | Voted in |
-| TIP-131 | [Extend LP Incentives on Optimism](TIPs/TIP-131.md) | Draft |
+| TIP-131 | [Extend LP Incentives on Optimism](TIPs/TIP-131.md) | Implemented |
+| TIP-132 | [Change how min_spread variable is applied on Overtime](TIPs/TIP-132.md) | Implemented |
+| TIP-133 | [Allow keeper bots to directly update odds on Overtime](TIPs/TIP-133.md) | Implemented |
+| TIP-134 | [Add Same Game Parlays concept to Overtime](TIPs/TIP-134.md) | Draft |
+| TIP-135 | [Staking contract changes](TIPs/TIP-135.md) | Draft |
+| TIP-136 | [Improve Sports AMM Liquidity Provisioning Withdrawals UX](TIPs/TIP-136.md) | Draft |
+| TIP-137 | [POL position on Arbitrum using PALM](TIPs/TIP-137.md) | Draft |
 
 
 
