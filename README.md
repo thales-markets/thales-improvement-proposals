@@ -148,6 +148,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-135 | [Staking contract changes](TIPs/TIP-135.md) | Draft |
 | TIP-136 | [Improve Sports AMM Liquidity Provisioning Withdrawals UX](TIPs/TIP-136.md) | Draft |
 | TIP-137 | [POL position on Arbitrum using PALM](TIPs/TIP-137.md) | Draft |
+| TIP-138 | [Add Minimum Spread per Sport](TIPs/TIP-138.md) | Voting |
 
 
 
