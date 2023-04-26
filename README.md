@@ -149,6 +149,8 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-136 | [Improve Sports AMM Liquidity Provisioning Withdrawals UX](TIPs/TIP-136.md) | Draft |
 | TIP-137 | [POL position on Arbitrum using PALM](TIPs/TIP-137.md) | Draft |
 | TIP-138 | [Add Minimum Spread per Sport](TIPs/TIP-138.md) | Voting |
+| TIP-139 | [Open up Thales AMM for liquidity providing](TIPs/TIP-139.md) | Draft |
+| TIP-140 | [Remove AMM LP caps and increase AMM LP allowance](TIPs/TIP-140.md) | Draft |
 
 
 
