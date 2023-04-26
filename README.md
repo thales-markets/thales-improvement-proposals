@@ -151,6 +151,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-138 | [Add Minimum Spread per Sport](TIPs/TIP-138.md) | Voting |
 | TIP-139 | [Open up Thales AMM for liquidity providing](TIPs/TIP-139.md) | Draft |
 | TIP-140 | [Remove AMM LP caps and increase AMM LP allowance](TIPs/TIP-140.md) | Draft |
+| TIP-141 | [Resume Buyback and Burn Program for Thales Token](TIPs/TIP-141.md) | Draft |
 
 
 
