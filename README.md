@@ -145,13 +145,18 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-132 | [Change how min_spread variable is applied on Overtime](TIPs/TIP-132.md) | Implemented |
 | TIP-133 | [Allow keeper bots to directly update odds on Overtime](TIPs/TIP-133.md) | Implemented |
 | TIP-134 | [Add Same Game Parlays concept to Overtime](TIPs/TIP-134.md) | Draft |
-| TIP-135 | [Staking contract changes](TIPs/TIP-135.md) | Draft |
-| TIP-136 | [Improve Sports AMM Liquidity Provisioning Withdrawals UX](TIPs/TIP-136.md) | Draft |
-| TIP-137 | [POL position on Arbitrum using PALM](TIPs/TIP-137.md) | Draft |
-| TIP-138 | [Add Minimum Spread per Sport](TIPs/TIP-138.md) | Voting |
-| TIP-139 | [Open up Thales AMM for liquidity providing](TIPs/TIP-139.md) | Draft |
-| TIP-140 | [Remove AMM LP caps and increase AMM LP allowance](TIPs/TIP-140.md) | Draft |
-| TIP-141 | [Resume Buyback and Burn Program for Thales Token](TIPs/TIP-141.md) | Draft |
+| TIP-135 | [Staking contract changes](TIPs/TIP-135.md) | Implemented |
+| TIP-136 | [Improve Sports AMM Liquidity Provisioning Withdrawals UX](TIPs/TIP-136.md) | Implemented |
+| TIP-137 | [POL position on Arbitrum using PALM](TIPs/TIP-137.md) | Implemented |
+| TIP-138 | [Add Minimum Spread per Sport](TIPs/TIP-138.md) | Implemented |
+| TIP-139 | [Open up Thales AMM for liquidity providing](TIPs/TIP-139.md) | Implemented |
+| TIP-140 | [Remove AMM LP caps and increase AMM LP allowance](TIPs/TIP-140.md) | Implemented |
+| TIP-141 | [Resume Buyback and Burn Program for Thales Token](TIPs/TIP-141.md) | Implemented |
+| TIP-142 | [Parlay AMM LP solution](TIPs/TIP-142.md) | Draft |
+| TIP-143 | [Overtime Live Positioning AMM ](TIPs/TIP-143.md) | Draft |
+| TIP-144 | [Thales AMM fee reductions](TIPs/TIP-144.md) | Implemented |
+| TIP-145 | [Ungating Overtime and Thales AMM LP](TIPs/TIP-145.md) | Draft |
+
 
 
 
