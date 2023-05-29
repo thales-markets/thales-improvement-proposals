@@ -8,7 +8,7 @@ Allow anyone to deposit to the Overtime and Thales AMM.
 
 
 ## Motivation
-More LP's will be marketing in itself, and Thales Stakers' LP's will be able to profit from regular users' LP's by earning a static percentage of the overall AMM's PnL.
+More LP's will be marketing in itself, and Thales Stakers' LP's will be able to profit from regular users' LP's by earning a static percentage of the overall AMM's PnL. Also, Thales Stakers' LP's will not take any losses from the AMM, and will earn the SafeBox Fee from each round.
 
 ## Specification
 Instead of complicating things with bringing revenue to stakers, which rewards those who don’t even care to LP on Overtime and Thales AMM, I propose to keep all revenue generation within the LP’s. As follows:
