@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-145 | Ungating Overtime and Thales AMM | Draft | fhd | Changing AMM usage rules and PnL distribution | discordlink | 2023-05-29
+| TIP-145 | Ungating Overtime and Thales AMM | Draft | fhd | Changing AMM usage rules and PnL distribution | [discordlink](https://discord.com/channels/906484044915687464/1112764291347648532) | 2023-05-29
 
 ## Simple Summary
 Allow anyone to deposit to the Overtime and Thales AMM. 
