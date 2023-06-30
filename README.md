@@ -156,6 +156,12 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-143 | [Overtime Live Positioning AMM ](TIPs/TIP-143.md) | Draft |
 | TIP-144 | [Thales AMM fee reductions](TIPs/TIP-144.md) | Implemented |
 | TIP-145 | [Ungating Overtime and Thales AMM LP](TIPs/TIP-145.md) | Draft |
+| TIP-146 | [Change referral mechanism to "sticky until overridden"](TIPs/TIP-146.md) | Draft |
+| TIP-147 | [Decrease and extend LP Incentives on Optimism](TIPs/TIP-147.md) | Draft |
+| TIP-148 | [New Overtime Ambassador Referral](TIPs/TIP-148.md) | Draft |
+| TIP-149 | [Speed binaries AMM](TIPs/TIP-149.md) | Draft |
+| TIP-150 | [Add JsonOdds as a data provider to Overtime](TIPs/TIP-150.md) | Draft |
+| TIP-151 | [Formalize Overtime trading guidelines](TIPs/TIP-151.md) | Draft |
 
 
 
