@@ -152,16 +152,20 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-139 | [Open up Thales AMM for liquidity providing](TIPs/TIP-139.md) | Implemented |
 | TIP-140 | [Remove AMM LP caps and increase AMM LP allowance](TIPs/TIP-140.md) | Implemented |
 | TIP-141 | [Resume Buyback and Burn Program for Thales Token](TIPs/TIP-141.md) | Implemented |
-| TIP-142 | [Parlay AMM LP solution](TIPs/TIP-142.md) | Draft |
+| TIP-142 | [Parlay AMM LP solution](TIPs/TIP-142.md) | Implemented |
 | TIP-143 | [Overtime Live Positioning AMM ](TIPs/TIP-143.md) | Draft |
 | TIP-144 | [Thales AMM fee reductions](TIPs/TIP-144.md) | Implemented |
 | TIP-145 | [Ungating Overtime and Thales AMM LP](TIPs/TIP-145.md) | Draft |
-| TIP-146 | [Change referral mechanism to "sticky until overridden"](TIPs/TIP-146.md) | Draft |
-| TIP-147 | [Decrease and extend LP Incentives on Optimism](TIPs/TIP-147.md) | Draft |
+| TIP-146 | [Change referral mechanism to "sticky until overridden"](TIPs/TIP-146.md) | Voted in |
+| TIP-147 | [Decrease and extend LP Incentives on Optimism](TIPs/TIP-147.md) | Implemented |
 | TIP-148 | [New Overtime Ambassador Referral](TIPs/TIP-148.md) | Draft |
 | TIP-149 | [Speed binaries AMM](TIPs/TIP-149.md) | Draft |
-| TIP-150 | [Add JsonOdds as a data provider to Overtime](TIPs/TIP-150.md) | Draft |
+| TIP-150 | [Add JsonOdds as a data provider to Overtime](TIPs/TIP-150.md) | Implemented |
 | TIP-151 | [Formalize Overtime trading guidelines](TIPs/TIP-151.md) | Draft |
+| TIP-152 | [Introduce  `minOddsPerSport`, `maxSpreadPerSport` variable to  `SportsAMM`](TIPs/TIP-152.md) | Implemented |
+| TIP-153 | [Remove SB fee and burn ](TIPs/TIP-153.md) | Draft |
+| TIP-154 | [Incentivize TIP submissions](TIPs/TIP-154.md) | Draft |
+| TIP-155 | [Stop SB fee burning and redirect to Thales Stakers](TIPs/TIP-155.md) | Draft |
 
 
 
