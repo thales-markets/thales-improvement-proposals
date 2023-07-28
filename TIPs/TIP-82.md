@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-82 | Layer2DAO Support, Token Swap and OP tokens grant | Draft | Weston Nelson (@Weston Nelson#2021), padzank (@padzank) | Formally accept Layer2DAO's initiative to elect Thales as the first project in their OPIncubator program designed to support L2 Adoption that includes 27,500 OP tokens as a grant towards Thales and also execute a token swap with 50,000 THALES for 2,000,000 L2DAO tokens | https://discord.gg/8bzFdpGTrp | 2022-08-30
+| TIP-82 | Layer2DAO Support, Token Swap and OP tokens grant | Implemented | Weston Nelson (@Weston Nelson#2021), padzank (@padzank) | Formally accept Layer2DAO's initiative to elect Thales as the first project in their OPIncubator program designed to support L2 Adoption that includes 27,500 OP tokens as a grant towards Thales and also execute a token swap with 50,000 THALES for 2,000,000 L2DAO tokens | https://discord.gg/8bzFdpGTrp | 2022-08-30
  
 ## Simple Summary
  

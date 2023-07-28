@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-94 | Inclusion of Discount Incentives to pro rata Trading Incentives | Draft | padzank (@padzank)| Detailed plan around changes towards Trading Incentives so they include purchases of Discounted Position in effort to further balance the AMM  | https://discord.gg/rPpPcMXSeU | 2022-10-04
+| TIP-94 | Inclusion of Discount Incentives to pro rata Trading Incentives | Implemented | padzank (@padzank)| Detailed plan around changes towards Trading Incentives so they include purchases of Discounted Position in effort to further balance the AMM  | https://discord.gg/rPpPcMXSeU | 2022-10-04
  
 ## Simple Summary
  

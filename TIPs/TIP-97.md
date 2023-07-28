@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-97 | Rewards Buckets modification for Thales Marketplace Trading Incentives  | Draft | padzank (@padzank)| Change Rewards Buckets for Trading Incentives to pro-rata rewards for ITM Buy Volume, OTM Buy Volume and Discounts Buy Volume  | https://discord.gg/rPpPcMXSeU | 2022-10-17
+| TIP-97 | Rewards Buckets modification for Thales Marketplace Trading Incentives  | Implemented | padzank (@padzank)| Change Rewards Buckets for Trading Incentives to pro-rata rewards for ITM Buy Volume, OTM Buy Volume and Discounts Buy Volume  | https://discord.gg/rPpPcMXSeU | 2022-10-17
  
 ## Simple Summary
  

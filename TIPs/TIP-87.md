@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-87 | Increase SafeBox fee of ThalesAMM.sol contract by +1% | Draft | padzank (@padzank) | Increase SafeBox fee of ThalesAMM.sol contract by +1% | https://discord.gg/8bzFdpGTrp | 2022-09-07
+| TIP-87 | Increase SafeBox fee of ThalesAMM.sol contract by +1% | Implemented | padzank (@padzank) | Increase SafeBox fee of ThalesAMM.sol contract by +1% | https://discord.gg/8bzFdpGTrp | 2022-09-07
  
 ## Simple Summary
  

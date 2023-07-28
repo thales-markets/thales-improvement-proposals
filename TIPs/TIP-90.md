@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-90 | New Overtime incentives module | Draft | @danthales | Use fees rebates as the basis for Overtime incentives | https://discord.gg/thales | 2022-09-13
+| TIP-90 | New Overtime incentives module | Implemented | @danthales | Use fees rebates as the basis for Overtime incentives | https://discord.gg/thales | 2022-09-13
 
 ## Simple Summary
 

@@ -1,6 +1,6 @@
 | id     | Title                  | Status | Author  | Description             | Discussions to                | Created    |
 | ------ | ---------------------- | ------ | ------- | ----------------------- | ----------------------------- | ---------- |
-| TIP-44 | Increase AMM Liquidity | Draft  | Danijel | Increase cap per market | https://discord.gg/rPpPcMXSeU | 2022-04-29 |
+| TIP-44 | Increase AMM Liquidity | Implemented  | Danijel | Increase cap per market | https://discord.gg/rPpPcMXSeU | 2022-04-29 |
 
 ## Simple Summary
 

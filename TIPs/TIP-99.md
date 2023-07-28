@@ -1,6 +1,6 @@
 | id     | Title                                      | Status | Author               | Description                                    | Discussions to                | Created    |
 | ------ | ------------------------------------------ | ------ | -------------------- | ---------------------------------------------- | ----------------------------- | ---------- |
-| TIP-99 | Open up Sports AMM for liquidity providing | Draft  | Danijel (@danThales) | Allow anyone to deploy liquidity to Sports AMM | https://discord.gg/rPpPcMXSeU | 2022-10-17 |
+| TIP-99 | Open up Sports AMM for liquidity providing | Implemented  | Danijel (@danThales) | Allow anyone to deploy liquidity to Sports AMM | https://discord.gg/rPpPcMXSeU | 2022-10-17 |
 
 ## Abstract
 

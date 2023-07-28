@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-95 | Add discounts to Overtime| Draft | Danijel (@danthales)| Add the discounts implementation to Overtime  | https://discord.gg/rPpPcMXSeU | 2022-10-06
+| TIP-95 | Add discounts to Overtime| Implemented | Danijel (@danthales)| Add the discounts implementation to Overtime  | https://discord.gg/rPpPcMXSeU | 2022-10-06
  
 ## Simple Summary
  

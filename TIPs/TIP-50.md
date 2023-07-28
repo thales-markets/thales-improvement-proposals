@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-50 | Utilize Safe Box| Draft | Danijel| Use the sUSD from SafeBox as part of tokenomics  | https://discord.gg/rPpPcMXSeU | 2022-05-12
+| TIP-50 | Utilize Safe Box| Implemented | Danijel| Use the sUSD from SafeBox as part of tokenomics  | https://discord.gg/rPpPcMXSeU | 2022-05-12
  
 ## Simple Summary
  

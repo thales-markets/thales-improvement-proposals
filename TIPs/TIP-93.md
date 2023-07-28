@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-93 | Update on RundownConsumer and adding the circuit breaker | Draft | @scvija @grujawork | Update the Rundown consumer contract and adding a new verified contract  | https://discord.gg/thales | 2022-10-04
+| TIP-93 | Update on RundownConsumer and adding the circuit breaker | Implemented | @scvija @grujawork | Update the Rundown consumer contract and adding a new verified contract  | https://discord.gg/thales | 2022-10-04
 
 ## Simple Summary
 

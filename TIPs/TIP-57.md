@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-57 |  Exotic Markets referrals program | Draft | padzank | Enable a referral program for Exotic Markets | https://discord.gg/rPpPcMXSeU | 2022-06-14
+| TIP-57 |  Exotic Markets referrals program | Deprecated | padzank | Enable a referral program for Exotic Markets | https://discord.gg/rPpPcMXSeU | 2022-06-14
  
  
 ## Simple Summary

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-88 | Allow hot-fixes for critical security vulnerabilities | Draft | BigPenny (@RealBigPenny) | Allow hot-fixes for critical security vulnerabilities | https://discord.gg/tbd | 2022-09-10
+| TIP-88 | Allow hot-fixes for critical security vulnerabilities | Implemented | BigPenny (@RealBigPenny) | Allow hot-fixes for critical security vulnerabilities | https://discord.gg/tbd | 2022-09-10
  
 ## Simple Summary
 

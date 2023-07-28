@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-43 | Modification of THALES token LP program | Draft | BigPlutus (@BigPenny)| Modification of THALES token LP program | https://discord.gg/rPpPcMXSeU | 2022-04-16
+| TIP-43 | Modification of THALES token LP program | Implemented | BigPlutus (@BigPenny)| Modification of THALES token LP program | https://discord.gg/rPpPcMXSeU | 2022-04-16
  
 ## Simple Summary
  

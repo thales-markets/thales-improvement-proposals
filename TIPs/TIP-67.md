@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-67 | Velodrome bribes program | Draft | Danijel (@danijelthales) | This TIP proposes a 10 weeks velodrome bribes program with 50k THALES total amount | https://discord.gg/8bzFdpGTrp | 2022-07-10
+| TIP-67 | Velodrome bribes program | Implemented | Danijel (@danijelthales) | This TIP proposes a 10 weeks velodrome bribes program with 50k THALES total amount | https://discord.gg/8bzFdpGTrp | 2022-07-10
  
 ## Simple Summary
  

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-54 |  Thales referrals program | Draft | Danijel | Enable referral program into Thales AMMs | https://discord.gg/rPpPcMXSeU | 2022-05-26
+| TIP-54 |  Thales referrals program | Implemented | Danijel | Enable referral program into Thales AMMs | https://discord.gg/rPpPcMXSeU | 2022-05-26
 
 
 ## Simple Summary

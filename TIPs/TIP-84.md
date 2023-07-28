@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-84 | Pause trading contracts on Optimism during The Ethereum Merge | Draft | padzank (@padzank) | Pause ThalesAMM, RangedAMM and SportsAMM contracts 1h before Synthetix contracts pause on the day of The Ethereum Merge and unpause after Synthetix unpauses contracts | https://discord.gg/8bzFdpGTrp | 2022-09-02
+| TIP-84 | Pause trading contracts on Optimism during The Ethereum Merge | Implemented | padzank (@padzank) | Pause ThalesAMM, RangedAMM and SportsAMM contracts 1h before Synthetix contracts pause on the day of The Ethereum Merge and unpause after Synthetix unpauses contracts | https://discord.gg/8bzFdpGTrp | 2022-09-02
  
 ## Simple Summary
  

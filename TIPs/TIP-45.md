@@ -1,6 +1,6 @@
 | id     | Title                  | Status | Author  | Description             | Discussions to                | Created    |
 | ------ | ---------------------- | ------ | ------- | ----------------------- | ----------------------------- | ---------- |
-| TIP-45 | Ranged Markets | Draft  | Danijel | Introduce Ranged Markets and RangedMarketsAMM | https://discord.gg/rPpPcMXSeU | 2022-04-29 |
+| TIP-45 | Ranged Markets | Implemented  | Danijel | Introduce Ranged Markets and RangedMarketsAMM | https://discord.gg/rPpPcMXSeU | 2022-04-29 |
 
 ## Simple Summary
 

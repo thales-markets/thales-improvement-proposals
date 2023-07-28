@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-55 | OP token allocation towards THALES/WETH liquidity providers | Draft | padzank (@padzank)| Detailed plan around allocating 315,000 OP tokens from Thales Phase 0 distribution towards THALES/WETH liquidity providers | https://discord.gg/rPpPcMXSeU | 2022-05-27
+| TIP-55 | OP token allocation towards THALES/WETH liquidity providers | Implemented | padzank (@padzank)| Detailed plan around allocating 315,000 OP tokens from Thales Phase 0 distribution towards THALES/WETH liquidity providers | https://discord.gg/rPpPcMXSeU | 2022-05-27
  
 ## Simple Summary
  

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-47 | Extension of THALES token LP staking program | Draft | padzank (@padzank)| Extend the LP staking program for 7 weeks with the same emissions of 45,000 THALES tokens weekly  | https://discord.gg/rPpPcMXSeU | 2022-05-11
+| TIP-47 | Extension of THALES token LP staking program | Implemented | padzank (@padzank)| Extend the LP staking program for 7 weeks with the same emissions of 45,000 THALES tokens weekly  | https://discord.gg/rPpPcMXSeU | 2022-05-11
  
 ## Simple Summary
  

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-86 | Implement contract changes inline with Audit report | Draft | Danijel (@Danijel) | Implement changes to Thales contracts based on report from recent smart contract Audit by Iosiro | https://discord.gg/8bzFdpGTrp | 2022-08-30
+| TIP-86 | Implement contract changes inline with Audit report | Implemented | Danijel (@Danijel) | Implement changes to Thales contracts based on report from recent smart contract Audit by Iosiro | https://discord.gg/8bzFdpGTrp | 2022-08-30
  
 ## Simple Summary
  

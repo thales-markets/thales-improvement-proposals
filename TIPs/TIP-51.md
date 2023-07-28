@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-51 | Allow negative AMM skew impact| Draft | Danijel| Allow AMM to offer negative skew impact to help balance AMM exposure | https://discord.gg/rPpPcMXSeU | 2022-05-12
+| TIP-51 | Allow negative AMM skew impact| Implemented | Danijel| Allow AMM to offer negative skew impact to help balance AMM exposure | https://discord.gg/rPpPcMXSeU | 2022-05-12
  
 ## Simple Summary
  

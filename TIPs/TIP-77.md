@@ -1,7 +1,7 @@
 ---
 id: tip-77
 title: TIP-77: Market Description Input Field for Ex0t1cs
-status: Draft
+status: Implemented
 author: Millie
 discussions-to: https://discord.gg/nDtrdx9B
 hide_title: false

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-68 | Overtime referrals and new configuration| Draft | Danijel (@danijelthales) | Add referrals to Overtime, increase liquidity, reduce fees | https://discord.gg/8bzFdpGTrp | 2022-07-18
+| TIP-68 | Overtime referrals and new configuration| Implemented | Danijel (@danijelthales) | Add referrals to Overtime, increase liquidity, reduce fees | https://discord.gg/8bzFdpGTrp | 2022-07-18
  
 ## Simple Summary
  

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-31 | Increase of THALES/WETH G-UNI LP rewards and deployment of Olympus Pro bond on Optimism L2 | Draft | padzank (@padzank)| Increase of THALES/WETH G-UNI LP rewards on Optimism L2 and deployment of Olympus Pro bond  | https://discord.gg/rPpPcMXSeU | 2022-03-01
+| TIP-31 | Increase of THALES/WETH G-UNI LP rewards and deployment of Olympus Pro bond on Optimism L2 | Implemented | padzank (@padzank)| Increase of THALES/WETH G-UNI LP rewards on Optimism L2 and deployment of Olympus Pro bond  | https://discord.gg/rPpPcMXSeU | 2022-03-01
  
 ## Simple Summary
  
