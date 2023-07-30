@@ -166,6 +166,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-153 | [Remove SB fee and burn ](TIPs/TIP-153.md) | Draft |
 | TIP-154 | [Incentivize TIP submissions](TIPs/TIP-154.md) | Implemented |
 | TIP-155 | [Stop SB fee burning and redirect to Thales Stakers](TIPs/TIP-155.md) | Draft |
+| TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) | Draft |
 
 
 
