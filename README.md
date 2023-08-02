@@ -168,6 +168,8 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-155 | [Stop SB fee burning and redirect to Thales Stakers](TIPs/TIP-155.md) | Draft |
 | TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) | Draft |
 | TIP-157 | [POL position on Optimism using PALM](TIPs/TIP-157.md) | Draft |
+| TIP-158 | [Start to Deflationary Thales](TIPs/TIP-158.md) | Draft |
+| TIP-159 | [Optimal Liquidity Strategy on Velodrome](TIPs/TIP-159.md) | Draft |
 
 
 
