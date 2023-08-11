@@ -166,10 +166,15 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-153 | [Remove SB fee and burn ](TIPs/TIP-153.md) | Draft |
 | TIP-154 | [Incentivize TIP submissions](TIPs/TIP-154.md) | Implemented |
 | TIP-155 | [Stop SB fee burning and redirect to Thales Stakers](TIPs/TIP-155.md) | Draft |
-| TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) | Draft |
-| TIP-157 | [POL position on Optimism using PALM](TIPs/TIP-157.md) | Draft |
+| TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) | Voted in |
+| TIP-157 | [POL position on Optimism using PALM](TIPs/TIP-157.md) | Implemented |
 | TIP-158 | [Start to Deflationary Thales](TIPs/TIP-158.md) | Draft |
-| TIP-159 | [Optimal Liquidity Strategy on Velodrome](TIPs/TIP-159.md) | Draft |
+| TIP-159 | [Optimal Liquidity Strategy on Velodrome](TIPs/TIP-159.md) | Voting |
+| TIP-160 | [Update Gamified Staking configuration](TIPs/TIP-160.md) | Implemented |
+| TIP-161 | [Add MultiCollateral onramp (offramp) support to Thales](TIPs/TIP-161.md) | Draft |
+| TIP-162 | [ Add player props markets to Overtime](TIPs/TIP-162.md) | Draft |
+
+
 
 
 
