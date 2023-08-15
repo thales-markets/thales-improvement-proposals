@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/../contractsnew/contracts/contracts/EscrowAndStaking/StakingThalesBonusRewardsManager.sol" description="    /// @notice return leaderboard data&#10;    functi..." line="230" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-163.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
+              <first_editor relative-caret-position="-136">
                 <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
               </first_editor>
               <second_editor />
@@ -235,12 +233,12 @@
       <workItem from="1690198056591" duration="598000" />
       <workItem from="1690282469980" duration="121000" />
       <workItem from="1691582435596" duration="2013000" />
-      <workItem from="1691617670794" duration="7339000" />
+      <workItem from="1691617670794" duration="7732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184941000" />
+    <option name="totallyTimeSpent" value="185334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -770,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-163.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
+          <first_editor relative-caret-position="-136">
             <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
           </first_editor>
           <second_editor />
