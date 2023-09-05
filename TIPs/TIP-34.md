@@ -1,10 +1,10 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-34 | Integrate ATOM, AVAX, BNB, FLOW, FTM, MATIC, NEAR, ONE and SAND as supported assets on Thales| Vote Pending | padzank (@padzank)| Add ATOM, AVAX, BNB, FLOW, FTM, MATIC, NEAR, ONE and SAND price feeds from Chainlink to Thales on Optimism and enable market creation around those assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-03-14
+| TIP-170 | Integrate PYUSD as supported assets on Thales| Vote Pending | padzank (@padzank)| Add PYUSD price feeds from Chainlink to Thales on Optimism and enable market creation around those assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-03-14
  
 ## Simple Summary
  
-Add ATOM/USD, AVAX/USD, BNB/USD, FLOW/USD, FTM/USD, MATIC/USD, NEAR/USD, ONE/USD and SAND/USD price feeds from Chainlink to Thales and enable market creation around those assets price feeds on Optimism.
+Add PYUSD price feeds from Chainlink to Thales and enable market creation around those assets price feeds on Optimism.
  
 ## Abstract
  
@@ -18,31 +18,9 @@ With the recent introduction of the novel Thales AMM contract, users would also 
   
 The Implied Volatility parameter of these assets, that will be used for Thales AMM integration, will be derived from measure of `Historical Volatility` for each asset multiplied by `Implied Volatility / Historical Volatility` ratio of ETH. Historical volatility (HV) is a statistical measure of the dispersion of returns for a given security or market index over a given period of time. Historical volatility period of time to be used in this case is 30 days. Implied Volatility of ETH to be used for reference will be the the [Deribit ETH Volatility Index (DVOL)](https://www.deribit.com/statistics/ETH/volatility-index).
   
-  When using this logic, the following Implied Volatility percentages are measured for each price feed:  
-- ATOM/USD 110%
-- AVAX/USD 91%
-- BNB/USD 70% 
-- FLOW/USD 80% 
-- FTM/USD 140% 
-- MATIC/USD 80%
-- NEAR/USD 130%
-- ONE/USD 107%
-- SAND/USD 97%
- 
 ## Specification
  
-This TIP entails the Thales Protocol DAO to integrate the following Chainlink Optimism data feeds into Thales smart contracts and this way enable creation of markets around these assets:
- 
- - ATOM/USD  (Proxy: [0xEF89db2eA46B4aD4E333466B6A486b809e613F39](https://optimistic.etherscan.io/address/0xEF89db2eA46B4aD4E333466B6A486b809e613F39)) 
- - AVAX/USD  (Proxy: [0x5087Dc69Fd3907a016BD42B38022F7f024140727](https://optimistic.etherscan.io/address/0x5087Dc69Fd3907a016BD42B38022F7f024140727))
- - BNB/USD   (Proxy: [0xD38579f7cBD14c22cF1997575eA8eF7bfe62ca2c](https://optimistic.etherscan.io/address/0xD38579f7cBD14c22cF1997575eA8eF7bfe62ca2c))
- - FLOW/USD  (Proxy: [0x2fF1EB7D0ceC35959F0248E9354c3248c6683D9b](https://optimistic.etherscan.io/address/0x2fF1EB7D0ceC35959F0248E9354c3248c6683D9b))
- - FTM/USD   (Proxy: [0xc19d58652d6BfC6Db6FB3691eDA6Aa7f3379E4E](https://optimistic.etherscan.io/address/0xc19d58652d6BfC6Db6FB3691eDA6Aa7f3379E4E9))
- - MATIC/USD (Proxy: [0x0ded608AFc23724f614B76955bbd9dFe7dDdc82](https://optimistic.etherscan.io/address/0x0ded608AFc23724f614B76955bbd9dFe7dDdc828))
- - NEAR/USD  (Proxy: [0xca6fa4b8CB365C02cd3Ba70544EFffe78f63ac82](https://optimistic.etherscan.io/address/0xca6fa4b8CB365C02cd3Ba70544EFffe78f63ac82))
- - ONE/USD   (Proxy: [0x7CFB4fac1a2FDB1267F8bc17FADc12804AC13CFE](https://optimistic.etherscan.io/address/0x7CFB4fac1a2FDB1267F8bc17FADc12804AC13CFE))
- - SAND/USD  (Proxy: [0xAE33e077a02071E62d342E449Afd9895b016d541](https://optimistic.etherscan.io/address/0xAE33e077a02071E62d342E449Afd9895b016d541))
- 
+n/a 
 ## Rationale
  
 n/a
