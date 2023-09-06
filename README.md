@@ -159,7 +159,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-146 | [Change referral mechanism to "sticky until overridden"](TIPs/TIP-146.md) | Implemented |
 | TIP-147 | [Decrease and extend LP Incentives on Optimism](TIPs/TIP-147.md) | Implemented |
 | TIP-148 | [New Overtime Ambassador Referral](TIPs/TIP-148.md) | Draft |
-| TIP-149 | [Speed binaries AMM](TIPs/TIP-149.md) | Draft |
+| TIP-149 | [Speed binaries AMM](TIPs/TIP-149.md) | Implemented |
 | TIP-150 | [Add JsonOdds as a data provider to Overtime](TIPs/TIP-150.md) | Implemented |
 | TIP-151 | [Formalize Overtime trading guidelines](TIPs/TIP-151.md) | Implemented |
 | TIP-152 | [Introduce  `minOddsPerSport`, `maxSpreadPerSport` variable to  `SportsAMM`](TIPs/TIP-152.md) | Implemented |
@@ -169,11 +169,18 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) | Voted in |
 | TIP-157 | [POL position on Optimism using PALM](TIPs/TIP-157.md) | Implemented |
 | TIP-158 | [Start to Deflationary Thales](TIPs/TIP-158.md) | Draft |
-| TIP-159 | [Optimal Liquidity Strategy on Velodrome](TIPs/TIP-159.md) | Voting |
+| TIP-159 | [Optimal Liquidity Strategy on Velodrome](TIPs/TIP-159.md) | Implemented |
 | TIP-160 | [Update Gamified Staking configuration](TIPs/TIP-160.md) | Implemented |
-| TIP-161 | [Add MultiCollateral onramp (offramp) support to Thales](TIPs/TIP-161.md) | Draft |
-| TIP-162 | [ Add player props markets to Overtime](TIPs/TIP-162.md) | Draft |
-
+| TIP-161 | [Add MultiCollateral onramp (offramp) support to Thales](TIPs/TIP-161.md) | Implemented |
+| TIP-162 | [Add player props markets to Overtime](TIPs/TIP-162.md) | Voted in |
+| TIP-163 | [THALES tokenomics overhaul](TIPs/TIP-163.md) | Voted in |
+| TIP-164 | [Implementing oSnap for Optimistic Governance](TIPs/TIP-164.md) | Draft |
+| TIP-165 | [Deploy Thales products on OpBNB chain](TIPs/TIP-165.md) | Voted in |
+| TIP-166 | [Implement Referral Tier system](TIPs/TIP-166.md) | Voted in |
+| TIP-167 | [Aerodrome bribes and POL program](TIPs/TIP-167.md) | Implemented |
+| TIP-168 | [SafeBox fee on positive Vault rounds](TIPs/TIP-168.md) | Draft |
+| TIP-169 | [Thales state log](TIPs/TIP-169.md) | Draft |
+| TIP-170 | [Additional LP Incentives Tapering](TIPs/TIP-170.md) | Draft |
 
 
 
