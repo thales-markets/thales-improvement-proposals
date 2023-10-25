@@ -166,21 +166,28 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-153 | [Remove SB fee and burn ](TIPs/TIP-153.md) | Draft |
 | TIP-154 | [Incentivize TIP submissions](TIPs/TIP-154.md) | Implemented |
 | TIP-155 | [Stop SB fee burning and redirect to Thales Stakers](TIPs/TIP-155.md) | Draft |
-| TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) | Voted in |
+| TIP-156 | [Launch Thales Products on Base Chain](TIPs/TIP-156.md) |Implemented |
 | TIP-157 | [POL position on Optimism using PALM](TIPs/TIP-157.md) | Implemented |
 | TIP-158 | [Start to Deflationary Thales](TIPs/TIP-158.md) | Draft |
 | TIP-159 | [Optimal Liquidity Strategy on Velodrome](TIPs/TIP-159.md) | Implemented |
 | TIP-160 | [Update Gamified Staking configuration](TIPs/TIP-160.md) | Implemented |
 | TIP-161 | [Add MultiCollateral onramp (offramp) support to Thales](TIPs/TIP-161.md) | Implemented |
-| TIP-162 | [Add player props markets to Overtime](TIPs/TIP-162.md) | Voted in |
-| TIP-163 | [THALES tokenomics overhaul](TIPs/TIP-163.md) | Voted in |
+| TIP-162 | [Add player props markets to Overtime](TIPs/TIP-162.md) |Implemented |
+| TIP-163 | [THALES tokenomics overhaul](TIPs/TIP-163.md) | Implemented |
 | TIP-164 | [Implementing oSnap for Optimistic Governance](TIPs/TIP-164.md) | Draft |
-| TIP-165 | [Deploy Thales products on OpBNB chain](TIPs/TIP-165.md) | Voted in |
+| TIP-165 | [Deploy Thales products on OpBNB chain](TIPs/TIP-165.md) |Implemented |
 | TIP-166 | [Implement Referral Tier system](TIPs/TIP-166.md) | Voted in |
 | TIP-167 | [Aerodrome bribes and POL program](TIPs/TIP-167.md) | Implemented |
-| TIP-168 | [SafeBox fee on positive Vault rounds](TIPs/TIP-168.md) | Draft |
+| TIP-168 | [SafeBox fee on positive Vault rounds](TIPs/TIP-168.md) | Implemented |
 | TIP-169 | [Thales state log](TIPs/TIP-169.md) | Draft |
 | TIP-170 | [Additional LP Incentives Tapering](TIPs/TIP-170.md) | Draft |
+| TIP-171 | [Partial unstake without requiring full LP withdrawal](TIPs/TIP-171.md) | Implemented |
+| TIP-172 | [Launch Thales Products on ZkSync Era Mainnet](TIPs/TIP-172.md) | Draft |
+| TIP-173 | [Add shorter timeframes and dynamic fees to SpeedAMM](TIPs/TIP-173.md) | Implemented |
+| TIP-174 | [Chained Speed Markets ](TIPs/TIP-174.md) | Voted in |
+| TIP-175 | [Add dynamic liquidity to SportsAMM](TIPs/TIP-175.md) | Voted in |
+| TIP-176 | [Add continuous staking rewards deflation](TIPs/TIP-176.md) | Draft |
+| TIP-177 | [LP incentives tapering](TIPs/TIP-177.md) | Draft |
 
 
 
