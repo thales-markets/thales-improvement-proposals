@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-98 | Deprecate Exotic Markets  | Draft | Danijel (@danthales)| Pause market creation on Exotic and disform Oracle Council  | https://discord.gg/rPpPcMXSeU | 2022-10-20
+| TIP-98 | Deprecate Exotic Markets  | Implemented | Danijel (@danthales)| Pause market creation on Exotic and disform Oracle Council  | https://discord.gg/rPpPcMXSeU | 2022-10-20
  
 ## Simple Summary
  

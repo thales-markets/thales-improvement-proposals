@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-92 | Updates on Sports Markets | Draft | @scvija @grujawork @kirilaa | Update the cap per sport and canceled markets cooldown  | https://discord.gg/thales | 2022-10-03
+| TIP-92 | Updates on Sports Markets | Implemented | @scvija @grujawork @kirilaa | Update the cap per sport and canceled markets cooldown  | https://discord.gg/thales | 2022-10-03
 
 ## Simple Summary
 

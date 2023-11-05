@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-52 |  Supply liquidity to Thales Bancor pool | Draft | Red | Enable Treasury DAO to deposits funds in Thales Bancor pool | https://discord.gg/rPpPcMXSeU | 2022-05-13
+| TIP-52 |  Supply liquidity to Thales Bancor pool | Implemented | Red | Enable Treasury DAO to deposits funds in Thales Bancor pool | https://discord.gg/rPpPcMXSeU | 2022-05-13
 
 
 ## Simple Summary

@@ -2,7 +2,7 @@ Tip-62 Bonus Reward Calculation
 
 | id | Title | Status | Author | Description | Discussions to | Created |
  | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| TIP-62 | Bonus Reward Calculation | Draft | Milkywave & BigPenny | Distribute the staking bonus rewards via snapshot | https://discord.gg/GgUKeMbX9y | 2022-07-03
+| TIP-62 | Bonus Reward Calculation | Implemented | Milkywave & BigPenny | Distribute the staking bonus rewards via snapshot | https://discord.gg/GgUKeMbX9y | 2022-07-03
 
 ## Simple Summary
 Distribute the staking bonus rewards via snapshot method and calculate the share per user only among those actually eligible.

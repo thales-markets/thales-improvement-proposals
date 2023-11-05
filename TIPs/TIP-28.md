@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-28 | Optimistic Exotic Positional Markets | Draft | Danijel (@danijelthales) | Implement Thales Optimistic Exotic Positional Markets | https://discord.gg/rPpPcMXSeU | 2022-02-09 
+| TIP-28 | Optimistic Exotic Positional Markets | Implemented | Danijel (@danijelthales) | Implement Thales Optimistic Exotic Positional Markets | https://discord.gg/rPpPcMXSeU | 2022-02-09 
 
 ## Simple Summary
  

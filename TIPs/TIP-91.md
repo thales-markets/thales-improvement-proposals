@@ -1,7 +1,7 @@
 
 | id      | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-91 | Increase Ranged AMM Fee | Draft | @danthales | Increase Ranged AMM fee from 1% to 3% | https://discord.gg/thales | 2022-09-30
+| TIP-91 | Increase Ranged AMM Fee | Implemented | @danthales | Increase Ranged AMM fee from 1% to 3% | https://discord.gg/thales | 2022-09-30
 
 ## Simple Summary
 

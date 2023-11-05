@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-29 |  Deployment of Thales Royale Pass Utility NFT| Draft | padzank(@padzank), gruja.work(@gruja.work) | Deploy Thales Royale Pass NFTs to act as transferable Buy-Ins | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-02-20
+| TIP-29 |  Deployment of Thales Royale Pass Utility NFT| Implemented | padzank(@padzank), gruja.work(@gruja.work) | Deploy Thales Royale Pass NFTs to act as transferable Buy-Ins | [Discord URL](https://discord.gg/hHH7EJf8M5) | 2022-02-20
 
 ## Simple Summary
  

@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-53 | OP token allocation towards Gamified Staking | Draft | padzank (@padzank)| Detailed plan around allocating 135,000 OP tokens from Thales Phase 0 distribution towards Protocol volume of Gamified Staking | https://discord.gg/rPpPcMXSeU | 2022-05-26
+| TIP-53 | OP token allocation towards Gamified Staking | Implemented | padzank (@padzank)| Detailed plan around allocating 135,000 OP tokens from Thales Phase 0 distribution towards Protocol volume of Gamified Staking | https://discord.gg/rPpPcMXSeU | 2022-05-26
  
 ## Simple Summary
  

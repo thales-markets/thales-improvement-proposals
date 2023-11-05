@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-66 | Implement claimOnBehalf method on the THALES staking contract | Draft | padzank (@padzank) | This TIP proposes to implement claimOnBehalf method for THALES staking contract so individual stakers can automate weekly claims of THALES staking rewards | https://discord.gg/8bzFdpGTrp | 2022-07-05
+| TIP-66 | Implement claimOnBehalf method on the THALES staking contract | Implemented | padzank (@padzank) | This TIP proposes to implement claimOnBehalf method for THALES staking contract so individual stakers can automate weekly claims of THALES staking rewards | https://discord.gg/8bzFdpGTrp | 2022-07-05
  
 ## Simple Summary
  

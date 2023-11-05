@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-83 | Exotic Markets OP token incentives | Draft | Milkywave (@milkywave#5401) | Use 10,000 OP tokens to incentivize users that use and drive volume on the Exotic Markets product | https://discord.gg/8bzFdpGTrp | 2022-08-30
+| TIP-83 | Exotic Markets OP token incentives | Deprecated | Milkywave (@milkywave#5401) | Use 10,000 OP tokens to incentivize users that use and drive volume on the Exotic Markets product | https://discord.gg/8bzFdpGTrp | 2022-08-30
  
 ## Simple Summary
  

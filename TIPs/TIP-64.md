@@ -2,7 +2,7 @@ Tip-63 Rewards Rollover & Burn
 
 | id | Title | Status | Author | Description | Discussions to | Created |
  | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| TIP-64 | Rewards Rollover & Burn | Draft | BigPenny & Milkywave | Rollover & partially burn unclaimed staking rewards | https://discord.gg/ZK89ZkDZwT | 2022-07-03
+| TIP-64 | Rewards Rollover & Burn | Deprecated | BigPenny & Milkywave | Rollover & partially burn unclaimed staking rewards | https://discord.gg/ZK89ZkDZwT | 2022-07-03
 
 
 

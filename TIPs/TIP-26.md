@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-26 | Integrate CRV as available asset on Thales | Draft | padzank (@padzank)| Add CRV price feed from Chainlink to Thales on Optimism and enable market creation around this assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-02-03
+| TIP-26 | Integrate CRV as available asset on Thales | Implemented | padzank (@padzank)| Add CRV price feed from Chainlink to Thales on Optimism and enable market creation around this assets price feeds. | https://discord.gg/rPpPcMXSeU | 2022-02-03
  
 ## Simple Summary
  

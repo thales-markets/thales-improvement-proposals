@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-16 | Utilize Thales NFTs| Draft | Danijel (@dgornjakovic) | Provide utility to NFTs on https://opensea.io/collection/thales-market| https://discord.gg/8bzFdpGTrp | 2021-12-29
+| TIP-16 | Utilize Thales NFTs| Implemented | Danijel (@dgornjakovic) | Provide utility to NFTs on https://opensea.io/collection/thales-market| https://discord.gg/8bzFdpGTrp | 2021-12-29
  
 ## Simple Summary
  

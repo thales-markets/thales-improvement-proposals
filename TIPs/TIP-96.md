@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-96 | Increase Fee Rebates emissions for Overtime  | Draft | padzank (@padzank)| Increase Fee Rebates emissions for Overtime by setting Overtime SafeBox fee to 3%  | https://discord.gg/rPpPcMXSeU | 2022-10-11
+| TIP-96 | Increase Fee Rebates emissions for Overtime  | Implemented | padzank (@padzank)| Increase Fee Rebates emissions for Overtime by setting Overtime SafeBox fee to 3%  | https://discord.gg/rPpPcMXSeU | 2022-10-11
  
 ## Simple Summary
  

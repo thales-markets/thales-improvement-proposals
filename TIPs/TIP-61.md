@@ -1,6 +1,6 @@
 | id | Title | Status | Author | Description | Discussions to | Created |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| TIP-61 | Introduce Global Skew Impact per Asset for Thales AMM | Draft | padzank (@padzank) | This TIP proposes to introduce a new global skew impact per asset for the Thales AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
+| TIP-61 | Introduce Global Skew Impact per Asset for Thales AMM | Deprecated | padzank (@padzank) | This TIP proposes to introduce a new global skew impact per asset for the Thales AMM | https://discord.gg/8bzFdpGTrp | 2022-06-17
 
 ## Simple Summary
 
