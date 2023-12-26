@@ -187,7 +187,20 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-174 | [Chained Speed Markets ](TIPs/TIP-174.md) | Voted in |
 | TIP-175 | [Add dynamic liquidity to SportsAMM](TIPs/TIP-175.md) | Voted in |
 | TIP-176 | [Add continuous staking rewards deflation](TIPs/TIP-176.md) | Draft |
-| TIP-177 | [LP incentives tapering](TIPs/TIP-177.md) | Draft |
+| TIP-177 | [LP incentives tapering](TIPs/TIP-177.md) | Voted in |
+| TIP-178 | [Reduced SafeBox fees for THALES stakers](TIPs/TIP-178.md) | Rejected |
+| TIP-179 | [xThales incentives](TIPs/TIP-179.md) | Rejected |
+| TIP-180 | [Removal of Incentives from THALES USDC Pools](TIPs/TIP-180.md) | Voted in |
+| TIP-181 | [Chainlink CCIP THALES Cross-chain Staking](TIPs/TIP-181.md) | Voted in |
+| TIP-182 | [Direct revenue share to stakers](TIPs/TIP-182.md) | Voted in |
+| TIP-183 | [Thales staking emissions halving ](TIPs/TIP-183.md) | Rejected |
+| TIP-185 | [Thales Staking deprecation](TIPs/TIP-185.md) | Rejected |
+| TIP-186 | [THALES tokenomics change temperature check](TIPs/TIP-186.md) | Voted in |
+| TIP-188 | [Introduce Skew Impact to Speed Markets](TIPs/TIP-188.md) | Implemented |
+| TIP-189 | [Integration Rebates Program](TIPs/TIP-189.md) | Implemented |
+| TIP-190 | [Parlays AMM rework](TIPs/TIP-190.md) | Implemented |
+| TIP-191 | [FlipEth product](TIPs/TIP-191.md) | Rejected |
+| TIP-192 | [Launch Speed Markets on Solana mainnet](TIPs/TIP-192.md) | Voted in |
 
 
 
