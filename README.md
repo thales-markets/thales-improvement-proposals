@@ -201,6 +201,8 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-190 | [Parlays AMM rework](TIPs/TIP-190.md) | Implemented |
 | TIP-191 | [FlipEth product](TIPs/TIP-191.md) | Rejected |
 | TIP-192 | [Launch Speed Markets on Solana mainnet](TIPs/TIP-192.md) | Voted in |
+| TIP-193 | [New protocol bridge](TIPs/TIP-193.md) | Draft |
+| TIP-194 | [LP incentives tapering](TIPs/TIP-194.md) | Draft |
 
 
 
