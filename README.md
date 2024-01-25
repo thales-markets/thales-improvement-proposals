@@ -203,6 +203,9 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-192 | [Launch Speed Markets on Solana mainnet](TIPs/TIP-192.md) | Voted in |
 | TIP-193 | [New protocol bridge](TIPs/TIP-193.md) | Draft |
 | TIP-194 | [LP incentives tapering](TIPs/TIP-194.md) | Draft |
+| TIP-195 | [Optional auto compounding](TIPs/TIP-195.md) | Draft |
+| TIP-196 | [Launch SpeedMarkets on Blast](TIPs/TIP-196.md) | Draft |
+
 
 
 
