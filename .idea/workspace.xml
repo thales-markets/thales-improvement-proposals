@@ -6,9 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TIPs/TIP-204.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-204.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIPs/TIP-205.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-205.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TIPs/TIP-206.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-206.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIPs/TIP-203.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-203.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-203.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="404">
-                <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <first_editor relative-caret-position="540">
+                <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-206.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -144,10 +142,10 @@
         <option value="$PROJECT_DIR$/TIPs/TIP-209.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-143.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-208.md" />
-        <option value="$PROJECT_DIR$/TIPs/TIP-203.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-204.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-205.md" />
         <option value="$PROJECT_DIR$/TIPs/TIP-206.md" />
+        <option value="$PROJECT_DIR$/TIPs/TIP-203.md" />
       </list>
     </option>
   </component>
@@ -272,12 +270,12 @@
       <workItem from="1702554404403" duration="596000" />
       <workItem from="1703587848168" duration="1104000" />
       <workItem from="1704882220609" duration="42000" />
-      <workItem from="1716224509440" duration="6501000" />
+      <workItem from="1716224509440" duration="7217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212995000" />
+    <option name="totallyTimeSpent" value="213711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -772,16 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TIPs/TIP-203.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="404">
-            <caret line="74" selection-start-line="74" selection-end-line="74" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-204.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -807,6 +795,16 @@
         <state split_layout="SPLIT">
           <first_editor>
             <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TIPs/TIP-203.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="540">
+            <caret line="82" column="60" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
           </first_editor>
           <second_editor />
         </state>
