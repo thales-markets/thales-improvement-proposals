@@ -202,9 +202,31 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-191 | [FlipEth product](TIPs/TIP-191.md) | Rejected |
 | TIP-192 | [Launch Speed Markets on Solana mainnet](TIPs/TIP-192.md) | Voted in |
 | TIP-193 | [New protocol bridge](TIPs/TIP-193.md) | Draft |
-| TIP-194 | [LP incentives tapering](TIPs/TIP-194.md) | Draft |
-| TIP-195 | [Optional auto compounding](TIPs/TIP-195.md) | Draft |
+| TIP-194 | [LP incentives tapering](TIPs/TIP-194.md) | Implemented |
+| TIP-195 | [Optional auto compounding](TIPs/TIP-195.md) | Implemented |
 | TIP-196 | [Launch SpeedMarkets on Blast](TIPs/TIP-196.md) | Draft |
+| TIP-197 | [LP incentives tapering, moving POL position](TIPs/TIP-197.md) | Implemented |
+| TIP-198 | [Bridge Thales using CCIP](TIPs/TIP-198.md) | Draft |
+| TIP-199 | [PYTH airdrop allocation](TIPs/TIP-199.md) | Voted in |
+| TIP-200 | [LP incentives tapering](TIPs/TIP-200.md) | Implemented |
+| TIP-201 | [Staking Rewards Tapering](TIPs/TIP-201.md) | Implemented |
+| TIP-202 | [Speed Markets contract changes and optimization](TIPs/TIP-202.md) | Draft |
+| TIP-203 | [ Sports Markets V2 implementation](TIPs/TIP-203.md) | Draft |
+| TIP-204 | [USDC as main collateral for Overtime v2](TIPs/TIP-204.md) | Draft |
+| TIP-205 | [Add ETH as a supported collateral for V2](TIPs/TIP-205.md) | Draft |
+| TIP-206 | [THALES as supported collateral](TIPs/TIP-206.md) | Draft |
+| TIP-207 | [Add OpticOdds as a data provider to Overtime](TIPs/TIP-207.md) | Draft |
+| TIP-xxx | [xxxx](TIPs/TIP-xxx.md) | Draft |
+| TIP-209 | [V2 vouchers](TIPs/TIP-209.md) | Draft |
+| TIP-210 | [Extend Cooldown Period for Thales Staking](TIPs/TIP-210.md) | Draft |
+| TIP-211 | [Post-Cooldown Unstake Window for Thales Staking](TIPs/TIP-211.md) | Draft |
+| TIP-212 | [ Introduce a Cooldown Period for THALES/WETH LP Staking](TIPs/TIP-212.md) | Draft |
+| TIP-213 | [Post-Cooldown Unstake Window for THALES/WETH LP](TIPs/TIP-213.md) | Draft |
+| TIP-214 | [Deprecate Passive Rewards for Thales Staking](TIPs/TIP-214.md) | Draft |
+| TIP-215 | [Automatically Restake Thales Staking Rewards](TIPs/TIP-215.md) | Draft |
+| TIP-216 | [Streamline and Refocus Thales Staking](TIPs/TIP-216.md) | Draft |
+
+
 
 
 
