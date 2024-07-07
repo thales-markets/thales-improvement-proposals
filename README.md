@@ -225,6 +225,9 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-214 | [Deprecate Passive Rewards for Thales Staking](TIPs/TIP-214.md) | Draft |
 | TIP-215 | [Automatically Restake Thales Staking Rewards](TIPs/TIP-215.md) | Draft |
 | TIP-216 | [Streamline and Refocus Thales Staking](TIPs/TIP-216.md) | Draft |
+| TIP-217 | [Staked THALES as trading collateral](TIPs/TIP-217.md) | Draft |
+| TIP-218 | [Reinstate Buyback and Burn, Remove Inflationary and USDC Rewards](TIPs/TIP-218.md) | Draft |
+| TIP-219 | [LP incentives renewal](TIPs/TIP-219.md) | Draft |
 
 
 
