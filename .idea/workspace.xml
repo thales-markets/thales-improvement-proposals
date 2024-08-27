@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/../contractsnew/contracts/contracts/EscrowAndStaking/StakingThalesBonusRewardsManager.sol" description="    /// @notice return leaderboard data&#10;    functi..." line="230" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-222.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="487">
-                <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,11 +191,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1932" />
-    <option name="height" value="1045" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -318,15 +316,15 @@
       <workItem from="1716224509440" duration="8405000" />
       <workItem from="1718279316578" duration="1209000" />
       <workItem from="1720776219972" duration="133000" />
-      <workItem from="1723888431790" duration="519000" />
+      <workItem from="1723888431790" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216760000" />
+    <option name="totallyTimeSpent" value="217793000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
+    <frame x="-1927" y="402" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15331197" />
@@ -849,8 +847,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-222.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="487">
-            <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
