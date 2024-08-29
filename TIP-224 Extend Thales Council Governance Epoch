@@ -1,0 +1,35 @@
+
+| id      | Title | Status | Author | Description | Discussions to | Created |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| TIP-224 | Extending Thales Council Governance Epoch | Draft | @Red | Extending the following epoch to 6 months| https://discord.com/channels/906484044915687464/1278847893511602218 | 2024-08-19
+
+## Simple Summary
+
+Extending the ninth and subsequent governance epoch to 6 months from 4. 
+
+## Abstract
+
+This TIP proposes extending the Thales governance epoch to 6 months. Previously the council would sit for an epoch of 4 months. 
+
+## Motivation
+
+Decrease voter/nomination fatigue, and the increase stability of the sitting council.
+
+## Specification
+
+Extend the Thales Council governance epoch to 6 months starting with the ninth sitting council. 
+
+## Rationale
+
+As Thales mature a longer sitting council will provide more stability between the members and tasks. 
+In its infancy the Thales Council would to sit for 6 months and was reduced to 4 months give opportunity to new members, this opportunity isn't loss and we are hoping to see less voter/nomination fatigue. 
+
+## Test Cases
+n/a
+
+## Implementation
+n/a
+
+## Copyright
+
+Copyright and related rights waived via CC0.
