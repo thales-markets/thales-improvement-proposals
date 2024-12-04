@@ -227,10 +227,25 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-216 | [Streamline and Refocus Thales Staking](TIPs/TIP-216.md) | Draft |
 | TIP-217 | [Staked THALES as trading collateral](TIPs/TIP-217.md) | Draft |
 | TIP-218 | [Reinstate Buyback and Burn, Remove Inflationary and USDC Rewards](TIPs/TIP-218.md) | Draft |
-| TIP-219 | [LP incentives renewal](TIPs/TIP-219.md) | Draft |
-
-
-
+| TIP-219 | [LP incentives renewal](TIPs/TIP-219.md) | Implemented |
+| TIP-220 | [Change to Thales boost](TIPs/TIP-220.md) | Implemented |
+| TIP-221 | [Change referral rewards](TIPs/TIP-221.md) | Implemented |
+| TIP-222 | [Formalizing the agreement with HGS](TIPs/TIP-222.md) | Implemented |
+| TIP-223 | [Ratifying an onchain signature](TIPs/TIP-223.md) | Implemented |
+| TIP-xxx | [xxxx](TIPs/TIP-xxx.md) | Draft |
+| TIP-225 | [LP incentives renewal](TIPs/TIP-225.md) | Implemented |
+| TIP-226 | [Front-running protection through cancellation](TIPs/TIP-226.md) | Implemented |
+| TIP-227 | [Replace an inactive council member](TIPs/TIP-227.md) | Implemented |
+| TIP-228 | [Reintroduce referrals system](TIPs/TIP-228.md) | Draft |
+| TIP-229 | [Systembets](TIPs/TIP-229.md) | Draft |
+| TIP-230 | [Switch from sUSD to USDC as main collateral for Thales Markets dapp on Optimism, deprecate Thales Vaults](TIPs/TIP-230.md) | Voted in |
+| TIP-231 | [Move to native USDC as Protocol Rewards across networks](TIPs/TIP-231.md) | Voted in |
+| TIP-232 | [Reduce odds boost for liquid THALES to 1%](TIPs/TIP-232.md) | Voted in |
+| TIP-233 | [Raise LP performance fee on Overtime, raise USDC LP caps](TIPs/TIP-233.md) | Implemented |
+| TIP-234 | [Raise WETH and THALES performance fee for LPs on Overtime](TIPs/TIP-234.md) | Implemented |
+| TIP-235 | [LP incentives renewal](TIPs/TIP-235.md) | Implemented |
+| TIP-236 | [Add futures/outrights to Overtime](TIPs/TIP-236.md) | Implemented |
+| TIP-237 | [Formalizing meta-governance TIPs](TIPs/TIP-237.md) | Draft |
 
 
 
