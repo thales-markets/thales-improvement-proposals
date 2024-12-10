@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/../contractsnew/contracts/contracts/EscrowAndStaking/StakingThalesBonusRewardsManager.sol" description="    /// @notice return leaderboard data&#10;    functi..." line="230" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TIPs/TIP-238.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-238.md" afterDir="false" />
-    </list>
+    <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-238.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
+              <first_editor relative-caret-position="1020">
                 <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
               </first_editor>
               <second_editor />
@@ -247,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226968000" />
+    <option name="totallyTimeSpent" value="227223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -775,7 +773,7 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-238.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
+          <first_editor relative-caret-position="1020">
             <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
           </first_editor>
           <second_editor />
