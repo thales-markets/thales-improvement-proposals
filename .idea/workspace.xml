@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c62eee3d-73ff-4813-a849-1edca003d99c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TIPs/TIP-239.md" beforeDir="false" afterPath="$PROJECT_DIR$/TIPs/TIP-239.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/TIPs/TIP-239.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="113">
-                <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+              <first_editor relative-caret-position="300">
+                <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
               </first_editor>
               <second_editor />
             </state>
@@ -256,12 +256,12 @@
       <workItem from="1733745203928" duration="4036000" />
       <workItem from="1734002890698" duration="1829000" />
       <workItem from="1737369911917" duration="598000" />
-      <workItem from="1738578163713" duration="2292000" />
+      <workItem from="1738578163713" duration="2591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233032000" />
+    <option name="totallyTimeSpent" value="233331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -789,8 +789,8 @@
     <entry file="file://$PROJECT_DIR$/TIPs/TIP-239.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="113">
-            <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <first_editor relative-caret-position="300">
+            <caret line="35" column="118" selection-start-line="35" selection-start-column="118" selection-end-line="35" selection-end-column="118" />
           </first_editor>
           <second_editor />
         </state>
