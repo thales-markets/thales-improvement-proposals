@@ -206,7 +206,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-195 | [Optional auto compounding](TIPs/TIP-195.md) | Implemented |
 | TIP-196 | [Launch SpeedMarkets on Blast](TIPs/TIP-196.md) | Draft |
 | TIP-197 | [LP incentives tapering, moving POL position](TIPs/TIP-197.md) | Implemented |
-| TIP-198 | [Bridge Thales using CCIP](TIPs/TIP-198.md) | Draft |
+| TIP-198 | [Create OVER using CCT standard](TIPs/TIP-198.md) | Voted in |
 | TIP-199 | [PYTH airdrop allocation](TIPs/TIP-199.md) | Voted in |
 | TIP-200 | [LP incentives tapering](TIPs/TIP-200.md) | Implemented |
 | TIP-201 | [Staking Rewards Tapering](TIPs/TIP-201.md) | Implemented |
@@ -245,7 +245,10 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-234 | [Raise WETH and THALES performance fee for LPs on Overtime](TIPs/TIP-234.md) | Implemented |
 | TIP-235 | [LP incentives renewal](TIPs/TIP-235.md) | Implemented |
 | TIP-236 | [Add futures/outrights to Overtime](TIPs/TIP-236.md) | Implemented |
-| TIP-237 | [Formalizing meta-governance TIPs](TIPs/TIP-237.md) | Draft |
+| TIP-237 | [Formalizing meta-governance TIPs](TIPs/TIP-237.md) | Implemented |
+| TIP-238 | [Token/DAO migration and rebrand to Overtime ($OVER)](TIPs/TIP-238.md) | Implemented |
+| TIP-239 | [Same Game Parlays framework](TIPs/TIP-239.md) | Voted in |
+| TIP-240 | [Add cbBTC and wBTC as collaterals to Overtime](TIPs/TIP-240.md) | Voted in |
 
 
 
