@@ -216,8 +216,8 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-205 | [Add ETH as a supported collateral for V2](TIPs/TIP-205.md) | Draft |
 | TIP-206 | [THALES as supported collateral](TIPs/TIP-206.md) | Draft |
 | TIP-207 | [Add OpticOdds as a data provider to Overtime](TIPs/TIP-207.md) | Draft |
+| TIP-208 | [V2 vouchers](TIPs/TIP-208.md) | Implemented |
 | TIP-xxx | [xxxx](TIPs/TIP-xxx.md) | Draft |
-| TIP-209 | [V2 vouchers](TIPs/TIP-209.md) | Draft |
 | TIP-210 | [Extend Cooldown Period for Thales Staking](TIPs/TIP-210.md) | Draft |
 | TIP-211 | [Post-Cooldown Unstake Window for Thales Staking](TIPs/TIP-211.md) | Draft |
 | TIP-212 | [ Introduce a Cooldown Period for THALES/WETH LP Staking](TIPs/TIP-212.md) | Draft |
@@ -249,7 +249,7 @@ Follow this [step-by-step tutorial](https://medium.com/@Thales.Academy/how-to-us
 | TIP-238 | [Token/DAO migration and rebrand to Overtime ($OVER)](TIPs/TIP-238.md) | Implemented |
 | TIP-239 | [Same Game Parlays framework](TIPs/TIP-239.md) | Voted in |
 | TIP-240 | [Add cbBTC and wBTC as collaterals to Overtime](TIPs/TIP-240.md) | Voted in |
-
+| TIP-241 | [Implement an expiry period for Freebets](TIPs/TIP-241.md) | Draft |
 
 
 
