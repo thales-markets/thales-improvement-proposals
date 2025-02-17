@@ -62,7 +62,7 @@ CONs:
     * StakingThales https://contracts.thalesmarket.io/mainnet/StakingThales
     * EscrowThales https://contracts.thalesmarket.io/mainnet/EscrowThales
 * Snapshots are taken for all of the above contracts
-* Airdrop of 137 will be made available on l2 to all that didnt claim it already, unless the address that did not claim is a contract.
+* Airdrop of 137 will be made available on l2 to all that didn't claim it already, unless the address that did not claim is a contract.
 * There are 119 contracts on L1 that did not claim the airdrop. Its unlikely those addresses will ever claim the airdrop, so the proposal is to leave that THALES 119*137 on stand by should anyone of those contract owners reach out with a desire to claim the airdrop. In such a case, we can confirm the address ownership and send 137 THALES directly.
 * All ongoing rewards are migrated to L2 using the same contract (ongoing airdrop), unless the address that did not claim is a contract, in which case it will be handled as described above.
 * Balances of Staking and Escrow are summed up per wallet and auto-staked on L2 if the said wallet was staking on l1
