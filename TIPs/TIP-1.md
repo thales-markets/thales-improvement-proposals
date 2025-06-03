@@ -1,13 +1,16 @@
 ---
 id: tip-1
-title: TIP-1:TIP Purpose and Guidelines
+title: "TIP-1: TIP Purpose and Guidelines"
 status: Draft
-author: [Farmwell](https://github.com/farmwell)
-description: TIP-1:TIP Purpose and Guidelines
+author:
+  - name: Farmwell
+    url: https://github.com/farmwell
+description: "TIP-1: TIP Purpose and Guidelines"
 discussions-to: http://discord.gg/thales
 hide_title: false
 sidebar_label: TIP-1
 ---
+
 
 ## What is a TIP?
 
