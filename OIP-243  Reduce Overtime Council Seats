@@ -1,0 +1,40 @@
+| id    | Title                      | Status      | Author  | Description                                                                                     | Discussions to                          | Created    |
+|-------|----------------------------|-------------|---------|-------------------------------------------------------------------------------------------------|---------------------------------------|------------|
+| OIP-243 | Reduce Overtime Council Seats     | Draft | @red | Reduce the number of seats in the council from 7 to 5 | https://discord.com/invite/overtime-io | 2025-06-03 |
+
+## Simple Summary
+
+This OIP proposes reducing the number of seats on the Overtime Council from 7 to 5, with proposals requiring a passing vote of 3 out of 5.
+
+## Abstract
+This proposal introduces a streamlined governance structure by reducing the Overtime Council size from 7 to 5 seats. Future proposals will pass under a 3 vote out of 5 majority, whereas the current format requires a 5 out of 7 majority. The change maintains fairness, transparency, and oversight while lowering operational costs. Meta-governance proposals (those that alter governance rules) will continue to require unanimous approval, shifting from 7/7 to 5/5.
+
+## Motivation
+As Overtime has matured beyond its initial growth phase, the volume of active TIPs has decreased. The original 7-member council structure, designed for a busier early-stage governance environment, is no longer necessary. Reducing the council to five members will help optimize governance operations and reduce the associated costs.
+
+## Specification
+
+- Reduce the number of seats on the Overtime Council from 7 to 5.
+- Standard proposals will require a majority vote of 3 out of 5 members to pass.
+- Meta governance proposals will require a unanimous vote of 5 out of 5 members to pass. 
+- The new council structure will take effect starting with the eleventh epoch, on July 1, 2025.
+
+## Rationale
+
+- Cost Efficiency: Fewer council members reduce the overall operational cost of governance.
+- Governance Maturity: As the protocol has stabilized and the volume of proposals has lessened, a smaller council is sufficient to maintain effective oversight.
+
+## Test Cases
+
+Not applicable.
+
+## Implementation
+
+As a meta-governance TIP, this proposal requires unanimous approval (7 out of 7 votes) to pass.
+
+## Copyright
+
+Copyright and related rights waived via CC0.
+
+
+
